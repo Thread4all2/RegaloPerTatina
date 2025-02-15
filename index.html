@@ -301,7 +301,7 @@
 
 	// main timekeeping
 	const startDate = new Date("2025-02-14");
-	const today = new Date();
+	const today = new Date(new Date().getTime() + 86400000 * (new URLSearchParams(window.location.search).get("t") || 0)); // today + query param t days
 
 	const day = today.getDate();
 	const month = today.getMonth() + 1;
@@ -435,7 +435,7 @@
 					type("Giorno sbagliato amore 🙃");
 				}
 				else {
-					type("Ehi, non si viaggia nel tempo senza permesso (ti amo lo stesso)");
+					type("Ehi, non si viaggia nel tempo senza permesso<br>(ti amo lo stesso)");
 				}
 			}
 		}
