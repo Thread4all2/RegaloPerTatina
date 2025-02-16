@@ -268,7 +268,7 @@ function loadShapes() { // injects svgs, to avoid flashing them before page load
 
 function setQuote(bypassInfo = 1) {
 
-	if (!bypassInfo && timesOpened === 0) { // show info on first visit
+	if (!bypassInfo && timesOpened === 0 && daysSince === 0) { // show info on first visit
 		document.getElementById("info").style.display = "block";
 		return;
 	}

@@ -21,7 +21,7 @@
 	box-sizing: border-box;
 	touch-action: manipulation;
 	font-family: "sonya", Arial, Helvetica, sans-serif;
-	text-shadow: #0a021d30 1px 1px 1px;
+	text-shadow: #1d021930 1px 1px 1px;
 }
 
 html {
@@ -83,24 +83,25 @@ a {
 
 #info {
 	position: fixed;
-	width: 90%;
+	width: calc(100% - 20px);
 	top: 50%;
 	left: 50%;
+	height: calc(100% - 20px);
 	transform: translate(-50%, -50%);
 	background-color: #fdc4d9f0;
-	padding: 20px;
+	padding: 40px 20px;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 	font-size: 1.3em;
 	text-align: center;
-	z-index: 2;
+	z-index: 10;
 }
 
 #infoTitle {
 	font-size: 1.6em;
 	font-weight: bold;
-	margin-bottom: 8px;
-	margin-top: 8px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 #xButton {
