@@ -327,18 +327,28 @@ function setQuote(bypassInfo = 1) {
 function updateQuote(midnightMessage = 0) {
 
 	clearInterval(updaterInterval);
+
 	erase().then(() => {
-		type(midnightMessage ? `Ehilà, è mezzanotte!@400;\\@40;<br>Sto aggiornando la frase per domani <3` : ``).then(() => {
-			erase().then(() => {
+		setTimeout(() => {
+
+			if (midnightMessage) {
+				type(`Amore, che ci fai qui a mezzanotte?<br>Sto aggiornando la frase per domani <3`).then(() => {
+					setTimeout(() => {
+						erase().then(() => {
+							setTime();
+							setQuote();
+						});
+					}, 1200);
+				});
+			}
+			else {
 				setTime();
 				setQuote();
-			});
-		});
+			}
+
+		}, 200);
 	});
 }
-
-
-
 
 
 
@@ -353,13 +363,13 @@ loadShapes();
 if (daysSince > 0) { // if it's not the first day, we can go back
 	prevDay_.style.display = "block";
 }
-if (new Date().getTime() - today.getTime() >= 86_400_000) { // if it's not today, we can go forward
+if (new Date().getTime() - today.getTime() >= 86_400_000) { // if it's earlier than today, we can go forward
 	nextDay_.style.display = "block";
 }
 
-setTimeout(() => makeRisingHearts(20), 300);
+setTimeout(() => makeRisingHearts(20), 200);
 
-setQuote(0);
+setTimeout(() => { setQuote(0); }, 250);
 
 // event handlers
 prevDay_.onclick = () => {
