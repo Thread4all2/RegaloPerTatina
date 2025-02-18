@@ -382,6 +382,7 @@ prevDay_.onclick = () => {
 	quote_.innerHTML = "";
 	quoteContent = "";
 
+
 	// update visibility of the buttons to change day
 	if (daysSince < 2) { // if it's not the first day, we can go back
 		prevDay_.style.display = "none";
@@ -396,6 +397,7 @@ prevDay_.onclick = () => {
 		nextDay_.style.display = "block";
 	}
 
+	setTime();
 	setTimeout(() => updateQuote(), 100);
 };
 
@@ -408,9 +410,6 @@ nextDay_.onclick = () => {
 
 	quote_.innerHTML = "";
 	quoteContent = "";
-
-	setTimeout(() => updateQuote(), 100);
-
 
 	// update visibility of the buttons to change day
 	if (daysSince < 0) { // if it's not the first day, we can go back
@@ -425,6 +424,11 @@ nextDay_.onclick = () => {
 	else {
 		nextDay_.style.display = "block";
 	}
+
+	setTime();
+
+	setTimeout(() => updateQuote(), 100);
+
 };
 
 if (daysSince > 2) { // enable double click to create hearts on 2025-02-17
