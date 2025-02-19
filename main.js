@@ -5,7 +5,7 @@ const quotes = [
 	`Oggi ti mostro la prima cosa particolare di cui ti ho parlato nell'introduzione della pagina: fai doppio click da qualche parte`,
 	`una volta ho sognato di conoscere l'amore della mia vita; mi devo ancora svegliare`,
 	`Bramo il tuo effluvio, il tuo estro ed il tuo efflusso @1000;\\@0;<div class="big" style="animation: 1s ease-out 1 zoomIn, 20s ease-in-out 1s infinite alternate wobble;">🙃</div>`,
-	`L'idea di fare questa cosa mi è venuta la notte del 31/01, quando mi sono svegliato e non sono più riuscito a prendere sonno`,
+	`L'idea di fare questa cosa mi è venuta la notte del 31/01, quando mi sono svegliato e non sono più riuscito a prendere sonno<br>...Quindi possiamo dire che mi tieni sveglio la notte`,
 	`Spero che oggi ci sia il sole, mi rallegra così tanto l'animo sapere che sei felice`,
 	`Vorrei tanto essere un musicista per poterti dedicare canzoni d'amore`,
 	`Sei tutti i ricordi più belli che ho`,
