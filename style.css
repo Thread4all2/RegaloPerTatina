@@ -44,6 +44,7 @@ a {
 	background-color: #33103390;
 	padding: 3px 5px 0px 5px;
 	border-radius: 8px;
+	display: inline-flex;
 }
 
 #quoteContainer {
@@ -65,7 +66,7 @@ a {
 }
 
 ::selection {
-	background-color: #ff00fba0;
+	background-color: #b000ada0;
 }
 
 #hudDate {
@@ -76,6 +77,7 @@ a {
 	top: 20px;
 	left: 50%;
 	transform: translateX(-50%);
+	user-select: none;
 }
 
 #info {
@@ -88,14 +90,14 @@ a {
 	background-color: #fdc4d9f0;
 	padding: 40px 20px;
 	border-radius: 20px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 	font-size: 1.3em;
 	text-align: center;
 	z-index: 10;
 }
 
 #infoTitle {
-	font-size: 1.6em;
+	font-size: 2em;
 	font-weight: bold;
 	margin-bottom: 30px;
 	margin-top: 30px;
@@ -105,8 +107,8 @@ a {
 	background: none;
 	border: none;
 	position: absolute;
-	top: 12px;
-	right: 12px;
+	top: 16px;
+	right: 16px;
 	color: black;
 	cursor: pointer;
 }
@@ -119,6 +121,8 @@ a {
 	border-radius: 8px;
 	padding: 7px 8px 3px 7px;
 	border: 1px solid #0a021d10;
+	user-select: none;
+	-webkit-touch-callout: none;
 	z-index: 4;
 }
 
@@ -130,6 +134,8 @@ a {
 	border-radius: 8px;
 	padding: 7px 7px 3px 8px;
 	border: 1px solid #0a021d10;
+	user-select: none;
+	-webkit-touch-callout: none;
 	z-index: 4;
 }
 
@@ -158,6 +164,8 @@ a {
 	position: absolute;
 	width: 100px;
 	height: 100px;
+	user-select: none;
+	pointer-events: none;
 }
 
 .small {
@@ -281,7 +289,7 @@ a {
 		transform: scale(1);
 	}
 	50% {
-		transform: scale(1.1);
+		transform: scale(1.2);
 	}
 	100% {
 		transform: scale(1);

@@ -4,12 +4,12 @@ const quotes = [
 	`Voglio massaggiarti su un lettino in una stanza piena di candele e petali di rosa`,
 	`Oggi ti mostro la prima cosa particolare di cui ti ho parlato nell'introduzione della pagina: fai doppio click da qualche parte`,
 	`una volta ho sognato di conoscere l'amore della mia vita; mi devo ancora svegliare`,
-	`Bramo il tuo effluvio, il tuo estro ed il tuo efflusso @1000;\\@0;<div class="big" style="animation: 1s ease-out 1 zoomIn, 20s ease-in-out 1s infinite alternate wobble;">🙃</div>`,
+	`Bramo il tuo effluvio, il tuo estro ed il tuo efflusso \\1000;<div class="big" style="animation: 1s ease-out 1 zoomIn, 20s ease-in-out 1s infinite alternate wobble;">🙃</div>`,
 	`L'idea di fare questa cosa mi è venuta la notte del 31/01, quando mi sono svegliato e non sono più riuscito a prendere sonno<br>...Quindi possiamo dire che mi tieni sveglio la notte`,
 	`Spero che oggi ci sia il sole, mi rallegra così tanto l'animo sapere che sei felice`,
 	`Vorrei tanto essere un musicista per poterti dedicare canzoni d'amore`,
 	`Sei tutti i ricordi più belli che ho`,
-	`Hai mai provato il brio di guardare la frase della giornata con qualche tua amica di fianco?@600;\\@-1;<br>Qualora lo facessi, vogliate perdonarmi eventuali amiche,@300;\\@50;<br>VOGLIO SCOPARTI@80;IIIII`,
+	`Hai mai provato il brio di guardare la frase della giornata con qualche tua amica di fianco?\\600;<br>Qualora lo facessi, vogliate perdonarmi eventuali amiche,\\300;<br>VOGLIO SCOPARTI@90;IIIIIIII`,
 	`Che crudele l'universo a fare le anime in coppie per poi dividerle`,
 	`Voglio fare colla braciati stretti stretti`,
 	`Sono innamorato del crepuscolo: mi ricorda il tempo con te, che sei <a href="https://open.spotify.com/track/0GrPvrBGrxwrU7rjlwYZiH">il mio tramonto</a>`,
@@ -51,142 +51,10 @@ function setTime() {
 	hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length == 2 ? month : "0" + month} -`;
 }
 
+// typing handling
+let updaterInterval = null;
 
-// quote handling
-const typeSpeed = 60;
-let quoteContent = "";
-let updaterInterval; // reference to eventual setIntervals that keep updating values to kill in case there was a need to rewrite text
-let isTyping = false; // set to true to kill any typing-erasing in progress
-let typeInterrupt = false; // set to true to kill any typing-erasing in progress
-
-
-async function type(content, toWriteNextIndex = 0, speed = typeSpeed) {
-
-	isTyping = true;
-
-	return new Promise((resolve) => {
-
-		const typeHelper = () => {
-			if (typeInterrupt) {
-				typeInterrupt = false;
-				isTyping = false;
-				resolve();
-				return;
-			}
-
-			if (toWriteNextIndex >= content.length) {
-				isTyping = false;
-				resolve();
-				return;
-			}
-
-			if (speed === 0) { // if speed is set to 0, output the whole string at once
-				quoteContent += content.substring(toWriteNextIndex);
-				quote_.innerHTML = quoteContent;
-				isTyping = false;
-				resolve();
-				return;
-			}
-
-
-			let i = toWriteNextIndex;
-
-			if (content[i] === "<" && content[i + 1] !== "3") { // output tags as single tokens, to avoid weird pauses
-				while (content[++i] !== ">");
-				quoteContent += content.substring(toWriteNextIndex, i + 1);
-
-				toWriteNextIndex = i + 1;
-				return typeHelper();
-			}
-
-			if (content[i] === "@") { // @number; sets the typing speed
-				while (content[++i] !== ";");
-
-				speed = +content.substring(toWriteNextIndex + 1, i);
-				if (speed === -1) { speed = typeSpeed; }
-
-				toWriteNextIndex = i + 1;
-				return typeHelper();
-			}
-
-			if (content[i] === "\\") { // \ skips a typing step (to create delays such as @1000;\@-1;)
-				toWriteNextIndex++;
-				setTimeout(() => typeHelper(), speed);
-				return;
-			}
-
-			quoteContent += content.substring(toWriteNextIndex, i + 1);
-			quote_.innerHTML = quoteContent;
-			toWriteNextIndex = i + 1;
-
-			let delay = speed;
-			if ([",", ";", ":"].includes(content[i])) {
-				delay = 3 * speed;
-
-			}
-			else if ([".", "!", "?"].includes(content[i])) {
-				delay = 7 * speed;
-			}
-
-			setTimeout(() => typeHelper(), delay);
-		};
-
-		typeHelper();
-	});
-}
-
-async function erase(charsAmt = quoteContent.length, speed = 0.8 * typeSpeed) {
-
-	isTyping = true;
-
-	return new Promise((resolve) => {
-
-		const eraseHelper = () => {
-
-			if (typeInterrupt) {
-				typeInterrupt = false;
-				isTyping = false;
-				resolve();
-				return;
-			}
-
-			if (charsAmt <= 0) {
-				isTyping = false;
-				resolve();
-				return;
-			}
-
-			if (speed === 0) { // if speed is set to 0, clear all the string at once
-				quoteContent = "";
-				quote_.innerHTML = "";
-				isTyping = false;
-				resolve();
-				return;
-			}
-
-			let charsToErase = 1;
-
-			if (quoteContent[quoteContent.length - 1] === ">") { // erase tags as single tokens, to avoid weird pauses
-				while (quoteContent[quoteContent.length - charsToErase] !== "<") {
-					charsToErase++;
-				}
-			}
-
-			quoteContent = quoteContent.slice(0, -charsToErase);
-			quote_.innerHTML = quoteContent;
-
-			if (charsToErase === 1) {
-				charsAmt--;
-				setTimeout(() => eraseHelper(), speed);
-			} else {
-				eraseHelper();
-			}
-		};
-
-		eraseHelper();
-
-	});
-}
+let quoteTyper = new Typer(quote_);
 
 
 // hearts whereabouts
@@ -278,16 +146,16 @@ function setQuote(bypassInfo = 1) {
 
 		if (today.getDate() === 11 && today.getMonth() === 9 && today.getFullYear() === 2006) {
 
-			type("Oggi nasce l'amore della mia vita, ed io sono ancora troppo pargolo per realizzarlo");
+			quoteTyper.addTask("type", "Oggi nasce l'amore della mia vita, ed io sono ancora troppo pargolo per realizzarlo");
 			localStorage.removeItem("askedToGoToBirthday");
 		}
 		else {
 
 			if (localStorage.getItem("askedToGoToBirthday") === "1") {
-				type("Giorno sbagliato amore 🙃");
+				quoteTyper.addTask("type", "Giorno sbagliato amore 🙃");
 			}
 			else {
-				type("Ehi, non si viaggia nel tempo senza permesso<br>(ti amo lo stesso)");
+				quoteTyper.addTask("type", "Ehi, non si viaggia nel tempo senza permesso<br>(ti amo lo stesso)");
 			}
 		}
 	}
@@ -299,27 +167,43 @@ function setQuote(bypassInfo = 1) {
 
 
 		if (daysSince === 0) {
-			type(`Ciao amoreee<br>BUON SAN VALENTINOOO<div class='small'></div>🤍🤍🤍<br><div class='small'></div>@400;\\@60; \
+
+			function updateHeartbeats() {
+				quoteTyper.removeEventListener("tasksCompleted", updateHeartbeats);
+
+
+				if (document.getElementById("heartbeats")) {
+					updaterInterval = setInterval(() => {
+						document.getElementById("heartbeats").innerText = ((new Date() - new Date("2022-07-20")) / 850 | 0).toLocaleString();
+
+					}, 850);
+				}
+				document.getElementById("beatingHearts").style.animation = "850ms ease-in-out 450ms infinite alternate beat";
+			}
+
+			quoteTyper.addTask(
+				"type",
+				`Ciao amoreee<br>BUON SAN VALENTINOOO\\400;<br>---<br>\\400; \
 				Il cuore di un uomo batte mediamente 3 miliardi di volte. \
 				Tutti i battiti che ha fatto il mio da quando sei nella mia vita sono stati dovuti a te, ed ora come ora ammontano a circa \
-				<span id="heartbeats">${(0 | ((new Date() - new Date("2022-07-20")) / 850) + 19).toLocaleString()}</span>`).then(() => {
-				updaterInterval = setInterval(() => {
-					document.getElementById("heartbeats").innerText = (0 | ((new Date() - new Date("2022-07-20")) / 850)).toLocaleString();
-				}, 850);
-			});
+				<span id="heartbeats">${((new Date() - new Date("2022-07-20")) / 850 + 20 | 0).toLocaleString()}</span><div id="beatingHearts" style="margin-top: 8px;">🤍🤍🤍</div>`
+			);
+
+			quoteTyper.addEventListener("tasksCompleted", updateHeartbeats);
+
 		}
 		else {
-			type(quotes[daysSince]);
+			quoteTyper.addTask("type", quotes[daysSince]);
 		}
 
 
 	}
 	else if (daysSince === 365 && localStorage.getItem("endMessageShown") === null) {
 		localStorage.setItem("endMessageShown", "1");
-		type("È passato 1yr, quindi la pagina ha fatto il suo corso.<br>D'ora in poi, ad ogni apertura mostrerà una frase a caso");
+		quoteTyper.addTask("type", "È passato 1yr, quindi la pagina ha fatto il suo corso.<br>D'ora in poi, ad ogni apertura mostrerà una frase a caso");
 	}
 	else {
-		type(quotes[Math.floor(Math.random() * quotes.length)]);
+		quoteTyper.addTask("type", quotes[(Math.random() * quotes.length) | 0]);
 	}
 
 }
@@ -328,28 +212,24 @@ function updateQuote(midnightMessage = 0) {
 
 	clearInterval(updaterInterval);
 
-	erase().then(() => {
-		setTimeout(() => {
+	if (quoteTyper.isProcessing) {
+		quoteTyper.haltProcessing();
+	}
 
-			if (midnightMessage) {
-				type(`Amore, che ci fai qui a mezzanotte?<br>Sto aggiornando la frase per domani <3`).then(() => {
-					setTimeout(() => {
-						erase().then(() => {
-							setTime();
-							setQuote();
-						});
-					}, 1200);
-				});
-			}
-			else {
-				setTime();
-				setQuote();
-			}
+	quoteTyper.addTask("erase");
+	quoteTyper.addTask("wait", 200);
 
-		}, 200);
-	});
+	if (midnightMessage) {
+		quoteTyper.addTask("type", `Ciao bimba, sto aggiornando la frase per domani<br><3`);
+		quoteTyper.addTask("wait", 1200);
+		quoteTyper.addTask("erase");
+		quoteTyper.addTask("wait", 200);
+	}
+
+	setTime();
+	setQuote();
+
 }
-
 
 
 
@@ -375,13 +255,8 @@ setTimeout(() => { setQuote(0); }, 250);
 prevDay_.onclick = () => {
 	daysOffset--;
 
-	if (isTyping) {
-		typeInterrupt = true;
-	}
-
-	quote_.innerHTML = "";
-	quoteContent = "";
-
+	quoteTyper.haltProcessing();
+	quoteTyper.clearText();
 
 	// update visibility of the buttons to change day
 	if (daysSince < 2) { // if it's not the first day, we can go back
@@ -398,18 +273,15 @@ prevDay_.onclick = () => {
 	}
 
 	setTime();
-	setTimeout(() => updateQuote(), 100);
+	updateQuote();
 };
 
 nextDay_.onclick = () => {
+
 	daysOffset++;
 
-	if (isTyping) {
-		typeInterrupt = true;
-	}
-
-	quote_.innerHTML = "";
-	quoteContent = "";
+	quoteTyper.haltProcessing();
+	quoteTyper.clearText();
 
 	// update visibility of the buttons to change day
 	if (daysSince < 0) { // if it's not the first day, we can go back
@@ -426,8 +298,7 @@ nextDay_.onclick = () => {
 	}
 
 	setTime();
-
-	setTimeout(() => updateQuote(), 100);
+	updateQuote();
 
 };
 
