@@ -24,6 +24,7 @@
 html {
 	width: 100vw;
 	height: 100%;
+	touch-action: none;
 }
 
 body {
@@ -54,6 +55,8 @@ a {
 	height: calc(100% - 65px);
 	top: 65px;
 	position: relative;
+	/* cant decide if it looks good or not */
+	/* border: 4px dashed violet;*/
 }
 
 #quote {
@@ -187,15 +190,19 @@ a {
 	text-shadow: #0a021d80 0 0 5px;
 }
 
-.heartContainer {
-	position: fixed;
+#heartOverlay {
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	/* Allow clicks to pass through */
 	pointer-events: none;
 	overflow: hidden;
+}
+
+.beatingHeart {
+	animation: 850ms ease-in-out 0s infinite alternate beat;
+	text-shadow: #0a021dd3 0 0.1em 0.1em;
 }
 
 @keyframes move {
@@ -289,7 +296,7 @@ a {
 		transform: scale(1);
 	}
 	50% {
-		transform: scale(1.2);
+		transform: scale(1.05);
 	}
 	100% {
 		transform: scale(1);

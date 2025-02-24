@@ -14,6 +14,21 @@ const quotes = [
 	`Voglio fare colla braciati stretti stretti`,
 	`Sono innamorato del crepuscolo: mi ricorda il tempo con te, che sei <a href="https://open.spotify.com/track/0GrPvrBGrxwrU7rjlwYZiH">il mio tramonto</a>`,
 	`<i>Nel suo aspetto tal dentro mi fei,<br>come si fe' Glauco nel gustar de l'erba<br>che 'l fé consorto in mar de li altri dei</i><br><br>(sì, ricordo ancora un pochino Dante)`,
+	`Oggi è la giornata mondiale del complimento, dunque, ahem, sai di essere la ragazza più meravigliosa, amabile, bella, simpatica, gioiosa, amorevole, profumata ed arrapante che abbia mai avuto la fortuna di incontrare?`,
+	`Non dimenticherò mai il modo in cui mi guardavi quando abbiamo visto i fuochi di Ferragosto abbracciati`,
+	`Ricordati di respirare\\2000;<br><br><br>@90;...@-1;<span class="small">(e di pensare a me che te lo impedisco)</span>`,
+	`Quando facciamo finta di essere sconosciuti e di incontrarci per la prima volta in qualche locale?`,
+	`Voglio accarezzarti la testolina`,
+	`Se piovesse nel pineto, saresti la mia Ermione?`,
+	`Se io fossi Oreste, saresti la mia Ermione? (siamo anche cugini hehe)`,
+	`Ascolta <a href="https://open.spotify.com/track/2JxlwxM4YVK5YlnSuX7DBu">Il mondo insieme a te</a> degli 883, parla di te`,
+	`Voglio ascoltare lofi steso sul letto con te`,
+	`Ti va un bel massaggio?`,
+	`Ma lo sai che ti amo?`,
+	`Sei la mia<br><i>raison d'être</i>\\800;<div class="small">(tanto che sono andato addirittura a cercare gli accenti giusti)</div>`,
+	`Hai presente le canzoni che ti fanno venire i brividi?<br>tutte le volte che ti sfioro mi sento così`,
+	`Come vuoi chiamare nostro figlio?`,
+	`<div style="font-size:0.9em">Gaetano mi ha detto<br>che viviamo nel ghetto<br>e nel mentre penso che<br>se io dormissi disteso<br>sul tuo lato del letto<br><i>tra le braccia avrei te</i></div><div class="big beatingHeart">🤍</div>`,
 	`- fine della versione corrente-`
 ];
 
@@ -25,7 +40,7 @@ document.documentElement.style.setProperty("--shape3AnimationDelay", -Math.rando
 // hooks
 const quote_ = document.getElementById('quote');
 const hudDate_ = document.getElementById('hudDate');
-const heartContainer_ = document.getElementById('heartContainer');
+const heartOverlay_ = document.getElementById('heartOverlay');
 const prevDay_ = document.getElementById('prevDay');
 const nextDay_ = document.getElementById('nextDay');
 
@@ -79,7 +94,7 @@ function createHeart(x, y) {
 	heart.style.setProperty('--curve', `${curve}px`);
 
 	// Append the heart to the container
-	heartContainer_.appendChild(heart);
+	heartOverlay_.appendChild(heart);
 
 	// Remove the heart after the animation ends
 	heart.addEventListener('animationend', () => {
@@ -88,6 +103,10 @@ function createHeart(x, y) {
 }
 
 function handleDoubleClick(event) {
+	if (event.clientY < 65) { // if the click is in the top left corner, show the info
+		return;
+	}
+
 	const clickTime = new Date().getTime();
 	const timeBetweenClicks = clickTime - lastClickTime;
 
@@ -178,7 +197,7 @@ function setQuote(bypassInfo = 1) {
 
 					}, 850);
 				}
-				document.getElementById("beatingHearts").style.animation = "850ms ease-in-out 450ms infinite alternate beat";
+				// document.getElementById("beatingHearts").style.animationDelay = "450ms";
 			}
 
 			quoteTyper.addTask(
@@ -186,7 +205,7 @@ function setQuote(bypassInfo = 1) {
 				`Ciao amoreee<br>BUON SAN VALENTINOOO\\400;<br>---<br>\\400; \
 				Il cuore di un uomo batte mediamente 3 miliardi di volte. \
 				Tutti i battiti che ha fatto il mio da quando sei nella mia vita sono stati dovuti a te, ed ora come ora ammontano a circa \
-				<span id="heartbeats">${((new Date() - new Date("2022-07-20")) / 850 + 20 | 0).toLocaleString()}</span><div id="beatingHearts" style="margin-top: 8px;">🤍🤍🤍</div>`
+				<span id="heartbeats">${(Math.round((new Date() - new Date("2022-07-20")) / 850 + 19)).toLocaleString()}</span><div class="beatingHeart" style="margin-top: 8px;">🤍🤍🤍</div>`
 			);
 
 			quoteTyper.addEventListener("tasksCompleted", updateHeartbeats);
@@ -221,7 +240,7 @@ function updateQuote(midnightMessage = 0) {
 
 	if (midnightMessage) {
 		quoteTyper.addTask("type", `Ciao bimba, sto aggiornando la frase per domani<br><3`);
-		quoteTyper.addTask("wait", 1200);
+		quoteTyper.addTask("wait", 500);
 		quoteTyper.addTask("erase");
 		quoteTyper.addTask("wait", 200);
 	}
