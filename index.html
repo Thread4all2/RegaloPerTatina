@@ -4,7 +4,7 @@
 <!-- Ma ciao curiosona, che ci fai qui? -->
 
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport"
 		content="width=device-width, height=device-height initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
 	<meta name=" apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -21,10 +21,57 @@
 <body>
 	<div id="heartOverlay"></div>
 
+	<div id="hudDate"></div>
+
 	<div id="prevDay" style="display: none"><img id="leftArrow"></div>
 	<div id="nextDay" style="display: none"><img id="rightArrow"></div>
 
-	<div id="hudDate"></div>
+	<div id="hangmanButton" style="display: none"><img id="openGame"></div>
+	<div id="hangmanContainer" style="display: none">
+		<div>
+			<div id="hangmanLives"></div>
+			<div id="hangmanWordContainer">
+				<div id="hangmanWord"></div>
+			</div>
+		</div>
+		<div>
+			<div id="hangmanMessage"></div>
+			<div id="hangmanKeyboard">
+				<div class="hangmanKeyboardRow">
+					<div class="letter" onclick="checkLetter(this, 'Q')">Q</div>
+					<div class="letter" onclick="checkLetter(this, 'W')">W</div>
+					<div class="letter" onclick="checkLetter(this, 'E')">E</div>
+					<div class="letter" onclick="checkLetter(this, 'R')">R</div>
+					<div class="letter" onclick="checkLetter(this, 'T')">T</div>
+					<div class="letter" onclick="checkLetter(this, 'Y')">Y</div>
+					<div class="letter" onclick="checkLetter(this, 'U')">U</div>
+					<div class="letter" onclick="checkLetter(this, 'I')">I</div>
+					<div class="letter" onclick="checkLetter(this, 'O')">O</div>
+					<div class="letter" onclick="checkLetter(this, 'P')">P</div>
+				</div>
+				<div class="hangmanKeyboardRow">
+					<div class="letter" onclick="checkLetter(this, 'A')">A</div>
+					<div class="letter" onclick="checkLetter(this, 'S')">S</div>
+					<div class="letter" onclick="checkLetter(this, 'D')">D</div>
+					<div class="letter" onclick="checkLetter(this, 'F')">F</div>
+					<div class="letter" onclick="checkLetter(this, 'G')">G</div>
+					<div class="letter" onclick="checkLetter(this, 'H')">H</div>
+					<div class="letter" onclick="checkLetter(this, 'J')">J</div>
+					<div class="letter" onclick="checkLetter(this, 'K')">K</div>
+					<div class="letter" onclick="checkLetter(this, 'L')">L</div>
+				</div>
+				<div class="hangmanKeyboardRow">
+					<div class="letter" onclick="checkLetter(this, 'Z')">Z</div>
+					<div class="letter" onclick="checkLetter(this, 'X')">X</div>
+					<div class="letter" onclick="checkLetter(this, 'C')">C</div>
+					<div class="letter" onclick="checkLetter(this, 'V')">V</div>
+					<div class="letter" onclick="checkLetter(this, 'B')">B</div>
+					<div class="letter" onclick="checkLetter(this, 'N')">N</div>
+					<div class="letter" onclick="checkLetter(this, 'M')">M</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div id="info" style="display: none">
 		<button id="xButton"

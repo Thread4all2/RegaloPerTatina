@@ -114,13 +114,29 @@ class Typer extends EventTarget {
 					return typeHelper();
 				}
 
-				if (i < content.length - 1 && content[i] === "\\") { // \number; skips <number> milliseconds)
+				if (i < content.length - 1 && content[i] === "|") { // |number; skips <number> milliseconds)
 					while (content[++i] !== ";");
 					const delay = +content.substring(toWriteNextIndex + 1, i);
 
 					toWriteNextIndex = i + 1;
 					await this.wait(delay);
 					return typeHelper();
+				}
+
+				if (i < content.length - 1 && content[i] === "~") { // ~number; erases <number> characters
+					while (content[++i] !== ";");
+					const charsAmt = +content.substring(toWriteNextIndex + 1, i);
+
+					toWriteNextIndex = i + 1;
+					await this.erase(charsAmt, speed);
+					return typeHelper();
+				}
+
+				if (i < content.length - 1 && content[i] === "&" && content[i + 1] !== " ") { // output html control chars (eg &lt;) as single tokens, to avoid partial prints
+					while (content[++i] !== ">");
+					this.text += content.substring(toWriteNextIndex, i + 1);
+
+					toWriteNextIndex = i + 1;
 				}
 
 				this.text += content.substring(toWriteNextIndex, i + 1);

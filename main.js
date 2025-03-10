@@ -4,19 +4,19 @@ const quotes = [
 	`Voglio massaggiarti su un lettino in una stanza piena di candele e petali di rosa`,
 	`Oggi ti mostro la prima cosa particolare di cui ti ho parlato nell'introduzione della pagina: fai doppio click da qualche parte`,
 	`una volta ho sognato di conoscere l'amore della mia vita; mi devo ancora svegliare`,
-	`Bramo il tuo effluvio, il tuo estro ed il tuo efflusso \\1000;<div class="big" style="animation: 1s ease-out 1 zoomIn, 20s ease-in-out 1s infinite alternate wobble;">🙃</div>`,
+	`Bramo il tuo effluvio, il tuo estro ed il tuo efflusso |1000;<div class="big" style="animation: 1s ease-out 1 zoomIn, 20s ease-in-out 1s infinite alternate wobble;">🙃</div>`,
 	`L'idea di fare questa cosa mi è venuta la notte del 31/01, quando mi sono svegliato e non sono più riuscito a prendere sonno<br>...Quindi possiamo dire che mi tieni sveglio la notte`,
 	`Spero che oggi ci sia il sole, mi rallegra così tanto l'animo sapere che sei felice`,
 	`Vorrei tanto essere un musicista per poterti dedicare canzoni d'amore`,
 	`Sei tutti i ricordi più belli che ho`,
-	`Hai mai provato il brio di guardare la frase della giornata con qualche tua amica di fianco?\\600;<br>Qualora lo facessi, vogliate perdonarmi eventuali amiche,\\300;<br>VOGLIO SCOPARTI@90;IIIIIIII`,
+	`Hai mai provato il brio di guardare la frase della giornata con qualche tua amica di fianco?|600;<br>Qualora lo facessi, vogliate perdonarmi eventuali amiche,|300;<br>VOGLIO SCOPARTI@90;IIIIIIII`,
 	`Che crudele l'universo a fare le anime in coppie per poi dividerle`,
 	`Voglio fare colla braciati stretti stretti`,
 	`Sono innamorato del crepuscolo: mi ricorda il tempo con te, che sei <a href="https://open.spotify.com/track/0GrPvrBGrxwrU7rjlwYZiH">il mio tramonto</a>`,
 	`<i>Nel suo aspetto tal dentro mi fei,<br>come si fe' Glauco nel gustar de l'erba<br>che 'l fé consorto in mar de li altri dei</i><br><br>(sì, ricordo ancora un pochino Dante)`,
 	`Oggi è la giornata mondiale del complimento, dunque, ahem, sai di essere la ragazza più meravigliosa, amabile, bella, simpatica, gioiosa, amorevole, profumata ed arrapante che abbia mai avuto la fortuna di incontrare?`,
 	`Non dimenticherò mai il modo in cui mi guardavi quando abbiamo visto i fuochi di Ferragosto abbracciati`,
-	`Ricordati di respirare\\2000;<br><br><br>@90;...@-1;<span class="small">(e di pensare a me che te lo impedisco)</span>`,
+	`Ricordati di respirare|2000;<br><br><br>@90;...@-1;<span class="small">(e di pensare a me che te lo impedisco)</span>`,
 	`Quando facciamo finta di essere sconosciuti e di incontrarci per la prima volta in qualche locale?`,
 	`Voglio accarezzarti la testolina`,
 	`Se piovesse nel pineto, saresti la mia Ermione?`,
@@ -24,8 +24,8 @@ const quotes = [
 	`Ascolta <a href="https://open.spotify.com/track/2JxlwxM4YVK5YlnSuX7DBu">Il mondo insieme a te</a> degli 883, parla di te`,
 	`Voglio ascoltare lofi steso sul letto con te`,
 	`Ti va un bel massaggio?`,
-	`Ma lo sai che ti amo?`,
-	`Sei la mia<br><i>raison d'être</i>\\800;<div class="small">(tanto che sono andato addirittura a cercare gli accenti giusti)</div>`,
+	`Da ora in poi, se ti noi clicca in basso a sinistra, ti ho fatto un giochino <3`,
+	`Sei la mia<br><i>raison d'être</i>|800;<div class="small">(tanto che sono andato addirittura a cercare gli accenti giusti)</div>`,
 	`Hai presente le canzoni che ti fanno venire i brividi?<br>tutte le volte che ti sfioro mi sento così`,
 	`Come vuoi chiamare nostro figlio?`,
 	`<div style="font-size:0.9em">Gaetano mi ha detto<br>che viviamo nel ghetto<br>e nel mentre penso che<br>se io dormissi disteso<br>sul tuo lato del letto<br><i>tra le braccia avrei te</i></div><div class="big beatingHeart">🤍</div>`,
@@ -43,6 +43,7 @@ const hudDate_ = document.getElementById('hudDate');
 const heartOverlay_ = document.getElementById('heartOverlay');
 const prevDay_ = document.getElementById('prevDay');
 const nextDay_ = document.getElementById('nextDay');
+const hangman_ = document.getElementById('hangmanButton');
 
 // sweet juicy analytics
 const timesOpened = +localStorage.getItem("timesOpened") || 0;
@@ -68,7 +69,6 @@ function setTime() {
 
 // typing handling
 let updaterInterval = null;
-
 let quoteTyper = new Typer(quote_);
 
 
@@ -80,10 +80,11 @@ function createHeart(x, y) {
 	const heart = document.createElement('div');
 	heart.classList.add('heart');
 	heart.innerHTML = Math.random() > .5 ? "🤍" : Math.random() > .5 ? "💕" : "❤️";
-	heart.style.left = `${x}px`;
-	heart.style.top = `${y}px`;
 	heart.style.zIndex = Math.random() > .5 ? 2 : Math.random() > .5 ? 1 : 0;
-	heart.style.fontSize = `${Math.random() * 25 + 25}px`;
+	const size = Math.random() * 25 + 25;
+	heart.style.fontSize = `${size}px`;
+	heart.style.left = `${x - (size >> 3)}px`;
+	heart.style.top = `${y - (size >> 2)}px`;
 
 	// random animation duration and curve
 	const duration = Math.random() * 4 + 2; // take between 2 and 6 seconds
@@ -124,7 +125,7 @@ function handleDoubleClick(event) {
 		// Create multiple hearts with slightly different curves
 		const numHearts = 16 + (40 * Math.random() | 0); // Between 16 and 54 hearts
 		for (let i = 0; i < numHearts; i++) {
-			createHeart(event.clientX, event.clientY);
+			createHeart(event.clientX - 30, event.clientY - 30);
 		}
 	}
 }
@@ -144,10 +145,163 @@ function makeRisingHearts(minAmt = 0) { // spawns some hearts at the bottom of t
 }
 
 
+// hangman game
+
+let isPlayingHangman = false;
+let hangmanState = {
+	word: "",
+	triedLetters: [],
+	lives: 0,
+	isGameOver: false,
+	lastWord: ""
+};
+let bigWordList = [];
+
+async function fetchList() {
+	await fetch("/src/60kParole.txt")
+		// .then(response => response.blob())
+		.then(response => response.text())
+		.then(text => { bigWordList = text.split("\n"); })
+		.catch(error => {
+			console.error('Error fetching the file:', error);
+			setTimeout(() => {
+				fetchList();
+			}, 300);
+		});
+};
+
+fetchList();
+
+const wordContainer_ = document.getElementById("hangmanWord");
+const livesContainer_ = document.getElementById("hangmanLives");
+const hangmanMessage_ = document.getElementById("hangmanMessage");
+
+const areSameLetter = (base, accented) => base.toLowerCase() === accented.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+function revealKnownLetters() {
+	wordContainer_.innerHTML = hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : "_").join("");
+}
+
+function updateLivesCounter() {
+	livesContainer_.innerText = "💔".repeat(6 - hangmanState.lives) + "❤️".repeat(hangmanState.lives);
+
+}
+
+function checkWin() {
+	if (hangmanState.word.split("").every(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " "))) {
+		displayMessage(["hai vinto bimbaaa", "bravaaaaaaaa", "mia genietta tu", "brava cucciolaa", "meriti un premio"][Math.random() * 5 | 0], "rgb(238, 130, 238, 0.8)", 4000, 1.5);
+		makeRisingHearts(80);
+		updaterInterval = setTimeout(() => setupHangman(), 4000);
+		hangmanState.isGameOver = true;
+	}
+}
+
+function checkLoss() {
+	if (!hangmanState.lives) {
+		displayMessage(["hai perso amore", "nuuuuuu", "tontolina mia", "mi dispiacee", "🥺"][Math.random() * 5 | 0], "rgb(100, 100, 100, 0.8)", 4000, 1.5);
+		updaterInterval = setTimeout(() => setupHangman(), 4000);
+		hangmanState.isGameOver = true;
+	}
+}
+
+function displayMessage(message, bg, duration = 2000, size = 1.2) {
+	hangmanMessage_.innerText = message;
+
+	hangmanMessage_.style.animationDuration = duration + "ms";
+	hangmanMessage_.style.fontSize = size + "em";
+	hangmanMessage_.style.backgroundColor = bg;
+	hangmanMessage_.classList.remove("fadeOut");
+	hangmanMessage_.offsetHeight; // trigger reflow
+	hangmanMessage_.classList.add("fadeOut");
+}
+
+async function setupHangman() {
+
+	const specialWordlist = [
+		"sei il mio amore tu",
+		"bambolina",
+		"ciliegina",
+		"patatina",
+		"cuoricina",
+		"coniglietta",
+		"ti amo",
+		"nuvoletta rosa",
+	];
+
+	if (bigWordList.length === 0) {
+		await fetchList();
+	}
+
+	let wordlist = Math.random() > .1 ? bigWordList : specialWordlist;
+
+	// setup state
+	let randWord = wordlist[Math.random() * wordlist.length | 0];
+
+	while (hangmanState.lastWord === randWord) {
+		randWord = wordlist[Math.random() * wordlist.length | 0];
+	}
+
+	hangmanState.word = randWord;
+	hangmanState.triedLetters = [hangmanState.word[0].normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(), hangmanState.word[hangmanState.word.length - 1].normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()]; // reveal first and last letter
+	hangmanState.lives = 6;
+	hangmanState.isGameOver = false;
+	hangmanState.lastWord = hangmanState.word;
+
+	for (let i of document.getElementsByClassName(`letter`)) {
+
+		if (areSameLetter(i.innerText, hangmanState.triedLetters[0]) || areSameLetter(i.innerText, hangmanState.triedLetters[1])) {
+			i.style.color = "#40f040";
+			i.style.backgroundColor = "#0b3a3aa0";
+		} else {
+			i.style.color = "#edf1fe";
+			i.style.backgroundColor = "#aaaaaa80";
+		}
+	}
+
+
+	// setup UI
+	revealKnownLetters();
+	updateLivesCounter();
+
+}
+
+function checkLetter(elem, letter) {
+
+	if (hangmanState.triedLetters.includes(letter.toLowerCase()) || hangmanState.isGameOver) { // already tried the letter or the game has ended
+		return;
+	}
+
+	hangmanState.triedLetters.push(letter);
+
+	elem.style.backgroundColor = "#0b3a3aa0";
+
+	if (hangmanState.word.split("").some(l => areSameLetter(letter, l))) {
+		elem.style.color = "#40f040";
+		displayMessage(["brava amoreee", "sii", "c'è", "così si fa", "brava", "continua così"][Math.random() * 6 | 0], "rgb(42, 246, 93, 0.6)");
+		checkWin();
+
+	} else {
+		hangmanState.lives--;
+		elem.style.color = "#808080";
+		displayMessage(["nu more", "nuu", "non c'è", "eh no", "🙃", "nope"][Math.random() * 6 | 0], "rgb(240, 80, 80, 0.6)");
+		checkLoss();
+	}
+
+
+	updateLivesCounter();
+	if (hangmanState.lives) {
+		revealKnownLetters();
+	} else {
+		wordContainer_.innerHTML = hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : `<span style="color:rgb(184, 22, 76)">${l}</span>`).join("");
+	}
+}
+
+
 // main functions
 function loadShapes() { // injects svgs, to avoid flashing them before page load
 	document.getElementById("leftArrow").src = "graphics/leftArrow.svg";
 	document.getElementById("rightArrow").src = "graphics/rightArrow.svg";
+	document.getElementById("openGame").src = "graphics/rightArrow.svg";
 	document.getElementById("paperclips").src = "graphics/paperclips.svg";
 	document.getElementById("whiteHeart").src = "graphics/whiteHeart.svg";
 	document.getElementById("pinkCloud").src = "graphics/pinkCloud.svg";
@@ -180,7 +334,7 @@ function setQuote(bypassInfo = 1) {
 	}
 	else if (daysSince < 365) {
 
-		// update the quote at midnight (wait at least 30s to avoid erasing while the quote is still being typed)
+		// update the quote at midnight (wait at least 30s to avoid erasing while the quote is still being typed, as it would be annoying)
 		const now = new Date();
 		setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
 
@@ -189,7 +343,6 @@ function setQuote(bypassInfo = 1) {
 
 			function updateHeartbeats() {
 				quoteTyper.removeEventListener("tasksCompleted", updateHeartbeats);
-
 
 				if (document.getElementById("heartbeats")) {
 					updaterInterval = setInterval(() => {
@@ -202,7 +355,7 @@ function setQuote(bypassInfo = 1) {
 
 			quoteTyper.addTask(
 				"type",
-				`Ciao amoreee<br>BUON SAN VALENTINOOO\\400;<br>---<br>\\400; \
+				`Ciao amoreee<br>BUON SAN VALENTINOOO|400;<br>---<br>|400; \
 				Il cuore di un uomo batte mediamente 3 miliardi di volte. \
 				Tutti i battiti che ha fatto il mio da quando sei nella mia vita sono stati dovuti a te, ed ora come ora ammontano a circa \
 				<span id="heartbeats">${(Math.round((new Date() - new Date("2022-07-20")) / 850 + 19)).toLocaleString()}</span><div class="beatingHeart" style="margin-top: 8px;">🤍🤍🤍</div>`
@@ -240,7 +393,7 @@ function updateQuote(midnightMessage = 0) {
 
 	if (midnightMessage) {
 		quoteTyper.addTask("type", `Ciao bimba, sto aggiornando la frase per domani<br><3`);
-		quoteTyper.addTask("wait", 500);
+		quoteTyper.addTask("wait", 1000);
 		quoteTyper.addTask("erase");
 		quoteTyper.addTask("wait", 200);
 	}
@@ -258,12 +411,20 @@ setTime();
 loadShapes();
 
 
-// check whether to enable the buttons to change days
+// check whether to enable the buttons
 if (daysSince > 0) { // if it's not the first day, we can go back
 	prevDay_.style.display = "block";
 }
 if (new Date().getTime() - today.getTime() >= 86_400_000) { // if it's earlier than today, we can go forward
 	nextDay_.style.display = "block";
+}
+
+if (daysSince > 2) { // enable double click to create hearts on 2025-02-17
+	document.addEventListener('click', handleDoubleClick);
+}
+
+if (daysSince > 24) { // enable the hangman game
+	hangman_.style.display = "block";
 }
 
 setTimeout(() => makeRisingHearts(20), 200);
@@ -272,6 +433,7 @@ setTimeout(() => { setQuote(0); }, 250);
 
 // event handlers
 prevDay_.onclick = () => {
+
 	daysOffset--;
 
 	quoteTyper.haltProcessing();
@@ -321,9 +483,54 @@ nextDay_.onclick = () => {
 
 };
 
-if (daysSince > 2) { // enable double click to create hearts on 2025-02-17
-	document.addEventListener('click', handleDoubleClick);
-}
+hangman_.onclick = () => {
+
+	isPlayingHangman = !isPlayingHangman;
+	// hangmanMessage_.opacity = 0;
+	hangmanMessage_.classList.remove("fadeOut");
+
+
+
+	if (isPlayingHangman) {
+		quoteTyper.haltProcessing();
+		quoteTyper.clearText();
+		hudDate_.innerHTML = `- impiccato -`;
+
+		prevDay_.style.display = "none";
+		nextDay_.style.display = "none";
+
+		document.getElementById("hangmanContainer").style.display = "flex";
+		document.getElementById("openGame").src = "graphics/leftArrow.svg";
+		hangman_.style.bottom = "unset";
+		hangman_.style.top = "10px";
+
+
+		setupHangman();
+	}
+	else {
+		quoteTyper.haltProcessing();
+		quoteTyper.clearText();
+		setTime();
+
+		document.getElementById("hangmanContainer").style.display = "none";
+		document.getElementById("openGame").src = "graphics/rightArrow.svg";
+		hangman_.style.top = "unset";
+		hangman_.style.bottom = "10px";
+
+
+		if (daysSince > 0) { // if it's not the first day, we can go back
+			prevDay_.style.display = "block";
+		}
+		if (new Date().getTime() - today.getTime() >= 86_400_000) { // if it's earlier than today, we can go forward
+			nextDay_.style.display = "block";
+		}
+
+
+		setQuote();
+	}
+
+
+};
 
 
 console.log(`\x1b[94mDebug info:\x1b[0m

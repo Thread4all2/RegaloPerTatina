@@ -1,6 +1,7 @@
 @font-face {
 	font-family: "sonya";
 	src: url("fonts/sonya cute.ttf");
+	font-display: swap;
 }
 
 :root {
@@ -19,6 +20,7 @@
 	touch-action: manipulation;
 	font-family: "sonya", Arial, Helvetica, sans-serif;
 	text-shadow: #1d021930 1px 1px 1px;
+	letter-spacing: 0.02em;
 }
 
 html {
@@ -53,8 +55,9 @@ a {
 	justify-content: center;
 	align-items: center;
 	height: calc(100% - 65px);
+	width: 100%;
 	top: 65px;
-	position: relative;
+	position: absolute;
 	/* cant decide if it looks good or not */
 	/* border: 4px dashed violet;*/
 }
@@ -66,6 +69,8 @@ a {
 	text-align: center;
 	z-index: 1;
 	width: 95%;
+	padding-top: 6px;
+	min-height: 1.3em;
 }
 
 ::selection {
@@ -126,6 +131,7 @@ a {
 	border: 1px solid #0a021d10;
 	user-select: none;
 	-webkit-touch-callout: none;
+	cursor: pointer;
 	z-index: 4;
 }
 
@@ -139,7 +145,113 @@ a {
 	border: 1px solid #0a021d10;
 	user-select: none;
 	-webkit-touch-callout: none;
+	cursor: pointer;
 	z-index: 4;
+}
+
+#hangmanButton {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	background: #0a021d10;
+	border-radius: 8px;
+	padding: 7px 8px 3px 7px;
+	border: 1px solid #0a021d10;
+	user-select: none;
+	-webkit-touch-callout: none;
+	cursor: pointer;
+	z-index: 4;
+}
+
+#hangmanContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100% - 65px);
+	width: 100%;
+	top: 65px;
+	position: absolute;
+}
+
+#hangmanLives {
+	position: relative;
+	display: block;
+	width: 100%;
+	text-align: right;
+	padding-right: 10px;
+	height: 3em;
+	font-size: 1.7em;
+	letter-spacing: 0.03em;
+	z-index: 4;
+}
+
+#hangmanWordContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+#hangmanWord {
+	position: relative;
+	display: block;
+	font-size: 3em;
+	font-weight: bold;
+	color: #0a021d;
+	text-align: center;
+	width: 100%;
+	padding: 0px 2.5%;
+	z-index: 1;
+}
+
+#hangmanKeyboard {
+	display: flex;
+	flex-direction: column;
+	/* position: absolute; */
+	gap: 6px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#hangmanMessage {
+	min-width: 40%;
+	font-size: 1.2em;
+	min-height: 2em;
+	top: 0;
+	display: flex;
+	opacity: 0;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 20vw;
+	padding: 8px 8px 8px 8px;
+	border-radius: 10px;
+}
+
+.hangmanKeyboardRow {
+	display: flex;
+	justify-content: center;
+	gap: 6px;
+	width: 100%;
+	font-size: 1.72em;
+	z-index: 4;
+}
+
+.letter {
+	width: 1.2em;
+	height: 2em;
+	padding-top: 0.43em;
+	border: 1px solid #00000081;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	color: #edf1fe;
+	background-color: #aaaaaa80;
+}
+
+.fadeOut {
+	animation: 2000ms ease 0s 1 normal none running fadeOut;
 }
 
 #shape1 {
@@ -161,6 +273,16 @@ a {
 	right: calc(20vw + 10px);
 	animation: move var(--shape3AnimationTime) ease-in-out
 		var(--shape3AnimationDelay) infinite alternate;
+}
+
+#heartOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	overflow: hidden;
 }
 
 .shape {
@@ -188,16 +310,6 @@ a {
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
 	text-shadow: #0a021d80 0 0 5px;
-}
-
-#heartOverlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	pointer-events: none;
-	overflow: hidden;
 }
 
 .beatingHeart {
@@ -300,5 +412,26 @@ a {
 	}
 	100% {
 		transform: scale(1);
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		transform: scale(0.9);
+		opacity: 1;
+	}
+	10% {
+		transform: scale(1.05);
+		opacity: 1;
+	}
+	15% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
 	}
 }
