@@ -158,7 +158,7 @@ let hangmanState = {
 let bigWordList = [];
 
 async function fetchList() {
-	await fetch("/src/60kParole.txt")
+	await fetch("https://raw.githubusercontent.com/Thread4all2/RegaloPerTatina/refs/heads/main/src/60kParole.txt")
 		// .then(response => response.blob())
 		.then(response => response.text())
 		.then(text => { bigWordList = text.split("\n"); })
@@ -179,7 +179,7 @@ const hangmanMessage_ = document.getElementById("hangmanMessage");
 const areSameLetter = (base, accented) => base.toLowerCase() === accented.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
 function revealKnownLetters() {
-	wordContainer_.innerHTML = hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : "_").join("");
+	wordContainer_.innerHTML = "<br>" + hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : "_").join("");
 }
 
 function updateLivesCounter() {
@@ -190,7 +190,7 @@ function updateLivesCounter() {
 function checkWin() {
 	if (hangmanState.word.split("").every(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " "))) {
 		displayMessage(["hai vinto bimbaaa", "bravaaaaaaaa", "mia genietta tu", "brava cucciolaa", "meriti un premio"][Math.random() * 5 | 0], "rgb(238, 130, 238, 0.8)", 4000, 1.5);
-		makeRisingHearts(80);
+		makeRisingHearts(20 * hangmanState.lives);
 		updaterInterval = setTimeout(() => setupHangman(), 4000);
 		hangmanState.isGameOver = true;
 	}
@@ -292,7 +292,7 @@ function checkLetter(elem, letter) {
 	if (hangmanState.lives) {
 		revealKnownLetters();
 	} else {
-		wordContainer_.innerHTML = hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : `<span style="color:rgb(184, 22, 76)">${l}</span>`).join("");
+		wordContainer_.innerHTML = "<br>" + hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : `<span style="color:rgb(184, 22, 76)">${l}</span>`).join("");
 	}
 }
 
@@ -486,9 +486,7 @@ nextDay_.onclick = () => {
 hangman_.onclick = () => {
 
 	isPlayingHangman = !isPlayingHangman;
-	// hangmanMessage_.opacity = 0;
 	hangmanMessage_.classList.remove("fadeOut");
-
 
 
 	if (isPlayingHangman) {
