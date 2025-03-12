@@ -271,7 +271,7 @@ async function setupHangman() {
 
 function checkLetter(elem, letter) {
 
-	if (hangmanState.triedLetters.includes(letter.toLowerCase()) || hangmanState.isGameOver) { // already tried the letter or the game has ended
+	if (hangmanState.triedLetters.includes(letter) || hangmanState.isGameOver) { // already tried the letter or the game has ended
 		return;
 	}
 
