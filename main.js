@@ -24,7 +24,7 @@ const quotes = [
 	`Ascolta <a href="https://open.spotify.com/track/2JxlwxM4YVK5YlnSuX7DBu">Il mondo insieme a te</a> degli 883, parla di te`,
 	`Voglio ascoltare lofi steso sul letto con te`,
 	`Ti va un bel massaggio?`,
-	`Da ora in poi, se ti noi clicca in basso a sinistra, ti ho fatto un giochino <3`,
+	`D'ora in poi, se ti noi clicca in basso a sinistra, ti ho fatto un giochino<br><3`,
 	`Sei la mia<br><i>raison d'être</i>|800;<div class="small">(tanto che sono andato addirittura a cercare gli accenti giusti)</div>`,
 	`Hai presente le canzoni che ti fanno venire i brividi?<br>tutte le volte che ti sfioro mi sento così`,
 	`Come vuoi chiamare nostro figlio?`,
@@ -108,6 +108,10 @@ function handleDoubleClick(event) {
 		return;
 	}
 
+	if (isPlayingHangman) { // disable the gesture if the hangman game is open
+		return;
+	}
+
 	const clickTime = new Date().getTime();
 	const timeBetweenClicks = clickTime - lastClickTime;
 
@@ -130,7 +134,7 @@ function handleDoubleClick(event) {
 	}
 }
 
-function makeRisingHearts(minAmt = 0) { // spawns some hearts at the bottom of the screen on random intervals
+function makeRisingHearts(minAmt = 0) { // spawns some hearts at the bottom of the screen
 	const tresh = Math.max(Math.random(), .2);
 	while (minAmt > 0 || Math.random() > tresh) {
 		const x = window.innerWidth / 4 + Math.random() * window.innerWidth / 2;
@@ -138,10 +142,6 @@ function makeRisingHearts(minAmt = 0) { // spawns some hearts at the bottom of t
 		createHeart(x, y);
 		minAmt--;
 	}
-
-	setTimeout(() => {
-		makeRisingHearts();
-	}, Math.random() * 5000);
 }
 
 
@@ -149,11 +149,12 @@ function makeRisingHearts(minAmt = 0) { // spawns some hearts at the bottom of t
 
 let isPlayingHangman = false;
 let hangmanState = {
-	word: "",
-	triedLetters: [],
 	lives: 0,
+	word: "",
+	lastWord: "",
+	triedLetters: [],
 	isGameOver: false,
-	lastWord: ""
+	isSpecialWord: false,
 };
 let bigWordList = [];
 
@@ -190,7 +191,7 @@ function updateLivesCounter() {
 function checkWin() {
 	if (hangmanState.word.split("").every(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " "))) {
 		displayMessage(["hai vinto bimbaaa", "bravaaaaaaaa", "mia genietta tu", "brava cucciolaa", "meriti un premio"][Math.random() * 5 | 0], "rgb(238, 130, 238, 0.8)", 4000, 1.5);
-		makeRisingHearts(20 * hangmanState.lives);
+		makeRisingHearts(20 * hangmanState.lives * (hangmanState.isSpecialWord ? 2 : 1));
 		updaterInterval = setTimeout(() => setupHangman(), 4000);
 		hangmanState.isGameOver = true;
 	}
@@ -226,13 +227,16 @@ async function setupHangman() {
 		"coniglietta",
 		"ti amo",
 		"nuvoletta rosa",
+		"scaramandrina",
 	];
 
 	if (bigWordList.length === 0) {
 		await fetchList();
 	}
 
-	let wordlist = Math.random() > .1 ? bigWordList : specialWordlist;
+	hangmanState.isSpecialWord = Math.random() < .1;
+
+	let wordlist = hangmanState.isSpecialWord ? specialWordlist : bigWordList;
 
 	// setup state
 	let randWord = wordlist[Math.random() * wordlist.length | 0];
@@ -427,7 +431,15 @@ if (daysSince > 24) { // enable the hangman game
 	hangman_.style.display = "block";
 }
 
-setTimeout(() => makeRisingHearts(20), 200);
+const heartStream = () => { // spawn hearts at random intervals
+	setTimeout(() => {
+		makeRisingHearts();
+		heartStream();
+	}, Math.random() * 4800 + 200);
+};
+
+makeRisingHearts(20);
+heartStream();
 
 setTimeout(() => { setQuote(0); }, 250);
 

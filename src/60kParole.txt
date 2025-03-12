@@ -608,49 +608,6 @@ abroghiamo
 abroghiate
 abroghino
 abrogo
-abusa
-abusai
-abusammo
-abusando
-abusano
-abusare
-abusarono
-abusasse
-abusassero
-abusassi
-abusassimo
-abusaste
-abusasti
-abusata
-abusate
-abusati
-abusato
-abusava
-abusavamo
-abusavano
-abusavate
-abusavi
-abusavo
-abusera
-abuserai
-abuseranno
-abuserebbe
-abuserei
-abuseremmo
-abuseremo
-abusereste
-abuseresti
-abuserete
-abusero
-abusi
-abusiamo
-abusiate
-abusino
-abusiva
-abusive
-abusivi
-abusivo
-abuso
 accada
 accadda
 accadde
@@ -2340,7 +2297,6 @@ affilino
 affilio
 affilo
 affinche
-affinche'
 affine
 affini
 affinita
@@ -2625,7 +2581,6 @@ aggiudico
 aggiunge
 aggiungendo
 aggiungere
-aggiungero'
 aggiunse
 aggiunta
 aggiunte
@@ -2908,8 +2863,6 @@ albini
 albino
 alcol
 alcoli
-alcool
-alcun
 alcuna
 alcune
 alcuni
@@ -3458,7 +3411,6 @@ altipiano
 alto
 altra
 altre
-altresi'
 altrettante
 altri
 altrimenti
@@ -3991,7 +3943,6 @@ anatomie
 anatra
 anatre
 anca
-anch'
 anche
 ancora
 ancore
@@ -4000,7 +3951,6 @@ andammo
 andando
 andante
 andanti
-andar
 andarcene
 andarci
 andare
@@ -4036,7 +3986,6 @@ anditi
 andito
 ando
 andra
-andra'
 andrai
 andranno
 andrebbe
@@ -4494,7 +4443,6 @@ antri
 antro
 anzi
 anzianita
-anziche'
 apatia
 apatie
 aperse
@@ -4587,9 +4535,7 @@ apparenti
 apparenza
 apparenze
 appari
-apparir
 apparira
-apparira'
 appariranno
 apparire
 appariva
@@ -6469,7 +6415,6 @@ avarizie
 avaro
 avendo
 avente
-aver
 avere
 averla
 avesse
@@ -6490,7 +6435,6 @@ avidi
 avidita
 avido
 avra
-avra'
 avrai
 avrebbe
 avrebbero
@@ -6563,7 +6507,6 @@ avveriate
 avverino
 avvero
 avverra
-avverra'
 avversa
 avversari
 avversaria
@@ -7496,7 +7439,6 @@ bavaglio
 bave
 baveri
 bavero
-bazar
 bazzecola
 bazzecole
 beata
@@ -8262,7 +8204,6 @@ buio
 bulbi
 bulbo
 buoi
-buon
 buona
 buone
 buoni
@@ -8896,7 +8837,6 @@ cancellavo
 cancellazione
 cancellazioni
 cancellera
-cancellera'
 cancellero
 cancelli
 cancellino
@@ -9134,7 +9074,6 @@ caricavate
 caricavi
 caricavo
 carichera
-carichera'
 caricherai
 caricherei
 carichero
@@ -9715,7 +9654,6 @@ chiavi
 chieda
 chiede
 chiedendo
-chieder
 chiedera
 chiederai
 chiederci
@@ -9839,7 +9777,6 @@ cialde
 ciambella
 ciambelle
 ciao
-ciascun
 ciascuna
 ciascuno
 cibi
@@ -9972,7 +9909,6 @@ ciocca
 ciocche
 cioche
 cioe
-cioe'
 ciondoli
 ciondolo
 ciotola
@@ -10676,7 +10612,6 @@ compariate
 comparii
 comparimmo
 comparira
-comparira'
 comparirai
 compariranno
 comparire
@@ -10905,7 +10840,6 @@ compravi
 compravo
 comprenda
 comprende
-comprender
 comprendere
 comprenderne
 comprendi
@@ -11009,7 +10943,6 @@ comunista
 comuniste
 comunisti
 comunita
-comunita'
 comunque
 concatenare
 concatenata
@@ -12455,7 +12388,6 @@ correlati
 correndo
 corrente
 correnti
-correr
 correre
 corrergli
 correrle
@@ -12499,9 +12431,9 @@ corrompa
 corrompano
 corrompe
 corrompei
-corrompera
+corromperà
 corrompere
-corrompero
+corromperò
 corrompete
 corrompeva
 corrompevi
@@ -12509,10 +12441,6 @@ corrompevo
 corrompi
 corrompo
 corrompono
-corromputa
-corrompute
-corromputi
-corromputo
 corrono
 corrosa
 corrose
@@ -12570,7 +12498,6 @@ coscienti
 coscienza
 cose
 cosi
-cosi'
 cosiddetto
 cosituite
 cosmetica
@@ -13455,7 +13382,6 @@ dagli
 daglielo
 daini
 daino
-dall
 dalla
 dalle
 dallo
@@ -13576,7 +13502,6 @@ danzino
 danzo
 dapprima
 dara
-dara'
 darai
 daranno
 darci
@@ -14286,7 +14211,6 @@ deliziosa
 deliziose
 deliziosi
 delizioso
-dell
 della
 delle
 dello
@@ -14563,14 +14487,6 @@ deprechero
 deprechi
 deprechino
 depreco
-depressa
-depresse
-depressi
-depressiva
-depressive
-depressivi
-depressivo
-depresso
 deprezza
 deprezzai
 deprezzano
@@ -15027,7 +14943,6 @@ deturpiamo
 deturpiate
 deturpino
 deturpo
-dev'
 devasta
 devastai
 devastammo
@@ -15075,8 +14990,6 @@ devote
 devoti
 devoto
 devozione
-dfgdfgdfgdfgdfgd
-dfgdgdfgdfgdfg
 diabete
 diabolica
 diaboliche
@@ -15159,7 +15072,6 @@ diciate
 diciotto
 dicitura
 dico
-dicon
 dicono
 dicotomia
 dicotomicamente
@@ -15264,7 +15176,6 @@ differiscono
 difficile
 difficili
 difficolta
-difficolta'
 diffida
 diffidai
 diffidammo
@@ -15604,33 +15515,6 @@ diluivo
 dilungarci
 diluvi
 diluvio
-dimagrano
-dimagrendo
-dimagri
-dimagriamo
-dimagriate
-dimagrii
-dimagrimmo
-dimagrira
-dimagrirai
-dimagrire
-dimagrirei
-dimagriro
-dimagrisca
-dimagrisce
-dimagrisci
-dimagrisco
-dimagrisse
-dimagrissi
-dimagriste
-dimagristi
-dimagrita
-dimagrite
-dimagriti
-dimagrito
-dimagriva
-dimagrivi
-dimagrivo
 dimena
 dimenai
 dimenammo
@@ -17276,7 +17160,6 @@ dotta
 dotte
 dotti
 dotto
-dottor
 dottore
 dottori
 dottrina
@@ -17284,7 +17167,6 @@ dottrine
 dova
 dove
 dovendo
-dover
 doverci
 dovere
 doverle
@@ -17307,7 +17189,6 @@ dovettero
 dovetti
 doveva
 dovevamo
-dovevan
 dovevano
 dovevate
 dovevi
@@ -17315,7 +17196,6 @@ dovevo
 dovizia
 dovizie
 dovra
-dovra'
 dovrai
 dovranno
 dovrebbe
@@ -19091,7 +18971,6 @@ essenza
 essenziale
 essenziali
 essenzialmente
-esser
 essere
 essergli
 esseri
@@ -19099,6 +18978,7 @@ esserne
 essersi
 essi
 esso
+est
 estate
 estati
 estendibile
@@ -19364,7 +19244,6 @@ facessimo
 facesti
 faceva
 facevamo
-facevan
 facevano
 facevate
 facevi
@@ -19377,7 +19256,6 @@ fachiro
 facile
 facili
 facilita
-facilita'
 facilitano
 facilitare
 facilmente
@@ -19442,7 +19320,6 @@ fallimenti
 fallimento
 fallito
 fallo
-falo'
 falsa
 false
 falsi
@@ -19492,7 +19369,6 @@ fantine
 fantini
 fantino
 fara
-fara'
 farai
 faranno
 farcela
@@ -19976,7 +19852,6 @@ finanziero
 finanzino
 finanzio
 finche
-finche'
 fine
 finendo
 finestra
@@ -21552,7 +21427,6 @@ ghiottoni
 ghirlanda
 ghirlande
 ghisa
-gia'
 giacca
 giacche
 giacciono
@@ -21894,7 +21768,6 @@ giustifico
 giustizia
 giustizie
 giusto
-gjiaccerei
 glaciale
 glaciali
 globale
@@ -22116,7 +21989,6 @@ grafo
 grammatica
 grammi
 grammo
-gran
 grana
 granaglia
 granaglie
@@ -26561,7 +26433,6 @@ lanterna
 lanterne
 lapide
 lapidi
-lapis
 lardo
 larga
 larghe
@@ -27707,7 +27578,6 @@ magazzini
 magazzino
 maggi
 maggio
-maggior
 maggioranza
 maggiore
 maggiori
@@ -27838,7 +27708,6 @@ mammella
 mammelle
 mammola
 mammole
-management
 manata
 manate
 manca
@@ -28463,7 +28332,6 @@ mentiva
 mentivo
 mento
 mentre
-menu'
 menzionato
 menzognera
 menzognere
@@ -28635,7 +28503,6 @@ mettemmo
 mettendo
 mettendoci
 mettendosi
-metter
 mettera
 metterai
 metteranno
@@ -28771,7 +28638,6 @@ mietute
 mietuti
 mietuto
 miglio
-miglior
 migliora
 migliorabile
 migliorai
@@ -29049,7 +28915,6 @@ mobilia
 mobilie
 moda
 modalita
-modalita'
 mode
 modella
 modellai
@@ -29286,7 +29151,6 @@ moribonde
 moribondi
 moribondo
 morii
-morir
 morira
 morire
 moriro
@@ -29321,7 +29185,7 @@ morso
 morta
 mortale
 mortali
-mortalita
+mortalità
 morte
 morti
 mortifica
@@ -29544,7 +29408,6 @@ munizioni
 muoia
 muoio
 muoiono
-muor
 muore
 muori
 muotivi
@@ -29554,7 +29417,6 @@ muove
 muovemmo
 muovendo
 muovendosi
-muover
 muoverci
 muovere
 muovermi
@@ -29733,7 +29595,6 @@ naturale
 naturali
 naturalmente
 nature
-naufrag
 naufraga
 naufragai
 naufragano
@@ -29772,7 +29633,6 @@ nauseavate
 nauseavi
 nauseavo
 nausee
-nauseer
 nauseerai
 nauseerei
 nauseeremo
@@ -29786,7 +29646,6 @@ navale
 navali
 nave
 navi
-navig
 naviga
 navigabile
 navigabili
@@ -29810,7 +29669,6 @@ navigavano
 navigavate
 navigavi
 navigavo
-navigher
 navigherai
 navigherei
 navighi
@@ -29835,7 +29693,6 @@ necessaria
 necessariamente
 necessarie
 necessario
-necessit
 necessita
 necessitai
 necessitando
@@ -29872,7 +29729,6 @@ negavi
 negavo
 negazione
 negazioni
-negher
 negherai
 negheranno
 negherebbe
@@ -29913,7 +29769,6 @@ negoziato
 negoziava
 negoziavi
 negoziavo
-negozier
 negozierai
 negozierei
 negozino
@@ -29922,7 +29777,6 @@ negra
 negre
 negri
 negro
-nell
 nella
 nelle
 nello
@@ -29947,7 +29801,6 @@ nervosi
 nervoso
 nespola
 nespole
-nessun
 nessuna
 nessuno
 neutra
@@ -29959,7 +29812,6 @@ neutro
 nevai
 nevaio
 neve
-nevic
 nevica
 nevicai
 nevicammo
@@ -29981,7 +29833,6 @@ nevicavano
 nevicavate
 nevicavi
 nevicavo
-nevicher
 nevicherai
 nevicherei
 nevichi
@@ -30008,7 +29859,6 @@ nitrati
 nitrato
 nobile
 nobili
-nobilit
 nobilita
 nobilitai
 nobilitano
@@ -30020,11 +29870,9 @@ nobilitato
 nobilitava
 nobilitavi
 nobilitavo
-nobiliter
 nobiliti
 nobilitino
 nobilito
-nobilt
 nocciola
 nocciole
 noccioli
@@ -30043,7 +29891,6 @@ noiosa
 noiose
 noiosi
 noioso
-nolegger
 noleggerai
 noleggerei
 noleggi
@@ -30067,7 +29914,6 @@ nome
 nomi
 nomignoli
 nomignolo
-nomin
 nomina
 nominai
 nominale
@@ -30093,7 +29939,6 @@ nominavate
 nominavi
 nominavo
 nomine
-nominer
 nominerai
 nominerei
 nomineremo
@@ -30112,7 +29957,6 @@ nord
 norma
 normale
 normali
-normalit
 normalmente
 norme
 nostalgia
@@ -30149,7 +29993,6 @@ notavi
 notavo
 notazione
 note
-noter
 noterai
 noteranno
 noterebbe
@@ -30165,7 +30008,6 @@ notevolmente
 noti
 notiamo
 notiate
-notific
 notifica
 notificai
 notificano
@@ -30196,7 +30038,6 @@ nove
 novella
 novelle
 novembre
-novit
 novizi
 novizia
 novizie
@@ -30214,11 +30055,9 @@ nucleo
 nuda
 nude
 nudi
-nudit
 nudo
 nulla
 nullo
-numer
 numera
 numerai
 numerali
@@ -30242,7 +30081,6 @@ numeravano
 numeravate
 numeravi
 numeravo
-numerer
 numererai
 numererei
 numereremo
@@ -30263,7 +30101,6 @@ nunzi
 nunzio
 nuora
 nuore
-nuot
 nuota
 nuotai
 nuotammo
@@ -30287,7 +30124,6 @@ nuotavano
 nuotavate
 nuotavi
 nuotavo
-nuoter
 nuoterai
 nuoteranno
 nuoterebbe
@@ -30329,12 +30165,10 @@ nutrono
 nuvola
 nuvole
 nuvolosi
-nuvolosit
 nuvoloso
 nuziale
 nuziali
 oasi
-obbed
 obbedano
 obbedendo
 obbediamo
@@ -30344,7 +30178,6 @@ obbedienti
 obbedienza
 obbedii
 obbedimmo
-obbedir
 obbedirai
 obbedire
 obbedirei
@@ -30369,7 +30202,6 @@ obbedivano
 obbedivate
 obbedivi
 obbedivo
-obbiett
 obbietta
 obbiettai
 obbiettano
@@ -30381,7 +30213,6 @@ obbiettato
 obbiettava
 obbiettavi
 obbiettavo
-obbietter
 obbietti
 obbiettino
 obbiettivi
@@ -30389,7 +30220,6 @@ obbiettivo
 obbietto
 obbiezione
 obbiezioni
-obblig
 obbliga
 obbligai
 obbligammo
@@ -30407,13 +30237,11 @@ obbligato
 obbligava
 obbligavi
 obbligavo
-obbligher
 obblighi
 obblighino
 obbligo
 obelischi
 obelisco
-ober
 obera
 oberai
 oberammo
@@ -30437,7 +30265,6 @@ oberavano
 oberavate
 oberavi
 oberavo
-oberer
 obererai
 obereranno
 obererebbe
@@ -30452,7 +30279,6 @@ oberiamo
 oberiate
 oberino
 obero
-obesit
 obiettivi
 obiettivo
 obli
@@ -30480,7 +30306,6 @@ obliavano
 obliavate
 obliavi
 obliavo
-oblier
 oblierai
 oblieranno
 oblierebbe
@@ -30525,14 +30350,12 @@ occorrente
 occorrenti
 occorrenza
 occorrenze
-occorrer
 occorrera
 occorrere
 occorreva
 occorrono
 occorsi
 occorso
-occult
 occulta
 occultai
 occultammo
@@ -30550,7 +30373,6 @@ occultato
 occultava
 occultavi
 occultavo
-occulter
 occulterai
 occulterei
 occulti
@@ -30558,7 +30380,6 @@ occultiamo
 occultiate
 occultino
 occulto
-occup
 occupa
 occupai
 occupammo
@@ -30580,7 +30401,6 @@ occupavano
 occupavate
 occupavi
 occupavo
-occuper
 occupera
 occuperai
 occuperei
@@ -30621,7 +30441,6 @@ odiavano
 odiavate
 odiavi
 odiavo
-odier
 odierai
 odieranno
 odierebbe
@@ -30643,7 +30462,6 @@ odiose
 odiosi
 odioso
 odono
-odor
 odora
 odorai
 odorammo
@@ -30668,7 +30486,6 @@ odoravate
 odoravi
 odoravo
 odore
-odorer
 odorerai
 odoreranno
 odorerebbe
@@ -30714,7 +30531,6 @@ offesi
 offeso
 officina
 officine
-offr
 offra
 offre
 offrendo
@@ -30722,7 +30538,6 @@ offrendoci
 offrendomi
 offri
 offrigli
-offrir
 offrirci
 offrire
 offrirla
@@ -30735,7 +30550,6 @@ offriva
 offrivano
 offro
 offrono
-offusc
 offusca
 offuscai
 offuscammo
@@ -30753,7 +30567,6 @@ offuscato
 offuscava
 offuscavi
 offuscavo
-offuscher
 offuschi
 offuschino
 offusco
@@ -30769,8 +30582,6 @@ ognuna
 ognuno
 oleandri
 oleandro
-oleosit
-olezz
 olezza
 olezzai
 olezzammo
@@ -30792,7 +30603,6 @@ olezzavano
 olezzavate
 olezzavi
 olezzavo
-olezzer
 olezzerai
 olezzerei
 olezzeremo
@@ -30827,7 +30637,6 @@ oliavano
 oliavate
 oliavi
 oliavo
-olier
 oliera
 olierai
 olieranno
@@ -30857,7 +30666,6 @@ oltraggio
 oltranza
 oltre
 oltremare
-oltrepass
 oltrepassa
 oltrepassi
 oltrepasso
@@ -30899,10 +30707,8 @@ omissioni
 omogenea
 omogenee
 omogenei
-omogeneit
 omogeneita
 omogeneo
-omolog
 omologa
 omologai
 omologammo
@@ -30920,7 +30726,6 @@ omologato
 omologava
 omologavi
 omologavo
-omologher
 omologhi
 omologhino
 omologo
@@ -30929,7 +30734,6 @@ once
 oncia
 onda
 onde
-ondegger
 ondeggerai
 ondeggerei
 ondeggi
@@ -30951,7 +30755,6 @@ ondosa
 ondose
 ondosi
 ondoso
-ondul
 ondula
 ondulai
 ondulammo
@@ -30973,7 +30776,6 @@ ondulavano
 ondulavate
 ondulavi
 ondulavo
-onduler
 ondulerai
 ondulerei
 onduleremo
@@ -30988,7 +30790,6 @@ onerosa
 onerose
 onerosi
 oneroso
-onest
 onesta
 oneste
 onesti
@@ -30996,7 +30797,6 @@ onesto
 onice
 onomastici
 onomastico
-onor
 onora
 onorai
 onorammo
@@ -31021,7 +30821,6 @@ onoravate
 onoravi
 onoravo
 onore
-onorer
 onorerai
 onoreranno
 onorerebbe
@@ -31040,7 +30839,6 @@ opaca
 opache
 opachi
 opaco
-oper
 opera
 operai
 operammo
@@ -31072,7 +30870,6 @@ operavo
 operazione
 operazioni
 opere
-operer
 opererai
 opereranno
 opererebbe
@@ -31093,7 +30890,6 @@ operosi
 operoso
 opifici
 opificio
-opin
 opina
 opinai
 opinammo
@@ -31117,7 +30913,6 @@ opinavano
 opinavate
 opinavi
 opinavo
-opiner
 opinerai
 opineranno
 opinerebbe
@@ -31179,7 +30974,6 @@ optavano
 optavate
 optavi
 optavo
-opter
 opterai
 opteranno
 opterebbe
@@ -31224,7 +31018,6 @@ ordigni
 ordigno
 ordii
 ordimmo
-ordin
 ordina
 ordinai
 ordinamento
@@ -31251,7 +31044,6 @@ ordinavate
 ordinavi
 ordinavo
 ordine
-ordiner
 ordinerai
 ordinerei
 ordineremo
@@ -31261,7 +31053,6 @@ ordiniamo
 ordiniate
 ordinino
 ordino
-ordir
 ordirai
 ordiranno
 ordire
@@ -31310,7 +31101,6 @@ organica
 organiche
 organici
 organico
-organizz
 organizza
 organizzai
 organizzata
@@ -31351,7 +31141,6 @@ origliato
 origliava
 origliavi
 origliavo
-origlier
 origlierai
 origlierei
 origlino
@@ -31386,7 +31175,6 @@ orlavano
 orlavate
 orlavi
 orlavo
-orler
 orlerai
 orleranno
 orlerebbe
@@ -31404,7 +31192,6 @@ orlo
 orma
 ormai
 orme
-ormegger
 ormeggerai
 ormeggerei
 ormeggi
@@ -31447,7 +31234,6 @@ ornavano
 ornavate
 ornavi
 ornavo
-orner
 ornerai
 orneranno
 ornerebbe
@@ -31516,9 +31302,7 @@ osavo
 oscena
 oscene
 osceni
-oscenit
 osceno
-oscill
 oscilla
 oscillai
 oscillammo
@@ -31537,7 +31321,6 @@ oscillato
 oscillava
 oscillavi
 oscillavo
-osciller
 oscillerai
 oscillerei
 oscilli
@@ -31545,7 +31328,6 @@ oscilliamo
 oscilliate
 oscillino
 oscillo
-oscur
 oscura
 oscurai
 oscurammo
@@ -31568,7 +31350,6 @@ oscuravate
 oscuravi
 oscuravo
 oscure
-oscurer
 oscurerai
 oscurerei
 oscureremo
@@ -31577,9 +31358,7 @@ oscuri
 oscuriamo
 oscuriate
 oscurino
-oscurit
 oscuro
-oser
 oserai
 oseranno
 oserebbe
@@ -31595,10 +31374,8 @@ osiate
 osino
 ospedale
 ospedali
-ospit
 ospita
 ospitai
-ospitalit
 ospitammo
 ospitando
 ospitano
@@ -31619,7 +31396,6 @@ ospitavate
 ospitavi
 ospitavo
 ospite
-ospiter
 ospiterai
 ospiterei
 ospiteremo
@@ -31647,14 +31423,12 @@ ossequiato
 ossequiava
 ossequiavi
 ossequiavo
-ossequier
 ossequino
 ossequio
 ossequiosa
 ossequiose
 ossequiosi
 ossequioso
-osserv
 osserva
 osservai
 osservammo
@@ -31673,7 +31447,6 @@ osservava
 osservavi
 osservavo
 osservazione
-osserver
 osserverai
 osserverei
 osservi
@@ -31686,7 +31459,6 @@ ossessioni
 ossi
 ossigeno
 osso
-ostacol
 ostacola
 ostacolai
 ostacolano
@@ -31698,14 +31470,12 @@ ostacolato
 ostacolava
 ostacolavi
 ostacolavo
-ostacoler
 ostacoli
 ostacolino
 ostacolo
 ostaggi
 ostaggio
 oste
-ostent
 ostenta
 ostentai
 ostentammo
@@ -31724,7 +31494,6 @@ ostentava
 ostentavi
 ostentavo
 ostentazione
-ostenter
 ostenterai
 ostenterei
 ostenti
@@ -31741,7 +31510,6 @@ ostetrico
 osti
 ostile
 ostili
-ostilit
 ostinata
 ostinate
 ostinati
@@ -31778,7 +31546,6 @@ ottimo
 otto
 ottobre
 ottone
-ottur
 ottura
 otturai
 otturammo
@@ -31800,7 +31567,6 @@ otturavano
 otturavate
 otturavi
 otturavo
-otturer
 otturerai
 otturerei
 ottureremo
@@ -31818,6 +31584,7 @@ ovale
 ovali
 ovatta
 ovattata
+ovest
 ovile
 ovili
 ovunque
@@ -31851,7 +31618,6 @@ oziavano
 oziavate
 oziavi
 oziavo
-ozier
 ozierai
 ozieranno
 ozierebbe
@@ -31866,7 +31632,6 @@ ozio
 oziosa
 oziose
 oziosi
-oziosit
 ozioso
 pacata
 pacate
@@ -31933,7 +31698,6 @@ pagavi
 pagavo
 pagella
 pagelle
-pagher
 pagherai
 pagheranno
 pagherebbe
@@ -31965,7 +31729,6 @@ palazzo
 palchi
 palco
 pale
-pales
 palesa
 palesai
 palesammo
@@ -31988,7 +31751,6 @@ palesavate
 palesavi
 palesavo
 palese
-paleser
 paleserai
 paleserei
 paleseremo
@@ -32022,7 +31784,6 @@ palombari
 palombaro
 palombi
 palombo
-palp
 palpa
 palpabile
 palpabili
@@ -32050,7 +31811,6 @@ palpavi
 palpavo
 palpebra
 palpebre
-palper
 palperai
 palperanno
 palperebbe
@@ -32133,7 +31893,6 @@ paradosso
 parafanghi
 parafango
 parafrasi
-paragon
 paragona
 paragonai
 paragonano
@@ -32146,7 +31905,6 @@ paragonava
 paragonavi
 paragonavo
 paragone
-paragoner
 paragoni
 paragonino
 paragono
@@ -32174,7 +31932,6 @@ parco
 pare
 parecchi
 parecchie
-paregger
 pareggerai
 pareggerei
 pareggi
@@ -32206,8 +31963,6 @@ pareti
 pareva
 parevano
 pari
-parit
-parl
 parla
 parlai
 parlamenti
@@ -32234,7 +31989,6 @@ parlavano
 parlavate
 parlavi
 parlavo
-parler
 parlerai
 parleranno
 parlerebbe
@@ -32263,7 +32017,6 @@ parrucche
 parsa
 parso
 parte
-partecip
 partecipa
 partecipai
 partecipato
@@ -32285,14 +32038,12 @@ partite
 partiti
 partito
 parto
-partor
 partorano
 partorendo
 partoriamo
 partoriate
 partorii
 partorimmo
-partorir
 partorirai
 partorire
 partorirei
@@ -32315,7 +32066,6 @@ parve
 parvero
 parziale
 parziali
-pascol
 pascola
 pascolai
 pascolammo
@@ -32333,7 +32083,6 @@ pascolato
 pascolava
 pascolavi
 pascolavo
-pascoler
 pascolerai
 pascolerei
 pascoli
@@ -32343,7 +32092,6 @@ pascolino
 pascolo
 pasqua
 pasque
-pass
 passa
 passabile
 passabili
@@ -32384,7 +32132,6 @@ passeggia
 passeggiai
 passeggino
 passeggio
-passer
 passera
 passerai
 passeranno
@@ -32449,7 +32196,6 @@ patrimonio
 patriota
 patriote
 patrioti
-patrocin
 patrocina
 patrocinai
 patrocini
@@ -32463,7 +32209,6 @@ patteggiai
 patteggino
 patteggio
 patti
-pattin
 pattina
 pattinai
 pattinammo
@@ -32481,7 +32226,6 @@ pattinato
 pattinava
 pattinavi
 pattinavo
-pattiner
 pattinerai
 pattinerei
 pattini
@@ -32502,7 +32246,6 @@ paurosi
 pauroso
 pausa
 pause
-paviment
 pavimenta
 pavimentai
 pavimenti
@@ -32519,7 +32262,6 @@ pazzi
 pazzia
 pazzie
 pazzo
-pecc
 pecca
 peccai
 peccammo
@@ -32547,7 +32289,6 @@ peccavano
 peccavate
 peccavi
 peccavo
-peccher
 peccherai
 peccherei
 peccheremo
@@ -32564,7 +32305,6 @@ pedaggi
 pedaggio
 pedale
 pedali
-pedalo'
 pedana
 pedane
 pedante
@@ -32574,7 +32314,6 @@ pediatra
 pediatri
 pedice
 pedicure
-pedin
 pedina
 pedinai
 pedinammo
@@ -32597,7 +32336,6 @@ pedinavate
 pedinavi
 pedinavo
 pedine
-pediner
 pedinerai
 pedinerei
 pedineremo
@@ -32610,7 +32348,6 @@ pedino
 pedone
 pedoni
 peggio
-peggior
 peggiora
 peggiorai
 peggioramento
@@ -32623,7 +32360,6 @@ peggiorato
 peggiorava
 peggioravi
 peggioravo
-peggiorer
 peggiori
 peggiorino
 peggioro
@@ -32652,7 +32388,6 @@ pelavano
 pelavate
 pelavi
 pelavo
-peler
 pelerai
 peleranno
 pelerebbe
@@ -32711,7 +32446,6 @@ penavano
 penavate
 penavi
 penavo
-pend
 penda
 pendano
 pende
@@ -32720,7 +32454,6 @@ pendemmo
 pendendo
 pendenza
 pendenze
-pender
 penderai
 penderanno
 pendere
@@ -32760,7 +32493,6 @@ pendute
 penduti
 penduto
 pene
-pener
 penerai
 peneranno
 penerebbe
@@ -32770,7 +32502,6 @@ peneremo
 penereste
 peneresti
 penerete
-penetr
 penetra
 penetrai
 penetrammo
@@ -32788,7 +32519,6 @@ penetrato
 penetrava
 penetravi
 penetravo
-penetrer
 penetrerai
 penetrerei
 penetri
@@ -32819,7 +32549,6 @@ penosa
 penose
 penosi
 penoso
-pens
 pensa
 pensai
 pensammo
@@ -32843,7 +32572,6 @@ pensavano
 pensavate
 pensavi
 pensavo
-penser
 penserai
 penseranno
 penserebbe
@@ -32878,7 +32606,6 @@ penultima
 penultime
 penultimi
 penultimo
-penzol
 penzola
 penzolai
 penzolammo
@@ -32896,7 +32623,6 @@ penzolato
 penzolava
 penzolavi
 penzolavo
-penzoler
 penzolerai
 penzolerei
 penzoli
@@ -32911,14 +32637,12 @@ peraltro
 percento
 percentuale
 percentuali
-percep
 percepano
 percependo
 percepiamo
 percepiate
 percepii
 percepimmo
-percepir
 percepirai
 percepire
 percepirei
@@ -32941,7 +32665,6 @@ percezione
 percezioni
 perche
 percio
-percio'
 percome
 percorre
 percorrere
@@ -32962,7 +32685,6 @@ perdita
 perdite
 perdizione
 perdizioni
-perdon
 perdona
 perdonai
 perdonammo
@@ -32980,7 +32702,6 @@ perdonato
 perdonava
 perdonavi
 perdonavo
-perdoner
 perdonerai
 perdonerei
 perdoni
@@ -32990,7 +32711,6 @@ perdonino
 perdono
 perduti
 pere
-peregrin
 peregrina
 peregrinai
 peregrini
@@ -33016,7 +32736,6 @@ perequato
 perequava
 perequavi
 perequavo
-perequer
 perequerai
 perequerei
 perequi
@@ -33028,7 +32747,6 @@ perfetta
 perfette
 perfetti
 perfetto
-perfezion
 perfeziona
 perfezionare
 perfezione
@@ -33036,7 +32754,6 @@ perfezioni
 perfeziono
 perfidia
 perfino
-perfor
 perfora
 perforai
 perforammo
@@ -33054,7 +32771,6 @@ perforato
 perforava
 perforavi
 perforavo
-perforer
 perforerai
 perforerei
 perfori
@@ -33114,7 +32830,6 @@ perni
 pernice
 pernici
 perno
-pernott
 pernotta
 pernottai
 pernottano
@@ -33126,7 +32841,6 @@ pernottato
 pernottava
 pernottavi
 pernottavo
-pernotter
 pernotti
 pernottino
 pernotto
@@ -33135,10 +32849,8 @@ perpetua
 perpetue
 perpetui
 perpetuo
-perquis
 perquisano
 perquisii
-perquisir
 perquisire
 perquisita
 perquisite
@@ -33149,7 +32861,6 @@ perquisivi
 perquisivo
 persa
 perse
-persever
 persevera
 perseverai
 perseveri
@@ -33181,7 +32892,6 @@ pertanto
 pertica
 pertiche
 pertosse
-perturb
 perturba
 perturbai
 perturbano
@@ -33193,36 +32903,9 @@ perturbato
 perturbava
 perturbavi
 perturbavo
-perturber
 perturbi
 perturbino
 perturbo
-pesa
-pesai
-pesammo
-pesando
-pesano
-pesante
-pesanti
-pesare
-pesarono
-pesasse
-pesassero
-pesassi
-pesassimo
-pesaste
-pesasti
-pesata
-pesate
-pesati
-pesato
-pesava
-pesavamo
-pesavano
-pesavate
-pesavi
-pesavo
-pesc
 pesca
 pescai
 pescammo
@@ -33252,7 +32935,6 @@ pesce
 pescecane
 pescecani
 pesche
-pescher
 pescherai
 pescherei
 pescheremo
@@ -33264,7 +32946,6 @@ peschino
 pesci
 pesco
 pese
-peser
 peserai
 peseranno
 peserebbe
@@ -33278,7 +32959,6 @@ pesi
 pesiamo
 pesiate
 pesino
-peso
 pessima
 pessime
 pessimi
@@ -33308,7 +32988,6 @@ piacciono
 piace
 piacendole
 piacente
-piacer
 piaceranno
 piacere
 piacerebbe
@@ -33330,7 +33009,6 @@ piaciuto
 piacque
 piaga
 piaghe
-piagnucol
 piagnucola
 piagnucoli
 piagnucolo
@@ -33344,7 +33022,6 @@ pianga
 piange
 piangendo
 piangenti
-pianger
 piangerai
 piangere
 piangesse
@@ -33360,7 +33037,6 @@ pianista
 pianisti
 piano
 pianse
-piant
 pianta
 piantai
 piantammo
@@ -33383,7 +33059,6 @@ piantavate
 piantavi
 piantavo
 piante
-pianter
 pianterai
 pianterei
 pianteremo
@@ -33432,10 +33107,8 @@ picchiato
 picchiava
 picchiavi
 picchiavo
-picchier
 picchierai
 picchierei
-picchiett
 picchietta
 picchietti
 picchietto
@@ -33458,7 +33131,6 @@ piede
 piedi
 piega
 pieghe
-pieghett
 pieghetta
 pieghettai
 pieghetti
@@ -33468,7 +33140,6 @@ pienamente
 piene
 pieni
 pieno
-piet
 pietanza
 pietanze
 pietosa
@@ -33477,7 +33148,6 @@ pietosi
 pietoso
 pietra
 pietre
-pietrific
 pietrifica
 pietrifico
 pietrina
@@ -33509,7 +33179,6 @@ pigliatevi
 pigliati
 pigliato
 pigliavano
-piglieran
 piglio
 pigmenti
 pigmento
@@ -33517,7 +33186,6 @@ pignola
 pignole
 pignoli
 pignolo
-pignor
 pignora
 pignorai
 pignorammo
@@ -33535,7 +33203,6 @@ pignorato
 pignorava
 pignoravi
 pignoravo
-pignorer
 pignorerai
 pignorerei
 pignori
@@ -33543,7 +33210,6 @@ pignoriamo
 pignoriate
 pignorino
 pignoro
-pigol
 pigola
 pigolai
 pigolammo
@@ -33565,7 +33231,6 @@ pigolavano
 pigolavate
 pigolavi
 pigolavo
-pigoler
 pigolerai
 pigolerei
 pigoleremo
@@ -33591,7 +33256,6 @@ piloni
 pilota
 pilotando
 piloti
-pilucc
 pilucca
 piluccai
 piluccammo
@@ -33609,7 +33273,6 @@ piluccato
 piluccava
 piluccavi
 piluccavo
-piluccher
 pilucchi
 pilucchino
 pilucco
@@ -33630,7 +33293,6 @@ pinzetta
 pinzette
 piogge
 pioggia
-piomb
 piomba
 piombai
 piombammo
@@ -33652,7 +33314,6 @@ piombavano
 piombavate
 piombavi
 piombavo
-piomber
 piomberai
 piomberei
 piomberemo
@@ -33666,7 +33327,6 @@ pionieristico
 pioppi
 pioppo
 piove
-piover
 piovere
 piovosa
 piovose
@@ -33703,7 +33363,6 @@ pittore
 pittoresca
 pittoresco
 pittori
-pittur
 pittura
 pitturai
 pitturammo
@@ -33722,7 +33381,6 @@ pitturava
 pitturavi
 pitturavo
 pitture
-pitturer
 pitturerai
 pitturerei
 pitturi
@@ -33730,7 +33388,6 @@ pitturiamo
 pitturiate
 pitturino
 pitturo
-piu`
 piuma
 piume
 piumini
@@ -33739,7 +33396,6 @@ piuttosto
 pizza
 pizze
 pizzi
-pizzic
 pizzica
 pizzicai
 pizzicammo
@@ -33757,14 +33413,12 @@ pizzicato
 pizzicava
 pizzicavi
 pizzicavo
-pizzicher
 pizzichi
 pizzichino
 pizzico
 pizzicotti
 pizzicotto
 pizzo
-placc
 placca
 placcai
 placcammo
@@ -33786,7 +33440,6 @@ placcavano
 placcavate
 placcavi
 placcavo
-placcher
 placcherai
 placcherei
 placchi
@@ -33802,7 +33455,6 @@ plance
 plancia
 planetari
 planetario
-plasm
 plasma
 plasmai
 plasmammo
@@ -33824,7 +33476,6 @@ plasmavano
 plasmavate
 plasmavi
 plasmavo
-plasmer
 plasmerai
 plasmerei
 plasmeremo
@@ -33836,7 +33487,6 @@ plasmino
 plasmo
 plastica
 plastiche
-plasticit
 platani
 platano
 platea
@@ -33958,7 +33608,6 @@ pomici
 pomo
 pomodori
 pomodoro
-pomp
 pompa
 pompai
 pompammo
@@ -33983,7 +33632,6 @@ pompavate
 pompavi
 pompavo
 pompe
-pomper
 pomperai
 pomperanno
 pomperebbe
@@ -34004,7 +33652,6 @@ pomposa
 pompose
 pomposi
 pomposo
-ponder
 pondera
 ponderai
 ponderammo
@@ -34022,7 +33669,6 @@ ponderato
 ponderava
 ponderavi
 ponderavo
-ponderer
 pondererai
 pondererei
 ponderi
@@ -34044,7 +33690,6 @@ pontifici
 pontificio
 pontile
 pontili
-popol
 popola
 popolai
 popolammo
@@ -34054,7 +33699,6 @@ popolane
 popolani
 popolano
 popolare
-popolarit
 popolarono
 popolasse
 popolassi
@@ -34070,7 +33714,6 @@ popolavano
 popolavate
 popolavi
 popolavo
-popoler
 popolerai
 popolerei
 popoleremo
@@ -34115,7 +33758,6 @@ porrebbe
 porri
 porro
 porse
-port
 porta
 portacarte
 portafiori
@@ -34151,7 +33793,6 @@ portentosa
 portentose
 portentosi
 portentoso
-porter
 portera
 porterai
 porteranno
@@ -34201,7 +33842,6 @@ posavano
 posavate
 posavi
 posavo
-posdat
 posdata
 posdatai
 posdatammo
@@ -34219,7 +33859,6 @@ posdatato
 posdatava
 posdatavi
 posdatavo
-posdater
 posdaterai
 posdaterei
 posdati
@@ -34228,7 +33867,6 @@ posdatiate
 posdatino
 posdato
 pose
-poser
 poserai
 poseranno
 poserebbe
@@ -34258,14 +33896,12 @@ posizioni
 poso
 possa
 possano
-possed
 posseda
 possedano
 possede
 possedei
 possedemmo
 possedendo
-posseder
 possederai
 possedere
 possederei
@@ -34301,7 +33937,6 @@ possiamo
 possibile
 possibili
 possibilita
-possibilita'
 possibilmente
 possiede
 posso
@@ -34336,7 +33971,6 @@ potenziale
 potenziali
 potenzialita
 potenziamento
-poter
 poterceli
 potere
 poterla
@@ -34364,7 +33998,6 @@ potevano
 potevate
 potevi
 potevo
-potr
 potra
 potrai
 potranno
@@ -34383,12 +34016,10 @@ povera
 povere
 poveri
 povero
-povert
 pozza
 pozze
 pozzi
 pozzo
-pranz
 pranza
 pranzai
 pranzammo
@@ -34410,7 +34041,6 @@ pranzavano
 pranzavate
 pranzavi
 pranzavo
-pranzer
 pranzerai
 pranzerei
 pranzeremo
@@ -34423,7 +34053,6 @@ pranzo
 prateria
 praterie
 prati
-pratic
 pratica
 praticai
 praticamente
@@ -34443,7 +34072,6 @@ praticava
 praticavi
 praticavo
 pratiche
-praticher
 pratichi
 pratichino
 pratici
@@ -34454,7 +34082,6 @@ precaria
 precarie
 precario
 precauzione
-preced
 preceda
 precedano
 precede
@@ -34465,7 +34092,6 @@ precedente
 precedentemente
 precedenti
 precedenza
-preceder
 precederai
 precedere
 precederei
@@ -34492,14 +34118,12 @@ precetti
 precetto
 precettore
 precettori
-precipit
 precipita
 precipitai
 precipiti
 precipito
 precipizi
 precipizio
-precis
 precisa
 precisai
 precisamente
@@ -34520,7 +34144,6 @@ precisavi
 precisavo
 precisazione
 precise
-preciser
 preciserai
 preciserei
 precisi
@@ -34554,8 +34177,6 @@ precorsa
 precorse
 precorsi
 precorso
-pred
-pred
 preda
 predai
 predammo
@@ -34584,7 +34205,6 @@ predecessore
 predefinite
 predefinito
 predendo
-preder
 prederai
 prederanno
 prederebbe
@@ -34602,7 +34222,6 @@ predetto
 predi
 prediamo
 prediate
-predic
 predica
 predicai
 predicammo
@@ -34621,7 +34240,6 @@ predicava
 predicavi
 predicavo
 prediche
-predicher
 predichi
 predichino
 predico
@@ -34635,7 +34253,6 @@ prediligi
 prediligo
 predimmo
 predino
-predir
 predirai
 prediranno
 predire
@@ -34677,7 +34294,6 @@ predone
 predoni
 preesistenti
 prefazione
-prefer
 preferano
 preferendo
 preferenza
@@ -34686,7 +34302,6 @@ preferiamo
 preferiate
 preferii
 preferimmo
-preferir
 preferirai
 preferire
 preferirei
@@ -34710,7 +34325,6 @@ prefetto
 prefissata
 prefissi
 prefisso
-preg
 prega
 pregai
 pregammo
@@ -34736,7 +34350,6 @@ pregavi
 pregavo
 pregevole
 pregevoli
-pregher
 pregherai
 pregherei
 pregheremo
@@ -34750,7 +34363,6 @@ preghino
 pregi
 pregio
 prego
-pregust
 pregusta
 pregustai
 pregustano
@@ -34762,11 +34374,9 @@ pregustato
 pregustava
 pregustavi
 pregustavo
-preguster
 pregusti
 pregustino
 pregusto
-prelev
 preleva
 prelevai
 prelevammo
@@ -34784,7 +34394,6 @@ prelevato
 prelevava
 prelevavi
 prelevavo
-prelever
 preleverai
 preleverei
 prelevi
@@ -34796,7 +34405,6 @@ prelibata
 prelibate
 prelibati
 prelibato
-prelimin
 prelimina
 preliminai
 preliminare
@@ -34805,12 +34413,10 @@ prelimini
 prelimino
 preludi
 preludio
-prem
 prema
 premano
 prematura
 preme
-premedit
 premedita
 premeditai
 premediti
@@ -34818,7 +34424,6 @@ premedito
 premei
 prememmo
 premendo
-premer
 premerai
 premeranno
 premere
@@ -34873,7 +34478,6 @@ premiavano
 premiavate
 premiavi
 premiavo
-premier
 premierai
 premierei
 premieremo
@@ -34895,7 +34499,6 @@ prenda
 prende
 prendemmo
 prendendo
-prender
 prenderai
 prenderci
 prendere
@@ -34923,7 +34526,6 @@ prendine
 prenditi
 prendo
 prendono
-prenot
 prenota
 prenotai
 prenotammo
@@ -34943,7 +34545,6 @@ prenotavi
 prenotavo
 prenotazione
 prenotazioni
-prenoter
 prenoterai
 prenoterei
 prenoti
@@ -34953,7 +34554,6 @@ prenotino
 prenoto
 preoccupa
 preoccupatevi
-prepar
 prepara
 preparai
 preparammo
@@ -34971,7 +34571,6 @@ preparato
 preparava
 preparavi
 preparavo
-preparer
 preparerai
 preparerei
 prepari
@@ -34999,8 +34598,6 @@ prescrive
 prescrivi
 prescrivo
 prese
-present
-present
 presenta
 presentai
 presentano
@@ -35014,12 +34611,10 @@ presentavi
 presentavo
 presentazione
 presente
-presenter
 presenti
 presentiamo
 presentii
 presentino
-presentir
 presentire
 presentita
 presentite
@@ -35039,7 +34634,6 @@ presenzio
 presepi
 presepio
 presero
-preserv
 preserva
 preservai
 preservano
@@ -35052,7 +34646,6 @@ preservato
 preservava
 preservavi
 preservavo
-preserver
 preservi
 preservino
 preservo
@@ -35064,12 +34657,10 @@ presidenza
 presidenze
 presidi
 presidio
-presied
 presieda
 presiedano
 presiede
 presiedei
-presieder
 presiedere
 presiedete
 presiedeva
@@ -35083,7 +34674,6 @@ presiedute
 presieduti
 presieduto
 preso
-press
 pressa
 pressai
 pressammo
@@ -35107,7 +34697,6 @@ pressavano
 pressavate
 pressavi
 pressavo
-presser
 presserai
 presserei
 presseremo
@@ -35120,9 +34709,7 @@ pressione
 pressioni
 presso
 pressoche
-prest
 presta
-prestabil
 prestabiliti
 prestai
 prestammo
@@ -35147,7 +34734,6 @@ prestavate
 prestavi
 prestavo
 prestazioni
-prester
 presterai
 presterei
 presteremo
@@ -35197,7 +34783,6 @@ prevalsa
 prevalse
 prevalsi
 prevalso
-prevarr
 preveda
 prevede
 prevedendo
@@ -35209,14 +34794,12 @@ prevedeva
 prevedi
 prevedo
 prevedono
-preven
 prevenano
 prevenendo
 preveniamo
 preveniate
 prevenii
 prevenimmo
-prevenir
 prevenirai
 prevenire
 prevenirei
@@ -35235,7 +34818,6 @@ prevenito
 preveniva
 prevenivi
 prevenivo
-preventiv
 preventiva
 preventivi
 preventivo
@@ -35255,7 +34837,6 @@ prezzi
 prezzo
 prigione
 prigioni
-prill
 prilla
 prillai
 prillammo
@@ -35277,7 +34858,6 @@ prillavano
 prillavate
 prillavi
 prillavo
-priller
 prillerai
 prillerei
 prilleremo
@@ -35339,7 +34919,6 @@ privo
 probabile
 probabili
 probabilmente
-probit
 problema
 problemi
 procacci
@@ -35347,14 +34926,12 @@ procaccia
 procacciai
 procaccino
 procaccio
-proced
 proceda
 procedano
 procede
 procedei
 procedemmo
 procedendo
-proceder
 procederai
 procedere
 procederei
@@ -35384,7 +34961,6 @@ procellosa
 procellose
 procellosi
 procelloso
-process
 processa
 processai
 processano
@@ -35396,13 +34972,11 @@ processato
 processava
 processavi
 processavo
-processer
 processi
 processino
 processo
 processore
 processori
-proclam
 proclama
 proclamai
 proclamano
@@ -35414,7 +34988,6 @@ proclamato
 proclamava
 proclamavi
 proclamavo
-proclamer
 proclami
 proclamino
 proclamo
@@ -35436,7 +35009,6 @@ procreato
 procreava
 procreavi
 procreavo
-procreer
 procreerai
 procreerei
 procrei
@@ -35444,7 +35016,6 @@ procreiamo
 procreiate
 procreino
 procreo
-procur
 procura
 procurai
 procurammo
@@ -35463,7 +35034,6 @@ procurava
 procuravi
 procuravo
 procure
-procurer
 procurerai
 procurerei
 procuri
@@ -35497,7 +35067,6 @@ profana
 profane
 profani
 profano
-profess
 professa
 professai
 professano
@@ -35509,7 +35078,6 @@ professato
 professava
 professavi
 professavo
-professer
 professi
 professino
 professo
@@ -35517,7 +35085,6 @@ professore
 professori
 profeta
 profeti
-profetizz
 profetizza
 profetizzi
 profetizzo
@@ -35529,7 +35096,6 @@ proficui
 proficuo
 profili
 profilo
-profitt
 profitta
 profittai
 profittano
@@ -35541,7 +35107,6 @@ profittato
 profittava
 profittavi
 profittavo
-profitter
 profitti
 profittino
 profitto
@@ -35549,14 +35114,12 @@ profonda
 profondamente
 profonde
 profondi
-profondit
 profondita
 profondo
 profuga
 profughe
 profughi
 profugo
-profum
 profuma
 profumai
 profumammo
@@ -35574,7 +35137,6 @@ profumato
 profumava
 profumavi
 profumavo
-profumer
 profumerai
 profumerei
 profumeria
@@ -35588,7 +35150,6 @@ profumino
 profumo
 profusione
 profusioni
-progett
 progetta
 progettai
 progettano
@@ -35600,7 +35161,6 @@ progettato
 progettava
 progettavi
 progettavo
-progetter
 progetti
 progettino
 progetto
@@ -35610,10 +35170,8 @@ programmatore
 programmatori
 programmazione
 programmi
-progred
 progredano
 progredii
-progredir
 progredire
 progredita
 progredite
@@ -35624,14 +35182,12 @@ progredivi
 progredivo
 progressi
 progresso
-proib
 proibano
 proibendo
 proibiamo
 proibiate
 proibii
 proibimmo
-proibir
 proibirai
 proibire
 proibirei
@@ -35660,7 +35216,6 @@ proibivano
 proibivate
 proibivi
 proibivo
-proiett
 proietta
 proiettai
 proiettano
@@ -35672,7 +35227,6 @@ proiettato
 proiettava
 proiettavi
 proiettavo
-proietter
 proietti
 proiettile
 proiettili
@@ -35687,7 +35241,6 @@ proletari
 proletaria
 proletarie
 proletario
-prolific
 prolifica
 prolificai
 prolifiche
@@ -35696,7 +35249,6 @@ prolifici
 prolifico
 prologhi
 prologo
-prolung
 prolunga
 prolungai
 prolungano
@@ -35733,7 +35285,6 @@ promossi
 promosso
 promotore
 promotori
-promulg
 promulga
 promulgai
 promulgano
@@ -35754,7 +35305,6 @@ pronipote
 pronipoti
 pronome
 pronomi
-pronostic
 pronostica
 pronostico
 pronta
@@ -35771,7 +35321,6 @@ pronuncia
 pronunciai
 pronuncino
 pronuncio
-propag
 propaga
 propagai
 propagammo
@@ -35791,11 +35340,9 @@ propagato
 propagava
 propagavi
 propagavo
-propagher
 propaghi
 propaghino
 propago
-propal
 propala
 propalai
 propalammo
@@ -35813,7 +35360,6 @@ propalato
 propalava
 propalavi
 propalavo
-propaler
 propalerai
 propalerei
 propali
@@ -35829,7 +35375,6 @@ propensa
 propense
 propensi
 propenso
-propin
 propina
 propinai
 propinammo
@@ -35847,7 +35392,6 @@ propinato
 propinava
 propinavi
 propinavo
-propiner
 propinerai
 propinerei
 propini
@@ -35872,10 +35416,8 @@ proposto
 propri
 propria
 proprie
-propriet
 proprieta
 proprio
-prorog
 proroga
 prorogai
 prorogammo
@@ -35894,16 +35436,13 @@ prorogava
 prorogavi
 prorogavo
 proroghe
-prorogher
 proroghi
 proroghino
 prorogo
-proromp
 prorompa
 prorompano
 prorompe
 prorompei
-proromper
 prorompere
 prorompete
 prorompeva
@@ -35923,7 +35462,6 @@ prosaici
 prosaico
 prosciogli
 prosciolgo
-prosciug
 prosciuga
 prosciugai
 prosciughi
@@ -35935,7 +35473,6 @@ prosegu
 proseguano
 prosegue
 proseguii
-proseguir
 proseguire
 proseguita
 proseguite
@@ -35944,7 +35481,6 @@ proseguito
 proseguiva
 proseguivi
 proseguivo
-prosper
 prospera
 prosperai
 prosperano
@@ -35957,12 +35493,9 @@ prosperava
 prosperavi
 prosperavo
 prospere
-prosperer
 prosperi
 prosperino
-prosperit
 prospero
-prospett
 prospetta
 prospettai
 prospetti
@@ -35970,11 +35503,9 @@ prospetto
 prossima
 prossime
 prossimi
-prossimit
 prossimo
 prostitu
 prostituii
-prostr
 prostra
 prostrai
 prostrammo
@@ -35992,7 +35523,6 @@ prostrato
 prostrava
 prostravi
 prostravo
-prostrer
 prostrerai
 prostrerei
 prostri
@@ -36011,7 +35541,6 @@ protesa
 protese
 protesi
 proteso
-protest
 protesta
 protestai
 protestano
@@ -36024,7 +35553,6 @@ protestava
 protestavi
 protestavo
 proteste
-protester
 protesti
 protestino
 protesto
@@ -36037,7 +35565,6 @@ protezioni
 protocollo
 prototipi
 prototipo
-prov
 prova
 provai
 provammo
@@ -36062,14 +35589,12 @@ provavate
 provavi
 provavo
 prove
-proven
 provenano
 provenendo
 proveniamo
 proveniate
 provenii
 provenimmo
-provenir
 provenirai
 provenire
 provenirei
@@ -36090,7 +35615,6 @@ provenivi
 provenivo
 proventi
 provento
-prover
 proverai
 proveranno
 proverbi
@@ -36113,7 +35637,6 @@ province
 provincia
 provino
 provo
-provoc
 provoca
 provocai
 provocammo
@@ -36131,18 +35654,15 @@ provocato
 provocava
 provocavi
 provocavo
-provocher
 provochi
 provochino
 provoco
 provolone
-provved
 provveda
 provvedano
 provvede
 provvedei
 provvedendo
-provveder
 provvedere
 provvedete
 provvedeva
@@ -36180,7 +35700,6 @@ psicologia
 psicologici
 psicologo
 psicosi
-pubblic
 pubblica
 pubblicai
 pubblicano
@@ -36195,9 +35714,7 @@ pubblicavo
 pubbliche
 pubblichi
 pubblici
-pubblicit
 pubblico
-pubert
 pudica
 pudiche
 pudici
@@ -36209,7 +35726,6 @@ puerili
 pugilato
 pugile
 pugili
-pugnal
 pugnala
 pugnalai
 pugnalammo
@@ -36228,7 +35744,6 @@ pugnalava
 pugnalavi
 pugnalavo
 pugnale
-pugnaler
 pugnalerai
 pugnalerei
 pugnali
@@ -36255,7 +35770,6 @@ puliamo
 puliate
 pulii
 pulimmo
-pulir
 pulirai
 puliranno
 pulire
@@ -36292,7 +35806,6 @@ pulizia
 pulizie
 pulpiti
 pulpito
-puls
 pulsa
 pulsai
 pulsammo
@@ -36318,7 +35831,6 @@ pulsavi
 pulsavo
 pulsazione
 pulsazioni
-pulser
 pulserai
 pulseranno
 pulserebbe
@@ -36334,7 +35846,6 @@ pulsiate
 pulsino
 pulso
 punge
-punger
 pungere
 pungi
 pungo
@@ -36343,7 +35854,6 @@ pungolo
 pungono
 punse
 punsi
-punt
 punta
 puntai
 puntale
@@ -36379,7 +35889,6 @@ punteggiai
 punteggiatura
 punteggino
 punteggio
-puntell
 puntella
 puntellai
 puntellano
@@ -36391,11 +35900,9 @@ puntellato
 puntellava
 puntellavi
 puntellavo
-punteller
 puntelli
 puntellino
 puntello
-punter
 punterai
 punteranno
 punterebbe
@@ -36415,7 +35922,6 @@ puntino
 punto
 puntuale
 puntuali
-puntualit
 puntura
 punture
 punzecchi
@@ -36423,11 +35929,9 @@ punzecchia
 punzecchio
 punzone
 punzoni
-puo'
 puoi
 pupilla
 pupille
-pupull
 pupulla
 pupullai
 pupullammo
@@ -36445,7 +35949,6 @@ pupullato
 pupullava
 pupullavi
 pupullavo
-pupuller
 pupullerai
 pupullerei
 pupulli
@@ -36456,7 +35959,6 @@ pupullo
 pura
 pure
 purezza
-purg
 purga
 purgai
 purgammo
@@ -36482,7 +35984,6 @@ purgavano
 purgavate
 purgavi
 purgavo
-purgher
 purgherai
 purgherei
 purgheremo
@@ -36493,7 +35994,6 @@ purghiate
 purghino
 purgo
 puri
-purific
 purifica
 purificai
 purificano
@@ -36515,7 +36015,6 @@ puro
 purtroppo
 putativi
 putativo
-putref
 putrefa
 putrefai
 putrefammo
@@ -36533,7 +36032,6 @@ putrefato
 putrefava
 putrefavi
 putrefavo
-putrefer
 putreferai
 putreferei
 putrefi
@@ -36545,7 +36043,6 @@ putrida
 putride
 putridi
 putrido
-puzz
 puzza
 puzzai
 puzzammo
@@ -36570,7 +36067,6 @@ puzzavate
 puzzavi
 puzzavo
 puzze
-puzzer
 puzzerai
 puzzeranno
 puzzerebbe
@@ -36604,7 +36100,6 @@ qualche
 qualcosa
 quale
 quali
-qualific
 qualifica
 qualificai
 qualifichi
@@ -36616,7 +36111,6 @@ qualvolta
 quando
 quante
 quanti
-quantit
 quantita
 quanto
 quaranta
@@ -36630,7 +36124,6 @@ quarto
 quarzi
 quarzo
 quasi
-quass
 quaterna
 quaterne
 quattrini
@@ -36638,14 +36131,11 @@ quattrino
 quattro
 quecia
 quei
-quel
-quell
 quella
 quelle
 quelli
 quello
 querce
-querel
 querela
 querelai
 querelammo
@@ -36664,7 +36154,6 @@ querelava
 querelavi
 querelavo
 querele
-quereler
 querelerai
 querelerei
 quereli
@@ -36674,7 +36163,6 @@ querelino
 querelo
 quesiti
 quesito
-quest
 questa
 queste
 questi
@@ -36696,8 +36184,6 @@ quindi
 quintale
 quintali
 quinto
-quiz
-quot
 quota
 quotai
 quotammo
@@ -36722,7 +36208,6 @@ quotavate
 quotavi
 quotavo
 quote
-quoter
 quoterai
 quoteranno
 quoterebbe
@@ -36750,10 +36235,8 @@ rabbiosa
 rabbiose
 rabbiosi
 rabbioso
-rabbriv
 rabbrivano
 rabbrivii
-rabbrivir
 rabbrivire
 rabbrivita
 rabbrivite
@@ -36766,11 +36249,9 @@ rabbuffa
 rabbuffe
 rabbuffi
 rabbuffo
-raccapezz
 raccapezza
 raccapezzi
 raccapezzo
-raccatt
 raccatta
 raccattai
 raccattano
@@ -36782,7 +36263,6 @@ raccattato
 raccattava
 raccattavi
 raccattavo
-raccatter
 raccatti
 raccattino
 raccatto
@@ -36796,7 +36276,6 @@ racchiusa
 racchiuse
 racchiusi
 racchiuso
-raccimol
 raccimola
 raccimolai
 raccimoli
@@ -36815,11 +36294,9 @@ raccolta
 raccolte
 raccolti
 raccolto
-raccomand
 raccomanda
 raccomandi
 raccomando
-raccont
 racconta
 raccontai
 raccontano
@@ -36831,7 +36308,6 @@ raccontato
 raccontava
 raccontavi
 raccontavo
-racconter
 racconti
 raccontino
 racconto
@@ -36847,7 +36323,6 @@ raddoppia
 raddoppiai
 raddoppino
 raddoppio
-raddrizz
 raddrizza
 raddrizzai
 raddrizzi
@@ -36890,7 +36365,6 @@ radicchi
 radicchio
 radice
 radici
-radier
 radierai
 radieranno
 radierebbe
@@ -36911,7 +36385,6 @@ radiose
 radiosi
 radioso
 rado
-radun
 raduna
 radunai
 radunammo
@@ -36933,7 +36406,6 @@ radunavano
 radunavate
 radunavi
 radunavo
-raduner
 radunerai
 radunerei
 raduneremo
@@ -36952,7 +36424,6 @@ raffermo
 raffica
 raffiche
 raffigurata
-raffin
 raffina
 raffinai
 raffinammo
@@ -36970,7 +36441,6 @@ raffinato
 raffinava
 raffinavi
 raffinavo
-raffiner
 raffinerai
 raffinerei
 raffineria
@@ -36980,7 +36450,6 @@ raffiniamo
 raffiniate
 raffinino
 raffino
-rafforz
 rafforza
 rafforzai
 rafforzano
@@ -36992,11 +36461,9 @@ rafforzato
 rafforzava
 rafforzavi
 rafforzavo
-rafforzer
 rafforzi
 rafforzino
 rafforzo
-raffredd
 raffredda
 raffreddai
 raffreddi
@@ -37013,7 +36480,6 @@ ragazzi
 ragazzo
 raggi
 raggio
-raggir
 raggira
 raggirai
 raggirammo
@@ -37031,7 +36497,6 @@ raggirato
 raggirava
 raggiravi
 raggiravo
-raggirer
 raggirerai
 raggirerei
 raggiri
@@ -37050,7 +36515,6 @@ raggiunta
 raggiunte
 raggiunti
 raggiunto
-raggrum
 raggruma
 raggrumai
 raggrumano
@@ -37062,11 +36526,9 @@ raggrumato
 raggrumava
 raggrumavi
 raggrumavo
-raggrumer
 raggrumi
 raggrumino
 raggrumo
-raggrupp
 raggruppa
 raggruppai
 raggruppando
@@ -37076,7 +36538,6 @@ raggruppi
 raggruppo
 ragguagli
 ragguaglio
-ragion
 ragiona
 ragionai
 ragionammo
@@ -37095,7 +36556,6 @@ ragionava
 ragionavi
 ragionavo
 ragione
-ragioner
 ragionerai
 ragionerei
 ragioni
@@ -37107,7 +36567,6 @@ ragnatela
 ragnatele
 ragni
 ragno
-rallegr
 rallegra
 rallegrai
 rallegrano
@@ -37119,7 +36578,6 @@ rallegrato
 rallegrava
 rallegravi
 rallegravo
-rallegrer
 rallegri
 rallegrino
 rallegro
@@ -37129,7 +36587,6 @@ ramaioli
 ramaiolo
 rame
 rami
-ramific
 ramifica
 ramificai
 ramificano
@@ -37149,7 +36606,6 @@ raminghi
 ramingo
 rammarichi
 rammarico
-rammend
 rammenda
 rammendai
 rammendano
@@ -37161,7 +36617,6 @@ rammendato
 rammendava
 rammendavi
 rammendavo
-rammender
 rammendi
 rammendino
 rammendo
@@ -37197,7 +36652,6 @@ ranuncolo
 rapa
 rapace
 rapaci
-rapacit
 rapai
 rapammo
 rapando
@@ -37222,7 +36676,6 @@ rapavi
 rapavo
 rape
 rapendo
-raper
 raperai
 raperanno
 raperebbe
@@ -37238,12 +36691,10 @@ rapiate
 rapida
 rapide
 rapidi
-rapidit
 rapido
 rapii
 rapimmo
 rapino
-rapir
 rapirai
 rapiranno
 rapire
@@ -37279,7 +36730,6 @@ rapivate
 rapivi
 rapivo
 rapo
-rappezz
 rappezza
 rappezzai
 rappezzano
@@ -37291,13 +36741,11 @@ rappezzato
 rappezzava
 rappezzavi
 rappezzavo
-rappezzer
 rappezzi
 rappezzino
 rappezzo
 rapporti
 rapporto
-rappresen
 rappresena
 rappreseni
 rappreseno
@@ -37313,7 +36761,6 @@ rara
 raramente
 rare
 rari
-rarit
 raro
 rasa
 raschi
@@ -37335,13 +36782,11 @@ raschiato
 raschiava
 raschiavi
 raschiavo
-raschier
 raschierai
 raschierei
 raschino
 raschio
 rase
-rasent
 rasenta
 rasentai
 rasentammo
@@ -37360,7 +36805,6 @@ rasentava
 rasentavi
 rasentavo
 rasente
-rasenter
 rasenterai
 rasenterei
 rasenti
@@ -37372,7 +36816,6 @@ rasi
 raso
 rasoi
 rasoio
-rasp
 raspa
 raspai
 raspammo
@@ -37396,7 +36839,6 @@ raspavano
 raspavate
 raspavi
 raspavo
-rasper
 rasperai
 rasperanno
 rasperebbe
@@ -37411,7 +36853,6 @@ raspiamo
 raspiate
 raspino
 raspo
-rassegn
 rassegna
 rassegnai
 rassegnano
@@ -37424,11 +36865,9 @@ rassegnava
 rassegnavi
 rassegnavo
 rassegne
-rassegner
 rassegni
 rassegnino
 rassegno
-rassett
 rassetta
 rassettai
 rassettano
@@ -37440,16 +36879,13 @@ rassettato
 rassettava
 rassettavi
 rassettavo
-rassetter
 rassetti
 rassettino
 rassetto
-rassicur
 rassicura
 rassicurai
 rassicuri
 rassicuro
-rassod
 rassoda
 rassodai
 rassodammo
@@ -37467,7 +36903,6 @@ rassodato
 rassodava
 rassodavi
 rassodavo
-rassoder
 rassoderai
 rassoderei
 rassodi
@@ -37475,14 +36910,12 @@ rassodiamo
 rassodiate
 rassodino
 rassodo
-rastrell
 rastrella
 rastrellai
 rastrelli
 rastrello
 rata
 rate
-ratific
 ratifica
 ratificai
 ratificano
@@ -37499,7 +36932,6 @@ ratifichi
 ratifico
 ratti
 ratto
-rattrist
 rattrista
 rattristai
 rattristi
@@ -37509,7 +36941,6 @@ raucedine
 rauche
 rauchi
 rauco
-ravviv
 ravviva
 ravvivai
 ravvivammo
@@ -37527,7 +36958,6 @@ ravvivato
 ravvivava
 ravvivavi
 ravvivavo
-ravviver
 ravviverai
 ravviverei
 ravvivi
@@ -37535,7 +36965,6 @@ ravviviamo
 ravviviate
 ravvivino
 ravvivo
-rayon
 razionale
 razionali
 razione
@@ -37544,7 +36973,6 @@ razza
 razze
 razzi
 razzo
-razzol
 razzola
 razzolai
 razzolammo
@@ -37562,7 +36990,6 @@ razzolato
 razzolava
 razzolavi
 razzolavo
-razzoler
 razzolerai
 razzolerei
 razzoli
@@ -37577,7 +37004,6 @@ reali
 realistica
 realistici
 realistico
-realizz
 realizza
 realizzai
 realizzano
@@ -37590,11 +37016,9 @@ realizzava
 realizzavi
 realizzavo
 realizzazione
-realizzer
 realizzi
 realizzino
 realizzo
-realt
 realta
 reati
 reato
@@ -37611,7 +37035,6 @@ recai
 recammo
 recando
 recano
-recapit
 recapita
 recapitai
 recapitano
@@ -37623,7 +37046,6 @@ recapitato
 recapitava
 recapitavi
 recapitavo
-recapiter
 recapiti
 recapitino
 recapito
@@ -37645,14 +37067,12 @@ recavano
 recavate
 recavi
 recavo
-reced
 receda
 recedano
 recede
 recedei
 recedemmo
 recedendo
-receder
 recederai
 recedere
 recederei
@@ -37689,7 +37109,6 @@ recessa
 recesse
 recessi
 recesso
-recher
 recherai
 recheranno
 recherebbe
@@ -37704,7 +37123,6 @@ rechiamo
 rechiate
 rechino
 recide
-recider
 recidere
 recidi
 recidiva
@@ -37733,7 +37151,6 @@ recisa
 recise
 recisi
 reciso
-recit
 recita
 recitai
 recitammo
@@ -37760,7 +37177,6 @@ recitavate
 recitavi
 recitavo
 recite
-reciter
 reciterai
 reciterei
 reciteremo
@@ -37770,7 +37186,6 @@ recitiamo
 recitiate
 recitino
 recito
-reclam
 reclama
 reclamai
 reclamammo
@@ -37789,7 +37204,6 @@ reclamava
 reclamavi
 reclamavo
 reclame
-reclamer
 reclamerai
 reclamerei
 reclami
@@ -37806,13 +37220,10 @@ recondita
 recondite
 reconditi
 recondito
-record
-recrimin
 recrimina
 recriminai
 recrimini
 recrimino
-recuper
 recupera
 recuperabile
 recuperai
@@ -37825,14 +37236,12 @@ recuperato
 recuperava
 recuperavi
 recuperavo
-recuperer
 recuperi
 recuperino
 recupero
 redargu
 redarguano
 redarguii
-redarguir
 redarguire
 redarguita
 redarguite
@@ -37867,7 +37276,6 @@ redine
 redini
 reduce
 reduci
-referendum
 referenza
 referenze
 referenziati
@@ -37877,7 +37285,6 @@ referto
 refettori
 refettorio
 refrattori
-refriger
 refrigera
 refrigerai
 refrigeri
@@ -37885,7 +37292,6 @@ refrigerio
 refrigero
 refurtiva
 refurtive
-regal
 regala
 regalai
 regalammo
@@ -37908,7 +37314,6 @@ regalavate
 regalavi
 regalavo
 regale
-regaler
 regalerai
 regalerei
 regaleremo
@@ -37917,7 +37322,6 @@ regali
 regaliamo
 regaliate
 regalino
-regalit
 regalo
 regata
 regate
@@ -37927,7 +37331,6 @@ reggente
 reggenti
 reggenza
 reggenze
-regger
 reggere
 reggeva
 reggevano
@@ -37946,7 +37349,6 @@ regine
 regioni
 regista
 registi
-registr
 registra
 registrai
 registrano
@@ -37959,11 +37361,9 @@ registrava
 registravi
 registravo
 registrazione
-registrer
 registri
 registrino
 registro
-regn
 regna
 regnai
 regnammo
@@ -37987,7 +37387,6 @@ regnavano
 regnavate
 regnavi
 regnavo
-regner
 regnerai
 regneranno
 regnerebbe
@@ -38002,15 +37401,12 @@ regniamo
 regniate
 regnino
 regno
-regol
 regola
 regolai
 regolammo
 regolando
 regolano
 regolare
-regolarit
-regolariz
 regolariza
 regolarizi
 regolarizo
@@ -38032,7 +37428,6 @@ regolavate
 regolavi
 regolavo
 regole
-regoler
 regolerai
 regolerei
 regoleremo
@@ -38044,13 +37439,11 @@ regolino
 regolo
 regressi
 regresso
-reimport
 reimporta
 reimportai
 reimporti
 reimporto
 reinizializzazione
-reintegr
 reintegra
 reintegrai
 reintegri
@@ -38059,13 +37452,11 @@ relativa
 relativamente
 relative
 relativi
-relativit
 relativo
 relatore
 relatori
 relazione
 relazioni
-releg
 relega
 relegai
 relegammo
@@ -38087,7 +37478,6 @@ relegavano
 relegavate
 relegavi
 relegavo
-relegher
 relegherai
 relegherei
 releghi
@@ -38130,7 +37520,6 @@ remavano
 remavate
 remavi
 remavo
-remer
 remerai
 remeranno
 remerebbe
@@ -38164,7 +37553,6 @@ rendendole
 rendendoli
 rendendolo
 rendendosi
-render
 rendera
 renderanno
 rendercene
@@ -38224,7 +37612,6 @@ repulsiva
 repulsive
 repulsivi
 repulsivo
-reput
 reputa
 reputai
 reputammo
@@ -38246,7 +37633,6 @@ reputavano
 reputavate
 reputavi
 reputavo
-reputer
 reputerai
 reputerei
 reputeremo
@@ -38303,7 +37689,6 @@ respinsero
 respinta
 respinti
 respinto
-respir
 respira
 respirai
 respirammo
@@ -38321,7 +37706,6 @@ respirato
 respirava
 respiravi
 respiravo
-respirer
 respirerai
 respirerei
 respiri
@@ -38334,7 +37718,6 @@ responso
 ressa
 resse
 ressi
-rest
 resta
 restai
 restammo
@@ -38353,7 +37736,6 @@ restata
 restate
 restati
 restato
-restaur
 restaura
 restaurai
 restaurano
@@ -38366,7 +37748,6 @@ restaurava
 restauravi
 restauravo
 restaurazione
-restaurer
 restauri
 restaurino
 restauro
@@ -38376,7 +37757,6 @@ restavano
 restavate
 restavi
 restavo
-rester
 resterai
 resteranno
 resterebbe
@@ -38398,7 +37778,6 @@ restitu
 restituano
 restituendo
 restituii
-restituir
 restituire
 restituisce
 restituita
@@ -38440,7 +37819,6 @@ retrocessa
 retrocesse
 retrocessi
 retrocesso
-retrodat
 retrodata
 retrodatai
 retrodati
@@ -38456,7 +37834,6 @@ rettangoli
 rettangolo
 rette
 retti
-rettific
 rettifica
 rettificai
 rettifichi
@@ -38474,7 +37851,6 @@ reumatismi
 reumatismo
 revisore
 revisori
-revoc
 revoca
 revocai
 revocammo
@@ -38496,7 +37872,6 @@ revocavano
 revocavate
 revocavi
 revocavo
-revocher
 revocherai
 revocherei
 revochi
@@ -38504,7 +37879,6 @@ revochiamo
 revochiate
 revochino
 revoco
-rialz
 rialza
 rialzai
 rialzammo
@@ -38526,7 +37900,6 @@ rialzavano
 rialzavate
 rialzavi
 rialzavo
-rialzer
 rialzerai
 rialzerei
 rialzeremo
@@ -38536,7 +37909,6 @@ rialziamo
 rialziate
 rialzino
 rialzo
-rianim
 rianima
 rianimai
 rianimammo
@@ -38554,7 +37926,6 @@ rianimato
 rianimava
 rianimavi
 rianimavo
-rianimer
 rianimerai
 rianimerei
 rianimi
@@ -38562,11 +37933,9 @@ rianimiamo
 rianimiate
 rianimino
 rianimo
-riappar
 riapparano
 riappare
 riapparii
-riapparir
 riapparire
 riapparita
 riapparite
@@ -38581,7 +37950,6 @@ riapparsi
 riapparso
 riapparve
 riapplica
-riassorb
 riassorbii
 riassume
 riassumere
@@ -38591,7 +37959,6 @@ riassunta
 riassunte
 riassunti
 riassunto
-riattiv
 riattiva
 riattivai
 riattivano
@@ -38603,18 +37970,15 @@ riattivato
 riattivava
 riattivavi
 riattivavo
-riattiver
 riattivi
 riattivino
 riattivo
-riav
 riava
 riavano
 riave
 riavei
 riavemmo
 riavendo
-riaver
 riaverai
 riaveranno
 riavere
@@ -38651,14 +38015,12 @@ riavuta
 riavute
 riavuti
 riavuto
-ribad
 ribadano
 ribadendo
 ribadiamo
 ribadiate
 ribadii
 ribadimmo
-ribadir
 ribadirai
 ribadire
 ribadirei
@@ -38687,7 +38049,6 @@ ribalda
 ribalde
 ribaldi
 ribaldo
-ribalt
 ribalta
 ribaltai
 ribaltammo
@@ -38705,7 +38066,6 @@ ribaltato
 ribaltava
 ribaltavi
 ribaltavo
-ribalter
 ribalterai
 ribalterei
 ribalti
@@ -38713,7 +38073,6 @@ ribaltiamo
 ribaltiate
 ribaltino
 ribalto
-ribass
 ribassa
 ribassai
 ribassammo
@@ -38731,7 +38090,6 @@ ribassato
 ribassava
 ribassavi
 ribassavo
-ribasser
 ribasserai
 ribasserei
 ribassi
@@ -38744,7 +38102,6 @@ ribelle
 ribelli
 ribellione
 ribellioni
-ribes
 ribrezzi
 ribrezzo
 ricada
@@ -38763,7 +38120,6 @@ ricaduta
 ricadute
 ricaduti
 ricaduto
-ricalc
 ricalca
 ricalcai
 ricalcammo
@@ -38781,12 +38137,10 @@ ricalcato
 ricalcava
 ricalcavi
 ricalcavo
-ricalcher
 ricalchi
 ricalchino
 ricalco
 ricalcolando
-ricam
 ricama
 ricamai
 ricamammo
@@ -38821,10 +38175,8 @@ ricambiato
 ricambiava
 ricambiavi
 ricambiavo
-ricambier
 ricambino
 ricambio
-ricamer
 ricamerai
 ricamerei
 ricameremo
@@ -38834,11 +38186,9 @@ ricamiamo
 ricamiate
 ricamino
 ricamo
-ricapitol
 ricapitola
 ricapitoli
 ricapitolo
-ricatt
 ricatta
 ricattai
 ricattammo
@@ -38856,7 +38206,6 @@ ricattato
 ricattava
 ricattavi
 ricattavo
-ricatter
 ricatterai
 ricatterei
 ricatti
@@ -38864,7 +38213,6 @@ ricattiamo
 ricattiate
 ricattino
 ricatto
-ricav
 ricava
 ricavai
 ricavammo
@@ -38886,7 +38234,6 @@ ricavavano
 ricavavate
 ricavavi
 ricavavo
-ricaver
 ricaverai
 ricaverei
 ricaveremo
@@ -38906,7 +38253,6 @@ riccio
 riccioli
 ricciolo
 ricco
-ricerc
 ricerca
 ricercai
 ricercammo
@@ -38925,20 +38271,17 @@ ricercava
 ricercavi
 ricercavo
 ricerche
-ricercher
 ricerchi
 ricerchino
 ricerco
 ricetta
 ricette
-ricev
 riceva
 ricevano
 riceve
 ricevei
 ricevemmo
 ricevendo
-ricever
 riceverai
 ricevere
 riceverei
@@ -38969,7 +38312,6 @@ ricevuta
 ricevute
 ricevuti
 ricevuto
-richiam
 richiama
 richiamai
 richiamando
@@ -38982,17 +38324,14 @@ richiamato
 richiamava
 richiamavi
 richiamavo
-richiamer
 richiami
 richiamino
 richiamo
-richied
 richieda
 richiedano
 richiede
 richiedei
 richiedente
-richieder
 richiedere
 richiederebbero
 richiedete
@@ -39012,7 +38351,6 @@ richiesti
 richiesto
 ricino
 ricollegare
-ricolm
 ricolma
 ricolmai
 ricolmammo
@@ -39030,7 +38368,6 @@ ricolmato
 ricolmava
 ricolmavi
 ricolmavo
-ricolmer
 ricolmerai
 ricolmerei
 ricolmi
@@ -39039,7 +38376,6 @@ ricolmiate
 ricolmino
 ricolmo
 ricominciare
-ricompens
 ricompensa
 ricompense
 ricompensi
@@ -39047,7 +38383,6 @@ ricompenso
 riconcili
 riconcilia
 riconcilio
-riconfer
 riconfera
 riconferai
 riconferi
@@ -39062,7 +38397,6 @@ ricoperta
 ricoperte
 ricoperti
 ricoperto
-ricopr
 ricoprano
 ricopre
 ricoprendo
@@ -39070,7 +38404,6 @@ ricopriamo
 ricopriate
 ricoprii
 ricoprimmo
-ricoprir
 ricoprirai
 ricoprire
 ricoprirei
@@ -39089,7 +38422,6 @@ ricoprito
 ricopriva
 ricoprivi
 ricoprivo
-ricord
 ricorda
 ricordai
 ricordammo
@@ -39107,7 +38439,6 @@ ricordato
 ricordava
 ricordavi
 ricordavo
-ricorder
 ricorderai
 ricorderei
 ricordi
@@ -39145,7 +38476,6 @@ ricostruendo
 ricostruii
 ricotta
 ricotte
-ricover
 ricovera
 ricoverai
 ricoverano
@@ -39157,11 +38487,9 @@ ricoverato
 ricoverava
 ricoveravi
 ricoveravo
-ricoverer
 ricoveri
 ricoverino
 ricovero
-ricuper
 ricupera
 ricuperai
 ricuperano
@@ -39173,7 +38501,6 @@ ricuperato
 ricuperava
 ricuperavi
 ricuperavo
-ricuperer
 ricuperi
 ricuperino
 ricupero
@@ -39227,7 +38554,6 @@ rieletta
 rielette
 rieletti
 rieletto
-riemp
 riempano
 riempendo
 riempi
@@ -39238,7 +38564,6 @@ riempiendo
 riempii
 riempimmo
 riempiono
-riempir
 riempirai
 riempire
 riempirei
@@ -39267,7 +38592,6 @@ riempivano
 riempivate
 riempivi
 riempivo
-rientr
 rientra
 rientrai
 rientrammo
@@ -39285,7 +38609,6 @@ rientrato
 rientrava
 rientravi
 rientravo
-rientrer
 rientrerai
 rientrerei
 rientri
@@ -39293,7 +38616,6 @@ rientriamo
 rientriate
 rientrino
 rientro
-riepilog
 riepiloga
 riepilogai
 riepiloghi
@@ -39304,7 +38626,6 @@ riesce
 riesci
 riesco
 riescono
-rievoc
 rievoca
 rievocai
 rievocammo
@@ -39322,11 +38643,9 @@ rievocato
 rievocava
 rievocavi
 rievocavo
-rievocher
 rievochi
 rievochino
 rievoco
-rifer
 riferano
 riferendo
 riferiamo
@@ -39335,7 +38654,6 @@ riferii
 riferimenti
 riferimento
 riferimmo
-riferir
 riferirai
 riferire
 riferirei
@@ -39362,14 +38680,12 @@ riferivano
 riferivate
 riferivi
 riferivo
-rifin
 rifinano
 rifinendo
 rifiniamo
 rifiniate
 rifinii
 rifinimmo
-rifinir
 rifinirai
 rifinire
 rifinirei
@@ -39394,7 +38710,6 @@ rifinivano
 rifinivate
 rifinivi
 rifinivo
-rifiut
 rifiuta
 rifiutai
 rifiutammo
@@ -39412,7 +38727,6 @@ rifiutato
 rifiutava
 rifiutavi
 rifiutavo
-rifiuter
 rifiuterai
 rifiuterei
 rifiuti
@@ -39428,12 +38742,10 @@ riflessive
 riflessivi
 riflessivo
 riflesso
-riflett
 rifletta
 riflettano
 riflette
 riflettei
-rifletter
 riflettere
 riflettete
 rifletteva
@@ -39450,7 +38762,6 @@ riflettuti
 riflettuto
 riflussi
 riflusso
-riform
 riforma
 riformai
 riformammo
@@ -39469,7 +38780,6 @@ riformava
 riformavi
 riformavo
 riforme
-riformer
 riformerai
 riformerei
 riformi
@@ -39477,14 +38787,12 @@ riformiamo
 riformiate
 riformino
 riformo
-riforn
 rifornano
 rifornendo
 riforniamo
 riforniate
 rifornii
 rifornimmo
-rifornir
 rifornirai
 rifornire
 rifornirei
@@ -39503,14 +38811,12 @@ rifornito
 riforniva
 rifornivi
 rifornivo
-rifugg
 rifuggano
 rifuggendo
 rifuggiamo
 rifuggiate
 rifuggii
 rifuggimmo
-rifuggir
 rifuggirai
 rifuggire
 rifuggirei
@@ -39553,12 +38859,10 @@ rigorosa
 rigorose
 rigorosi
 rigoroso
-rigovern
 rigoverna
 rigovernai
 rigoverni
 rigoverno
-riguard
 riguarda
 riguardai
 riguardano
@@ -39570,7 +38874,6 @@ riguardato
 riguardava
 riguardavi
 riguardavo
-riguarder
 riguardi
 riguardino
 riguardo
@@ -39580,7 +38883,6 @@ riinserisci
 rilasciarla
 rilasciate
 rilascio
-rilass
 rilassa
 rilassai
 rilassammo
@@ -39598,7 +38900,6 @@ rilassato
 rilassava
 rilassavi
 rilassavo
-rilasser
 rilasserai
 rilasserei
 rilassi
@@ -39606,7 +38907,6 @@ rilassiamo
 rilassiate
 rilassino
 rilasso
-rileg
 rilega
 rilegai
 rilegammo
@@ -39630,7 +38930,6 @@ rilegavano
 rilegavate
 rilegavi
 rilegavo
-rilegher
 rilegherai
 rilegherei
 rileghi
@@ -39639,7 +38938,6 @@ rileghiate
 rileghino
 rilego
 rilette
-rilev
 rileva
 rilevabili
 rilevai
@@ -39665,7 +38963,6 @@ rilevavate
 rilevavi
 rilevavo
 rilevazione
-rilever
 rileverai
 rileverei
 rileveremo
@@ -39680,7 +38977,6 @@ rilievo
 riluttante
 riluttanti
 rima
-rimand
 rimanda
 rimandai
 rimandammo
@@ -39698,7 +38994,6 @@ rimandato
 rimandava
 rimandavi
 rimandavo
-rimander
 rimanderai
 rimanderei
 rimandi
@@ -39712,7 +39007,6 @@ rimanente
 rimanenti
 rimanenza
 rimanenze
-rimaner
 rimanere
 rimanervi
 rimanesse
@@ -39724,7 +39018,6 @@ rimango
 rimangono
 rimani
 rimaniamo
-rimarr
 rimarra
 rimarrai
 rimarranno
@@ -39738,7 +39031,6 @@ rimasta
 rimaste
 rimasti
 rimasto
-rimbocc
 rimbocca
 rimboccai
 rimboccano
@@ -39754,7 +39046,6 @@ rimbocchi
 rimbocco
 rimbombi
 rimbombo
-rimbors
 rimborsa
 rimborsai
 rimborsano
@@ -39766,7 +39057,6 @@ rimborsato
 rimborsava
 rimborsavi
 rimborsavo
-rimborser
 rimborsi
 rimborsino
 rimborso
@@ -39791,7 +39081,6 @@ rimediato
 rimediava
 rimediavi
 rimediavo
-rimedier
 rimedierai
 rimedierei
 rimedino
@@ -39817,12 +39106,10 @@ rimise
 rimisero
 rimisi
 rimmarrei
-rimodern
 rimoderna
 rimodernai
 rimoderni
 rimoderno
-rimont
 rimonta
 rimontai
 rimontammo
@@ -39840,7 +39127,6 @@ rimontato
 rimontava
 rimontavi
 rimontavo
-rimonter
 rimonterai
 rimonterei
 rimonti
@@ -39873,12 +39159,10 @@ rimpianta
 rimpiante
 rimpianti
 rimpianto
-rimpiazz
 rimpiazza
 rimpiazzai
 rimpiazzi
 rimpiazzo
-rimpinz
 rimpinza
 rimpinzai
 rimpinzano
@@ -39890,11 +39174,9 @@ rimpinzato
 rimpinzava
 rimpinzavi
 rimpinzavo
-rimpinzer
 rimpinzi
 rimpinzino
 rimpinzo
-rimprover
 rimprovera
 rimproveri
 rimprovero
@@ -39906,7 +39188,6 @@ rimuovi
 rimuovo
 rinascita
 rinascite
-rincalz
 rincalza
 rincalzai
 rincalzano
@@ -39918,11 +39199,9 @@ rincalzato
 rincalzava
 rincalzavi
 rincalzavo
-rincalzer
 rincalzi
 rincalzino
 rincalzo
-rincar
 rincara
 rincarai
 rincarammo
@@ -39940,7 +39219,6 @@ rincarato
 rincarava
 rincaravi
 rincaravo
-rincarer
 rincarerai
 rincarerei
 rincari
@@ -39948,7 +39226,6 @@ rincariamo
 rincariate
 rincarino
 rincaro
-rincas
 rincasa
 rincasai
 rincasammo
@@ -39966,7 +39243,6 @@ rincasato
 rincasava
 rincasavi
 rincasavo
-rincaser
 rincaserai
 rincaserei
 rincasi
@@ -39998,7 +39274,6 @@ rinfaccia
 rinfacciai
 rinfaccino
 rinfaccio
-rinforz
 rinforza
 rinforzai
 rinforzano
@@ -40010,7 +39285,6 @@ rinforzato
 rinforzava
 rinforzavi
 rinforzavo
-rinforzer
 rinforzi
 rinforzino
 rinforzo
@@ -40021,7 +39295,6 @@ rinfranta
 rinfrante
 rinfranti
 rinfranto
-rinfresc
 rinfresca
 rinfrescai
 rinfreschi
@@ -40046,7 +39319,6 @@ ringhiato
 ringhiava
 ringhiavi
 ringhiavo
-ringhier
 ringhiera
 ringhierai
 ringhiere
@@ -40064,7 +39336,6 @@ ringraziamenti
 ringraziare
 ringrazino
 ringrazio
-rinneg
 rinnega
 rinnegai
 rinnegammo
@@ -40082,11 +39353,9 @@ rinnegato
 rinnegava
 rinnegavi
 rinnegavo
-rinnegher
 rinneghi
 rinneghino
 rinnego
-rinnov
 rinnova
 rinnovai
 rinnovammo
@@ -40104,7 +39373,6 @@ rinnovato
 rinnovava
 rinnovavi
 rinnovavo
-rinnover
 rinnoverai
 rinnoverei
 rinnovi
@@ -40112,14 +39380,12 @@ rinnoviamo
 rinnoviate
 rinnovino
 rinnovo
-rinsav
 rinsavano
 rinsavendo
 rinsaviamo
 rinsaviate
 rinsavii
 rinsavimmo
-rinsavir
 rinsavirai
 rinsavire
 rinsavirei
@@ -40138,7 +39404,6 @@ rinsavito
 rinsaviva
 rinsavivi
 rinsavivo
-rintocc
 rintocca
 rintoccai
 rintoccano
@@ -40158,14 +39423,12 @@ rintracciarli
 rintraccio
 rinunce
 rinuncia
-rinven
 rinvenano
 rinvenendo
 rinveniamo
 rinveniate
 rinvenii
 rinvenimmo
-rinvenir
 rinvenirai
 rinvenire
 rinvenirei
@@ -40208,7 +39471,6 @@ rinviavate
 rinviavi
 rinviavo
 rinviene
-rinvier
 rinvierai
 rinvierei
 rinvieremo
@@ -40218,7 +39480,6 @@ rinvino
 rinvio
 rione
 rioni
-riordin
 riordina
 riordinai
 riordinano
@@ -40230,16 +39491,13 @@ riordinato
 riordinava
 riordinavi
 riordinavo
-riordiner
 riordini
 riordinino
 riordino
-riorganiz
 riorganiza
 riorganizi
 riorganizo
 riorganizzazione
-ripag
 ripaga
 ripagai
 ripagammo
@@ -40261,7 +39519,6 @@ ripagavano
 ripagavate
 ripagavi
 ripagavo
-ripagher
 ripagherai
 ripagherei
 ripaghi
@@ -40269,7 +39526,6 @@ ripaghiamo
 ripaghiate
 ripaghino
 ripago
-ripar
 ripara
 riparai
 riparammo
@@ -40292,7 +39548,6 @@ riparavate
 riparavi
 riparavo
 riparazione
-riparer
 riparerai
 riparerei
 ripareremo
@@ -40302,14 +39557,12 @@ ripariamo
 ripariate
 riparino
 riparo
-ripart
 ripartano
 ripartendo
 ripartiamo
 ripartiate
 ripartii
 ripartimmo
-ripartir
 ripartirai
 ripartire
 ripartirei
@@ -40328,7 +39581,6 @@ ripartito
 ripartiva
 ripartivi
 ripartivo
-ripass
 ripassa
 ripassai
 ripassammo
@@ -40346,7 +39598,6 @@ ripassato
 ripassava
 ripassavi
 ripassavo
-ripasser
 ripasserai
 ripasserei
 ripassi
@@ -40354,7 +39605,6 @@ ripassiamo
 ripassiate
 ripassino
 ripasso
-ripens
 ripensa
 ripensai
 ripensammo
@@ -40372,7 +39622,6 @@ ripensato
 ripensava
 ripensavi
 ripensavo
-ripenser
 ripenserai
 ripenserei
 ripensi
@@ -40380,14 +39629,12 @@ ripensiamo
 ripensiate
 ripensino
 ripenso
-ripet
 ripeta
 ripetano
 ripete
 ripetei
 ripetemmo
 ripetendo
-ripeter
 ripetera
 ripeterai
 ripetere
@@ -40431,7 +39678,6 @@ ripida
 ripide
 ripidi
 ripido
-ripieg
 ripiega
 ripiegai
 ripiegammo
@@ -40449,7 +39695,6 @@ ripiegato
 ripiegava
 ripiegavi
 ripiegavo
-ripiegher
 ripieghi
 ripieghino
 ripiego
@@ -40457,7 +39702,6 @@ ripiena
 ripiene
 ripieni
 ripieno
-ripopol
 ripopola
 ripopolai
 ripopolano
@@ -40469,7 +39713,6 @@ ripopolato
 ripopolava
 ripopolavi
 ripopolavo
-ripopoler
 ripopoli
 ripopolino
 ripopolo
@@ -40480,7 +39723,6 @@ riportato
 riporti
 riportiamo
 riporto
-ripos
 riposa
 riposai
 riposammo
@@ -40504,7 +39746,6 @@ riposavano
 riposavate
 riposavi
 riposavo
-riposer
 riposerai
 riposerei
 riposeremo
@@ -40522,7 +39763,6 @@ riprendendo
 riprendere
 ripresa
 riprese
-ripristin
 ripristina
 ripristinano
 ripristinare
@@ -40556,12 +39796,10 @@ ripudiato
 ripudiava
 ripudiavi
 ripudiavo
-ripudier
 ripudierai
 ripudierei
 ripudino
 ripudio
-ripugn
 ripugna
 ripugnai
 ripugnammo
@@ -40583,7 +39821,6 @@ ripugnato
 ripugnava
 ripugnavi
 ripugnavo
-ripugner
 ripugnerai
 ripugnerei
 ripugni
@@ -40591,14 +39828,12 @@ ripugniamo
 ripugniate
 ripugnino
 ripugno
-ripul
 ripulano
 ripulendo
 ripuliamo
 ripuliate
 ripulii
 ripulimmo
-ripulir
 ripulirai
 ripulire
 ripulirei
@@ -40630,7 +39865,6 @@ risacca
 risacche
 risaia
 risaii
-risalt
 risalta
 risaltai
 risaltammo
@@ -40648,7 +39882,6 @@ risaltato
 risaltava
 risaltavi
 risaltavo
-risalter
 risalterai
 risalterei
 risalti
@@ -40656,7 +39889,6 @@ risaltiamo
 risaltiate
 risaltino
 risalto
-risan
 risana
 risanai
 risanammo
@@ -40678,7 +39910,6 @@ risanavano
 risanavate
 risanavi
 risanavo
-risaner
 risanerai
 risanerei
 risaneremo
@@ -40690,7 +39921,6 @@ risanino
 risano
 risata
 risate
-riscald
 riscalda
 riscaldai
 riscaldano
@@ -40702,11 +39932,9 @@ riscaldato
 riscaldava
 riscaldavi
 riscaldavo
-riscalder
 riscaldi
 riscaldino
 riscaldo
-riscatt
 riscatta
 riscattai
 riscattano
@@ -40718,12 +39946,10 @@ riscattato
 riscattava
 riscattavi
 riscattavo
-riscatter
 riscatti
 riscattino
 riscatto
 rischi
-rischiar
 rischiara
 rischiarai
 rischiari
@@ -40737,7 +39963,6 @@ risciacqu
 risciacqua
 risciacqui
 risciacquo
-riscontr
 riscontra
 riscontrai
 riscontrati
@@ -40749,12 +39974,10 @@ riscosse
 riscrive
 riscrivi
 riscriviamo
-riscuot
 riscuota
 riscuotano
 riscuote
 riscuotei
-riscuoter
 riscuotere
 riscuotete
 riscuoteva
@@ -40771,7 +39994,6 @@ rise
 riselezionabile
 riselezionare
 risero
-riserv
 riserva
 riservai
 riservammo
@@ -40790,7 +40012,6 @@ riservava
 riservavi
 riservavo
 riserve
-riserver
 riserverai
 riserverei
 riservi
@@ -40799,14 +40020,12 @@ riserviate
 riservino
 riservo
 risi
-risied
 risieda
 risiedano
 risiede
 risiedei
 risiedemmo
 risiedendo
-risieder
 risiederai
 risiedere
 risiederei
@@ -40847,7 +40066,6 @@ risoluto
 risoluzione
 risolva
 risolve
-risolver
 risolvere
 risolverlo
 risolversi
@@ -40857,7 +40075,6 @@ risolviamo
 risolvibili
 risolvo
 risolvono
-rison
 risona
 risonai
 risonammo
@@ -40881,7 +40098,6 @@ risonavano
 risonavate
 risonavi
 risonavo
-risoner
 risonerai
 risonerei
 risoneremo
@@ -40904,7 +40120,6 @@ rispecchi
 rispecchia
 rispecchiano
 rispecchio
-rispett
 rispetta
 rispettai
 rispettando
@@ -40918,7 +40133,6 @@ rispettato
 rispettava
 rispettavi
 rispettavo
-rispetter
 rispetti
 rispettino
 rispettiva
@@ -40931,7 +40145,6 @@ rispettosa
 rispettose
 rispettosi
 rispettoso
-risplend
 risplenda
 risplende
 risplendei
@@ -40939,7 +40152,6 @@ risplendi
 risplendo
 risponda
 risponde
-risponder
 rispondere
 rispondeva
 rispondevo
@@ -40954,10 +40166,8 @@ risposte
 risposto
 rissa
 risse
-ristabil
 ristabilii
 ristagnasse
-ristamp
 ristampa
 ristampai
 ristampano
@@ -40969,7 +40179,6 @@ ristampato
 ristampava
 ristampavi
 ristampavo
-ristamper
 ristampi
 ristampino
 ristampo
@@ -40983,7 +40192,6 @@ ristretti
 ristretto
 risucchi
 risucchio
-risult
 risulta
 risultai
 risultammo
@@ -41002,7 +40210,6 @@ risultato
 risultava
 risultavi
 risultavo
-risulter
 risulterai
 risulterei
 risulti
@@ -41027,10 +40234,8 @@ ritagliato
 ritagliava
 ritagliavi
 ritagliavo
-ritaglier
 ritaglino
 ritaglio
-ritard
 ritarda
 ritardai
 ritardammo
@@ -41048,7 +40253,6 @@ ritardato
 ritardava
 ritardavi
 ritardavo
-ritarder
 ritarderai
 ritarderei
 ritardi
@@ -41077,7 +40281,6 @@ riterrete
 riti
 ritiene
 ritieni
-ritir
 ritira
 ritirai
 ritirammo
@@ -41099,7 +40302,6 @@ ritiravano
 ritiravate
 ritiravi
 ritiravo
-ritirer
 ritirerai
 ritirerei
 ritireremo
@@ -41112,7 +40314,6 @@ ritiro
 ritmi
 ritmo
 rito
-ritocc
 ritocca
 ritoccai
 ritoccammo
@@ -41130,11 +40331,9 @@ ritoccato
 ritoccava
 ritoccavi
 ritoccavo
-ritoccher
 ritocchi
 ritocchino
 ritocco
-ritorn
 ritorna
 ritornai
 ritornammo
@@ -41154,7 +40353,6 @@ ritornavi
 ritornavo
 ritornelli
 ritornello
-ritorner
 ritornera
 ritornerai
 ritornerei
@@ -41173,14 +40371,12 @@ ritrosi
 ritroso
 ritrova
 ritrovano
-ritrovera'
 ritrovi
 ritrovo
 ritta
 ritte
 ritti
 ritto
-riun
 riunano
 riunendo
 riuniamo
@@ -41189,7 +40385,6 @@ riunii
 riunimmo
 riunione
 riunioni
-riunir
 riunirai
 riuniranno
 riunire
@@ -41222,14 +40417,12 @@ riunivano
 riunivate
 riunivi
 riunivo
-riusc
 riuscano
 riuscendo
 riusciamo
 riusciate
 riuscii
 riuscimmo
-riuscir
 riuscirai
 riuscirci
 riuscire
@@ -41263,16 +40456,13 @@ rivaleggi
 rivaleggia
 rivaleggio
 rivali
-rivalit
 rive
-rived
 riveda
 rivedano
 rivede
 rivedei
 rivedemmo
 rivedendo
-riveder
 rivederai
 rivedere
 rivederei
@@ -41303,7 +40493,6 @@ riveduta
 rivedute
 riveduti
 riveduto
-rivel
 rivela
 rivelai
 rivelammo
@@ -41325,7 +40514,6 @@ rivelavano
 rivelavate
 rivelavi
 rivelavo
-riveler
 rivelerai
 rivelerei
 riveleremo
@@ -41335,7 +40523,6 @@ riveliamo
 riveliate
 rivelino
 rivelo
-rivendic
 rivendica
 rivendicai
 rivendichi
@@ -41349,7 +40536,6 @@ rivincite
 rivista
 riviste
 rivolgersi
-rivolt
 rivolta
 rivoltai
 rivoltammo
@@ -41369,7 +40555,6 @@ rivoltavi
 rivoltavo
 rivoltella
 rivoltelle
-rivolter
 rivolterai
 rivolterei
 rivolti
@@ -41403,7 +40588,6 @@ romanzi
 romanziere
 romanzieri
 romanzo
-romb
 romba
 rombai
 rombammo
@@ -41427,7 +40611,6 @@ rombavano
 rombavate
 rombavi
 rombavo
-romber
 romberai
 romberanno
 romberebbe
@@ -41460,7 +40643,6 @@ ronda
 ronde
 rondine
 rondini
-ronz
 ronza
 ronzai
 ronzammo
@@ -41484,7 +40666,6 @@ ronzavano
 ronzavate
 ronzavi
 ronzavo
-ronzer
 ronzerai
 ronzeranno
 ronzerebbe
@@ -41508,7 +40689,6 @@ rosicchia
 rosicchiai
 rosicchino
 rosicchio
-rosol
 rosola
 rosolai
 rosolammo
@@ -41530,7 +40710,6 @@ rosolavano
 rosolavate
 rosolavi
 rosolavo
-rosoler
 rosolerai
 rosolerei
 rosoleremo
@@ -41558,7 +40737,6 @@ rotazione
 rotazioni
 rotella
 rotelle
-rotol
 rotola
 rotolai
 rotolammo
@@ -41580,7 +40758,6 @@ rotolavano
 rotolavate
 rotolavi
 rotolavo
-rotoler
 rotolerai
 rotolerei
 rotoleremo
@@ -41604,7 +40781,6 @@ rottura
 rotture
 rovente
 roventi
-rovescer
 rovescerai
 rovescerei
 rovesci
@@ -41623,7 +40799,6 @@ rovesciavo
 rovescino
 rovescio
 rovi
-rovin
 rovina
 rovinai
 rovinammo
@@ -41646,7 +40821,6 @@ rovinavate
 rovinavi
 rovinavo
 rovine
-roviner
 rovinerai
 rovinerei
 rovineremo
@@ -41656,7 +40830,6 @@ roviniamo
 roviniate
 rovinino
 rovino
-rovist
 rovista
 rovistai
 rovistammo
@@ -41674,7 +40847,6 @@ rovistato
 rovistava
 rovistavi
 rovistavo
-rovister
 rovisterai
 rovisterei
 rovisti
@@ -41710,7 +40882,6 @@ rubavano
 rubavate
 rubavi
 rubavo
-ruber
 ruberai
 ruberanno
 ruberebbe
@@ -41740,7 +40911,6 @@ ruggini
 rughe
 rugiada
 rugiade
-rull
 rulla
 rullai
 rullammo
@@ -41764,7 +40934,6 @@ rullavano
 rullavate
 rullavi
 rullavo
-ruller
 rullerai
 rulleranno
 rullerebbe
@@ -41781,7 +40950,6 @@ rullii
 rullino
 rullio
 rullo
-rumin
 rumina
 ruminai
 ruminammo
@@ -41803,7 +40971,6 @@ ruminavano
 ruminavate
 ruminavi
 ruminavo
-ruminer
 ruminerai
 ruminerei
 rumineremo
@@ -41830,7 +40997,6 @@ rurale
 rurali
 ruscelli
 ruscello
-russ
 russa
 russai
 russammo
@@ -41854,7 +41020,6 @@ russavano
 russavate
 russavi
 russavo
-russer
 russerai
 russeranno
 russerebbe
@@ -41877,7 +41042,6 @@ ruvida
 ruvide
 ruvidi
 ruvido
-ruzzol
 ruzzola
 ruzzolai
 ruzzolammo
@@ -41895,7 +41059,6 @@ ruzzolato
 ruzzolava
 ruzzolavi
 ruzzolavo
-ruzzoler
 ruzzolerai
 ruzzolerei
 ruzzoli
@@ -41924,7 +41087,6 @@ sacre
 sacrestia
 sacrestie
 sacri
-sacrific
 sacrifica
 sacrificai
 sacrifichi
@@ -41939,7 +41101,6 @@ sagaci
 sagezza
 sagezze
 sagge
-sagger
 saggerai
 saggerei
 saggeremo
@@ -41985,7 +41146,6 @@ salare
 salari
 salario
 salarono
-salass
 salassa
 salassai
 salassammo
@@ -42004,7 +41164,6 @@ salassava
 salassavi
 salassavo
 salasse
-salasser
 salasserai
 salasserei
 salassero
@@ -42026,7 +41185,6 @@ salavano
 salavate
 salavi
 salavo
-sald
 salda
 saldai
 saldammo
@@ -42051,7 +41209,6 @@ saldavate
 saldavi
 saldavo
 salde
-salder
 salderai
 salderanno
 salderebbe
@@ -42068,7 +41225,6 @@ saldino
 saldo
 sale
 salendo
-saler
 salerai
 saleranno
 salerebbe
@@ -42091,7 +41247,6 @@ saliente
 saliera
 saliere
 salino
-salir
 saliranno
 salire
 salirgli
@@ -42114,7 +41269,6 @@ salmoni
 salo
 salotti
 salotto
-salp
 salpa
 salpai
 salpammo
@@ -42138,7 +41292,6 @@ salpavano
 salpavate
 salpavi
 salpavo
-salper
 salperai
 salperanno
 salperebbe
@@ -42161,7 +41314,6 @@ salsicce
 salsiccia
 salsiera
 salsiere
-salt
 salta
 saltai
 saltammo
@@ -42185,7 +41337,6 @@ saltavano
 saltavate
 saltavi
 saltavo
-salter
 salterai
 salteranno
 salterebbe
@@ -42206,7 +41357,6 @@ salume
 salumeria
 salumerie
 salumi
-salut
 saluta
 salutai
 salutammo
@@ -42229,7 +41379,6 @@ salutavate
 salutavi
 salutavo
 salute
-saluter
 saluterai
 saluterei
 saluteremo
@@ -42239,7 +41388,6 @@ salutiamo
 salutiate
 salutino
 saluto
-salv
 salva
 salvadanai
 salvagente
@@ -42270,7 +41418,6 @@ salvavate
 salvavi
 salvavo
 salve
-salver
 salverai
 salveranno
 salverebbe
@@ -42318,7 +41465,6 @@ sanavo
 sandali
 sandalo
 sane
-saner
 sanerai
 saneranno
 sanerebbe
@@ -42329,7 +41475,6 @@ sanereste
 saneresti
 sanerete
 sangue
-sanguin
 sanguina
 sanguinai
 sanguinano
@@ -42341,7 +41486,6 @@ sanguinato
 sanguinava
 sanguinavi
 sanguinavo
-sanguiner
 sanguini
 sanguinino
 sanguino
@@ -42358,12 +41502,10 @@ sano
 santa
 sante
 santi
-santific
 santifica
 santificai
 santifichi
 santifico
-santit
 santo
 santuari
 santuario
@@ -42372,7 +41514,6 @@ sanzioni
 sapendo
 sapendola
 sapendoli
-saper
 saperci
 sapere
 saperla
@@ -42415,7 +41556,6 @@ sappiate
 sappiatemi
 sappilo
 sappino
-sapr
 saprai
 sapranno
 saprebbe
@@ -42425,7 +41565,6 @@ sapremo
 sapreste
 sapresti
 saputo
-sara'
 sarai
 saranno
 sarcastica
@@ -42492,7 +41631,6 @@ saziavate
 saziavi
 saziavo
 sazie
-sazier
 sazierai
 sazieranno
 sazierebbe
@@ -42502,7 +41640,6 @@ sazieremo
 saziereste
 sazieresti
 sazierete
-saziet
 sazino
 sazio
 sbadata
@@ -42533,12 +41670,10 @@ sbagliato
 sbagliava
 sbagliavi
 sbagliavo
-sbaglier
 sbaglierai
 sbaglierei
 sbaglino
 sbaglio
-sball
 sballa
 sballai
 sballammo
@@ -42560,7 +41695,6 @@ sballavano
 sballavate
 sballavi
 sballavo
-sballer
 sballerai
 sballerei
 sballeremo
@@ -42570,10 +41704,8 @@ sballiamo
 sballiate
 sballino
 sballo
-sbalord
 sbalordano
 sbalordii
-sbalordir
 sbalordire
 sbalordita
 sbalordite
@@ -42582,7 +41714,6 @@ sbalordito
 sbalordiva
 sbalordivi
 sbalordivo
-sbalz
 sbalza
 sbalzai
 sbalzammo
@@ -42604,7 +41735,6 @@ sbalzavano
 sbalzavate
 sbalzavi
 sbalzavo
-sbalzer
 sbalzerai
 sbalzerei
 sbalzeremo
@@ -42623,7 +41753,6 @@ sbarazzina
 sbarazzine
 sbarazzini
 sbarazzino
-sbarc
 sbarca
 sbarcai
 sbarcammo
@@ -42645,7 +41774,6 @@ sbarcavano
 sbarcavate
 sbarcavi
 sbarcavo
-sbarcher
 sbarcherai
 sbarcherei
 sbarchi
@@ -42653,7 +41781,6 @@ sbarchiamo
 sbarchiate
 sbarchino
 sbarco
-sbarr
 sbarra
 sbarrai
 sbarrammo
@@ -42676,7 +41803,6 @@ sbarravate
 sbarravi
 sbarravo
 sbarre
-sbarrer
 sbarrerai
 sbarrerei
 sbarreremo
@@ -42686,14 +41812,12 @@ sbarriamo
 sbarriate
 sbarrino
 sbarro
-sbatt
 sbatta
 sbattano
 sbatte
 sbattei
 sbattemmo
 sbattendo
-sbatter
 sbatterai
 sbattere
 sbatterei
@@ -42722,7 +41846,6 @@ sbattuta
 sbattute
 sbattuti
 sbattuto
-sbav
 sbava
 sbavai
 sbavammo
@@ -42746,7 +41869,6 @@ sbavavano
 sbavavate
 sbavavi
 sbavavo
-sbaver
 sbaverai
 sbaveranno
 sbaverebbe
@@ -42761,7 +41883,6 @@ sbaviamo
 sbaviate
 sbavino
 sbavo
-sbend
 sbenda
 sbendai
 sbendammo
@@ -42783,7 +41904,6 @@ sbendavano
 sbendavate
 sbendavi
 sbendavo
-sbender
 sbenderai
 sbenderei
 sbenderemo
@@ -42793,14 +41913,12 @@ sbendiamo
 sbendiate
 sbendino
 sbendo
-sbiad
 sbiadano
 sbiadendo
 sbiadiamo
 sbiadiate
 sbiadii
 sbiadimmo
-sbiadir
 sbiadirai
 sbiadire
 sbiadirei
@@ -42825,10 +41943,8 @@ sbiadivano
 sbiadivate
 sbiadivi
 sbiadivo
-sbigott
 sbigottano
 sbigottii
-sbigottir
 sbigottire
 sbigottita
 sbigottite
@@ -42842,7 +41958,6 @@ sbilancia
 sbilanciai
 sbilancino
 sbilancio
-sbircer
 sbircerai
 sbircerei
 sbirceremo
@@ -42868,7 +41983,6 @@ sbirciavi
 sbirciavo
 sbircino
 sbircio
-sblocc
 sblocca
 sbloccai
 sbloccammo
@@ -42886,11 +42000,9 @@ sbloccato
 sbloccava
 sbloccavi
 sbloccavo
-sbloccher
 sblocchi
 sblocchino
 sblocco
-sboccer
 sboccerai
 sboccerei
 sbocceremo
@@ -42920,7 +42032,6 @@ sboccio
 sbocco
 sbornia
 sbornie
-sbotton
 sbottona
 sbottonai
 sbottonano
@@ -42932,11 +42043,9 @@ sbottonato
 sbottonava
 sbottonavi
 sbottonavo
-sbottoner
 sbottoni
 sbottonino
 sbottono
-sbran
 sbrana
 sbranai
 sbranammo
@@ -42958,7 +42067,6 @@ sbranavano
 sbranavate
 sbranavi
 sbranavo
-sbraner
 sbranerai
 sbranerei
 sbraneremo
@@ -42968,12 +42076,10 @@ sbraniamo
 sbraniate
 sbranino
 sbrano
-sbriciol
 sbriciola
 sbriciolai
 sbricioli
 sbriciolo
-sbrig
 sbriga
 sbrigai
 sbrigammo
@@ -42995,7 +42101,6 @@ sbrigavano
 sbrigavate
 sbrigavi
 sbrigavo
-sbrigher
 sbrigherai
 sbrigherei
 sbrighi
@@ -43020,10 +42125,8 @@ sbrogliato
 sbrogliava
 sbrogliavi
 sbrogliavo
-sbroglier
 sbroglino
 sbroglio
-sbuccer
 sbuccerai
 sbuccerei
 sbucceremo
@@ -43049,7 +42152,6 @@ sbucciavi
 sbucciavo
 sbuccino
 sbuccio
-sbuff
 sbuffa
 sbuffai
 sbuffammo
@@ -43071,7 +42173,6 @@ sbuffavano
 sbuffavate
 sbuffavi
 sbuffavo
-sbuffer
 sbufferai
 sbufferei
 sbufferemo
@@ -43086,7 +42187,6 @@ scabrosa
 scabrose
 scabrosi
 scabroso
-scaccer
 scaccerai
 scaccerei
 scacceremo
@@ -43155,12 +42255,10 @@ scagliava
 scagliavi
 scagliavo
 scaglie
-scaglier
 scaglierai
 scaglierei
 scaglino
 scaglio
-scal
 scala
 scalai
 scalammo
@@ -43186,7 +42284,6 @@ scalavano
 scalavate
 scalavi
 scalavo
-scald
 scalda
 scaldai
 scaldammo
@@ -43208,7 +42305,6 @@ scaldavano
 scaldavate
 scaldavi
 scaldavo
-scalder
 scalderai
 scalderei
 scalderemo
@@ -43219,7 +42315,6 @@ scaldiate
 scaldino
 scaldo
 scale
-scaler
 scalerai
 scaleranno
 scalerebbe
@@ -43268,14 +42363,12 @@ scambiato
 scambiava
 scambiavi
 scambiavo
-scambier
 scambierai
 scambierei
 scambino
 scambio
 scamiciati
 scamiciato
-scamp
 scampa
 scampai
 scampammo
@@ -43297,7 +42390,6 @@ scampavano
 scampavate
 scampavi
 scampavo
-scamper
 scamperai
 scamperei
 scamperemo
@@ -43313,7 +42405,6 @@ scandagli
 scandaglia
 scandaglio
 scandali
-scandaliz
 scandaliza
 scandalizi
 scandalizo
@@ -43333,7 +42424,6 @@ scanzonata
 scanzonate
 scanzonati
 scanzonato
-scapit
 scapita
 scapitai
 scapitammo
@@ -43351,7 +42441,6 @@ scapitato
 scapitava
 scapitavi
 scapitavo
-scapiter
 scapiterai
 scapiterei
 scapiti
@@ -43363,7 +42452,6 @@ scapola
 scapole
 scapoli
 scapolo
-scapp
 scappa
 scappai
 scappammo
@@ -43385,7 +42473,6 @@ scappavano
 scappavate
 scappavi
 scappavo
-scapper
 scapperai
 scapperei
 scapperemo
@@ -43397,7 +42484,6 @@ scappino
 scappo
 scarafaggi
 scaramucce
-scarcer
 scarcera
 scarcerai
 scarcerano
@@ -43409,11 +42495,9 @@ scarcerato
 scarcerava
 scarceravi
 scarceravo
-scarcerer
 scarceri
 scarcerino
 scarcero
-scardin
 scardina
 scardinai
 scardinano
@@ -43425,11 +42509,9 @@ scardinato
 scardinava
 scardinavi
 scardinavo
-scardiner
 scardini
 scardinino
 scardino
-scaric
 scarica
 scaricai
 scaricamento
@@ -43449,7 +42531,6 @@ scaricava
 scaricavi
 scaricavo
 scariche
-scaricher
 scarichi
 scarichiamo
 scarichino
@@ -43465,7 +42546,6 @@ scarseggia
 scarseggio
 scarsi
 scarso
-scart
 scarta
 scartai
 scartammo
@@ -43487,7 +42567,6 @@ scartavano
 scartavate
 scartavi
 scartavo
-scarter
 scarterai
 scarterei
 scarteremo
@@ -43500,7 +42579,6 @@ scarto
 scartocci
 scartoccia
 scartoccio
-scass
 scassa
 scassai
 scassammo
@@ -43522,7 +42600,6 @@ scassavano
 scassavate
 scassavi
 scassavo
-scasser
 scasserai
 scasserei
 scasseremo
@@ -43532,7 +42609,6 @@ scassiamo
 scassiate
 scassino
 scasso
-scaten
 scatena
 scatenai
 scatenammo
@@ -43550,7 +42626,6 @@ scatenato
 scatenava
 scatenavi
 scatenavo
-scatener
 scatenerai
 scatenerei
 scateni
@@ -43560,7 +42635,6 @@ scatenino
 scateno
 scatola
 scatole
-scatt
 scatta
 scattai
 scattammo
@@ -43582,7 +42656,6 @@ scattavano
 scattavate
 scattavi
 scattavo
-scatter
 scatterai
 scatterei
 scatteremo
@@ -43592,10 +42665,8 @@ scattiamo
 scattiate
 scattino
 scatto
-scav
 scava
 scavai
-scavalc
 scavalca
 scavalcai
 scavalcano
@@ -43630,7 +42701,6 @@ scavavano
 scavavate
 scavavi
 scavavo
-scaver
 scaverai
 scaveranno
 scaverebbe
@@ -43649,7 +42719,6 @@ scegli
 scegliamo
 sceglie
 scegliendo
-sceglier
 scegliere
 sceglierlo
 scegliermi
@@ -43684,7 +42753,6 @@ scenate
 scenda
 scende
 scendendo
-scender
 scendere
 scendesse
 scendete
@@ -43726,14 +42794,12 @@ scherma
 schermata
 schermi
 schermo
-schern
 schernano
 schernendo
 scherniamo
 scherniate
 schernii
 schernimmo
-schernir
 schernirai
 schernire
 schernirei
@@ -43752,7 +42818,6 @@ schernito
 scherniva
 schernivi
 schernivo
-scherz
 scherza
 scherzai
 scherzammo
@@ -43770,7 +42835,6 @@ scherzato
 scherzava
 scherzavi
 scherzavo
-scherzer
 scherzerai
 scherzerei
 scherzi
@@ -43792,7 +42856,6 @@ schiaffi
 schiaffo
 schiamazzi
 schiamazzo
-schiant
 schianta
 schiantai
 schiantano
@@ -43804,18 +42867,15 @@ schiantato
 schiantava
 schiantavi
 schiantavo
-schianter
 schianti
 schiantino
 schianto
-schiar
 schiarano
 schiarendo
 schiariamo
 schiariate
 schiarii
 schiarimmo
-schiarir
 schiarirai
 schiarire
 schiarirei
@@ -43837,11 +42897,9 @@ schiarivo
 schiava
 schiave
 schiavi
-schiavit
 schiavo
 schiena
 schiene
-schier
 schiera
 schierai
 schierammo
@@ -43859,7 +42917,6 @@ schierato
 schierava
 schieravi
 schieravo
-schierer
 schiererai
 schiererei
 schieri
@@ -43880,7 +42937,6 @@ schiocchi
 schiocco
 schiuma
 schiume
-schizz
 schizza
 schizzai
 schizzammo
@@ -43898,7 +42954,6 @@ schizzato
 schizzava
 schizzavi
 schizzavo
-schizzer
 schizzerai
 schizzerei
 schizzetti
@@ -43925,7 +42980,6 @@ sciacquato
 sciacquava
 sciacquavi
 sciacquavo
-sciacquer
 sciacqui
 sciacquino
 sciacquo
@@ -43973,7 +43027,6 @@ sciocche
 sciocchi
 sciocco
 sciogliamo
-scioglier
 sciogliere
 sciolga
 sciolgono
@@ -43983,7 +43036,6 @@ sciolta
 sciolte
 sciolti
 sciolto
-scioper
 sciopera
 scioperai
 scioperano
@@ -43995,7 +43047,6 @@ scioperato
 scioperava
 scioperavi
 scioperavo
-scioperer
 scioperi
 scioperino
 sciopero
@@ -44003,7 +43054,6 @@ sciroppi
 sciroppo
 scissione
 scissioni
-sciup
 sciupa
 sciupai
 sciupammo
@@ -44025,7 +43075,6 @@ sciupavano
 sciupavate
 sciupavi
 sciupavo
-sciuper
 sciuperai
 sciuperei
 sciuperemo
@@ -44035,7 +43084,6 @@ sciupiamo
 sciupiate
 sciupino
 sciupo
-scivol
 scivola
 scivolai
 scivolammo
@@ -44053,7 +43101,6 @@ scivolato
 scivolava
 scivolavi
 scivolavo
-scivoler
 scivolerai
 scivolerei
 scivoli
@@ -44064,7 +43111,6 @@ scivolo
 scndendo
 scodella
 scodelle
-scodinzol
 scodinzola
 scodinzoli
 scodinzolo
@@ -44084,14 +43130,12 @@ scollate
 scollati
 scollato
 scolo
-scolor
 scolorano
 scolorendo
 scoloriamo
 scoloriate
 scolorii
 scolorimmo
-scolorir
 scolorirai
 scolorire
 scolorirei
@@ -44110,14 +43154,12 @@ scolorito
 scoloriva
 scolorivi
 scolorivo
-scolp
 scolpano
 scolpendo
 scolpiamo
 scolpiate
 scolpii
 scolpimmo
-scolpir
 scolpirai
 scolpire
 scolpirei
@@ -44149,11 +43191,9 @@ scomode
 scomodi
 scomodo
 scompaiono
-scompar
 scomparano
 scompare
 scomparii
-scomparir
 scomparire
 scomparita
 scomparite
@@ -44179,7 +43219,6 @@ scondita
 scondite
 sconditi
 scondito
-sconfess
 sconfessa
 sconfessai
 sconfessi
@@ -44187,7 +43226,6 @@ sconfesso
 sconfigge
 sconfiggi
 sconfiggo
-sconfin
 sconfina
 sconfinai
 sconfinano
@@ -44199,7 +43237,6 @@ sconfinato
 sconfinava
 sconfinavi
 sconfinavo
-sconfiner
 sconfini
 sconfinino
 sconfino
@@ -44210,7 +43247,6 @@ sconfitti
 sconfitto
 sconforti
 sconforto
-scongiur
 scongiura
 scongiurai
 scongiuri
@@ -44219,7 +43255,6 @@ sconnessa
 sconnesse
 sconnessi
 sconnesso
-sconsacr
 sconsacra
 sconsacrai
 sconsacri
@@ -44231,7 +43266,6 @@ sconsolata
 sconsolate
 sconsolati
 sconsolato
-scont
 sconta
 scontai
 scontammo
@@ -44253,13 +43287,11 @@ scontavano
 scontavate
 scontavi
 scontavo
-scontent
 scontenta
 scontentai
 scontente
 scontenti
 scontento
-sconter
 sconterai
 sconterei
 sconteremo
@@ -44317,12 +43349,10 @@ scoppiato
 scoppiava
 scoppiavi
 scoppiavo
-scoppier
 scoppierai
 scoppierei
 scoppino
 scoppio
-scopr
 scopra
 scoprano
 scopre
@@ -44332,7 +43362,6 @@ scopriamo
 scopriate
 scoprii
 scoprimmo
-scoprir
 scoprirai
 scoprire
 scoprirei
@@ -44370,7 +43399,6 @@ scoraggino
 scoraggio
 scorci
 scorcio
-scord
 scorda
 scordai
 scordammo
@@ -44392,7 +43420,6 @@ scordavano
 scordavate
 scordavi
 scordavo
-scorder
 scorderai
 scorderei
 scorderemo
@@ -44437,7 +43464,6 @@ scorsi
 scorso
 scorsoi
 scorsoio
-scort
 scorta
 scortai
 scortammo
@@ -44463,7 +43489,6 @@ scorte
 scortecci
 scorteccia
 scorteccio
-scorter
 scorterai
 scorterei
 scorteremo
@@ -44487,7 +43512,6 @@ scossa
 scosse
 scossi
 scosso
-scost
 scosta
 scostai
 scostammo
@@ -44509,7 +43533,6 @@ scostavano
 scostavate
 scostavi
 scostavo
-scoster
 scosterai
 scosterei
 scosteremo
@@ -44524,7 +43547,6 @@ scostumate
 scostumati
 scostumato
 scotendo
-scott
 scotta
 scottai
 scottammo
@@ -44550,7 +43572,6 @@ scottavano
 scottavate
 scottavi
 scottavo
-scotter
 scotterai
 scotterei
 scotteremo
@@ -44560,7 +43581,6 @@ scottiamo
 scottiate
 scottino
 scotto
-scov
 scova
 scovai
 scovammo
@@ -44584,7 +43604,6 @@ scovavano
 scovavate
 scovavi
 scovavo
-scover
 scoverai
 scoveranno
 scoverebbe
@@ -44599,7 +43618,6 @@ scoviamo
 scoviate
 scovino
 scovo
-scozz
 scozza
 scozzai
 scozzammo
@@ -44621,7 +43639,6 @@ scozzavano
 scozzavate
 scozzavi
 scozzavo
-scozzer
 scozzerai
 scozzerei
 scozzeremo
@@ -44635,7 +43652,6 @@ screanzata
 screanzate
 screanzati
 screanzato
-scredit
 scredita
 screditai
 screditano
@@ -44647,11 +43663,9 @@ screditato
 screditava
 screditavi
 screditavo
-screditer
 screditi
 screditino
 scredito
-screm
 screma
 scremai
 scremammo
@@ -44673,7 +43687,6 @@ scremavano
 scremavate
 scremavi
 scremavo
-scremer
 scremerai
 scremerei
 scremeremo
@@ -44683,7 +43696,6 @@ scremiamo
 scremiate
 scremino
 scremo
-screpol
 screpola
 screpolai
 screpolano
@@ -44695,7 +43707,6 @@ screpolato
 screpolava
 screpolavi
 screpolavo
-screpoler
 screpoli
 screpolino
 screpolo
@@ -44714,7 +43725,6 @@ scritta
 scritte
 scritti
 scritto
-scrittur
 scrittura
 scritturai
 scritture
@@ -44729,8 +43739,6 @@ scrivendo
 scrivendole
 scrivente
 scriventi
-scriver
-scrivera'
 scriverci
 scrivere
 scrivergli
@@ -44754,7 +43762,6 @@ scroccone
 scrocconi
 scrofa
 scrofe
-scroll
 scrolla
 scrollai
 scrollammo
@@ -44772,7 +43779,6 @@ scrollato
 scrollava
 scrollavi
 scrollavo
-scroller
 scrollerai
 scrollerei
 scrolli
@@ -44780,7 +43786,6 @@ scrolliamo
 scrolliate
 scrollino
 scrollo
-scroscer
 scroscerai
 scroscerei
 scrosci
@@ -44798,7 +43803,6 @@ scrosciavi
 scrosciavo
 scroscino
 scroscio
-scrost
 scrosta
 scrostai
 scrostammo
@@ -44816,7 +43820,6 @@ scrostato
 scrostava
 scrostavi
 scrostavo
-scroster
 scrosterai
 scrosterei
 scrosti
@@ -44830,7 +43833,6 @@ scrupolosa
 scrupolose
 scrupolosi
 scrupoloso
-scrut
 scruta
 scrutai
 scrutammo
@@ -44852,7 +43854,6 @@ scrutavano
 scrutavate
 scrutavi
 scrutavo
-scruter
 scruterai
 scruterei
 scruteremo
@@ -44888,7 +43889,6 @@ scura
 scure
 scuri
 scuro
-scus
 scusa
 scusabile
 scusabili
@@ -44915,7 +43915,6 @@ scusavate
 scusavi
 scusavo
 scuse
-scuser
 scuserai
 scuseranno
 scuserebbe
@@ -44930,7 +43929,6 @@ scusiamo
 scusiate
 scusino
 scuso
-sdegn
 sdegna
 sdegnai
 sdegnammo
@@ -44952,7 +43950,6 @@ sdegnavano
 sdegnavate
 sdegnavi
 sdegnavo
-sdegner
 sdegnerai
 sdegnerei
 sdegneremo
@@ -44970,7 +43967,6 @@ sdentata
 sdentate
 sdentati
 sdentato
-sdogan
 sdogana
 sdoganai
 sdoganammo
@@ -44988,7 +43984,6 @@ sdoganato
 sdoganava
 sdoganavi
 sdoganavo
-sdoganer
 sdoganerai
 sdoganerei
 sdogani
@@ -45015,7 +44010,6 @@ sdoppiato
 sdoppiava
 sdoppiavi
 sdoppiavo
-sdoppier
 sdoppierai
 sdoppierei
 sdoppino
@@ -45040,7 +44034,6 @@ secolare
 secolari
 secoli
 secolo
-second
 seconda
 secondai
 secondammo
@@ -45063,7 +44056,6 @@ secondava
 secondavi
 secondavo
 seconde
-seconder
 seconderai
 seconderei
 secondi
@@ -45100,7 +44092,6 @@ sedavo
 sede
 sedemmo
 sedendosi
-seder
 sederai
 sederanno
 sederci
@@ -45146,14 +44137,11 @@ seggio
 seghe
 segheria
 segherie
-seglier
 seglierlo
 segmenti
 segmento
-segn
 segna
 segnai
-segnal
 segnala
 segnalai
 segnalammo
@@ -45173,7 +44161,6 @@ segnalava
 segnalavi
 segnalavo
 segnale
-segnaler
 segnalera
 segnalerai
 segnalerei
@@ -45205,7 +44192,6 @@ segnavano
 segnavate
 segnavi
 segnavo
-segner
 segnerai
 segneranno
 segnerebbe
@@ -45220,7 +44206,6 @@ segniamo
 segniate
 segnino
 segno
-segreg
 segrega
 segregai
 segregammo
@@ -45238,7 +44223,6 @@ segregato
 segregava
 segregavi
 segregavo
-segregher
 segreghi
 segreghino
 segrego
@@ -45270,7 +44254,6 @@ seguiate
 seguii
 seguimmo
 seguine
-seguir
 seguirai
 seguiranno
 seguire
@@ -45298,7 +44281,6 @@ seguissi
 seguissimo
 seguiste
 seguisti
-seguit
 seguita
 seguitai
 seguitammo
@@ -45318,7 +44300,6 @@ seguitavi
 seguitavo
 seguite
 seguitemi
-seguiter
 seguiterai
 seguiterei
 seguiti
@@ -45334,7 +44315,6 @@ seguivi
 seguivo
 seguo
 seguono
-selcer
 selcerai
 selcerebbe
 selcerei
@@ -45369,7 +44349,6 @@ selciavo
 selcino
 selcio
 selettore
-selezion
 seleziona
 selezionabile
 selezionai
@@ -45399,7 +44378,6 @@ semantica
 semanticamente
 semantiche
 semantici
-sembr
 sembra
 sembrai
 sembrammo
@@ -45421,7 +44399,6 @@ sembravano
 sembravate
 sembravi
 sembravo
-sembrer
 sembrerai
 sembrerei
 sembreremo
@@ -45436,7 +44413,6 @@ semestre
 semestri
 semi
 semicerchi
-semin
 semina
 seminai
 seminammo
@@ -45459,7 +44435,6 @@ seminavate
 seminavi
 seminavo
 semine
-seminer
 seminerai
 seminerei
 semineremo
@@ -45482,10 +44457,7 @@ semplice
 semplicemente
 semplici
 semplicissima
-semplicit
 semplicita
-semplicita'
-semplific
 semplifica
 semplificare
 semplificato
@@ -45510,8 +44482,6 @@ sensi
 sensibile
 sensibili
 senso
-sensualit
-sent
 senta
 sentano
 sente
@@ -45533,7 +44503,6 @@ sentimi
 sentimmo
 sentinella
 sentinelle
-sentir
 sentirai
 sentiranno
 sentire
@@ -45578,7 +44547,6 @@ sentivo
 sento
 sentono
 senza
-separ
 separa
 separabile
 separabili
@@ -45605,7 +44573,6 @@ separavano
 separavate
 separavi
 separavo
-separer
 separerai
 separerei
 separeremo
@@ -45622,20 +44589,17 @@ sepolte
 sepolto
 seppe
 seppelire
-seppell
 seppellito
 seppero
 seppi
 seppia
 seppie
-seppur
 seppure
 sequela
 sequele
 sequenza
 sequenziale
 sequenzialmente
-sequestr
 sequestra
 sequestrai
 sequestri
@@ -45643,7 +44607,6 @@ sequestro
 sera
 serata
 serate
-serb
 serba
 serbai
 serbammo
@@ -45669,7 +44632,6 @@ serbavano
 serbavate
 serbavi
 serbavo
-serber
 serberai
 serberanno
 serberebbe
@@ -45697,7 +44659,6 @@ seri
 seria
 seriali
 serie
-seriet
 serio
 sermone
 sermoni
@@ -45705,7 +44666,6 @@ serpente
 serpenti
 serpentini
 serpentino
-serr
 serra
 serragli
 serraglio
@@ -45734,7 +44694,6 @@ serravate
 serravi
 serravo
 serre
-serrer
 serrerai
 serreranno
 serrerebbe
@@ -45798,9 +44757,7 @@ settori
 severa
 severe
 severi
-severit
 severo
-sezion
 seziona
 sezionai
 sezionammo
@@ -45819,7 +44776,6 @@ sezionava
 sezionavi
 sezionavo
 sezione
-sezioner
 sezionerai
 sezionerei
 sezioni
@@ -45827,7 +44783,6 @@ sezioniamo
 sezioniate
 sezionino
 seziono
-sfacchin
 sfacchina
 sfacchinai
 sfacchini
@@ -45836,7 +44791,6 @@ sfacciata
 sfacciate
 sfacciati
 sfacciato
-sfam
 sfama
 sfamai
 sfamammo
@@ -45860,7 +44814,6 @@ sfamavano
 sfamavate
 sfamavi
 sfamavo
-sfamer
 sfamerai
 sfameranno
 sfamerebbe
@@ -45881,7 +44834,6 @@ sfarzosa
 sfarzose
 sfarzosi
 sfarzoso
-sfascer
 sfascerai
 sfascerei
 sfasceremo
@@ -45911,7 +44863,6 @@ sfatta
 sfatte
 sfatti
 sfatto
-sfavill
 sfavilla
 sfavillai
 sfavillano
@@ -45923,7 +44874,6 @@ sfavillato
 sfavillava
 sfavillavi
 sfavillavo
-sfaviller
 sfavilli
 sfavillino
 sfavillo
@@ -45960,12 +44910,10 @@ sfibbiato
 sfibbiava
 sfibbiavi
 sfibbiavo
-sfibbier
 sfibbierai
 sfibbierei
 sfibbino
 sfibbio
-sfibr
 sfibra
 sfibrai
 sfibrammo
@@ -45987,7 +44935,6 @@ sfibravano
 sfibravate
 sfibravi
 sfibravo
-sfibrer
 sfibrerai
 sfibrerei
 sfibreremo
@@ -45997,7 +44944,6 @@ sfibriamo
 sfibriate
 sfibrino
 sfibro
-sfid
 sfida
 sfidai
 sfidammo
@@ -46022,7 +44968,6 @@ sfidavate
 sfidavi
 sfidavo
 sfide
-sfider
 sfiderai
 sfideranno
 sfiderebbe
@@ -46042,7 +44987,6 @@ sfiduciata
 sfiduciate
 sfiduciati
 sfiduciato
-sfigur
 sfigura
 sfigurai
 sfigurammo
@@ -46060,7 +45004,6 @@ sfigurato
 sfigurava
 sfiguravi
 sfiguravo
-sfigurer
 sfigurerai
 sfigurerei
 sfiguri
@@ -46068,7 +45011,6 @@ sfiguriamo
 sfiguriate
 sfigurino
 sfiguro
-sfil
 sfila
 sfilai
 sfilammo
@@ -46092,7 +45034,6 @@ sfilavano
 sfilavate
 sfilavi
 sfilavo
-sfiler
 sfilerai
 sfileranno
 sfilerebbe
@@ -46107,7 +45048,6 @@ sfiliamo
 sfiliate
 sfilino
 sfilo
-sfin
 sfinano
 sfinendo
 sfinge
@@ -46116,7 +45056,6 @@ sfiniamo
 sfiniate
 sfinii
 sfinimmo
-sfinir
 sfinirai
 sfiniranno
 sfinire
@@ -46149,8 +45088,6 @@ sfinivano
 sfinivate
 sfinivi
 sfinivo
-sfior
-sfior
 sfiora
 sfiorai
 sfiorammo
@@ -46173,7 +45110,6 @@ sfioravate
 sfioravi
 sfioravo
 sfiorendo
-sfiorer
 sfiorerai
 sfiorerei
 sfioreremo
@@ -46184,7 +45120,6 @@ sfioriate
 sfiorii
 sfiorimmo
 sfiorino
-sfiorir
 sfiorirai
 sfiorire
 sfiorirei
@@ -46214,7 +45149,6 @@ sfitta
 sfitte
 sfitti
 sfitto
-sfocer
 sfocerai
 sfocerebbe
 sfocerei
@@ -46248,7 +45182,6 @@ sfociavi
 sfociavo
 sfocino
 sfocio
-sfoder
 sfodera
 sfoderai
 sfoderammo
@@ -46266,7 +45199,6 @@ sfoderato
 sfoderava
 sfoderavi
 sfoderavo
-sfoderer
 sfodererai
 sfodererei
 sfoderi
@@ -46274,7 +45206,6 @@ sfoderiamo
 sfoderiate
 sfoderino
 sfodero
-sfog
 sfoga
 sfogai
 sfogammo
@@ -46298,7 +45229,6 @@ sfogavano
 sfogavate
 sfogavi
 sfogavo
-sfogher
 sfogherai
 sfogherei
 sfogheremo
@@ -46327,13 +45257,11 @@ sfogliava
 sfogliavi
 sfogliavo
 sfoglie
-sfoglier
 sfoglierai
 sfoglierei
 sfoglino
 sfoglio
 sfogo
-sfond
 sfonda
 sfondai
 sfondammo
@@ -46355,7 +45283,6 @@ sfondavano
 sfondavate
 sfondavi
 sfondavo
-sfonder
 sfonderai
 sfonderei
 sfonderemo
@@ -46377,7 +45304,6 @@ sfortunato
 sfortune
 sforzi
 sforzo
-sfratt
 sfratta
 sfrattai
 sfrattammo
@@ -46395,7 +45321,6 @@ sfrattato
 sfrattava
 sfrattavi
 sfrattavo
-sfratter
 sfratterai
 sfratterei
 sfratti
@@ -46403,7 +45328,6 @@ sfrattiamo
 sfrattiate
 sfrattino
 sfratto
-sfreg
 sfrega
 sfregai
 sfregammo
@@ -46425,7 +45349,6 @@ sfregavano
 sfregavate
 sfregavi
 sfregavo
-sfregher
 sfregherai
 sfregherei
 sfreghi
@@ -46439,7 +45362,6 @@ sfrenata
 sfrenate
 sfrenati
 sfrenato
-sfrond
 sfronda
 sfrondai
 sfrondammo
@@ -46457,7 +45379,6 @@ sfrondato
 sfrondava
 sfrondavi
 sfrondavo
-sfronder
 sfronderai
 sfronderei
 sfrondi
@@ -46469,7 +45390,6 @@ sfrontata
 sfrontate
 sfrontati
 sfrontato
-sfrutt
 sfrutta
 sfruttai
 sfruttammo
@@ -46487,7 +45407,6 @@ sfruttato
 sfruttava
 sfruttavi
 sfruttavo
-sfrutter
 sfrutterai
 sfrutterei
 sfrutti
@@ -46521,11 +45440,9 @@ sghemba
 sghembe
 sghembi
 sghembo
-sghignazz
 sghignazza
 sghignazzi
 sghignazzo
-sgobb
 sgobba
 sgobbai
 sgobbammo
@@ -46547,7 +45464,6 @@ sgobbavano
 sgobbavate
 sgobbavi
 sgobbavo
-sgobber
 sgobberai
 sgobberei
 sgobberemo
@@ -46559,14 +45475,12 @@ sgobbino
 sgobbo
 sgobbone
 sgobboni
-sgocciol
 sgocciola
 sgocciolai
 sgoccioli
 sgocciolo
 sgoggioli
 sgoggiolo
-sgomber
 sgombera
 sgomberai
 sgomberano
@@ -46578,7 +45492,6 @@ sgomberato
 sgomberava
 sgomberavi
 sgomberavo
-sgomberer
 sgomberi
 sgomberino
 sgombero
@@ -46589,7 +45502,6 @@ sgombrate
 sgombre
 sgombri
 sgombro
-sgoment
 sgomenta
 sgomentai
 sgomentano
@@ -46602,11 +45514,9 @@ sgomentava
 sgomentavi
 sgomentavo
 sgomente
-sgomenter
 sgomenti
 sgomentino
 sgomento
-sgomin
 sgomina
 sgominai
 sgominammo
@@ -46624,7 +45534,6 @@ sgominato
 sgominava
 sgominavi
 sgominavo
-sgominer
 sgominerai
 sgominerei
 sgomini
@@ -46636,7 +45545,6 @@ sgorbia
 sgorbie
 sgorbii
 sgorbio
-sgorg
 sgorga
 sgorgai
 sgorgammo
@@ -46658,7 +45566,6 @@ sgorgavano
 sgorgavate
 sgorgavi
 sgorgavo
-sgorgher
 sgorgherai
 sgorgherei
 sgorghi
@@ -46666,7 +45573,6 @@ sgorghiamo
 sgorghiate
 sgorghino
 sgorgo
-sgozz
 sgozza
 sgozzai
 sgozzammo
@@ -46688,7 +45594,6 @@ sgozzavano
 sgozzavate
 sgozzavi
 sgozzavo
-sgozzer
 sgozzerai
 sgozzerei
 sgozzeremo
@@ -46700,7 +45605,6 @@ sgozzino
 sgozzo
 sgradevole
 sgradevoli
-sgran
 sgrana
 sgranai
 sgranammo
@@ -46722,10 +45626,8 @@ sgranavano
 sgranavate
 sgranavi
 sgranavo
-sgranch
 sgranchano
 sgranchii
-sgranchir
 sgranchire
 sgranchita
 sgranchite
@@ -46734,7 +45636,6 @@ sgranchito
 sgranchiva
 sgranchivi
 sgranchivo
-sgraner
 sgranerai
 sgranerei
 sgraneremo
@@ -46744,11 +45645,9 @@ sgraniamo
 sgraniate
 sgranino
 sgrano
-sgranocch
 sgranoccha
 sgranocchi
 sgranoccho
-sgrass
 sgrassa
 sgrassai
 sgrassammo
@@ -46766,7 +45665,6 @@ sgrassato
 sgrassava
 sgrassavi
 sgrassavo
-sgrasser
 sgrasserai
 sgrasserei
 sgrassi
@@ -46774,7 +45672,6 @@ sgrassiamo
 sgrassiate
 sgrassino
 sgrasso
-sgrav
 sgrava
 sgravai
 sgravammo
@@ -46796,7 +45693,6 @@ sgravavano
 sgravavate
 sgravavi
 sgravavo
-sgraver
 sgraverai
 sgraverei
 sgraveremo
@@ -46810,7 +45706,6 @@ sgraziata
 sgraziate
 sgraziati
 sgraziato
-sgretol
 sgretola
 sgretolai
 sgretolano
@@ -46822,11 +45717,9 @@ sgretolato
 sgretolava
 sgretolavi
 sgretolavo
-sgretoler
 sgretoli
 sgretolino
 sgretolo
-sgrid
 sgrida
 sgridai
 sgridammo
@@ -46848,7 +45741,6 @@ sgridavano
 sgridavate
 sgridavi
 sgridavo
-sgrider
 sgriderai
 sgriderei
 sgrideremo
@@ -46862,7 +45754,6 @@ sguaiata
 sguaiate
 sguaiati
 sguaiato
-sguain
 sguaina
 sguainai
 sguainammo
@@ -46880,7 +45771,6 @@ sguainato
 sguainava
 sguainavi
 sguainavo
-sguainer
 sguainerai
 sguainerei
 sguaini
@@ -46894,14 +45784,12 @@ sguattera
 sguattere
 sguatteri
 sguattero
-sguinzagl
 sguinzagla
 sguinzagli
 sguinzaglo
 siamo
 siano
 siate
-sibil
 sibila
 sibilai
 sibilammo
@@ -46923,7 +45811,6 @@ sibilavano
 sibilavate
 sibilavi
 sibilavo
-sibiler
 sibilerai
 sibilerei
 sibileremo
@@ -46939,7 +45826,6 @@ sibillino
 sibilo
 sicari
 sicario
-siccit
 sicura
 sicuramente
 sicure
@@ -46951,7 +45837,6 @@ sidro
 sieda
 siedano
 siede
-sieder
 siedi
 siediti
 siedo
@@ -46969,7 +45854,6 @@ sigaretta
 sigarette
 sigari
 sigaro
-sigill
 sigilla
 sigillai
 sigillammo
@@ -46987,7 +45871,6 @@ sigillato
 sigillava
 sigillavi
 sigillavo
-sigiller
 sigillerai
 sigillerei
 sigilli
@@ -46997,7 +45880,6 @@ sigillino
 sigillo
 sigla
 sigle
-signific
 significa
 significai
 significati
@@ -47006,7 +45888,6 @@ significativo
 significato
 significhi
 significo
-signor
 signora
 signore
 signori
@@ -47027,7 +45908,6 @@ sillaba
 sillabari
 sillabario
 sillabe
-silur
 silura
 silurai
 silurammo
@@ -47051,7 +45931,6 @@ siluravano
 siluravate
 siluravi
 siluravo
-silurer
 silurerai
 silurerei
 silureremo
@@ -47061,7 +45940,6 @@ siluriamo
 siluriate
 silurino
 siluro
-simbolegg
 simbolegga
 simboleggo
 simboli
@@ -47083,11 +45961,9 @@ simpatiche
 simpatici
 simpatico
 simpatie
-simpatizz
 simpatizza
 simpatizzi
 simpatizzo
-simul
 simula
 simulai
 simulammo
@@ -47111,7 +45987,6 @@ simulavano
 simulavate
 simulavi
 simulavo
-simuler
 simulerai
 simulerei
 simuleremo
@@ -47130,7 +46005,6 @@ sinagoghe
 sincera
 sincere
 sinceri
-sincerit
 sincero
 sincope
 sincronizzazione
@@ -47138,7 +46012,6 @@ sindacati
 sindacato
 sinfonia
 sinfonie
-singhiozz
 singhiozza
 singhiozzi
 singhiozzo
@@ -47163,7 +46036,6 @@ sintetica
 sintetiche
 sintetici
 sintetico
-sintetizz
 sintetizza
 sintetizzi
 sintetizzo
@@ -47171,14 +46043,12 @@ sintomi
 sintomo
 sintonia
 sintonie
-sintonizz
 sintonizza
 sintonizzi
 sintonizzo
 sinuosa
 sinuose
 sinuosi
-sinuosit
 sinuoso
 sipari
 sipario
@@ -47188,7 +46058,6 @@ siringa
 siringhe
 sismografi
 sismografo
-sistem
 sistema
 sistemai
 sistemammo
@@ -47207,7 +46076,6 @@ sistemato
 sistemava
 sistemavi
 sistemavo
-sistemer
 sistemerai
 sistemerei
 sistemi
@@ -47245,7 +46113,6 @@ situavi
 situavo
 situazione
 situazioni
-situer
 situerai
 situeranno
 situerebbe
@@ -47260,7 +46127,6 @@ situiamo
 situiate
 situino
 situo
-slaccer
 slaccerai
 slaccerei
 slacci
@@ -47296,8 +46162,6 @@ slavati
 slavato
 sleale
 sleali
-slealt
-sleg
 slega
 slegai
 slegammo
@@ -47321,7 +46185,6 @@ slegavano
 slegavate
 slegavi
 slegavo
-slegher
 slegherai
 slegherei
 slegheremo
@@ -47331,7 +46194,6 @@ sleghiamo
 sleghiate
 sleghino
 slego
-slent
 slenta
 slentai
 slentammo
@@ -47353,7 +46215,6 @@ slentavano
 slentavate
 slentavi
 slentavo
-slenter
 slenterai
 slenterei
 slenteremo
@@ -47363,8 +46224,6 @@ slentiamo
 slentiate
 slentino
 slento
-slip
-slitt
 slitta
 slittai
 slittammo
@@ -47387,7 +46246,6 @@ slittavate
 slittavi
 slittavo
 slitte
-slitter
 slitterai
 slitterei
 slitteremo
@@ -47397,7 +46255,6 @@ slittiamo
 slittiate
 slittino
 slitto
-slog
 sloga
 slogai
 slogammo
@@ -47421,7 +46278,6 @@ slogavano
 slogavate
 slogavi
 slogavo
-slogger
 sloggerai
 sloggerei
 sloggeremo
@@ -47447,7 +46303,6 @@ sloggiavi
 sloggiavo
 sloggino
 sloggio
-slogher
 slogherai
 slogherei
 slogheremo
@@ -47474,7 +46329,6 @@ smacchiato
 smacchiava
 smacchiavi
 smacchiavo
-smacchier
 smacchino
 smacchio
 smacco
@@ -47497,7 +46351,6 @@ smagliato
 smagliava
 smagliavi
 smagliavo
-smaglier
 smaglierai
 smaglierei
 smaglino
@@ -47506,8 +46359,6 @@ smaliziata
 smaliziate
 smaliziati
 smaliziato
-smalt
-smalt
 smalta
 smaltai
 smaltammo
@@ -47530,7 +46381,6 @@ smaltavate
 smaltavi
 smaltavo
 smaltendo
-smalter
 smalterai
 smalterei
 smalteremo
@@ -47541,7 +46391,6 @@ smaltiate
 smaltii
 smaltimmo
 smaltino
-smaltir
 smaltirai
 smaltire
 smaltirei
@@ -47573,14 +46422,12 @@ smaniosa
 smaniose
 smaniosi
 smanioso
-smarr
 smarrano
 smarrendo
 smarriamo
 smarriate
 smarrii
 smarrimmo
-smarrir
 smarrirai
 smarrire
 smarrirei
@@ -47605,12 +46452,10 @@ smarrivano
 smarrivate
 smarrivi
 smarrivo
-smascher
 smaschera
 smascherai
 smascheri
 smaschero
-smembr
 smembra
 smembrai
 smembrammo
@@ -47628,7 +46473,6 @@ smembrato
 smembrava
 smembravi
 smembravo
-smembrer
 smembrerai
 smembrerei
 smembri
@@ -47640,14 +46484,12 @@ smemorata
 smemorate
 smemorati
 smemorato
-sment
 smentano
 smentendo
 smentiamo
 smentiate
 smentii
 smentimmo
-smentir
 smentirai
 smentire
 smentirei
@@ -47674,7 +46516,6 @@ smentivi
 smentivo
 smeraldi
 smeraldo
-smercer
 smercerai
 smercerei
 smerci
@@ -47709,7 +46550,6 @@ smessi
 smesso
 smetta
 smette
-smetter
 smettere
 smetterla
 smettete
@@ -47719,7 +46559,6 @@ smettiamo
 smettila
 smetto
 smettono
-smezz
 smezza
 smezzai
 smezzammo
@@ -47741,7 +46580,6 @@ smezzavano
 smezzavate
 smezzavi
 smezzavo
-smezzer
 smezzerai
 smezzerei
 smezzeremo
@@ -47755,7 +46593,6 @@ smilza
 smilze
 smilzi
 smilzo
-sminuzz
 sminuzza
 sminuzzai
 sminuzzano
@@ -47767,7 +46604,6 @@ sminuzzato
 sminuzzava
 sminuzzavi
 sminuzzavo
-sminuzzer
 sminuzzi
 sminuzzino
 sminuzzo
@@ -47781,7 +46617,6 @@ smodata
 smodate
 smodati
 smodato
-smont
 smonta
 smontai
 smontammo
@@ -47803,7 +46638,6 @@ smontavano
 smontavate
 smontavi
 smontavo
-smonter
 smonterai
 smonterei
 smonteremo
@@ -47823,7 +46657,6 @@ smorta
 smorte
 smorti
 smorto
-smorz
 smorza
 smorzai
 smorzammo
@@ -47845,7 +46678,6 @@ smorzavano
 smorzavate
 smorzavi
 smorzavo
-smorzer
 smorzerai
 smorzerei
 smorzeremo
@@ -47876,7 +46708,6 @@ snaturato
 snellimento
 snervante
 snervanti
-snod
 snoda
 snodai
 snodammo
@@ -47900,7 +46731,6 @@ snodavano
 snodavate
 snodavi
 snodavo
-snoder
 snoderai
 snoderanno
 snoderebbe
@@ -47917,8 +46747,6 @@ snodino
 snodo
 soave
 soavi
-soavit
-sobbalz
 sobbalza
 sobbalzai
 sobbalzano
@@ -47930,13 +46758,11 @@ sobbalzato
 sobbalzava
 sobbalzavi
 sobbalzavo
-sobbalzer
 sobbalzi
 sobbalzino
 sobbalzo
 sobborghi
 sobborgo
-sobill
 sobilla
 sobillai
 sobillammo
@@ -47954,7 +46780,6 @@ sobillato
 sobillava
 sobillavi
 sobillavo
-sobiller
 sobillerai
 sobillerei
 sobilli
@@ -47965,18 +46790,15 @@ sobillo
 sobri
 sobria
 sobrie
-sobriet
 sobrio
 socchiusa
 socchiuse
 socchiusi
 socchiuso
-soccomb
 soccomba
 soccombano
 soccombe
 soccombei
-soccomber
 soccombere
 soccombete
 soccombeva
@@ -47996,7 +46818,6 @@ sociale
 sociali
 socialista
 socialisti
-societ
 socievole
 socievoli
 socio
@@ -48006,7 +46827,6 @@ sociologhi
 sociologia
 sociologo
 soda
-soddisf
 soddisfa
 soddisfai
 soddisfano
@@ -48020,7 +46840,6 @@ soddisfatto
 soddisfava
 soddisfavi
 soddisfavo
-soddisfer
 soddisfi
 soddisfino
 soddisfo
@@ -48058,7 +46877,6 @@ soffiavi
 soffiavo
 soffice
 soffici
-soffier
 soffierai
 soffierei
 soffieremo
@@ -48071,7 +46889,6 @@ soffione
 soffioni
 soffitta
 soffitto
-soffoc
 soffoca
 soffocai
 soffocammo
@@ -48089,11 +46906,9 @@ soffocato
 soffocava
 soffocavi
 soffocavo
-soffocher
 soffochi
 soffochino
 soffoco
-soffr
 soffra
 soffrano
 soffre
@@ -48103,7 +46918,6 @@ soffriamo
 soffriate
 soffrii
 soffrimmo
-soffrir
 soffrirai
 soffrire
 soffrirei
@@ -48146,12 +46960,10 @@ soggettive
 soggettivi
 soggettivo
 soggetto
-sogghign
 sogghigna
 sogghignai
 sogghigni
 sogghigno
-soggiorn
 soggiorna
 soggiornai
 soggiorni
@@ -48167,7 +46979,6 @@ soglia
 soglie
 sogliola
 sogliole
-sogn
 sogna
 sognai
 sognammo
@@ -48193,7 +47004,6 @@ sognavano
 sognavate
 sognavi
 sognavo
-sogner
 sognerai
 sogneranno
 sognerebbe
@@ -48212,7 +47022,6 @@ sola
 solai
 solaio
 solamente
-solc
 solca
 solcai
 solcammo
@@ -48236,7 +47045,6 @@ solcavano
 solcavate
 solcavi
 solcavo
-solcher
 solcherai
 solcherei
 solcheremo
@@ -48251,7 +47059,6 @@ soldato
 sole
 solenne
 solenni
-solennit
 solerte
 solerti
 solfato
@@ -48262,7 +47069,6 @@ solidale
 solidali
 solide
 solidi
-solidit
 solido
 solita
 solitari
@@ -48272,17 +47078,14 @@ soliti
 solito
 solitudine
 solitudini
-sollecit
 sollecita
 sollecitai
 solleciti
 sollecito
-solletic
 solletica
 solleticai
 solletichi
 solletico
-sollev
 solleva
 sollevai
 sollevammo
@@ -48301,7 +47104,6 @@ sollevato
 sollevava
 sollevavi
 sollevavo
-sollever
 solleverai
 solleverei
 sollevi
@@ -48317,7 +47119,6 @@ solstizio
 soltanto
 solubile
 solubili
-solubilit
 soluzione
 soluzioni
 solvente
@@ -48345,7 +47146,6 @@ somigliato
 somigliava
 somigliavi
 somigliavo
-somiglier
 somiglino
 somiglio
 somma
@@ -48361,17 +47161,14 @@ sommesse
 sommessi
 sommesso
 sommi
-somminist
 somminista
 somministi
 somministo
-sommit
 sommo
 sommosa
 sommose
 sonagli
 sonaglio
-sond
 sonda
 sondaggi
 sondaggio
@@ -48398,7 +47195,6 @@ sondavate
 sondavi
 sondavo
 sonde
-sonder
 sonderai
 sonderanno
 sonderebbe
@@ -48434,12 +47230,10 @@ sono
 sonora
 sonore
 sonori
-sonorit
 sonoro
 sontuosa
 sontuose
 sontuosi
-sontuosit
 sontuoso
 sopano
 sopendo
@@ -48447,7 +47241,6 @@ sopiamo
 sopiate
 sopii
 sopimmo
-sopir
 sopirai
 sopiranno
 sopire
@@ -48480,14 +47273,12 @@ sopivano
 sopivate
 sopivi
 sopivo
-sopper
 sopperano
 sopperendo
 sopperiamo
 sopperiate
 sopperii
 sopperimmo
-sopperir
 sopperirai
 sopperire
 sopperirei
@@ -48506,7 +47297,6 @@ sopperito
 sopperiva
 sopperivi
 sopperivo
-soppes
 soppesa
 soppesai
 soppesammo
@@ -48524,7 +47314,6 @@ soppesato
 soppesava
 soppesavi
 soppesavo
-soppeser
 soppeserai
 soppeserei
 soppesi
@@ -48532,12 +47321,10 @@ soppesiamo
 soppesiate
 soppesino
 soppeso
-soppiant
 soppianta
 soppiantai
 soppianti
 soppianto
-sopport
 sopporta
 sopportai
 sopportano
@@ -48549,7 +47336,6 @@ sopportato
 sopportava
 sopportavi
 sopportavo
-sopporter
 sopporti
 sopportino
 sopporto
@@ -48565,11 +47351,9 @@ sopprimo
 sopra
 soprabiti
 soprabito
-sopraelev
 sopraeleva
 sopraelevi
 sopraelevo
-sopraff
 sopraffa
 sopraffai
 sopraffano
@@ -48582,7 +47366,6 @@ sopraffato
 sopraffava
 sopraffavi
 sopraffavo
-sopraffer
 sopraffi
 sopraffina
 sopraffine
@@ -48590,7 +47373,6 @@ sopraffini
 sopraffino
 sopraffo
 soprannominato
-soprassed
 soprasseda
 soprassede
 soprassedi
@@ -48598,7 +47380,6 @@ soprassedo
 sopratassa
 sopratasse
 soprattutto
-sopravven
 sopravviva
 sopravvive
 sopravvivenza
@@ -48615,7 +47396,6 @@ sorda
 sorde
 sordi
 sordina
-sordit
 sordo
 sordomuta
 sordomute
@@ -48640,7 +47420,6 @@ soriana
 soriane
 soriani
 soriano
-sormont
 sormonta
 sormontai
 sormontano
@@ -48652,11 +47431,9 @@ sormontato
 sormontava
 sormontavi
 sormontavo
-sormonter
 sormonti
 sormontino
 sormonto
-sorpass
 sorpassa
 sorpassai
 sorpassano
@@ -48668,7 +47445,6 @@ sorpassato
 sorpassava
 sorpassavi
 sorpassavo
-sorpasser
 sorpassi
 sorpassino
 sorpasso
@@ -48720,7 +47496,6 @@ sorveglia
 sorvegliai
 sorveglino
 sorveglio
-sorvol
 sorvola
 sorvolai
 sorvolammo
@@ -48738,7 +47513,6 @@ sorvolato
 sorvolava
 sorvolavi
 sorvolavo
-sorvoler
 sorvolerai
 sorvolerei
 sorvoli
@@ -48756,7 +47530,6 @@ sospesa
 sospese
 sospesi
 sospeso
-sospett
 sospetta
 sospettai
 sospettano
@@ -48768,7 +47541,6 @@ sospettato
 sospettava
 sospettavi
 sospettavo
-sospetter
 sospetti
 sospettino
 sospetto
@@ -48781,7 +47553,6 @@ sospinta
 sospinte
 sospinti
 sospinto
-sospir
 sospira
 sospirai
 sospirammo
@@ -48799,7 +47570,6 @@ sospirato
 sospirava
 sospiravi
 sospiravo
-sospirer
 sospirerai
 sospirerei
 sospiri
@@ -48807,7 +47577,6 @@ sospiriamo
 sospiriate
 sospirino
 sospiro
-sost
 sosta
 sostai
 sostammo
@@ -48840,7 +47609,6 @@ soste
 sostegni
 sostegno
 sostenere
-sostent
 sostenta
 sostentai
 sostentano
@@ -48852,7 +47620,6 @@ sostentato
 sostentava
 sostentavi
 sostentavo
-sostenter
 sostenti
 sostentino
 sostento
@@ -48860,7 +47627,6 @@ sostenuta
 sostenute
 sostenuti
 sostenuto
-soster
 sosterai
 sosteranno
 sosterebbe
@@ -48878,7 +47644,6 @@ sostitu
 sostituano
 sostituendole
 sostituii
-sostituir
 sostituire
 sostituisce
 sostituita
@@ -48902,7 +47667,6 @@ sottecchi
 sotterfugi
 sottile
 sottili
-sottilizz
 sottilizza
 sottilizzi
 sottilizzo
@@ -48935,7 +47699,6 @@ sottoscala
 sottoscale
 sottosopra
 sottospeci
-sottost
 sottosta
 sottostai
 sottostano
@@ -48948,7 +47711,6 @@ sottostato
 sottostava
 sottostavi
 sottostavo
-sottoster
 sottosti
 sottostino
 sottosto
@@ -48965,9 +47727,7 @@ soventi
 sovrana
 sovrane
 sovrani
-sovranit
 sovrano
-sovrast
 sovrasta
 sovrastai
 sovrastano
@@ -48979,11 +47739,9 @@ sovrastato
 sovrastava
 sovrastavi
 sovrastavo
-sovraster
 sovrasti
 sovrastino
 sovrasto
-sovreccit
 sovreccita
 sovrecciti
 sovreccito
@@ -48999,10 +47757,8 @@ sovversiva
 sovversive
 sovversivi
 sovversivo
-sovvert
 sovvertano
 sovvertii
-sovvertir
 sovvertire
 sovvertita
 sovvertite
@@ -49017,7 +47773,6 @@ sozzi
 sozzo
 sozzura
 sozzure
-spacc
 spacca
 spaccai
 spaccammo
@@ -49039,12 +47794,10 @@ spaccavano
 spaccavate
 spaccavi
 spaccavo
-spaccer
 spaccerai
 spaccerei
 spacceremo
 spaccerete
-spaccher
 spaccherai
 spaccherei
 spacchi
@@ -49079,7 +47832,6 @@ spada
 spade
 spaghi
 spago
-spalanc
 spalanca
 spalancai
 spalancano
@@ -49102,7 +47854,6 @@ spalleggia
 spalleggio
 spalliera
 spalliere
-spalm
 spalma
 spalmai
 spalmammo
@@ -49124,7 +47875,6 @@ spalmavano
 spalmavate
 spalmavi
 spalmavo
-spalmer
 spalmerai
 spalmerei
 spalmeremo
@@ -49146,8 +47896,6 @@ spandono
 spanna
 spanne
 spanrsa
-spar
-spar
 spara
 sparai
 sparammo
@@ -49177,7 +47925,6 @@ sparecchio
 spareggi
 spareggio
 sparendo
-sparer
 sparerai
 spareranno
 sparerebbe
@@ -49193,7 +47940,6 @@ spariate
 sparii
 sparimmo
 sparino
-sparir
 sparirai
 spariranno
 sparire
@@ -49228,7 +47974,6 @@ sparivi
 sparivo
 sparizione
 sparizioni
-sparl
 sparla
 sparlai
 sparlammo
@@ -49250,7 +47995,6 @@ sparlavano
 sparlavate
 sparlavi
 sparlavo
-sparler
 sparlerai
 sparlerei
 sparleremo
@@ -49268,7 +48012,6 @@ sparsa
 sparse
 sparsi
 sparso
-spart
 spartano
 spartendo
 spartiamo
@@ -49276,7 +48019,6 @@ spartiate
 spartii
 spartimmo
 spartineve
-spartir
 spartirai
 spartire
 spartirei
@@ -49303,7 +48045,6 @@ spartivi
 spartivo
 sparvieri
 sparviero
-spasim
 spasima
 spasimai
 spasimammo
@@ -49323,7 +48064,6 @@ spasimato
 spasimava
 spasimavi
 spasimavo
-spasimer
 spasimerai
 spasimerei
 spasimi
@@ -49345,7 +48085,6 @@ spavalda
 spavalde
 spavaldi
 spavaldo
-spavent
 spaventa
 spaventai
 spaventano
@@ -49357,7 +48096,6 @@ spaventato
 spaventava
 spaventavi
 spaventavo
-spaventer
 spaventi
 spaventino
 spavento
@@ -49388,7 +48126,6 @@ spaziavano
 spaziavate
 spaziavi
 spaziavo
-spazier
 spazierai
 spazierei
 spazieremo
@@ -49399,7 +48136,6 @@ spaziosa
 spaziose
 spaziosi
 spazioso
-spazz
 spazza
 spazzai
 spazzammo
@@ -49422,7 +48158,6 @@ spazzavano
 spazzavate
 spazzavi
 spazzavo
-spazzer
 spazzerai
 spazzerei
 spazzeremo
@@ -49433,7 +48168,6 @@ spazziate
 spazzini
 spazzino
 spazzo
-spazzol
 spazzola
 spazzolai
 spazzolano
@@ -49446,7 +48180,6 @@ spazzolava
 spazzolavi
 spazzolavo
 spazzole
-spazzoler
 spazzoli
 spazzolini
 spazzolino
@@ -49458,10 +48191,8 @@ specchio
 speci
 speciale
 speciali
-specialit
 specializzarsi
 specie
-specific
 specifica
 specificai
 specificare
@@ -49475,7 +48206,6 @@ specifiche
 specifichi
 specifici
 specifico
-specul
 specula
 speculai
 speculammo
@@ -49493,7 +48223,6 @@ speculato
 speculava
 speculavi
 speculavo
-speculer
 speculerai
 speculerei
 speculi
@@ -49501,14 +48230,12 @@ speculiamo
 speculiate
 speculino
 speculo
-sped
 spedano
 spedendo
 spediamo
 spediate
 spedii
 spedimmo
-spedir
 spedirai
 spediranno
 spedire
@@ -49548,7 +48275,6 @@ spegnere
 spegnersi
 spegneva
 spegni
-spell
 spella
 spellai
 spellammo
@@ -49570,7 +48296,6 @@ spellavano
 spellavate
 spellavi
 spellavo
-speller
 spellerai
 spellerei
 spelleremo
@@ -49582,7 +48307,6 @@ spellino
 spello
 spende
 spendendo
-spender
 spendere
 spenderlo
 spendeva
@@ -49599,7 +48323,6 @@ spenta
 spente
 spenti
 spento
-sper
 spera
 sperai
 sperammo
@@ -49625,14 +48348,12 @@ speravano
 speravate
 speravi
 speravo
-sperd
 sperda
 sperdano
 sperde
 sperdei
 sperdemmo
 sperdendo
-sperder
 sperderai
 sperdere
 sperderei
@@ -49661,7 +48382,6 @@ sperduta
 sperdute
 sperduti
 sperduto
-sperer
 spererai
 spereranno
 spererebbe
@@ -49671,7 +48391,6 @@ spereremo
 sperereste
 spereresti
 spererete
-spergiur
 spergiura
 spergiurai
 spergiuri
@@ -49679,7 +48398,6 @@ spergiuro
 speri
 speriamo
 speriate
-speriment
 sperimenta
 sperimentale
 sperimentare
@@ -49689,7 +48407,6 @@ sperino
 spero
 sperone
 speroni
-sperper
 sperpera
 sperperai
 sperperano
@@ -49701,11 +48418,9 @@ sperperato
 sperperava
 sperperavi
 sperperavo
-sperperer
 sperperi
 sperperino
 sperpero
-spes
 spesa
 spesai
 spesammo
@@ -49730,7 +48445,6 @@ spesavate
 spesavi
 spesavo
 spese
-speser
 speserai
 speseranno
 speserebbe
@@ -49748,7 +48462,6 @@ speso
 spesso
 spessore
 spessori
-spett
 spetta
 spettacoli
 spettacolo
@@ -49774,7 +48487,6 @@ spettavano
 spettavate
 spettavi
 spettavo
-spetter
 spettera
 spetterai
 spetterei
@@ -49783,7 +48495,6 @@ spetterete
 spetti
 spettiamo
 spettiate
-spettin
 spettina
 spettinai
 spettinano
@@ -49795,7 +48506,6 @@ spettinato
 spettinava
 spettinavi
 spettinavo
-spettiner
 spettini
 spettinino
 spettino
@@ -49804,7 +48514,6 @@ spettrale
 spettrali
 spezia
 spezie
-spezz
 spezza
 spezzai
 spezzamento
@@ -49827,12 +48536,10 @@ spezzavano
 spezzavate
 spezzavi
 spezzavo
-spezzer
 spezzerai
 spezzerei
 spezzeremo
 spezzerete
-spezzett
 spezzetta
 spezzettai
 spezzetti
@@ -49843,7 +48550,6 @@ spezziate
 spezzino
 spezzo
 spia
-spiaccic
 spiaccica
 spiaccicai
 spiaccichi
@@ -49854,7 +48560,6 @@ spiacevole
 spiacevoli
 spiagge
 spiaggia
-spian
 spiana
 spianai
 spianammo
@@ -49876,7 +48581,6 @@ spianavano
 spianavate
 spianavi
 spianavo
-spianer
 spianerai
 spianerei
 spianeremo
@@ -49889,7 +48593,6 @@ spiano
 spiazzamento
 spiazzi
 spiazzo
-spicc
 spicca
 spiccai
 spiccammo
@@ -49913,7 +48616,6 @@ spiccavano
 spiccavate
 spiccavi
 spiccavo
-spiccher
 spiccherai
 spiccherei
 spicchi
@@ -49927,7 +48629,6 @@ spicco
 spie
 spiedi
 spiedo
-spieg
 spiega
 spiegai
 spiegammo
@@ -49951,12 +48652,10 @@ spiegavi
 spiegavo
 spiegazione
 spiegazioni
-spiegazz
 spiegazza
 spiegazzai
 spiegazzi
 spiegazzo
-spiegher
 spiegherai
 spiegherei
 spieghi
@@ -49977,7 +48676,6 @@ spigliati
 spigliato
 spigoli
 spigolo
-spill
 spilla
 spillai
 spillammo
@@ -50000,7 +48698,6 @@ spillavate
 spillavi
 spillavo
 spille
-spiller
 spillerai
 spillerei
 spilleremo
@@ -50051,7 +48748,6 @@ spinto
 spionaggio
 spiovente
 spioventi
-spir
 spira
 spiragli
 spiraglio
@@ -50079,7 +48775,6 @@ spiravano
 spiravate
 spiravi
 spiravo
-spirer
 spirerai
 spireranno
 spirerebbe
@@ -50106,7 +48801,6 @@ spiritoso
 spirituale
 spirituali
 spiro
-splend
 splenda
 splendano
 splende
@@ -50115,7 +48809,6 @@ splendemmo
 splendendo
 splendente
 splendenti
-splender
 splenderai
 splendere
 splenderei
@@ -50142,7 +48835,6 @@ splenduta
 splendute
 splenduti
 splenduto
-spodest
 spodesta
 spodestai
 spodestano
@@ -50154,11 +48846,9 @@ spodestato
 spodestava
 spodestavi
 spodestavo
-spodester
 spodesti
 spodestino
 spodesto
-spoetizz
 spoetizza
 spoetizzai
 spoetizzi
@@ -50184,7 +48874,6 @@ spogliava
 spogliavi
 spogliavo
 spoglie
-spoglier
 spoglierai
 spoglierei
 spoglii
@@ -50194,7 +48883,6 @@ spola
 spole
 spoletta
 spolette
-spolver
 spolvera
 spolverai
 spolverano
@@ -50206,7 +48894,6 @@ spolverato
 spolverava
 spolveravi
 spolveravo
-spolverer
 spolveri
 spolverino
 spolvero
@@ -50216,7 +48903,6 @@ spontanea
 spontanee
 spontanei
 spontaneo
-spopol
 spopola
 spopolai
 spopolammo
@@ -50234,7 +48920,6 @@ spopolato
 spopolava
 spopolavi
 spopolavo
-spopoler
 spopolerai
 spopolerei
 spopoli
@@ -50246,7 +48931,6 @@ sporadica
 sporadiche
 sporadici
 sporadico
-sporc
 sporca
 sporcai
 sporcammo
@@ -50269,7 +48953,6 @@ sporcavate
 sporcavi
 sporcavo
 sporche
-sporcher
 sporcherai
 sporcherei
 sporchi
@@ -50312,7 +48995,6 @@ spossata
 spossate
 spossati
 spossato
-spost
 sposta
 spostai
 spostamento
@@ -50336,7 +49018,6 @@ spostavano
 spostavate
 spostavi
 spostavo
-sposter
 sposterai
 sposterei
 sposteremo
@@ -50346,7 +49027,6 @@ spostiamo
 spostiate
 spostino
 sposto
-sprang
 spranga
 sprangai
 sprangammo
@@ -50365,13 +49045,11 @@ sprangava
 sprangavi
 sprangavo
 spranghe
-sprangher
 spranghi
 spranghino
 sprango
 sprazzi
 sprazzo
-sprec
 spreca
 sprecai
 sprecammo
@@ -50393,7 +49071,6 @@ sprecavano
 sprecavate
 sprecavi
 sprecavo
-sprecher
 sprecherai
 sprecherei
 sprechi
@@ -50404,7 +49081,6 @@ spreco
 sprecona
 sprecone
 spreconi
-spreger
 spregerai
 spregerei
 spregeremo
@@ -50432,14 +49108,12 @@ spregiavi
 spregiavo
 spregino
 spregio
-sprem
 sprema
 spremano
 spreme
 spremei
 sprememmo
 spremendo
-spremer
 spremerai
 spremere
 spremerei
@@ -50468,7 +49142,6 @@ spremuta
 spremute
 spremuti
 spremuto
-sprezz
 sprezza
 sprezzai
 sprezzammo
@@ -50488,7 +49161,6 @@ sprezzato
 sprezzava
 sprezzavi
 sprezzavo
-sprezzer
 sprezzerai
 sprezzerei
 sprezzi
@@ -50496,12 +49168,10 @@ sprezziamo
 sprezziate
 sprezzino
 sprezzo
-sprofond
 sprofonda
 sprofondai
 sprofondi
 sprofondo
-spron
 sprona
 spronai
 spronammo
@@ -50523,7 +49193,6 @@ spronavano
 spronavate
 spronavi
 spronavo
-sproner
 spronerai
 spronerei
 sproneremo
@@ -50539,7 +49208,6 @@ sprovvista
 sprovviste
 sprovvisti
 sprovvisto
-spruzz
 spruzza
 spruzzai
 spruzzammo
@@ -50557,7 +49225,6 @@ spruzzato
 spruzzava
 spruzzavi
 spruzzavo
-spruzzer
 spruzzerai
 spruzzerei
 spruzzi
@@ -50579,7 +49246,6 @@ spuma
 spumante
 spumanti
 spume
-spunt
 spunta
 spuntai
 spuntammo
@@ -50601,12 +49267,10 @@ spuntavano
 spuntavate
 spuntavi
 spuntavo
-spuntell
 spuntella
 spuntellai
 spuntelli
 spuntello
-spunter
 spunterai
 spunterei
 spunteremo
@@ -50617,7 +49281,6 @@ spuntiate
 spuntini
 spuntino
 spunto
-sput
 sputa
 sputai
 sputammo
@@ -50641,7 +49304,6 @@ sputavano
 sputavate
 sputavi
 sputavo
-sputer
 sputerai
 sputeranno
 sputerebbe
@@ -50672,11 +49334,9 @@ squagliato
 squagliava
 squagliavi
 squagliavo
-squaglier
 squaglino
 squaglio
 squali
-squalific
 squalifica
 squalifico
 squallida
@@ -50688,7 +49348,6 @@ squallori
 squalo
 squama
 squame
-squarcer
 squarcerai
 squarcerei
 squarci
@@ -50706,7 +49365,6 @@ squarciavi
 squarciavo
 squarcino
 squarcio
-squart
 squarta
 squartai
 squartammo
@@ -50724,7 +49382,6 @@ squartato
 squartava
 squartavi
 squartavo
-squarter
 squarterai
 squarterei
 squarti
@@ -50732,7 +49389,6 @@ squartiamo
 squartiate
 squartino
 squarto
-squass
 squassa
 squassai
 squassammo
@@ -50750,7 +49406,6 @@ squassato
 squassava
 squassavi
 squassavo
-squasser
 squasserai
 squasserei
 squassi
@@ -50758,7 +49413,6 @@ squassiamo
 squassiate
 squassino
 squasso
-squilibr
 squilibra
 squilibrai
 squilibri
@@ -50770,7 +49424,6 @@ squisita
 squisite
 squisiti
 squisito
-sradic
 sradica
 sradicai
 sradicammo
@@ -50788,11 +49441,9 @@ sradicato
 sradicava
 sradicavi
 sradicavo
-sradicher
 sradichi
 sradichino
 sradico
-sragion
 sragiona
 sragionai
 sragionano
@@ -50804,7 +49455,6 @@ sragionato
 sragionava
 sragionavi
 sragionavo
-sragioner
 sragioni
 sragionino
 sragiono
@@ -50814,7 +49464,6 @@ sregolati
 sregolato
 srotolamento
 srotolati
-stabil
 stabilano
 stabile
 stabilendo
@@ -50823,7 +49472,6 @@ stabiliamo
 stabiliate
 stabilii
 stabilimmo
-stabilir
 stabilirai
 stabilire
 stabilirei
@@ -50835,7 +49483,6 @@ stabilisse
 stabilissi
 stabiliste
 stabilisti
-stabilit
 stabilita
 stabilite
 stabiliti
@@ -50843,7 +49490,6 @@ stabilito
 stabiliva
 stabilivi
 stabilivo
-stacc
 stacca
 staccai
 staccammo
@@ -50865,7 +49511,6 @@ staccavano
 staccavate
 staccavi
 staccavo
-staccher
 staccherai
 staccherei
 stacchi
@@ -50902,7 +49547,6 @@ stamane
 stambecchi
 stambecco
 stammi
-stamp
 stampa
 stampabile
 stampabili
@@ -50933,7 +49577,6 @@ stampavo
 stampe
 stampella
 stampelle
-stamper
 stamperai
 stamperei
 stamperemo
@@ -50946,7 +49589,6 @@ stampiglia
 stampiglio
 stampino
 stampo
-stan
 stana
 stanai
 stanammo
@@ -50970,7 +49612,6 @@ stanavano
 stanavate
 stanavi
 stanavo
-stanc
 stanca
 stancai
 stancammo
@@ -50993,7 +49634,6 @@ stancavate
 stancavi
 stancavo
 stanche
-stancher
 stancherai
 stancherei
 stanchi
@@ -51001,11 +49641,9 @@ stanchiamo
 stanchiate
 stanchino
 stanco
-standard
 standardizzazione
 stando
 standosene
-staner
 stanerai
 staneranno
 stanerebbe
@@ -51047,12 +49685,10 @@ stanziato
 stanziava
 stanziavi
 stanziavo
-stanzier
 stanzierai
 stanzierei
 stanzino
 stanzio
-stapp
 stappa
 stappai
 stappammo
@@ -51074,7 +49710,6 @@ stappavano
 stappavate
 stappavi
 stappavo
-stapper
 stapperai
 stapperei
 stapperemo
@@ -51084,7 +49719,6 @@ stappiamo
 stappiate
 stappino
 stappo
-star
 starai
 staranno
 starci
@@ -51097,16 +49731,13 @@ staresti
 starete
 stargli
 starmene
-starnazz
 starnazza
 starnazzai
 starnazzi
 starnazzo
-starnut
 starnutano
 starnuti
 starnutii
-starnutir
 starnutire
 starnutita
 starnutite
@@ -51158,7 +49789,6 @@ stavo
 stazionari
 stazione
 stazioni
-stazz
 stazza
 stazzai
 stazzammo
@@ -51181,7 +49811,6 @@ stazzavate
 stazzavi
 stazzavo
 stazze
-stazzer
 stazzerai
 stazzerei
 stazzeremo
@@ -51218,12 +49847,10 @@ stendiamo
 stenditi
 stendo
 stendono
-stenograf
 stenografa
 stenografe
 stenografi
 stenografo
-stent
 stenta
 stentai
 stentammo
@@ -51245,7 +49872,6 @@ stentavano
 stentavate
 stentavi
 stentavo
-stenter
 stenterai
 stenterei
 stenteremo
@@ -51261,14 +49887,11 @@ sterchi
 sterco
 sterile
 sterili
-sterilit
-sterilizz
 sterilizza
 sterilizzi
 sterilizzo
 sterlina
 sterline
-stermin
 stermina
 sterminai
 sterminano
@@ -51280,14 +49903,12 @@ sterminato
 sterminava
 sterminavi
 sterminavo
-sterminer
 stermini
 sterminino
 sterminio
 stermino
 sterni
 sterno
-sterz
 sterza
 sterzai
 sterzammo
@@ -51309,7 +49930,6 @@ sterzavano
 sterzavate
 sterzavi
 sterzavo
-sterzer
 sterzerai
 sterzerei
 sterzeremo
@@ -51344,7 +49964,6 @@ stilettate
 stili
 stilista
 stilisti
-stilizz
 stilizza
 stilizzai
 stilizzano
@@ -51356,11 +49975,9 @@ stilizzato
 stilizzava
 stilizzavi
 stilizzavo
-stilizzer
 stilizzi
 stilizzino
 stilizzo
-still
 stilla
 stillai
 stillammo
@@ -51382,7 +49999,6 @@ stillavano
 stillavate
 stillavi
 stillavo
-stiller
 stillerai
 stillerei
 stilleremo
@@ -51393,7 +50009,6 @@ stilliate
 stillicidi
 stillino
 stillo
-stim
 stima
 stimai
 stimammo
@@ -51420,7 +50035,6 @@ stimavate
 stimavi
 stimavo
 stime
-stimer
 stimerai
 stimeranno
 stimerebbe
@@ -51435,7 +50049,6 @@ stimiamo
 stimiate
 stimino
 stimo
-stimol
 stimola
 stimolai
 stimolammo
@@ -51453,7 +50066,6 @@ stimolato
 stimolava
 stimolavi
 stimolavo
-stimoler
 stimolerai
 stimolerei
 stimoli
@@ -51484,7 +50096,6 @@ stipendino
 stipendio
 stipite
 stipiti
-stipul
 stipula
 stipulai
 stipulammo
@@ -51502,7 +50113,6 @@ stipulato
 stipulava
 stipulavi
 stipulavo
-stipuler
 stipulerai
 stipulerei
 stipuli
@@ -51510,7 +50120,6 @@ stipuliamo
 stipuliate
 stipulino
 stipulo
-stir
 stira
 stiracchi
 stiracchia
@@ -51537,7 +50146,6 @@ stiravano
 stiravate
 stiravi
 stiravo
-stirer
 stirerai
 stireranno
 stirerebbe
@@ -51558,7 +50166,6 @@ stitica
 stitiche
 stitici
 stitico
-stiv
 stiva
 stivai
 stivale
@@ -51587,7 +50194,6 @@ stivavate
 stivavi
 stivavo
 stive
-stiver
 stiverai
 stiveranno
 stiverebbe
@@ -51620,7 +50226,6 @@ stoicismo
 stoico
 stola
 stole
-stomac
 stomaca
 stomacai
 stomacammo
@@ -51638,12 +50243,10 @@ stomacato
 stomacava
 stomacavi
 stomacavo
-stomacher
 stomachi
 stomachino
 stomaco
 stomatite
-ston
 stona
 stonai
 stonammo
@@ -51669,7 +50272,6 @@ stonavano
 stonavate
 stonavi
 stonavo
-stoner
 stonerai
 stoneranno
 stonerebbe
@@ -51689,14 +50291,12 @@ stoppe
 stoppini
 stoppino
 storcere
-stord
 stordano
 stordendo
 stordiamo
 stordiate
 stordii
 stordimmo
-stordir
 stordirai
 stordire
 stordirei
@@ -51733,7 +50333,6 @@ storico
 storie
 storione
 storioni
-storm
 stormano
 stormendo
 stormi
@@ -51741,7 +50340,6 @@ stormiamo
 stormiate
 stormii
 stormimmo
-stormir
 stormirai
 stormire
 stormirei
@@ -51767,7 +50365,6 @@ stormivate
 stormivi
 stormivo
 stormo
-storn
 storna
 stornai
 stornammo
@@ -51793,7 +50390,6 @@ stornella
 stornelle
 stornelli
 stornello
-storner
 stornerai
 stornerei
 storneremo
@@ -51823,7 +50419,6 @@ storpiava
 storpiavi
 storpiavo
 storpie
-storpier
 storpierai
 storpierei
 storpino
@@ -51843,7 +50438,6 @@ strabilia
 strabiliai
 strabilino
 strabilio
-strabocc
 strabocca
 straboccai
 strabocchi
@@ -51851,7 +50445,6 @@ strabocco
 stracarica
 stracarici
 stracarico
-straccer
 straccerai
 straccerei
 stracci
@@ -51881,7 +50474,6 @@ stradetta
 stradette
 strage
 stragi
-stralcer
 stralcerai
 stralcerei
 stralci
@@ -51903,7 +50495,6 @@ stralunata
 stralunate
 stralunati
 stralunato
-stramazz
 stramazza
 stramazzai
 stramazzi
@@ -51919,7 +50510,6 @@ stranamente
 strane
 stranezza
 stranezze
-strangol
 strangola
 strangolai
 strangoli
@@ -51943,7 +50533,6 @@ straniato
 straniava
 straniavi
 straniavo
-stranier
 straniera
 stranierai
 straniere
@@ -51954,7 +50543,6 @@ stranino
 stranio
 strano
 straordinarie
-strapazz
 strapazza
 strapazzai
 strapazzi
@@ -51963,7 +50551,6 @@ strapiena
 strapiene
 strapieni
 strapieno
-strapp
 strappa
 strappai
 strappammo
@@ -51981,7 +50568,6 @@ strappato
 strappava
 strappavi
 strappavo
-strapper
 strapperai
 strapperei
 strappi
@@ -51989,7 +50575,6 @@ strappiamo
 strappiate
 strappino
 strappo
-strarip
 straripa
 straripai
 straripano
@@ -52001,11 +50586,9 @@ straripato
 straripava
 straripavi
 straripavo
-strariper
 straripi
 straripino
 straripo
-strascic
 strascica
 strascicai
 strascichi
@@ -52015,7 +50598,6 @@ strateghi
 strategia
 strategie
 strati
-stratific
 stratifica
 stratifico
 strato
@@ -52045,7 +50627,6 @@ straziato
 straziava
 straziavi
 straziavo
-strazier
 strazierai
 strazierei
 strazino
@@ -52054,7 +50635,6 @@ strega
 streghe
 stregua
 stregue
-strem
 strema
 stremai
 stremammo
@@ -52076,7 +50656,6 @@ stremavano
 stremavate
 stremavi
 stremavo
-stremer
 stremerai
 stremerei
 stremeremo
@@ -52088,7 +50667,6 @@ stremino
 stremo
 strenna
 strenne
-strepit
 strepita
 strepitai
 strepitano
@@ -52100,7 +50678,6 @@ strepitato
 strepitava
 strepitavi
 strepitavo
-strepiter
 strepiti
 strepitino
 strepito
@@ -52117,14 +50694,12 @@ strettoia
 strettoie
 strettoio
 stricnina
-strid
 strida
 stridano
 stride
 stridei
 stridemmo
 stridendo
-strider
 striderai
 stridere
 striderei
@@ -52168,10 +50743,8 @@ strigliato
 strigliava
 strigliavi
 strigliavo
-striglier
 striglino
 striglio
-strill
 strilla
 strillai
 strillammo
@@ -52190,7 +50763,6 @@ strillava
 strillavi
 strillavo
 strille
-striller
 strillerai
 strillerei
 strilli
@@ -52198,7 +50770,6 @@ strilliamo
 strilliate
 strillino
 strillo
-strimpell
 strimpella
 strimpelli
 strimpello
@@ -52219,9 +50790,7 @@ stringo
 stringono
 strinse
 strinsero
-strip
 strisce
-striscer
 striscerai
 striscerei
 strisci
@@ -52239,7 +50808,6 @@ strisciavi
 strisciavo
 striscino
 striscio
-stritol
 stritola
 stritolai
 stritolano
@@ -52251,11 +50819,9 @@ stritolato
 stritolava
 stritolavi
 stritolavo
-stritoler
 stritoli
 stritolino
 stritolo
-strizz
 strizza
 strizzai
 strizzammo
@@ -52273,7 +50839,6 @@ strizzato
 strizzava
 strizzavi
 strizzavo
-strizzer
 strizzerai
 strizzerei
 strizzi
@@ -52283,11 +50848,9 @@ strizzino
 strizzo
 strofa
 strofe
-strombazz
 strombazza
 strombazzi
 strombazzo
-stronc
 stronca
 stroncai
 stroncammo
@@ -52305,7 +50868,6 @@ stroncato
 stroncava
 stroncavi
 stroncavo
-stroncher
 stronchi
 stronchino
 stronco
@@ -52319,7 +50881,6 @@ strugge
 struggere
 struggi
 struggo
-strument
 strumenta
 strumentai
 strumenti
@@ -52333,7 +50894,6 @@ strutturato
 strutture
 struzzi
 struzzo
-stucc
 stucca
 stuccai
 stuccammo
@@ -52355,7 +50915,6 @@ stuccavano
 stuccavate
 stuccavi
 stuccavo
-stuccher
 stuccherai
 stuccherei
 stucchi
@@ -52392,7 +50951,6 @@ studida
 studide
 studidi
 studido
-studier
 studierai
 studierei
 studieremo
@@ -52413,9 +50971,7 @@ stuoini
 stuoino
 stuola
 stuole
-stup
 stupano
-stupef
 stupefa
 stupefai
 stupefammo
@@ -52437,7 +50993,6 @@ stupefatto
 stupefava
 stupefavi
 stupefavo
-stupefer
 stupeferai
 stupeferei
 stupefi
@@ -52452,10 +51007,8 @@ stupendo
 stupiamo
 stupiate
 stupida
-stupidit
 stupii
 stupimmo
-stupir
 stupirai
 stupiranno
 stupire
@@ -52490,7 +51043,6 @@ stupivi
 stupivo
 stupore
 stupori
-stur
 stura
 sturai
 sturammo
@@ -52514,7 +51066,6 @@ sturavano
 sturavate
 sturavi
 sturavo
-sturer
 sturerai
 stureranno
 sturerebbe
@@ -52529,7 +51080,6 @@ sturiamo
 sturiate
 sturino
 sturo
-stuzzic
 stuzzica
 stuzzicai
 stuzzicano
@@ -52549,7 +51099,6 @@ subacquea
 subacquee
 subacquei
 subacqueo
-subaffitt
 subaffitta
 subaffitti
 subaffitto
@@ -52563,7 +51112,6 @@ subdola
 subdole
 subdoli
 subdolo
-subentr
 subentra
 subentrai
 subentrano
@@ -52575,7 +51123,6 @@ subentrato
 subentrava
 subentravi
 subentravo
-subentrer
 subentri
 subentrino
 subentro
@@ -52591,8 +51138,6 @@ sublimati
 sublimato
 sublime
 sublimi
-sublimit
-subordin
 subordina
 subordinai
 subordini
@@ -52625,6 +51170,7 @@ succoso
 succubi
 succursale
 succursali
+sud
 suda
 sudai
 sudammo
@@ -52662,7 +51208,6 @@ suddivisa
 suddivise
 suddivisi
 suddiviso
-suder
 suderai
 suderanno
 suderebbe
@@ -52697,23 +51242,8 @@ sufficiente
 sufficientemente
 suffissi
 suffisso
-suffrag
-suffraga
-suffragai
-suffragano
 suffragare
-suffragata
-suffragate
-suffragati
-suffragato
-suffragava
-suffragavi
-suffragavo
-suffraghi
-suffragi
 suffragio
-suffrago
-suggell
 suggella
 suggellai
 suggellano
@@ -52725,11 +51255,9 @@ suggellato
 suggellava
 suggellavi
 suggellavo
-suggeller
 suggelli
 suggellino
 suggello
-sugger
 suggerano
 suggerendo
 suggeriamo
@@ -52737,7 +51265,6 @@ suggeriate
 suggerii
 suggerimenti
 suggerimmo
-suggerir
 suggerirai
 suggerire
 suggerirei
@@ -52776,7 +51303,6 @@ sulfurea
 sulfuree
 sulfurei
 sulfureo
-sull
 sulla
 sulle
 sullo
@@ -52795,7 +51321,6 @@ suocero
 suoi
 suola
 suole
-suon
 suona
 suonai
 suonammo
@@ -52821,7 +51346,6 @@ suonavano
 suonavate
 suonavi
 suonavo
-suoner
 suonerai
 suoneranno
 suonerebbe
@@ -52838,7 +51362,6 @@ suonino
 suono
 suora
 suore
-super
 supera
 superabile
 superabili
@@ -52866,7 +51389,6 @@ superbi
 superbia
 superbie
 superbio
-superer
 supererai
 supererei
 supereremo
@@ -52896,7 +51418,6 @@ supplente
 supplenti
 supplenza
 supplenze
-supplic
 supplica
 supplicai
 supplicano
@@ -52922,7 +51443,6 @@ supporti
 supporto
 supposti
 supposto
-suppur
 suppura
 suppurai
 suppurammo
@@ -52940,7 +51460,6 @@ suppurato
 suppurava
 suppuravi
 suppuravo
-suppurer
 suppurerai
 suppurerei
 suppuri
@@ -52954,11 +51473,9 @@ supremazie
 supreme
 supremi
 supremo
-surriscal
 surriscala
 surriscali
 surriscalo
-surrog
 surroga
 surrogai
 surrogammo
@@ -52976,11 +51493,9 @@ surrogato
 surrogava
 surrogavi
 surrogavo
-surrogher
 surroghi
 surroghino
 surrogo
-suscit
 suscita
 suscitai
 suscitammo
@@ -52998,7 +51513,6 @@ suscitato
 suscitava
 suscitavi
 suscitavo
-susciter
 susciterai
 susciterei
 susciti
@@ -53011,7 +51525,6 @@ susine
 sussegu
 susseguano
 susseguii
-susseguir
 susseguire
 susseguita
 susseguite
@@ -53023,12 +51536,10 @@ susseguivo
 susseguono
 sussidi
 sussidio
-sussist
 sussista
 sussistano
 sussiste
 sussistei
-sussister
 sussistere
 sussistete
 sussisteva
@@ -53041,7 +51552,6 @@ sussistuta
 sussistute
 sussistuti
 sussistuto
-sussult
 sussulta
 sussultai
 sussultano
@@ -53053,12 +51563,10 @@ sussultato
 sussultava
 sussultavi
 sussultavo
-sussulter
 sussulti
 sussultino
 sussulto
 sussultori
-sussur
 sussura
 sussurai
 sussurammo
@@ -53076,7 +51584,6 @@ sussurato
 sussurava
 sussuravi
 sussuravo
-sussurer
 sussurerai
 sussurerei
 sussuri
@@ -53088,7 +51595,6 @@ sussurri
 sussurro
 sutura
 suture
-svag
 svaga
 svagai
 svagammo
@@ -53112,7 +51618,6 @@ svagavano
 svagavate
 svagavi
 svagavo
-svagher
 svagherai
 svagherei
 svagheremo
@@ -53122,7 +51627,6 @@ svaghiamo
 svaghiate
 svaghino
 svago
-svaliger
 svaligerai
 svaligerei
 svaligi
@@ -53140,7 +51644,6 @@ svaligiavi
 svaligiavo
 svaligino
 svaligio
-svalut
 svaluta
 svalutai
 svalutammo
@@ -53158,7 +51661,6 @@ svalutato
 svalutava
 svalutavi
 svalutavo
-svaluter
 svaluterai
 svaluterei
 svaluti
@@ -53166,14 +51668,12 @@ svalutiamo
 svalutiate
 svalutino
 svaluto
-svan
 svanano
 svanendo
 svaniamo
 svaniate
 svanii
 svanimmo
-svanir
 svanirai
 svaniranno
 svanire
@@ -53208,7 +51708,6 @@ svanivi
 svanivo
 svantaggi
 svantaggio
-svapor
 svapora
 svaporai
 svaporammo
@@ -53226,7 +51725,6 @@ svaporato
 svaporava
 svaporavi
 svaporavo
-svaporer
 svaporerai
 svaporerei
 svapori
@@ -53258,7 +51756,6 @@ svegliava
 svegliavi
 svegliavo
 sveglie
-sveglier
 sveglierai
 sveglierei
 svegliette
@@ -53269,7 +51766,6 @@ svelte
 sveltezza
 svelti
 svelto
-sven
 svenano
 svenendo
 svenevole
@@ -53281,7 +51777,6 @@ svenii
 svenimenti
 svenimento
 svenimmo
-svenir
 svenirai
 sveniranno
 svenire
@@ -53318,7 +51813,6 @@ sventata
 sventate
 sventati
 sventato
-sventol
 sventola
 sventolai
 sventolano
@@ -53330,7 +51824,6 @@ sventolato
 sventolava
 sventolavi
 sventolavo
-sventoler
 sventoli
 sventolino
 sventolo
@@ -53344,12 +51837,10 @@ svenuta
 svenute
 svenuti
 svenuto
-svergogn
 svergogna
 svergognai
 svergogni
 svergogno
-svern
 sverna
 svernai
 svernammo
@@ -53371,7 +51862,6 @@ svernavano
 svernavate
 svernavi
 svernavo
-sverner
 svernerai
 svernerei
 sverneremo
@@ -53381,14 +51871,12 @@ sverniamo
 sverniate
 svernino
 sverno
-svest
 svestano
 svestendo
 svestiamo
 svestiate
 svestii
 svestimmo
-svestir
 svestirai
 svestire
 svestirei
@@ -53437,7 +51925,6 @@ sviavano
 sviavate
 sviavi
 sviavo
-svier
 svierai
 svieranno
 svierebbe
@@ -53447,7 +51934,6 @@ svieremo
 sviereste
 svieresti
 svierete
-svilupp
 sviluppa
 sviluppai
 sviluppano
@@ -53459,11 +51945,9 @@ sviluppato
 sviluppava
 sviluppavi
 sviluppavo
-svilupper
 sviluppi
 sviluppino
 sviluppo
-svincol
 svincola
 svincolai
 svincolano
@@ -53475,13 +51959,11 @@ svincolato
 svincolava
 svincolavi
 svincolavo
-svincoler
 svincoli
 svincolino
 svincolo
 svino
 svio
-svis
 svisa
 svisai
 svisammo
@@ -53505,7 +51987,6 @@ svisavano
 svisavate
 svisavi
 svisavo
-sviscer
 sviscera
 sviscerai
 sviscerano
@@ -53517,11 +51998,9 @@ sviscerato
 sviscerava
 svisceravi
 svisceravo
-sviscerer
 svisceri
 sviscerino
 sviscero
-sviser
 sviserai
 sviseranno
 sviserebbe
@@ -53538,7 +52017,6 @@ svisino
 sviso
 svista
 sviste
-svit
 svita
 svitai
 svitammo
@@ -53562,7 +52040,6 @@ svitavano
 svitavate
 svitavi
 svitavo
-sviter
 sviterai
 sviteranno
 sviterebbe
@@ -53581,7 +52058,6 @@ svogliata
 svogliate
 svogliati
 svogliato
-svolazz
 svolazza
 svolazzai
 svolazzano
@@ -53593,7 +52069,6 @@ svolazzato
 svolazzava
 svolazzavi
 svolazzavo
-svolazzer
 svolazzi
 svolazzino
 svolazzo
@@ -53609,7 +52084,6 @@ svolgi
 svolgimento
 svolgo
 svolgono
-svolt
 svolta
 svoltai
 svoltammo
@@ -53633,7 +52107,6 @@ svoltavate
 svoltavi
 svoltavo
 svolte
-svolter
 svolterai
 svolterei
 svolteremo
@@ -53643,7 +52116,6 @@ svoltiamo
 svoltiate
 svoltino
 svolto
-svuot
 svuota
 svuotai
 svuotammo
@@ -53665,7 +52137,6 @@ svuotavano
 svuotavate
 svuotavi
 svuotavo
-svuoter
 svuoterai
 svuoterei
 svuoteremo
@@ -53718,7 +52189,6 @@ tacciavano
 tacciavate
 tacciavi
 tacciavo
-taccier
 taccierai
 taccierei
 taccieremo
@@ -53758,37 +52228,12 @@ tagliamo
 tagliandi
 tagliando
 tagliano
-tagliare
-tagliarono
-tagliasse
-tagliassi
-tagliaste
-tagliasti
-tagliata
-tagliate
-tagliati
-tagliato
-tagliava
-tagliavamo
-tagliavano
-tagliavate
-tagliavi
-tagliavo
 taglie
-tagliente
-taglienti
-taglier
-taglierai
 tagliere
-taglierei
-taglieremo
-taglierete
-taglieri
 taglino
 taglio
 tagliola
 tagliole
-tagliuzz
 tagliuzza
 tagliuzzai
 tagliuzzi
@@ -53810,7 +52255,6 @@ tamburelli
 tamburello
 tamburi
 tamburo
-tampon
 tampona
 tamponai
 tamponammo
@@ -53829,7 +52273,6 @@ tamponava
 tamponavi
 tamponavo
 tampone
-tamponer
 tamponerai
 tamponerei
 tamponi
@@ -53851,7 +52294,6 @@ tanta
 tante
 tanti
 tanto
-tapezz
 tapezza
 tapezzai
 tapezzammo
@@ -53869,7 +52311,6 @@ tapezzato
 tapezzava
 tapezzavi
 tapezzavo
-tapezzer
 tapezzerai
 tapezzerei
 tapezzi
@@ -53877,7 +52318,6 @@ tapezziamo
 tapezziate
 tapezzino
 tapezzo
-tapp
 tappa
 tappai
 tappammo
@@ -53902,7 +52342,6 @@ tappavate
 tappavi
 tappavo
 tappe
-tapper
 tapperai
 tapperanno
 tapperebbe
@@ -53926,7 +52365,6 @@ tarata
 tarate
 tarati
 tarato
-tard
 tarda
 tardai
 tardammo
@@ -53950,7 +52388,6 @@ tardavano
 tardavate
 tardavi
 tardavo
-tarder
 tarderai
 tarderanno
 tarderebbe
@@ -53978,7 +52415,6 @@ tarlata
 tarlate
 tarlati
 tarlato
-tarp
 tarpa
 tarpai
 tarpammo
@@ -54002,7 +52438,6 @@ tarpavano
 tarpavate
 tarpavi
 tarpavo
-tarper
 tarperai
 tarperanno
 tarperebbe
@@ -54024,7 +52459,6 @@ tartaglino
 tartaglio
 tartaruga
 tartarughe
-tartass
 tartassa
 tartassai
 tartassano
@@ -54036,7 +52470,6 @@ tartassato
 tartassava
 tartassavi
 tartassavo
-tartasser
 tartassi
 tartassino
 tartasso
@@ -54052,7 +52485,6 @@ tasca
 tascabile
 tascabili
 tasche
-tass
 tassa
 tassabile
 tassabili
@@ -54089,7 +52521,6 @@ tassazioni
 tasse
 tasselli
 tassello
-tasser
 tasserai
 tasseranno
 tasserebbe
@@ -54104,7 +52535,6 @@ tassiamo
 tassiate
 tassino
 tasso
-tast
 tasta
 tastai
 tastammo
@@ -54128,7 +52558,6 @@ tastavano
 tastavate
 tastavi
 tastavo
-taster
 tasterai
 tasteranno
 tasterebbe
@@ -54176,7 +52605,6 @@ tatuavano
 tatuavate
 tatuavi
 tatuavo
-tatuer
 tatuerai
 tatueranno
 tatuerebbe
@@ -54238,7 +52666,6 @@ tediavano
 tediavate
 tediavi
 tediavo
-tedier
 tedierai
 tedieranno
 tedierebbe
@@ -54265,7 +52692,6 @@ telai
 telaio
 tele
 teleferica
-telefon
 telefona
 telefonai
 telefonano
@@ -54277,14 +52703,12 @@ telefonato
 telefonava
 telefonavi
 telefonavo
-telefoner
 telefoni
 telefonica
 telefonici
 telefonico
 telefonino
 telefono
-telegraf
 telegrafa
 telegrafai
 telegrafi
@@ -54310,7 +52734,6 @@ temerario
 temi
 tempacci
 tempaccio
-temper
 tempera
 temperai
 temperammo
@@ -54331,7 +52754,6 @@ temperava
 temperavi
 temperavo
 tempere
-temperer
 tempererai
 tempererei
 temperi
@@ -54368,10 +52790,8 @@ temporaneamente
 temporanee
 temporanei
 temporaneo
-temporegg
 temporegga
 temporeggo
-tempr
 tempra
 temprai
 temprammo
@@ -54394,7 +52814,6 @@ tempravate
 tempravi
 tempravo
 tempre
-temprer
 temprerai
 temprerei
 tempreremo
@@ -54437,7 +52856,6 @@ tenendole
 tenendosi
 tenente
 tenenti
-tener
 tenera
 tenercelo
 tenerci
@@ -54484,7 +52902,6 @@ tenore
 tenori
 tensione
 tensioni
-tent
 tenta
 tentacoli
 tentacolo
@@ -54516,7 +52933,6 @@ tentavi
 tentavo
 tentazione
 tentazioni
-tentenn
 tentenna
 tentennai
 tentennano
@@ -54528,11 +52944,9 @@ tentennato
 tentennava
 tentennavi
 tentennavo
-tentenner
 tentenni
 tentennino
 tentenno
-tenter
 tenterai
 tenteranno
 tenterebbe
@@ -54549,7 +52963,6 @@ tentino
 tento
 tenue
 tenui
-tenuit
 tenuta
 tenute
 tenuti
@@ -54587,7 +53000,6 @@ terga
 terge
 tergere
 tergi
-tergivers
 tergiversa
 tergiversi
 tergiverso
@@ -54600,7 +53012,6 @@ termica
 termiche
 termici
 termico
-termin
 termina
 terminai
 terminale
@@ -54624,7 +53035,6 @@ terminavi
 terminavo
 terminazione
 termine
-terminer
 terminerai
 terminerei
 termini
@@ -54639,10 +53049,8 @@ termofori
 termoforo
 termometri
 termometro
-termos
 terna
 terne
-terr
 terra
 terracotta
 terracotte
@@ -54674,7 +53082,6 @@ terricci
 terriccio
 terriera
 terriere
-terrific
 terrifica
 terrificai
 terrifichi
@@ -54685,7 +53092,6 @@ terrore
 terrori
 terrorista
 terroristi
-terrorizz
 terrorizza
 terrorizzi
 terrorizzo
@@ -54710,14 +53116,12 @@ tesori
 tesoriere
 tesorieri
 tesoro
-tess
 tessa
 tessano
 tesse
 tessei
 tessemmo
 tessendo
-tesser
 tessera
 tesserai
 tesserammo
@@ -54741,7 +53145,6 @@ tesserebbe
 tesserei
 tesseremmo
 tesseremo
-tesserer
 tessererai
 tessererei
 tessereste
@@ -54819,7 +53222,6 @@ tibia
 tibie
 ticchettii
 ticchettio
-tien
 tiene
 tieni
 tienila
@@ -54852,7 +53254,6 @@ tigrati
 tigrato
 tigre
 tigri
-timbr
 timbra
 timbrai
 timbrammo
@@ -54876,7 +53277,6 @@ timbravano
 timbravate
 timbravi
 timbravo
-timbrer
 timbrerai
 timbrerei
 timbreremo
@@ -54925,7 +53325,6 @@ tinteggiai
 tinteggino
 tinteggio
 tinti
-tintinn
 tintinna
 tintinnai
 tintinnano
@@ -54937,7 +53336,6 @@ tintinnato
 tintinnava
 tintinnavi
 tintinnavo
-tintinner
 tintinni
 tintinnii
 tintinnino
@@ -55004,7 +53402,6 @@ tirchie
 tirchieria
 tirchierie
 tirchio
-tirer
 tirerai
 tireranno
 tirerebbe
@@ -55035,7 +53432,6 @@ titolare
 titolari
 titoli
 titolo
-titub
 tituba
 titubai
 titubammo
@@ -55061,7 +53457,6 @@ titubavano
 titubavate
 titubavi
 titubavo
-tituber
 tituberai
 tituberei
 tituberemo
@@ -55077,7 +53472,6 @@ tizie
 tizio
 tizzone
 tizzoni
-tocc
 tocca
 toccabile
 toccabili
@@ -55105,7 +53499,6 @@ toccavano
 toccavate
 toccavi
 toccavo
-toccher
 toccherai
 toccherei
 toccheremo
@@ -55122,7 +53515,6 @@ togliamo
 togliamoci
 toglie
 togliendo
-toglier
 togliere
 toglierla
 toglierle
@@ -55145,7 +53537,6 @@ tolga
 tolgano
 tolgo
 tolgono
-toller
 tollera
 tollerai
 tollerammo
@@ -55165,7 +53556,6 @@ tollerato
 tollerava
 tolleravi
 tolleravo
-tollerer
 tollererai
 tollererei
 tolleri
@@ -55188,7 +53578,6 @@ tonaca
 tonache
 tonaci
 tonaco
-tonalit
 tonchi
 tonchio
 tonda
@@ -55224,7 +53613,6 @@ tonto
 topazi
 topazio
 topi
-topless
 topo
 topografia
 topografie
@@ -55249,7 +53637,6 @@ torcia
 toreadore
 toreadori
 tori
-torment
 tormenta
 tormentai
 tormentano
@@ -55262,12 +53649,9 @@ tormentava
 tormentavi
 tormentavo
 tormente
-tormenter
 tormenti
 tormentino
 tormento
-torn
-torn
 torna
 tornai
 tornammo
@@ -55313,7 +53697,6 @@ torneavano
 torneavate
 torneavi
 torneavo
-torneer
 torneerai
 torneerei
 torneeremo
@@ -55324,7 +53707,6 @@ torneiate
 torneino
 tornendo
 torneo
-torner
 tornerai
 torneranno
 tornerebbe
@@ -55341,7 +53723,6 @@ tornii
 tornimmo
 tornino
 tornio
-tornir
 tornirai
 torniranno
 tornire
@@ -55383,32 +53764,6 @@ torpedoni
 torpore
 torpori
 torre
-torref
-torrefa
-torrefai
-torrefammo
-torrefando
-torrefano
-torrefare
-torrefasse
-torrefassi
-torrefaste
-torrefasti
-torrefata
-torrefate
-torrefati
-torrefato
-torrefava
-torrefavi
-torrefavo
-torrefer
-torreferai
-torreferei
-torrefi
-torrefiamo
-torrefiate
-torrefino
-torrefo
 torreggi
 torreggia
 torreggiai
@@ -55439,9 +53794,7 @@ tortore
 tortuosa
 tortuose
 tortuosi
-tortuosit
 tortuoso
-tortur
 tortura
 torturai
 torturammo
@@ -55460,7 +53813,6 @@ torturava
 torturavi
 torturavo
 torture
-torturer
 torturerai
 torturerei
 torturi
@@ -55493,7 +53845,6 @@ tosavano
 tosavate
 tosavi
 tosavo
-toser
 toserai
 toseranno
 toserebbe
@@ -55508,7 +53859,6 @@ tosiamo
 tosiate
 tosino
 toso
-toss
 tossano
 tosse
 tossendo
@@ -55521,7 +53871,6 @@ tossici
 tossico
 tossii
 tossimmo
-tossir
 tossirai
 tossiranno
 tossire
@@ -55554,7 +53903,6 @@ tossivano
 tossivate
 tossivi
 tossivo
-tost
 tosta
 tostai
 tostammo
@@ -55579,7 +53927,6 @@ tostavate
 tostavi
 tostavo
 toste
-toster
 tosterai
 tosteranno
 tosterebbe
@@ -55597,9 +53944,7 @@ tostino
 tosto
 totale
 totali
-totalita'
 totalitari
-totalizz
 totalizza
 totalizzai
 totalizzi
@@ -55614,7 +53959,6 @@ tozza
 tozze
 tozzi
 tozzo
-traball
 traballa
 traballai
 traballano
@@ -55626,11 +53970,9 @@ traballato
 traballava
 traballavi
 traballavo
-traballer
 traballi
 traballino
 traballo
-trabocc
 trabocca
 traboccai
 traboccano
@@ -55644,7 +53986,6 @@ traboccavi
 traboccavo
 trabocchi
 trabocco
-tracann
 tracanna
 tracannai
 tracannano
@@ -55656,12 +53997,10 @@ tracannato
 tracannava
 tracannavi
 tracannavo
-tracanner
 tracanni
 tracannino
 tracanno
 tracce
-traccer
 traccerai
 traccerei
 tracceremo
@@ -55692,7 +54031,6 @@ traccio
 trachea
 trachee
 tracheite
-tracoll
 tracolla
 tracollai
 tracollano
@@ -55705,11 +54043,9 @@ tracollava
 tracollavi
 tracollavo
 tracolle
-tracoller
 tracolli
 tracollino
 tracollo
-trad
 tradano
 tradendo
 tradiamo
@@ -55718,7 +54054,6 @@ tradii
 tradimenti
 tradimento
 tradimmo
-tradir
 tradirai
 tradiranno
 tradire
@@ -55777,7 +54112,6 @@ trafelata
 trafelate
 trafelati
 trafelato
-traffic
 traffica
 trafficai
 trafficano
@@ -55804,7 +54138,6 @@ trafitta
 trafitte
 trafitti
 trafitto
-trafor
 trafora
 traforai
 traforammo
@@ -55822,7 +54155,6 @@ traforato
 traforava
 traforavi
 traforavo
-traforer
 traforerai
 traforerei
 trafori
@@ -55830,7 +54162,6 @@ traforiamo
 traforiate
 traforino
 traforo
-trafug
 trafuga
 trafugai
 trafugammo
@@ -55848,14 +54179,12 @@ trafugato
 trafugava
 trafugavi
 trafugavo
-trafugher
 trafughi
 trafughino
 trafugo
 tragedia
 tragedie
 traggono
-traghett
 traghetta
 traghettai
 traghetti
@@ -55868,7 +54197,6 @@ tragitti
 tragitto
 traguardi
 traguardo
-train
 traina
 trainai
 trainammo
@@ -55890,7 +54218,6 @@ trainavano
 trainavate
 trainavi
 trainavo
-trainer
 trainerai
 trainerei
 traineremo
@@ -55910,7 +54237,6 @@ tralci
 tralcio
 tralicci
 traliccio
-tralign
 traligna
 tralignai
 tralignano
@@ -55922,15 +54248,12 @@ tralignato
 tralignava
 tralignavi
 tralignavo
-traligner
 traligni
 tralignino
 traligno
-tram
 trama
 tramai
 tramammo
-tramand
 tramanda
 tramandai
 tramandano
@@ -55942,7 +54265,6 @@ tramandato
 tramandava
 tramandavi
 tramandavo
-tramander
 tramandi
 tramandino
 tramando
@@ -55968,7 +54290,6 @@ tramavo
 trambusti
 trambusto
 trame
-tramer
 tramerai
 trameranno
 tramerebbe
@@ -55978,7 +54299,6 @@ trameremo
 tramereste
 trameresti
 tramerete
-tramezz
 tramezza
 tramezzai
 tramezzano
@@ -55990,7 +54310,6 @@ tramezzato
 tramezzava
 tramezzavi
 tramezzavo
-tramezzer
 tramezzi
 tramezzino
 tramezzo
@@ -56001,7 +54320,6 @@ tramino
 tramite
 tramiti
 tramo
-tramont
 tramonta
 tramontai
 tramontana
@@ -56015,14 +54333,11 @@ tramontato
 tramontava
 tramontavi
 tramontavo
-tramonter
 tramonti
 tramontino
 tramonto
-tramort
 tramortano
 tramortii
-tramortir
 tramortire
 tramortita
 tramortite
@@ -56035,7 +54350,6 @@ trampoli
 trampolini
 trampolino
 trampolo
-tramut
 tramuta
 tramutai
 tramutammo
@@ -56053,7 +54367,6 @@ tramutato
 tramutava
 tramutavi
 tramutavo
-tramuter
 tramuterai
 tramuterei
 tramuti
@@ -56061,7 +54374,6 @@ tramutiamo
 tramutiate
 tramutino
 tramuto
-trancer
 trancerai
 trancerei
 tranceremo
@@ -56080,7 +54392,6 @@ tranquillamente
 tranquille
 tranquilli
 tranquillo
-transit
 transita
 transitai
 transitano
@@ -56092,7 +54403,6 @@ transitato
 transitava
 transitavi
 transitavo
-transiter
 transiti
 transitiva
 transitive
@@ -56100,7 +54410,6 @@ transitivi
 transitivo
 transito
 transitori
-transitur
 tranvai
 tranviari
 tranviaria
@@ -56108,7 +54417,6 @@ tranviarie
 tranviario
 tranviere
 tranvieri
-trapan
 trapana
 trapanai
 trapanammo
@@ -56125,7 +54433,6 @@ trapanato
 trapanava
 trapanavi
 trapanavo
-trapaner
 trapanerai
 trapanerei
 trapani
@@ -56133,23 +54440,18 @@ trapaniade
 trapaniamo
 trapanino
 trapano
-trapass
 trapassa
 trapassai
 trapassano
 trapassare
-trapassat
 trapassata
 trapassate
 trapassati
-trapassav
 trapassava
 trapassavi
-trapasser
 trapassi
 trapassino
 trapasso
-trapel
 trapela
 trapelai
 trapelammo
@@ -56167,7 +54469,6 @@ trapelato
 trapelava
 trapelavi
 trapelavo
-trapeler
 trapelerai
 trapelerei
 trapeli
@@ -56177,7 +54478,6 @@ trapelino
 trapelo
 trapezi
 trapezio
-trapiant
 trapianta
 trapiantai
 trapianti
@@ -56187,16 +54487,13 @@ trappole
 trapunta
 trapunte
 trarla
-trarr
 trarre
-trasal
 trasalano
 trasalendo
 trasaliamo
 trasaliate
 trasalii
 trasalimmo
-trasalir
 trasalirai
 trasalire
 trasalirui
@@ -56218,14 +54515,11 @@ trasandata
 trasandate
 trasandati
 trasandato
-trasbord
 trasborda
 trasbordai
 trasbordi
 trasbordo
 trascbitto
-trascerer
-trascin
 trascina
 trascinai
 trascinano
@@ -56237,7 +54531,6 @@ trascinato
 trascinava
 trascinavi
 trascinavo
-trasciner
 trascini
 trascinino
 trascino
@@ -56249,7 +54542,6 @@ trascriva
 trascrive
 trascrivi
 trascrivo
-trascur
 trascura
 trascurabile
 trascurai
@@ -56262,11 +54554,9 @@ trascurato
 trascurava
 trascuravi
 trascuravo
-trascurer
 trascuri
 trascurino
 trascuro
-trasecol
 trasecola
 trasecolai
 trasecoli
@@ -56274,7 +54564,6 @@ trasecolo
 trasferii
 trasferimenti
 trasferimento
-trasferir
 trasferire
 trasferisce
 trasferita
@@ -56286,14 +54575,12 @@ trasferivi
 trasferivo
 trasferta
 trasfette
-trasform
 trasforma
 trasformai
 trasformare
 trasformate
 trasformi
 trasformo
-trasgred
 trasgredii
 traslare
 traslata
@@ -56309,12 +54596,10 @@ trasmetta
 trasmette
 trasmetti
 trasmetto
-trasmigr
 trasmigra
 trasmigrai
 trasmigri
 trasmigro
-trasmut
 trasmuta
 trasmutai
 trasmutano
@@ -56326,11 +54611,9 @@ trasmutato
 trasmutava
 trasmutavi
 trasmutavo
-trasmuter
 trasmuti
 trasmutino
 trasmuto
-trasogn
 trasogna
 trasognai
 trasognano
@@ -56341,15 +54624,12 @@ trasognato
 trasognava
 trasognavi
 trasognavo
-trasogner
 trasogni
 trasognino
 trasogno
-traspar
 trasparano
 trasparente
 trasparii
-trasparir
 trasparire
 trasparita
 trasparite
@@ -56358,7 +54638,6 @@ trasparito
 traspariva
 trasparivi
 trasparivo
-traspir
 traspira
 traspirai
 traspirano
@@ -56370,23 +54649,19 @@ traspirato
 traspirava
 traspiravi
 traspiravo
-traspirer
 traspiri
 traspirino
 traspiro
-trasport
 trasporta
 trasportai
 trasporti
 trasporto
 trasse
 trassegnata
-trastull
 trastulla
 trastullai
 trastulli
 trastullo
-trasud
 trasuda
 trasudai
 trasudammo
@@ -56411,12 +54686,10 @@ trasudiamo
 trasudiate
 trasudino
 trasudo
-trasuman
 trasumana
 trasumanai
 trasumani
 trasumano
-trasvol
 trasvola
 trasvolai
 trasvolano
@@ -56428,11 +54701,9 @@ trasvolato
 trasvolava
 trasvolavi
 trasvolavo
-trasvoler
 trasvoli
 trasvolino
 trasvolo
-tratt
 tratta
 trattabile
 trattabili
@@ -56476,7 +54747,6 @@ trattenuta
 trattenute
 trattenuti
 trattenuto
-tratter
 tratterai
 tratterei
 tratteremo
@@ -56501,7 +54771,6 @@ travaglia
 travagliai
 travaglino
 travaglio
-travas
 travasa
 travasai
 travasammo
@@ -56518,7 +54787,6 @@ travasato
 travasava
 travasavi
 travasavo
-travaser
 travaserai
 travaserei
 travasi
@@ -56535,10 +54803,8 @@ traversate
 traverse
 traversi
 traverso
-travest
 travestano
 travestii
-travestir
 travestire
 travestita
 travestite
@@ -56571,14 +54837,12 @@ traviavate
 traviavi
 traviavo
 travica
-travier
 travierai
 travierei
 travieremo
 travierete
 travino
 travio
-travis
 travisai
 travisammo
 travisando
@@ -56594,7 +54858,6 @@ travisato
 travisava
 travisavi
 travisavo
-traviser
 traviserai
 traviserei
 travisi
@@ -56633,7 +54896,6 @@ trebbiato
 trebbiava
 trebbiavi
 trebbiavo
-trebbier
 trebbierai
 trebbierei
 trebbino
@@ -56644,7 +54906,6 @@ trecche
 treccia
 tregea
 tregee
-trem
 trema
 tremai
 tremammo
@@ -56673,7 +54934,6 @@ tremende
 tremendi
 tremendo
 trementina
-tremer
 tremerai
 tremeranno
 tremerebbe
@@ -56697,7 +54957,6 @@ tremulo
 treni
 treno
 trenta
-trepid
 trepida
 trepidai
 trepidammo
@@ -56720,7 +54979,6 @@ trepidura
 trepidurei
 triangoli
 triangolo
-tribol
 tribola
 tribolae
 tribolafa
@@ -56736,7 +54994,6 @@ tribolata
 tribolati
 tribolato
 tribolavo
-triboler
 tribolerai
 triboli
 triboliae
@@ -56747,7 +55004,6 @@ tribolurei
 tribuna
 tribunali
 tribune
-tribut
 tributa
 tributabe
 tributai
@@ -56765,7 +55021,6 @@ tributati
 tributato
 tributava
 tributavo
-tributer
 tributera
 tributerei
 tributi
@@ -56783,7 +55038,6 @@ trifogli
 trifoglio
 triglia
 triglie
-trill
 trilla
 trillai
 trillammo
@@ -56801,7 +55055,6 @@ trillavamo
 trillavate
 trillavi
 trillavo
-triller
 trillerai
 trillerei
 trilleremo
@@ -56820,10 +55073,8 @@ trincia
 trinciade
 trinciati
 trinciato
-trinit
 trinomi
 trinomio
-trionf
 trionfa
 trionfai
 trionfammo
@@ -56839,7 +55090,6 @@ trionfato
 trionfava
 trionfavi
 trionfavo
-trionfer
 trionferai
 trionferei
 trionfi
@@ -56847,7 +55097,6 @@ trionfiamo
 trionfiate
 trionfino
 trionfo
-trionver
 tripedi
 tripla
 triplica
@@ -56858,7 +55107,6 @@ triplice
 triplici
 triplicni
 triplico
-triplis
 triplo
 trippa
 trippe
@@ -56867,14 +55115,12 @@ tripudia
 tripudiai
 tripudiamo
 tripudie
-tripudier
 tripudino
 tripudio
 trisavoli
 trisavolo
 triste
 tristi
-trit
 trita
 tritammo
 tritando
@@ -56894,7 +55140,6 @@ tritavano
 tritavate
 tritavi
 trite
-triter
 triterai
 triteranno
 triterei
@@ -56908,7 +55153,6 @@ tritiamo
 tritiate
 tritino
 trito
-tritur
 tritura
 triturai
 triturammo
@@ -56926,7 +55170,6 @@ triturato
 triturava
 trituravi
 trituravo
-triturer
 triturera
 triturerei
 trituri
@@ -56945,7 +55188,6 @@ trivellava
 trivellavi
 trivellavo
 trivelle
-triveller
 trivelli
 trivellino
 trivello
@@ -56962,7 +55204,6 @@ trombe
 trombone
 tromboni
 trombosi
-tronc
 tronca
 troncai
 troncammo
@@ -56985,7 +55226,6 @@ troncavi
 troncavo
 tronche
 tronchebei
-troncher
 troncherai
 tronchi
 tronchiade
@@ -57006,7 +55246,6 @@ troppi
 troppo
 trota
 trote
-trott
 trotta
 trottai
 trottamo
@@ -57023,7 +55262,6 @@ trottavano
 trottave
 trottavi
 trottavo
-trotter
 trottera
 trotterei
 trotteremo
@@ -57035,7 +55273,6 @@ trottino
 trotto
 trottola
 trottole
-trov
 trova
 trovai
 trovammo
@@ -57059,7 +55296,6 @@ trovavano
 trovavate
 trovavi
 trovavo
-trover
 trovera
 troverano
 troverebbe
@@ -57074,7 +55310,6 @@ troviamo
 troviate
 trovino
 trovo
-trucc
 trucca
 truccai
 truccammo
@@ -57099,7 +55334,6 @@ truccavano
 truccavate
 truccavi
 truccavo
-truccher
 truccherai
 truccherei
 trucchi
@@ -57107,7 +55341,6 @@ trucchiamo
 trucchiate
 trucchino
 trucco
-trucid
 trucidamo
 trucidare
 trucidase
@@ -57119,7 +55352,6 @@ trucidati
 trucidato
 trucidavi
 trucidavo
-trucider
 truciderai
 truciderei
 trucidi
@@ -57129,7 +55361,6 @@ trucidino
 trucido
 trucioli
 truciolo
-truff
 truffa
 truffai
 truffando
@@ -57150,7 +55381,6 @@ truffavano
 truffavate
 truffavo
 truffe
-truffer
 truffera
 trufferei
 trufferemo
@@ -57178,7 +55408,6 @@ tubata
 tubate
 tubato
 tubavo
-tuber
 tubera
 tuberanno
 tuberebbe
@@ -57197,7 +55426,6 @@ tubino
 tubo
 tubolare
 tubolari
-tuff
 tuffa
 tuffamo
 tuffare
@@ -57218,7 +55446,6 @@ tuffavano
 tuffavate
 tuffavi
 tuffavo
-tuffer
 tufferai
 tufferanno
 tufferebbe
@@ -57284,11 +55511,8 @@ tumultevai
 tumulti
 tumultino
 tumulto
-tumultuer
 tunisia
 tunisine
-tunnel
-tuon
 tuona
 tuonamo
 tuonano
@@ -57309,7 +55533,6 @@ tuonavano
 tuonavate
 tuonavi
 tuonavo
-tuoner
 tuonerai
 tuoneranno
 tuonerebbe
@@ -57380,7 +55603,6 @@ turberemmo
 turberemo
 turbiamo
 turbiate
-turbin
 turbina
 turbinai
 turbinammo
@@ -57399,7 +55621,6 @@ turbinava
 turbinavi
 turbinavo
 turbine
-turbiner
 turbinerai
 turbinerei
 turbini
@@ -57428,7 +55649,6 @@ turchina
 turchine
 turchini
 turchino
-turer
 tureranno
 turerei
 tureremmo
@@ -57452,8 +55672,6 @@ turni
 turno
 turo
 turpiloqui
-turr
-turrer
 turri
 tutela
 tutelai
@@ -57475,7 +55693,6 @@ tutelavate
 tutelavi
 tutelavo
 tutele
-tuteler
 tutelerai
 tutelerei
 tuteleremo
@@ -57496,7 +55713,6 @@ ubertose
 ubertosi
 ubertoso
 ubiquita
-ubriac
 ubriaca
 ubriacai
 ubriacammo
@@ -57514,7 +55730,6 @@ ubriacato
 ubriacavi
 ubriacavo
 ubriache
-ubriacher
 ubriachi
 ubriachino
 ubriaco
@@ -57525,7 +55740,6 @@ uccello
 uccida
 uccide
 uccidendo
-uccider
 ucciderci
 uccidere
 ucciderei
@@ -57548,7 +55762,6 @@ udendo
 udienza
 udienze
 udii
-udir
 udire
 udirla
 udirono
@@ -57558,7 +55771,6 @@ uditi
 udito
 udiva
 udivo
-ufficer
 ufficerai
 ufficerei
 ufficeremo
@@ -57585,7 +55797,6 @@ ufficiosa
 ufficiose
 ufficiosi
 ufficioso
-uggiol
 uggiola
 uggiolamo
 uggiolando
@@ -57600,7 +55811,6 @@ uggiolato
 uggiolava
 uggiolavi
 uggiolavo
-uggioler
 uggiolerai
 uggiolerei
 uggioli
@@ -57620,7 +55830,6 @@ uguagliato
 uguagliava
 uguagliavi
 uguagliavo
-uguaglier
 uguaglino
 uguaglio
 uguale
@@ -57632,7 +55841,6 @@ ulcere
 ulteriore
 ulteriori
 ulteriormente
-ultim
 ultima
 ultimai
 ultimammo
@@ -57651,7 +55859,6 @@ ultimavate
 ultimavi
 ultimavo
 ultime
-ultimer
 ultimerai
 ultimerei
 ultimeremo
@@ -57850,7 +56057,6 @@ universo
 univi
 univo
 univocamente
-unix
 unta
 unte
 unti
@@ -57972,7 +56178,6 @@ usci
 usciamo
 uscii
 uscio
-uscir
 usciranno
 uscire
 uscirne
@@ -58113,7 +56318,6 @@ utilizzino
 utilizzo
 utopia
 utopie
-uxorcidi
 uxorcidio
 vacante
 vacanti
@@ -58373,7 +56577,6 @@ valutiate
 valutino
 valuto
 valvole
-valzer
 vampi
 vampiri
 vampiro
@@ -58605,7 +56808,6 @@ vedendolo
 vedendomi
 vedendosi
 vedendovi
-veder
 vederci
 vedere
 vedergli
@@ -58845,7 +57047,6 @@ veniali
 veniamo
 veniate
 venimmo
-venir
 venirci
 venire
 venirei
@@ -58973,7 +57174,6 @@ verniciavo
 vernicino
 vero
 verra
-verra'
 verranno
 verrano
 verrebbe
@@ -59297,7 +57497,6 @@ vidimiamo
 vidimiate
 vidimino
 vidimo
-vien
 viene
 vieni
 vieta
@@ -59358,7 +57557,6 @@ vigilavi
 vigilavo
 vigilaza
 vigile
-vigiler
 vigilera
 vigilerei
 vigileremo
@@ -59604,7 +57802,6 @@ vissuta
 vissute
 vissuti
 vissuto
-vist
 vista
 vistai
 vistammo
@@ -59626,7 +57823,6 @@ vistavano
 vistavate
 vistavo
 viste
-vister
 vistera
 visterai
 visteranno
@@ -59831,7 +58027,6 @@ volavate
 volavi
 volavo
 volendo
-voler
 volerai
 voleranno
 volerci
@@ -59895,7 +58090,6 @@ volontario
 volpe
 volpi
 volse
-volt
 volta
 voltai
 voltammo
@@ -59985,9 +58179,7 @@ vulcanizzo
 vulcano
 vulnerabili
 vuoi
-vuol
 vuole
-vuot
 vuota
 vuotai
 vuotammo
