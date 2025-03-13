@@ -293,6 +293,7 @@ function checkLetter(elem, letter) {
 
 
 	updateLivesCounter();
+
 	if (hangmanState.lives) {
 		revealKnownLetters();
 	} else {
