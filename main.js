@@ -25,10 +25,26 @@ const quotes = [
 	`Voglio ascoltare lofi steso sul letto con te`,
 	`Ti va un bel massaggio?`,
 	`D'ora in poi, se ti noi clicca in basso a sinistra, ti ho fatto un giochino<br><3`,
-	`Sei la mia<br><i>raison d'être</i>|800;<div class="small">(tanto che sono andato addirittura a cercare gli accenti giusti)</div>`,
+	`Sei la mia<br><i>raison d'être</i>|800;<div class="small"><br>(tanto che sono andato addirittura a cercare gli accenti giusti)</div>`,
 	`Hai presente le canzoni che ti fanno venire i brividi?<br>tutte le volte che ti sfioro mi sento così`,
 	`Come vuoi chiamare nostro figlio?`,
 	`<div style="font-size:0.9em">Gaetano mi ha detto<br>che viviamo nel ghetto<br>e nel mentre penso che<br>se io dormissi disteso<br>sul tuo lato del letto<br><i>tra le braccia avrei te</i></div><div class="big beatingHeart">🤍</div>`,
+	`Quando scegliamo la nostra stella?`,
+	`Voglio un portale tra le nostre camere`,
+	`Salvate in galleria ho 15 foto di me e 43 di noi due insieme, e questo riassume abbastanza bene quello che provo per te`,
+	`Mi manchi come manca la pace ai soldati`,
+	`Sei la mia luce nelle tenebre`,
+	`Sei tutto ciò che desidero`,
+	`Voglio cucinare qualcosa con te`,
+	`Prima o poi ti porterò a guardare il tramonto sui monti`,
+	`Vorrei che baciarti fosse l'inizio di ogni mia giornata`,
+	`Il mio rimpianto più grande è non averti conosciuta prima`,
+	`Voglio sentire le tue labbra`,
+	`<div style="font-size:0.8em"><i>Bella mia d'argento:<br>sul tuo viso il riflesso,<br>d'un passionale amplesso<br>e mi perdo nel momento</i></div>`,
+	`Ti vorrei qui con me|1500;<div class="small"><br>@40;Piccola curiosità <i>assolutamente non correlata</i>: sapevi che la popolarità del termine limonare (che allude al movimento delle mani che spremono un agrume hehehe) deriva in gran parte dall'usanza dei fruttivendoli lombardi di vendere i limoni in coppie alle giovani fanciulle che si recavano ai mercati?</div>`,
+	`Sei la colla che tiene insieme i miei pezzi`,
+	`L'unico motivo per cui cerco di non immaginarti quando sono in pubblico è che mi metterei ad accarezzare l'aria davanti alla gente`,
+	`Sono stato così fortunato a conoscere proprio te, tra 100 miliardi di umani mai esistiti`,
 	`- fine della versione corrente-`
 ];
 
@@ -411,6 +427,12 @@ function updateQuote(midnightMessage = 0) {
 
 
 // code calling
+
+window.scrollTo(0, 0);
+
+if ('scrollRestoration' in history) {
+	history.scrollRestoration = 'manual';
+}
 
 setTime();
 loadShapes();

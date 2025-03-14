@@ -19,7 +19,8 @@
 	box-sizing: border-box;
 	touch-action: manipulation;
 	font-family: "sonya", Arial, Helvetica, sans-serif;
-	text-shadow: min(0.05em, 1px) min(0.05em, 1px) min(0.05em, 1px) #1d021930;
+	text-shadow: min(0.05em, 1.5px) min(0.05em, 1.5px) min(0.05em, 1.5px)
+		#1d021930;
 	letter-spacing: 0.02em;
 }
 
@@ -48,6 +49,10 @@ a {
 	padding: 3px 5px 0px 5px;
 	border-radius: 8px;
 	display: inline-flex;
+}
+
+i {
+	text-shadow: min(0.05em, 1px) min(0.05em, 1.5px) min(0.05em, 1.5px) #1d021930;
 }
 
 #quoteContainer {
