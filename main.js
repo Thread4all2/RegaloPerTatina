@@ -465,10 +465,12 @@ if (daysSince === 32) {
 
 
 const heartStream = () => { // spawn hearts at random intervals
+
+	makeRisingHearts();
+
 	setTimeout(() => {
-		makeRisingHearts();
 		heartStream();
-	}, Math.random() * 4800 + 200);
+	}, Math.random() * 3000 + 100);
 };
 
 makeRisingHearts(20);
