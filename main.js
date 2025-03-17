@@ -454,6 +454,16 @@ if (daysSince > 24) { // enable the hangman game
 	hangman_.style.display = "block";
 }
 
+if (daysSince === 32) {
+	let heartFountain = setInterval(() => {
+		makeRisingHearts(5);
+	}, 100);
+	setTimeout(() => {
+		clearInterval(heartFountain);
+	}, 20000);
+}
+
+
 const heartStream = () => { // spawn hearts at random intervals
 	setTimeout(() => {
 		makeRisingHearts();
