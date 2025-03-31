@@ -74,7 +74,7 @@ localStorage.setItem("timesOpened", timesOpened + 1);
 
 
 // main timekeeping
-const startDate = new Date("2025-02-14 01:00:00");
+const startDate = new Date("2025-02-14 00:00:00Z");
 let daysOffset = +(new URLSearchParams(window.location.search).get("t")) || 0;
 let today, day, month, timeDiff, daysSince;
 
@@ -85,7 +85,8 @@ function setTime() {
 	month = today.getMonth() + 1;
 
 	timeDiff = today.getTime() - startDate.getTime();
-	daysSince = Math.floor(timeDiff / (1000 * 3600 * 24));
+	daysSince = Math.floor(((timeDiff / 60000) - today.getTimezoneOffset()) / (60 * 24));
+
 
 	hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length == 2 ? month : "0" + month} -`;
 }
