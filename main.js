@@ -45,7 +45,14 @@ const quotes = [
 	`Sei la colla che tiene insieme i miei pezzi`,
 	`L'unico motivo per cui cerco di non immaginarti quando sono in pubblico è che mi metterei ad accarezzare l'aria davanti alla gente`,
 	`Sono stato così fortunato a conoscere proprio te, tra 100 miliardi di umani mai esistiti`,
-	`- fine della versione corrente-`
+	`Voglio girarmi nel letto e sentire il tuo profumo, aprire gli occhi e vedere i tuoi, darti il buongiorno ogni mattina con un bacio, e farti almeno mezz'ora di coccole`,
+	`Chiunque sia l'artefice dell'enorme cuore su Plutone mi ha rubato l'idea per un regalo`,
+	`Se ti dedicassi una canzone, non finirei mai di scriverla, perché non sarebbe mai perfetta abbastanza da meritarti`,
+	`🎶🎶<div class="small"> </div>You've been on my mind<br>girl,<br>like a drug<div class="small"> </div>🎶🎶`,
+	`Ogni volta che ti guardo gli negli occhioni me ne reinnamoro come la prima volta`,
+	`L'unico momento in cui riesco a non pensare a niente è quando sei con me, dato che non devo immaginarti per riempire il vuoto che sento senza di te`,
+	`Mi manca parlarti`,
+	`- fine della versione corrente-`,
 ];
 
 // randomize shapes delays for a more natural look
@@ -67,7 +74,7 @@ localStorage.setItem("timesOpened", timesOpened + 1);
 
 
 // main timekeeping
-const startDate = new Date("2025-02-14 00:00:00");
+const startDate = new Date("2025-02-14 01:00:00");
 let daysOffset = +(new URLSearchParams(window.location.search).get("t")) || 0;
 let today, day, month, timeDiff, daysSince;
 
