@@ -52,6 +52,8 @@ const quotes = [
 	`Ogni volta che ti guardo gli negli occhioni me ne reinnamoro come la prima volta`,
 	`L'unico momento in cui riesco a non pensare a niente è quando sei con me, dato che non devo immaginarti per riempire il vuoto che sento senza di te`,
 	`Mi manca parlarti`,
+	`Ho letto che si può cucinare un pollo tirandogli una sberla a 1'600m/s (o 23'000 sberle normali), quindi devo ricordarmi di andarci piano`,
+	`Quando facciamo un bagno a mezzanotte da nudi?`,
 	`- fine della versione corrente-`,
 ];
 
