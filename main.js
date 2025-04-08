@@ -54,6 +54,17 @@ const quotes = [
 	`Mi manca parlarti`,
 	`Ho letto che si può cucinare un pollo tirandogli una sberla a 1'600m/s (o 23'000 sberle normali), quindi devo ricordarmi di andarci piano`,
 	`Quando facciamo un bagno a mezzanotte da nudi?`,
+	`Ho voglia di prenderti per i capelli e strapparti un bacio`,
+	`Voglio insegnarti a programmare`,
+	`Oggi è la giornata mondiale del bacio; si celebra in onore della data del record per il bacio più lungo registrato, di 58h. Ti va di provare a batterli?`,
+	`Sei per me quello che è la penna per uno scrittore, il telescopio per un astronomo, la fotocamera per un fotografo`,
+	`Voglio fare la doccia con te`,
+	`Dietro di te<br>c'è sempre <i>bel <a href="https://open.spotify.com/track/3zb9a4NOpoSLuDZv6dmQzT">tempooooo</a> </i>`,
+	`L'unico motivo per cui Giada non è il nome di un fiore è che non ne hanno ancora scoperto uno che sia bello abbastanza`,
+	`Quando vivremo insieme, ti lascerò post-it in giro per casa: quelli rosa con messaggi sdolcinati, quelli blu con le cose che ti vorrò fare`,
+	`Prima di te non conoscevo un significato così profondo della parola <i>"desiderio"</i>`,
+	`Usciamo insieme un sabato sera?`,
+	`Know I'll find you in my <a href="https://open.spotify.com/track/0nOkwnX9Vv34M2dO2mCZ66">dreams</a>`,
 	`- fine della versione corrente-`,
 ];
 
