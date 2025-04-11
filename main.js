@@ -56,7 +56,7 @@ const quotes = [
 	`Quando facciamo un bagno a mezzanotte da nudi?`,
 	`Ho voglia di prenderti per i capelli e strapparti un bacio`,
 	`Voglio insegnarti a programmare`,
-	`Oggi è la giornata mondiale del bacio; si celebra in onore della data del record per il bacio più lungo registrato, di 58h. Ti va di provare a batterli?`,
+	`Oggi è la giornata mondiale del bacio; si celebra in onore della data del record per il bacio più lungo registrato, di 58h. Ti va di provare a batterlo?`,
 	`Sei per me quello che è la penna per uno scrittore, il telescopio per un astronomo, la fotocamera per un fotografo`,
 	`Voglio fare la doccia con te`,
 	`Dietro di te<br>c'è sempre <i>bel <a href="https://open.spotify.com/track/3zb9a4NOpoSLuDZv6dmQzT">tempooooo</a> </i>`,
