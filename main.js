@@ -62,8 +62,9 @@ const quotes = [
 	`Dietro di te<br>c'è sempre <i>bel <a href="https://open.spotify.com/track/3zb9a4NOpoSLuDZv6dmQzT">tempooooo</a> </i>`,
 	`L'unico motivo per cui Giada non è il nome di un fiore è che non ne hanno ancora scoperto uno che sia bello abbastanza`,
 	`Quando vivremo insieme, ti lascerò post-it in giro per casa: quelli rosa con messaggi sdolcinati, quelli blu con le cose che ti vorrò fare`,
-	`Prima di te non conoscevo un significato così profondo della parola <i>"desiderio"</i>`,
+	`Prima di te non conoscevo un significato così profondo della parola <i>desiderio</i>`,
 	`Usciamo insieme un sabato sera?`,
+	`buona Pasqua cucciola! Vorrei tanto fossi il mio uovo, ho una voglia matta di scartarti e poi mangiarti`,
 	`Know I'll find you in my <a href="https://open.spotify.com/track/0nOkwnX9Vv34M2dO2mCZ66">dreams</a>`,
 	`- fine della versione corrente-`,
 ];
