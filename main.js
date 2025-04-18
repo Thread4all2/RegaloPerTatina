@@ -69,6 +69,7 @@ const quotes = [
 	`- fine della versione corrente-`,
 ];
 
+
 // randomize shapes delays for a more natural look
 document.documentElement.style.setProperty("--shape1AnimationDelay", -Math.random() * 20 + "s");
 document.documentElement.style.setProperty("--shape2AnimationDelay", -Math.random() * 20 + "s");
@@ -344,7 +345,7 @@ function checkLetter(elem, letter) {
 function loadShapes() { // injects svgs, to avoid flashing them before page load
 	document.getElementById("leftArrow").src = "graphics/leftArrow.svg";
 	document.getElementById("rightArrow").src = "graphics/rightArrow.svg";
-	document.getElementById("openGame").src = "graphics/rightArrow.svg";
+	document.getElementById("openGame").src = "graphics/hangman.svg";
 	document.getElementById("paperclips").src = "graphics/paperclips.svg";
 	document.getElementById("whiteHeart").src = "graphics/whiteHeart.svg";
 	document.getElementById("pinkCloud").src = "graphics/pinkCloud.svg";
@@ -568,8 +569,13 @@ hangman_.onclick = () => {
 
 		document.getElementById("hangmanContainer").style.display = "flex";
 		document.getElementById("openGame").src = "graphics/leftArrow.svg";
+
+		hangman_.style.display = "none";
 		hangman_.style.bottom = "unset";
 		hangman_.style.top = "10px";
+		hangman_.style.padding = "7px 8px 3px 7px";
+		hangman_.style.background = "#0a021d10";
+		hangman_.style.display = "block";
 
 
 		setupHangman();
@@ -580,9 +586,15 @@ hangman_.onclick = () => {
 		setTime();
 
 		document.getElementById("hangmanContainer").style.display = "none";
-		document.getElementById("openGame").src = "graphics/rightArrow.svg";
+		document.getElementById("openGame").src = "graphics/hangman.svg";
+
+		hangman_.style.display = "none";
 		hangman_.style.top = "unset";
 		hangman_.style.bottom = "10px";
+		hangman_.style.padding = " 2px 2px 0px 2px";
+		hangman_.style.background = "#d697dc49";
+		hangman_.style.display = "block";
+
 
 
 		if (daysSince > 0) { // if it's not the first day, we can go back
