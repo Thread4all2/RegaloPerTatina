@@ -66,6 +66,15 @@ const quotes = [
 	`Usciamo insieme un sabato sera?`,
 	`buona Pasqua cucciola! Vorrei tanto fossi il mio uovo, ho una voglia matta di scartarti e poi mangiarti`,
 	`Know I'll find you in my <a href="https://open.spotify.com/track/0nOkwnX9Vv34M2dO2mCZ66">dreams</a>`,
+	`Sei il mio fiore preferito`,
+	`Sei il mio colore preferito`,
+	`Sei il mio suono preferito`,
+	`Sei il mio sapore preferito`,
+	`Sei il mio profumo preferito`,
+	`Ti amo, e oggi le parole non mi bastano per dirti quanto`,
+	`Volava,<br>un seme di soffione,<br><br>s'adagiò sul mio viso,<br>con come un sorriso.<br><br>Rideva,<br>perché sfiorata t'aveva.`,
+	`Chissà come occupavo la mia testa prima che ci fossi tu`,
+	`Ti ricordi quando siamo andati a vedere l'alba insieme?`,
 	`- fine della versione corrente-`,
 ];
 
