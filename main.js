@@ -46,13 +46,13 @@ const quotes = [
 	`L'unico motivo per cui cerco di non immaginarti quando sono in pubblico è che mi metterei ad accarezzare l'aria davanti alla gente`,
 	`Sono stato così fortunato a conoscere proprio te, tra 100 miliardi di umani mai esistiti`,
 	`Voglio girarmi nel letto e sentire il tuo profumo, aprire gli occhi e vedere i tuoi, darti il buongiorno ogni mattina con un bacio, e farti almeno mezz'ora di coccole`,
-	`Chiunque sia l'artefice dell'enorme cuore su Plutone mi ha rubato l'idea per un regalo`,
+	`Chiunque sia l'artefice dell'enorme cuore su Plutone, mi ha rubato l'idea per un regalo`,
 	`Se ti dedicassi una canzone, non finirei mai di scriverla, perché non sarebbe mai perfetta abbastanza da meritarti`,
 	`🎶🎶<div class="small"> </div>You've been on my mind<br>girl,<br>like a drug<div class="small"> </div>🎶🎶`,
-	`Ogni volta che ti guardo gli negli occhioni me ne reinnamoro come la prima volta`,
+	`Ogni volta che ti guardo negli occhioni me ne reinnamoro come la prima volta`,
 	`L'unico momento in cui riesco a non pensare a niente è quando sei con me, dato che non devo immaginarti per riempire il vuoto che sento senza di te`,
 	`Mi manca parlarti`,
-	`Ho letto che si può cucinare un pollo tirandogli una sberla a 1'600m/s (o 23'000 sberle normali), quindi devo ricordarmi di andarci piano`,
+	`Ho letto che si può cucinare un pollo tirandogli una sberla a 1'600m/s (o 23'000 sberle normali), quindi devo ricordarmi di andarci piano con te`,
 	`Quando facciamo un bagno a mezzanotte da nudi?`,
 	`Ho voglia di prenderti per i capelli e strapparti un bacio`,
 	`Voglio insegnarti a programmare`,
@@ -107,11 +107,14 @@ function setTime() {
 }
 
 // typing handling
+
 let updaterInterval = null;
 let quoteTyper = new Typer(quote_);
 
 
-// hearts whereabouts
+
+// hearts logic
+
 let clickCount = 0;
 let lastClickTime = 0;
 
@@ -142,8 +145,27 @@ function createHeart(x, y) {
 	});
 }
 
-function handleDoubleClick(event) {
-	if (event.clientY < 65) { // if the click is in the top left corner, show the info
+function makeRisingHearts(minAmt = 0) { // spawns some hearts at the bottom of the screen
+	const tresh = Math.max(Math.random(), .2);
+	while (minAmt > 0 || Math.random() > tresh) {
+		const x = window.innerWidth / 4 + Math.random() * window.innerWidth / 2;
+		const y = window.innerHeight;
+		createHeart(x, y);
+		minAmt--;
+	}
+}
+
+const heartStream = () => { // spawn hearts at random intervals
+
+	makeRisingHearts();
+
+	setTimeout(() => {
+		heartStream();
+	}, Math.random() * 3000 + 100);
+};
+
+function heartOnDoubleClick(event) {
+	if (event.clientY < 65) { // if the click is in the top bar, ignore it (the user may be clicking buttons)
 		return;
 	}
 
@@ -166,20 +188,10 @@ function handleDoubleClick(event) {
 		clickCount = 0; // Reset for the next double click
 
 		// Create multiple hearts with slightly different curves
-		const numHearts = 16 + (40 * Math.random() | 0); // Between 16 and 54 hearts
+		const numHearts = 16 + (40 * Math.random() | 0); // Between 16 and 55 hearts
 		for (let i = 0; i < numHearts; i++) {
 			createHeart(event.clientX - 30, event.clientY - 30);
 		}
-	}
-}
-
-function makeRisingHearts(minAmt = 0) { // spawns some hearts at the bottom of the screen
-	const tresh = Math.max(Math.random(), .2);
-	while (minAmt > 0 || Math.random() > tresh) {
-		const x = window.innerWidth / 4 + Math.random() * window.innerWidth / 2;
-		const y = window.innerHeight;
-		createHeart(x, y);
-		minAmt--;
 	}
 }
 
@@ -229,7 +241,12 @@ function updateLivesCounter() {
 
 function checkWin() {
 	if (hangmanState.word.split("").every(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " "))) {
-		displayMessage(["hai vinto bimbaaa", "bravaaaaaaaa", "mia genietta tu", "brava cucciolaa", "meriti un premio"][Math.random() * 5 | 0], "rgb(238, 130, 238, 0.8)", 4000, 1.5);
+		displayMessage(
+			hangmanState.lives == 6 ? "mia bimba perfetta" :
+				hangmanState.lives == 1 ? "pheww" :
+					["hai vinto bimbaaa", "bravaaaaaaaa", "mia genietta tu", "brava cucciolaa", "meriti un premio"][Math.random() * 5 | 0],
+			"rgb(238, 130, 238, 0.8)", 4000, 1.5
+		);
 		makeRisingHearts(20 * hangmanState.lives * (hangmanState.isSpecialWord ? 2 : 1));
 		updaterInterval = setTimeout(() => setupHangman(), 4000);
 		hangmanState.isGameOver = true;
@@ -238,7 +255,7 @@ function checkWin() {
 
 function checkLoss() {
 	if (!hangmanState.lives) {
-		displayMessage(["hai perso amore", "nuuuuuu", "tontolina mia", "mi dispiacee", "🥺"][Math.random() * 5 | 0], "rgb(100, 100, 100, 0.8)", 4000, 1.5);
+		displayMessage(["hai perso amore", "nuuuuuu", "tontolina mia", "mi dispiaceee", "🥺"][Math.random() * 5 | 0], "rgb(100, 100, 100, 0.8)", 4000, 1.5);
 		updaterInterval = setTimeout(() => setupHangman(), 4000);
 		hangmanState.isGameOver = true;
 	}
@@ -341,7 +358,9 @@ function checkLetter(elem, letter) {
 }
 
 
+
 // main functions
+
 function loadShapes() { // injects svgs, to avoid flashing them before page load
 	document.getElementById("leftArrow").src = "graphics/leftArrow.svg";
 	document.getElementById("rightArrow").src = "graphics/rightArrow.svg";
@@ -451,8 +470,7 @@ function updateQuote(midnightMessage = 0) {
 
 // code calling
 
-window.scrollTo(0, 0);
-
+window.scrollTo(0, 0); // avoids the page getting off center on browser reopening (due to browser heuristics' black magic)
 if ('scrollRestoration' in history) {
 	history.scrollRestoration = 'manual';
 }
@@ -461,40 +479,36 @@ setTime();
 loadShapes();
 
 
-// check whether to enable the buttons
+// check whether to enable features
 if (daysSince > 0) { // if it's not the first day, we can go back
 	prevDay_.style.display = "block";
 }
+
 if (new Date().getTime() - today.getTime() >= 86_400_000) { // if it's earlier than today, we can go forward
 	nextDay_.style.display = "block";
 }
 
+
 if (daysSince > 2) { // enable double click to create hearts on 2025-02-17
-	document.addEventListener('click', handleDoubleClick);
+	document.addEventListener('click', heartOnDoubleClick);
 }
 
 if (daysSince > 24) { // enable the hangman game
 	hangman_.style.display = "block";
 }
 
-if (daysSince === 32) {
+if (daysSince % 11 === 0) {
+
 	let heartFountain = setInterval(() => {
 		makeRisingHearts(5);
 	}, 100);
+
 	setTimeout(() => {
 		clearInterval(heartFountain);
 	}, 20000);
 }
 
 
-const heartStream = () => { // spawn hearts at random intervals
-
-	makeRisingHearts();
-
-	setTimeout(() => {
-		heartStream();
-	}, Math.random() * 3000 + 100);
-};
 
 makeRisingHearts(20);
 heartStream();
@@ -594,7 +608,6 @@ hangman_.onclick = () => {
 		hangman_.style.padding = " 2px 2px 0px 2px";
 		hangman_.style.background = "#d697dc49";
 		hangman_.style.display = "block";
-
 
 
 		if (daysSince > 0) { // if it's not the first day, we can go back

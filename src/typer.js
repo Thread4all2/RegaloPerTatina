@@ -30,7 +30,6 @@ class Typer extends EventTarget {
 	}
 
 
-
 	async processTasks() {
 
 		if (this.isProcessing) {
@@ -133,7 +132,7 @@ class Typer extends EventTarget {
 				}
 
 				if (i < content.length - 1 && content[i] === "&" && content[i + 1] !== " ") { // output html control chars (eg &lt;) as single tokens, to avoid partial prints
-					while (content[++i] !== ">");
+					while (content[++i] !== ";");
 					this.text += content.substring(toWriteNextIndex, i + 1);
 
 					toWriteNextIndex = i + 1;
