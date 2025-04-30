@@ -132,12 +132,13 @@ i {
 	top: 10px;
 	background: #0a021d10;
 	border-radius: 8px;
-	padding: 7px 8px 3px 7px;
+	padding: 7px 8px 3px 6px;
 	border: 1px solid #0a021d10;
 	user-select: none;
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	z-index: 4;
+	transition: transform 0.3s ease-in-out;
 }
 
 #nextDay {
@@ -146,7 +147,36 @@ i {
 	top: 10px;
 	background: #0a021d10;
 	border-radius: 8px;
-	padding: 7px 7px 3px 8px;
+	padding: 7px 6px 3px 8px;
+	border: 1px solid #0a021d10;
+	user-select: none;
+	-webkit-touch-callout: none;
+	cursor: pointer;
+	z-index: 4;
+	transition: transform 0.3s ease-in-out;
+}
+
+#prevDayBulk {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background: #0a021d10;
+	border-radius: 8px;
+	padding: 7px 3px 3px 4px;
+	border: 1px solid #0a021d10;
+	user-select: none;
+	-webkit-touch-callout: none;
+	cursor: pointer;
+	z-index: 4;
+}
+
+#nextDayBulk {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: #0a021d10;
+	border-radius: 8px;
+	padding: 7px 0px 3px 7px;
 	border: 1px solid #0a021d10;
 	user-select: none;
 	-webkit-touch-callout: none;
@@ -367,7 +397,7 @@ i {
 	}
 
 	100% {
-		transform: translate(var(--curve), -100vh);
+		transform: translate(var(--curve), -110vh);
 		opacity: 0.2;
 	}
 }

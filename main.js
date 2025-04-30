@@ -90,6 +90,8 @@ const hudDate_ = document.getElementById('hudDate');
 const heartOverlay_ = document.getElementById('heartOverlay');
 const prevDay_ = document.getElementById('prevDay');
 const nextDay_ = document.getElementById('nextDay');
+const prevDayBulk_ = document.getElementById('prevDayBulk');
+const nextDayBulk_ = document.getElementById('nextDayBulk');
 const hangman_ = document.getElementById('hangmanButton');
 
 // sweet juicy analytics
@@ -137,12 +139,14 @@ function createHeart(x, y) {
 	heart.style.left = `${x - (size >> 3)}px`;
 	heart.style.top = `${y - (size >> 2)}px`;
 
+	// const correctionFactor = x < 200 ? 150 : x > window.innerWidth - 100 ? 600 : 400; // correction factor to avoid hearts going off screen
+
 	// random animation duration and curve
 	const duration = Math.random() * 4 + 2; // take between 2 and 6 seconds
-	const curve = (Math.random() > .5 ? 1 : -1) * (Math.random() * 300); // between 0 and 300px
+	const curve = Math.random() * 800 - 400; // between -400px and 400px
 
 	// Apply the animation dynamically
-	heart.style.animation = `floatUp ${duration}s ease-in forwards`;
+	heart.style.animation = `floatUp ${duration}s cubic-bezier(.59, .12, .78, .4) forwards`;
 	heart.style.setProperty('--curve', `${curve}px`);
 
 	// Append the heart to the container
@@ -157,8 +161,8 @@ function createHeart(x, y) {
 function makeRisingHearts(minAmt = 0) { // spawns some hearts at the bottom of the screen
 	const tresh = Math.max(Math.random(), .2);
 	while (minAmt > 0 || Math.random() > tresh) {
-		const x = window.innerWidth / 4 + Math.random() * window.innerWidth / 2;
-		const y = window.innerHeight;
+		const x = window.innerWidth / 8 + Math.random() * window.innerWidth * 3 / 4;
+		const y = window.innerHeight + Math.random() * window.innerHeight / 8;
 		createHeart(x, y);
 		minAmt--;
 	}
@@ -373,6 +377,8 @@ function checkLetter(elem, letter) {
 function loadShapes() { // injects svgs, to avoid flashing them before page load
 	document.getElementById("leftArrow").src = "graphics/leftArrow.svg";
 	document.getElementById("rightArrow").src = "graphics/rightArrow.svg";
+	document.getElementById("doubleLeftArrow").src = "graphics/doubleLeftArrow.svg";
+	document.getElementById("doubleRightArrow").src = "graphics/doubleRightArrow.svg";
 	document.getElementById("openGame").src = "graphics/hangman.svg";
 	document.getElementById("paperclips").src = "graphics/paperclips.svg";
 	document.getElementById("whiteHeart").src = "graphics/whiteHeart.svg";
@@ -493,7 +499,7 @@ if (daysSince > 0) { // if it's not the first day, we can go back
 	prevDay_.style.display = "block";
 }
 
-if (new Date().getTime() - today.getTime() >= 86_400_000) { // if it's earlier than today, we can go forward
+if (new Date().getTime() - today.getTime() >= 86_400_000) { // if the day displayed is earlier than today, we can go forward
 	nextDay_.style.display = "block";
 }
 
@@ -522,9 +528,50 @@ if (daysSince % 11 === 0) {
 makeRisingHearts(20);
 heartStream();
 
-setTimeout(() => { setQuote(0); }, 250);
+setTimeout(() => { setQuote(0); }, 150);
 
 // event handlers
+
+let dayChanges = 0;
+let areBulksHidden = true;
+
+function updateDayChangeButtonsVisibility() {
+
+	if (daysSince < 1) { // if it's not the first day, we can go back
+		prevDay_.style.display = "none";
+		prevDayBulk_.style.display = "none";
+	}
+	else {
+		prevDay_.style.display = "block";
+
+		if (!areBulksHidden) {
+			prevDayBulk_.style.display = "block";
+		}
+	}
+	if (new Date().getTime() - today.getTime() < 86_400_000) { // if it's not today, we can go forward
+		nextDay_.style.display = "none";
+		nextDayBulk_.style.display = "none";
+	}
+	else {
+		nextDay_.style.display = "block";
+		if (!areBulksHidden) {
+			nextDayBulk_.style.display = "block";
+		}
+	}
+
+	if (areBulksHidden && dayChanges > 3) {
+		areBulksHidden = false;
+		prevDay_.style.transform = "translateX(45px)";
+		nextDay_.style.transform = "translateX(-45px)";
+		setTimeout(() => {
+			prevDayBulk_.style.display = "block";
+			nextDayBulk_.style.display = "block";
+		}, 200);
+	}
+}
+
+
+
 prevDay_.onclick = () => {
 
 	daysOffset--;
@@ -532,22 +579,11 @@ prevDay_.onclick = () => {
 	quoteTyper.haltProcessing();
 	quoteTyper.clearText();
 
-	// update visibility of the buttons to change day
-	if (daysSince < 2) { // if it's not the first day, we can go back
-		prevDay_.style.display = "none";
-	}
-	else {
-		prevDay_.style.display = "block";
-	}
-	if (new Date().getTime() - (today.getTime() - 86_400_000) < 86_400_000) { // if it's not the first day, we can go back
-		nextDay_.style.display = "none";
-	}
-	else {
-		nextDay_.style.display = "block";
-	}
-
 	setTime();
 	updateQuote();
+
+	dayChanges++;
+	updateDayChangeButtonsVisibility();
 };
 
 nextDay_.onclick = () => {
@@ -557,22 +593,52 @@ nextDay_.onclick = () => {
 	quoteTyper.haltProcessing();
 	quoteTyper.clearText();
 
-	// update visibility of the buttons to change day
-	if (daysSince < 0) { // if it's not the first day, we can go back
-		prevDay_.style.display = "none";
+	setTime();
+	updateQuote();
+
+	dayChanges++;
+	updateDayChangeButtonsVisibility();
+};
+
+prevDayBulk_.onclick = () => {
+
+	if (daysSince > 30) {
+		daysOffset -= 30;
+	} else if (daysSince > 0) {
+		daysOffset -= daysSince;
+	} else {
+		daysOffset = 0;
 	}
-	else {
-		prevDay_.style.display = "block";
-	}
-	if (new Date().getTime() - (today.getTime() + 86_400_000) < 86_400_000) { // if it's not the first day, we can go back
-		nextDay_.style.display = "none";
-	}
-	else {
-		nextDay_.style.display = "block";
-	}
+
+	quoteTyper.haltProcessing();
+	quoteTyper.clearText();
 
 	setTime();
 	updateQuote();
+
+	updateDayChangeButtonsVisibility();
+
+};
+
+nextDayBulk_.onclick = () => {
+
+	const diff = (new Date().getTime() - startDate.getTime()) / 86_400_000 | 0; // days since start date
+
+	if (diff - daysSince > 30) {
+		daysOffset += 30;
+	} else if (daysSince < diff) {
+		daysOffset += diff - daysSince;
+	} else {
+		daysOffset = 0;
+	}
+
+	quoteTyper.haltProcessing();
+	quoteTyper.clearText();
+
+	setTime();
+	updateQuote();
+
+	updateDayChangeButtonsVisibility();
 
 };
 
@@ -589,6 +655,10 @@ hangman_.onclick = () => {
 
 		prevDay_.style.display = "none";
 		nextDay_.style.display = "none";
+		if (!areBulksHidden) {
+			prevDayBulk_.style.display = "none";
+			nextDayBulk_.style.display = "none";
+		}
 
 		document.getElementById("hangmanContainer").style.display = "flex";
 		document.getElementById("openGame").src = "graphics/leftArrow.svg";
@@ -596,7 +666,7 @@ hangman_.onclick = () => {
 		hangman_.style.display = "none";
 		hangman_.style.bottom = "unset";
 		hangman_.style.top = "10px";
-		hangman_.style.padding = "7px 8px 3px 7px";
+		hangman_.style.padding = "7px 8px 3px 6px";
 		hangman_.style.background = "#0a021d10";
 		hangman_.style.display = "block";
 
@@ -618,13 +688,7 @@ hangman_.onclick = () => {
 		hangman_.style.background = "#d697dc49";
 		hangman_.style.display = "block";
 
-
-		if (daysSince > 0) { // if it's not the first day, we can go back
-			prevDay_.style.display = "block";
-		}
-		if (new Date().getTime() - today.getTime() >= 86_400_000) { // if it's earlier than today, we can go forward
-			nextDay_.style.display = "block";
-		}
+		updateDayChangeButtonsVisibility();
 
 
 		setQuote();
