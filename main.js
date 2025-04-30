@@ -75,6 +75,13 @@ const quotes = [
 	`Volava,<br>un seme di soffione,<br><br>s'adagiò sul mio viso,<br>con come un sorriso.<br><br>Rideva,<br>perché sfiorata t'aveva.`,
 	`Chissà come occupavo la mia testa prima che ci fossi tu`,
 	`Ti ricordi quando siamo andati a vedere l'alba insieme?`,
+	`Sei la mia scaramandrinaaaaaa`,
+	`Vorrei che il mondo ci comprendesse come ci comprendiamo noi due`,
+	`Voglio sussurrarti che ti amo finché ti stringo il collo`,
+	`Siamo 2 poli dello stesso magnete`,
+	`Dove ti piacerebbe che andassimo a vivere?`,
+	`Vorrei tenerti al caldo nelle notti più fredde e servirti granite e strofinarti ghiaccio addosso nelle giornate più calde`,
+	`Sei tutte le stelle della notte, tutti i bagliori dell'alba, tutti i colori del tramonto, e tutta la luce del mio mondo`,
 	`- fine della versione corrente-`,
 ];
 
