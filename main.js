@@ -571,8 +571,12 @@ function updateDayChangeButtonsVisibility() {
 		prevDay_.style.transform = "translateX(45px)";
 		nextDay_.style.transform = "translateX(-45px)";
 		setTimeout(() => {
-			prevDayBulk_.style.display = "block";
-			nextDayBulk_.style.display = "block";
+			if (daysSince > 0) {
+				prevDayBulk_.style.display = "block";
+			}
+			if (new Date().getTime() - today.getTime() > 86_400_000) {
+				nextDayBulk_.style.display = "block";
+			}
 		}, 200);
 	}
 }
@@ -609,8 +613,10 @@ nextDay_.onclick = () => {
 
 prevDayBulk_.onclick = () => {
 
-	if (daysSince > 30) {
-		daysOffset -= 30;
+	const daysInPrevMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][(new Date(new Date().getTime() + 86400000 * daysOffset).getMonth() + 11) % 12]; // days in the previous month
+
+	if (daysSince > daysInPrevMonth) {
+		daysOffset -= daysInPrevMonth;
 	} else if (daysSince > 0) {
 		daysOffset -= daysSince;
 	} else {
@@ -629,12 +635,14 @@ prevDayBulk_.onclick = () => {
 
 nextDayBulk_.onclick = () => {
 
-	const diff = (new Date().getTime() - startDate.getTime()) / 86_400_000 | 0; // days since start date
+	const daysInCurrMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][new Date(new Date().getTime() + 86400000 * daysOffset).getMonth()]; // days in the previous month
 
-	if (diff - daysSince > 30) {
-		daysOffset += 30;
-	} else if (daysSince < diff) {
-		daysOffset += diff - daysSince;
+	const diff = (new Date().getTime() - startDate.getTime()) / 86_400_000 | 0; // days since start date
+	console.log(diff);
+
+
+	if (diff - daysSince > daysInCurrMonth) {
+		daysOffset += daysInCurrMonth;
 	} else {
 		daysOffset = 0;
 	}
