@@ -720,3 +720,7 @@ DaysSince   : ${daysSince}
 Opened	    : ${timesOpened} times
 EndMessage  : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
 `);
+
+setTimeout(() => { // forcefully reload from server after .5 hours
+	location.reload();
+}, 1_800_000);
