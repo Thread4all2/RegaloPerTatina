@@ -497,8 +497,14 @@ if ('scrollRestoration' in history) {
 	history.scrollRestoration = 'manual';
 }
 
+setTimeout(() => { // forcefully reload from server after .5 hours
+	location.reload();
+}, 1_800_000);
+
+
 setTime();
 loadShapes();
+
 
 
 // check whether to enable features
@@ -632,7 +638,6 @@ prevDayBulk_.onclick = () => {
 	updateQuote();
 
 	updateDayChangeButtonsVisibility();
-
 };
 
 nextDayBulk_.onclick = () => {
@@ -656,7 +661,6 @@ nextDayBulk_.onclick = () => {
 	updateQuote();
 
 	updateDayChangeButtonsVisibility();
-
 };
 
 hangman_.onclick = () => {
@@ -722,7 +726,3 @@ DaysSince   : ${daysSince}
 Opened	    : ${timesOpened} times
 EndMessage  : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
 `);
-
-setTimeout(() => { // forcefully reload from server after .5 hours
-	location.reload();
-}, 1_800_000);
