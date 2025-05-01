@@ -570,8 +570,8 @@ function updateDayChangeButtonsVisibility() {
 
 	if (areBulksHidden && dayChanges > 3) {
 		areBulksHidden = false;
-		prevDay_.style.transform = "translateX(45px)";
-		nextDay_.style.transform = "translateX(-45px)";
+		prevDay_.style.transform = "translateX(51px)";
+		nextDay_.style.transform = "translateX(-51px)";
 		setTimeout(() => {
 			if (daysSince > 0) {
 				prevDayBulk_.style.display = "block";
