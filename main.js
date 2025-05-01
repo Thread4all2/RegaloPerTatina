@@ -521,6 +521,8 @@ if (daysSince > 24) { // enable the hangman game
 
 if (daysSince % 11 === 0) {
 
+	hudDate_.style.color = "rgb(162, 19, 100)";
+
 	let heartFountain = setInterval(() => {
 		makeRisingHearts(5);
 	}, 100);
