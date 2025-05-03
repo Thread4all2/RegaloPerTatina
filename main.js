@@ -79,9 +79,9 @@ const quotes = [
 	`Vorrei che il mondo ci comprendesse come ci comprendiamo noi due`,
 	`Voglio sussurrarti che ti amo finché ti stringo il collo`,
 	`Siamo 2 poli dello stesso magnete`,
-	`Dove ti piacerebbe che andassimo a vivere?`,
-	`Vorrei tenerti al caldo nelle notti più fredde e servirti granite e strofinarti ghiaccio addosso nelle giornate più calde`,
 	`Sei tutte le stelle della notte, tutti i bagliori dell'alba, tutti i colori del tramonto, e tutta la luce del mio mondo`,
+	`Vorrei tenerti al caldo nelle notti più fredde e servirti granite e strofinarti ghiaccio addosso nelle giornate più calde`,
+	`Dove ti piacerebbe che andassimo a vivere?`,
 	`- fine della versione corrente-`,
 ];
 
