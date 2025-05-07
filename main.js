@@ -82,6 +82,13 @@ const quotes = [
 	`Sei tutte le stelle della notte, tutti i bagliori dell'alba, tutti i colori del tramonto, e tutta la luce del mio mondo`,
 	`Vorrei tenerti al caldo nelle notti più fredde e servirti granite e strofinarti ghiaccio addosso nelle giornate più calde`,
 	`Dove ti piacerebbe che andassimo a vivere?`,
+	`Sei bellissimaaaaa|1200;<br><span class="small">no non basta</span>|500;@100;~17;|300;issimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissimissimissi<br>missimissima<br><span class="small">ecco, ora va bene</span>`,
+	`Quando prendiamo l'aereo per un posto a caso?`,
+	`Sei ciò che rende le giornate di merda belle, le giornate belle stupende, e ciò che dà a "stupendo" un significato`,
+	`<i>Tú eres mi querencia</i>`,
+	`Se fossi il diavolo travestito,<br>ti darei senza esitare la mia anima,<br>perché in ogni modo l'hai vinta`,
+	`Come faccio a spiegarti a parole quanto ti amo?`,
+	`Vorrei tornare a quando parlavamo di ditalini sul pontile ed innamorarmi in quel momento`,
 	`- fine della versione corrente-`,
 ];
 

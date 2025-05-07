@@ -74,8 +74,11 @@ i {
 	text-align: center;
 	z-index: 1;
 	width: 95%;
+	max-width: 95%;
 	padding-top: 6px;
 	min-height: 1.3em;
+	word-break: break-word;
+	overflow-wrap: break-word;
 }
 
 ::selection {
