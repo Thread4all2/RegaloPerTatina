@@ -89,6 +89,13 @@ const quotes = [
 	`Se fossi il diavolo travestito,<br>ti darei senza esitare la mia anima,<br>perché in ogni modo l'hai vinta`,
 	`Come faccio a spiegarti a parole quanto ti amo?`,
 	`Vorrei tornare a quando parlavamo di ditalini sul pontile ed innamorarmi in quel momento`,
+	`Sei perfetta`,
+	`È da un pezzo che non aggiorniamo la Cousitution, ti va di legislare un po' insieme?`,
+	`Sei il mio posto, la mia casa`,
+	`Puoi smettere di splendere un momento così riesco a vedere il sole? Solo un momento eh, poi voglio tornare a vedere solo te`,
+	`A volte vorrei che vivessimo uno di quegli strani scenari apocalittici in cui un giorno tutte le persone tranne noi due spariscono a caso, e ci ritroviamo con tutto il mondo a nostra disposizione`,
+	`Sei l'unica persona di cui mi fido ciecamente`,
+	`Non c'è momento che la tua presenza non renderebbe migliore`,
 	`- fine della versione corrente-`,
 ];
 
