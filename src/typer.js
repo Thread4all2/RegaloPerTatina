@@ -67,6 +67,10 @@ class Typer extends EventTarget {
 	}
 
 
+	// special chars reference:
+	// @number; sets the typing speed to <number> (-1 resets to default, 0 outputs the whole string at once)
+	// |number; waits <number> milliseconds
+	// ~number; erases <number> characters
 	async type(content, toWriteNextIndex = 0, speed = this.speed) {
 
 		this.isProcessing = true;

@@ -96,6 +96,13 @@ const quotes = [
 	`A volte vorrei che vivessimo uno di quegli strani scenari apocalittici in cui un giorno tutte le persone tranne noi due spariscono a caso, e ci ritroviamo con tutto il mondo a nostra disposizione`,
 	`Sei l'unica persona di cui mi fido ciecamente`,
 	`Non c'è momento che la tua presenza non renderebbe migliore`,
+	`Sei la mia patatina cuprina ciliegina cucciolina amorosa dolce e morbida e bella e intelligente e meravigliosa e e e ti amo e @15;aaaaaaaaaaa@-1; perché non sono lì con te@30;eee@10;eeee`,
+	`Voglio farti grattini@80;iiii`,
+	`Tutte le volte che vado a dormire, ho paura di risvegliarmi e scoprire che sei stata solo un sogno`,
+	`Sei bella come i Notturni di Chopin 🎶`,
+	`L'unica parte brutta di stare con te è che quando non lo sono più mi sembra tutto così grigio e blando`,
+	`Correntemente, tra chat, foto e video, occupi il 10% della memoria del mio telefono, ed il 90% di quella della mia testa`,
+	`Mediamente un cuore umano a riposo batte 70 volte al minuto, o 150 se l'umano in questione sono io e mi trovo vicino a te`,
 	`- fine della versione corrente-`,
 ];
 
