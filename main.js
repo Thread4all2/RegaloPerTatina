@@ -96,7 +96,7 @@ const quotes = [
 	`A volte vorrei che vivessimo uno di quegli strani scenari apocalittici in cui un giorno tutte le persone tranne noi due spariscono a caso, e ci ritroviamo con tutto il mondo a nostra disposizione`,
 	`Sei l'unica persona di cui mi fido ciecamente`,
 	`Non c'è momento che la tua presenza non renderebbe migliore`,
-	`Sei la mia patatina cuprina ciliegina cucciolina amorosa dolce e morbida e bella e intelligente e meravigliosa e e e ti amo e @40;aa@35;aaa@20;aaaaaa@-1; perché non sono lì con te@40;ee@35;eee@20;eee`,
+	`Sei la mia patatina cuprina ciliegina cucciolina amorosa dolce e morbida e bella e intelligente e meravigliosa e e e ti amo e aaa@40;aaaa@35;aaaa@-1; perché non sono lì con teee@40;eee@35;eee`,
 	`Voglio farti grattini@80;iiii`,
 	`Tutte le volte che vado a dormire, ho paura di risvegliarmi e scoprire che sei stata solo un sogno`,
 	`Sei bella come i Notturni di Chopin 🎶`,
