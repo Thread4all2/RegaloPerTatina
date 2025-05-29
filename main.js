@@ -108,7 +108,7 @@ const quotes = [
 	`Sono così fortunato ad averti nella mia vita`,
 	`Quando ci troviamo per un po' di <i>Netflix e chill</i>?`,
 	`È statisticamente probabile che in questo momento io ti stia pensando|800;@100;<br>(hehe)`,
-	`Se è vero che l'anima di una persona si vede dagli <span class="eyesTextColor">occhi</span>, tu devi averne una veramente stupenda, perché tutte le volte che la cerco mi incanto`,
+	`Se è vero che l'anima di una persona si vede dagli <span class="angelEyes">occhi</span>, tu devi averne una veramente stupenda, perché tutte le volte che la cerco mi incanto`,
 	`Vorrei saper suonare il piano per poterci duettare con te`,
 	`Quando andiamo a saltare sui tappeti elastici?`,
 	`Sai che mi piaci tanto quando fai la bimba?`,
