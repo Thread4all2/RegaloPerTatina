@@ -367,7 +367,7 @@ i {
 		25%,
 		#549bb1,
 		#7ea89a,
-		#b4b588,
+		#88b5a2,
 		#7ea3d6,
 		#89a4a0,
 		50%,
@@ -386,7 +386,7 @@ i {
 	background-size: 400% 100%;
 	background-clip: text;
 	color: transparent;
-	text-shadow: 0 0 0.05em #99999955;
+	text-shadow: 0 0 0.02em #9999992a;
 	/* not sure if those are actually needed */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
