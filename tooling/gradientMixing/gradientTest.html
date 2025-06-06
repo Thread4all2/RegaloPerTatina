@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Gradient Background</title>
+	<style>
+		@font-face {
+			font-family: "sonya";
+			src: url("sonya cute.ttf");
+			font-display: swap;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			width: 100vw;
+
+			background-size: 100% 50%;
+			background-repeat: no-repeat;
+			/* animation: gradient 15s ease infinite; */
+		}
+
+		#text {
+			font-family: Sonya;
+			font-size: 7em;
+			text-align: center;
+
+			background-size: 400% 100%;
+
+			background-clip: text;
+			color: transparent;
+			text-shadow: 0 0 0.09em #99999955;
+			/* text-shadow: none; */
+			/* not sure if those are actually needed */
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			animation: grad 12s ease infinite;
+		}
+
+		.gradient {
+			background: linear-gradient(
+		103deg,
+		#49bb8d,
+		#6d9a8f,
+		#549db6,
+		#4b90c5,
+		#7e95b2,
+		#6ab1c5,
+		25%,
+		#549bb1,
+		#7ea89a,
+		#88b5a2,
+		#7ea3d6,
+		#89a4a0,
+		50%,
+		#27a48b,
+		#a8acb7,
+		#83b0bc,
+		#8da5b5,
+		#83af88,
+		#84a490,
+		75%,
+		#73a4a4,
+		#3a9d9b,
+		#3d92b1,
+		#16ad84
+	);
+		}
+
+		@keyframes grad {
+			0% {
+				background-position: 0% 50%;
+			}
+
+			50% {
+				background-position: 100% 50%;
+			}
+
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="gradient" style="width:100%; height:50%"></div>
+	<div style="position: absolute; top: 0; left: calc(100% * 1/4); width: 1px; height: 50%; background-color: black;">
+	</div>
+	<div style="position: absolute; top: 0; left: calc(100% * 2/4); width: 1px; height: 50%; background-color: black;">
+	</div>
+	<div style="position: absolute; top: 0; left: calc(100% * 3/4); width: 1px; height: 50%; background-color: black;">
+	</div>
+
+	<div
+		style="position: absolute; top: 50%; left: 0; width: 100%; height: 50%; background-color: black; display: flex; justify-content: center; align-items: center;">
+		<div id="text" class="gradient">
+			Occhi
+		</div>
+
+	</div>
+
+</body>
+
+</html>
