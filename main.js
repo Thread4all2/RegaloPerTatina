@@ -264,8 +264,8 @@ let hangmanState = {
 };
 let bigWordList = [];
 
-async function fetchList() {
-	await fetch("https://raw.githubusercontent.com/Thread4all2/RegaloPerTatina/refs/heads/main/src/60kParole.txt")
+async function fetchList(attempt = 0) {
+	await fetch("https://raw.githubusercontent.com/Thread4all2/RegaloPerTatina/refs/heads/main/src/parole.txt")
 		// .then(response => response.blob())
 		.then(response => response.text())
 		.then(text => { bigWordList = text.split("\n"); })
