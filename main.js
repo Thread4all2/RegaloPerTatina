@@ -271,8 +271,14 @@ async function fetchList(attempt = 0) {
 		.then(text => { bigWordList = text.split("\n"); })
 		.catch(error => {
 			console.error('Error fetching the file:', error);
+
+			if (attempt > 5) {
+				displayMessage("Si è rotto qualcosa...", "rgb(240, 80, 80, 0.8)", 40000, 1);
+				return;
+			}
+
 			setTimeout(() => {
-				fetchList();
+				fetchList(attempt + 1);
 			}, 300);
 		});
 };
