@@ -387,10 +387,10 @@ i {
 	background-clip: text;
 	color: transparent;
 	text-shadow: 0 0 0.02em #9999992a;
+	animation: gradientPan 10s ease-in-out infinite alternate;
 	/* not sure if those are actually needed */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: gradientPan 10s ease-in-out infinite alternate;
 }
 
 @keyframes move {
