@@ -118,14 +118,14 @@ const quotes = [
 	`Sei il fertilizzante per la pianta della mia anima|800;<br><br><div class="small">(e no, non è un modo carino<br>per darti della merda)</div>`,
 	`<a href="https://www.desmos.com/calculator/fkvtcq1a8h">Per te</a>`,
 	`Il fuoco che ho dentro si nutre del tuo dolce soffio`,
-	`<img src="graphics/bearHug.gif" style="transform:scale(1.4); border: 4px dashed #00000088; border-radius: 20px;"> `,
+	`@0;<img src="graphics/bearHug.gif" style="transform:scale(1.4); border: 4px dashed #00000088; border-radius: 20px;">`,
 	`Sei i miei guanti d'inverno`,
 	`Voglio portarti a prendere un gelato`,
 	`Bimba mia bellaaa vieni a raccontarmi che stai facendo, che ho voglia di sentirti`,
 	`Se dovessimo mai andare a fare bungee jumping insieme farei un infarto per le troppe emozioni forti insieme; in ordine: la tua presenza, l'averti tra le braccia e cadere nel vuoto`,
 	`Patatatinaaaaaaaaaaaaaaa sono così contento di vederti oggiiiii`,
 	`Hai invaso ogni parte di me: non c'è parte del mio essere che non ti brami`,
-	`Se ci fai caso, le graffette il cuore e la nuvola seguono delle traiettorie a forma di cuore oscillando<br><3`,
+	`Se ci fai caso, le graffette il cuore e la nuvola oscillano lungo delle traiettorie a forma di cuore<br><3`,
 	`Quando stiamo un po' su un'amaca insieme?`,
 	`Mi rendi una persona migliore`,
 	`Voglio attraversare l'Europa guidando con te in braccio`,
@@ -177,6 +177,7 @@ function setTime() {
 // typing handling
 
 let updaterInterval = null;
+let quoteUpdateTimer = null;
 let quoteTyper = new Typer(quote_);
 
 
@@ -477,7 +478,7 @@ function setQuote(bypassInfo = 1) {
 
 		// update the quote at midnight (wait at least 30s to avoid erasing while the quote is still being typed, as it would be annoying)
 		const now = new Date();
-		setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
+		quoteUpdateTimer = setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
 
 
 		if (daysSince === 0) {
@@ -546,61 +547,6 @@ function updateQuote(midnightMessage = 0) {
 
 
 
-// code calling
-
-window.scrollTo(0, 0); // avoids the page getting off center on browser reopening (due to browser heuristics' black magic)
-if ('scrollRestoration' in history) {
-	history.scrollRestoration = 'manual';
-}
-
-setTimeout(() => { // forcefully reload from server after .5 hours
-	location.reload();
-}, 1_800_000);
-
-
-setTime();
-loadShapes();
-
-
-
-// check whether to enable features
-if (daysSince > 0) { // if it's not the first day, we can go back
-	prevDay_.style.display = "block";
-}
-
-if (new Date().getTime() - today.getTime() >= 86_400_000) { // if the day displayed is earlier than today, we can go forward
-	nextDay_.style.display = "block";
-}
-
-
-if (daysSince > 2) { // enable double click to create hearts on 2025-02-17
-	document.addEventListener('click', heartOnDoubleClick);
-}
-
-if (daysSince > 24) { // enable the hangman game
-	hangman_.style.display = "block";
-}
-
-if (daysSince % 11 === 0) {
-
-	hudDate_.style.color = "rgb(162, 19, 100)";
-
-	let heartFountain = setInterval(() => {
-		makeRisingHearts(5);
-	}, 100);
-
-	setTimeout(() => {
-		clearInterval(heartFountain);
-	}, 20000);
-}
-
-
-
-makeRisingHearts(20);
-heartStream();
-
-setTimeout(() => { setQuote(0); }, 150);
-
 // event handlers
 
 let dayChanges = 0;
@@ -644,7 +590,6 @@ function updateDayChangeButtonsVisibility() {
 		}, 200);
 	}
 }
-
 
 
 prevDay_.onclick = () => {
@@ -747,6 +692,8 @@ hangman_.onclick = () => {
 		hangman_.style.background = "#0a021d10";
 		hangman_.style.display = "block";
 
+		// clear the update-at-midnight timer
+		clearTimeout(quoteUpdateTimer);
 
 		setupHangman();
 	}
@@ -767,12 +714,70 @@ hangman_.onclick = () => {
 
 		updateDayChangeButtonsVisibility();
 
+		// reattach the update-at-midnight timer
+		quoteUpdateTimer = setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
 
 		setQuote();
 	}
-
-
 };
+
+
+
+
+// code calling
+
+window.scrollTo(0, 0); // avoids the page getting off center on browser reopening (due to browser heuristics' black magic)
+if ('scrollRestoration' in history) {
+	history.scrollRestoration = 'manual';
+}
+
+setTimeout(() => { // forcefully reload from server after .5 hours
+	location.reload();
+}, 1_800_000);
+
+
+setTime();
+loadShapes();
+
+
+
+// check whether to enable features
+if (daysSince > 0) { // if it's not the first day, we can go back
+	prevDay_.style.display = "block";
+}
+
+if (new Date().getTime() - today.getTime() >= 86_400_000) { // if the day displayed is earlier than today, we can go forward
+	nextDay_.style.display = "block";
+}
+
+
+if (daysSince > 2) { // enable double click to create hearts on 2025-02-17
+	document.addEventListener('click', heartOnDoubleClick);
+}
+
+if (daysSince > 24) { // enable the hangman game
+	hangman_.style.display = "block";
+}
+
+if (daysSince % 11 === 0) {
+
+	hudDate_.style.color = "rgb(162, 19, 100)";
+
+	let heartFountain = setInterval(() => {
+		makeRisingHearts(5);
+	}, 100);
+
+	setTimeout(() => {
+		clearInterval(heartFountain);
+	}, 20000);
+}
+
+
+
+makeRisingHearts(20);
+heartStream();
+
+setTimeout(() => { setQuote(0); }, 150);
 
 
 console.log(`\x1b[94mDebug info:\x1b[0m
