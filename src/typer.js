@@ -7,6 +7,10 @@ class Typer extends EventTarget {
 		this.taskQueue = [];
 		this.isProcessing = false;
 		this.interrupt = false;
+		this.helperFuncs = {
+			// add custom helper functions here, to be called with $funName; in the type() method
+			// eg: myFunc: () => { console.log("Hello from myFunc!"); }
+		};
 	}
 
 
@@ -132,6 +136,15 @@ class Typer extends EventTarget {
 
 					toWriteNextIndex = i + 1;
 					await this.erase(charsAmt, speed);
+					return typeHelper();
+				}
+
+				if (i < content.length - 1 && content[i] === "$") { // $funName; execs helperFuncs[funName]
+					while (content[++i] !== ";");
+					const funName = content.substring(toWriteNextIndex + 1, i);
+
+					toWriteNextIndex = i + 1;
+					await this.helperFuncs[funName]();
 					return typeHelper();
 				}
 

@@ -1084,6 +1084,7 @@ assaggio
 assalto
 assassinai
 assassino
+asse
 asseconda
 assedi
 assediare
@@ -1637,6 +1638,7 @@ bollendo
 bollente
 bollenti
 bolletta
+bollettino
 bollire
 bollo
 bologna
@@ -1674,6 +1676,7 @@ bottega
 bottegai
 bottegaio
 bottiglia
+bottino
 bottone
 bozza
 bozzetto
@@ -1762,6 +1765,7 @@ buio
 bulbo
 buoi
 buona
+burattino
 burbero
 burlare
 burlato
@@ -1937,6 +1941,7 @@ capitolare
 capitolato
 capitolo
 capo
+capogiro
 capolavoro
 capoluogo
 caporale
@@ -2027,6 +2032,7 @@ catastrofi
 categoria
 categorico
 catena
+catino
 catrame
 cattedra
 cattedrale
@@ -2120,6 +2126,7 @@ cessiva
 cesso
 cessorie
 cesta
+cestino
 cetre
 cetriolo
 chiamare
@@ -2225,6 +2232,7 @@ civilta
 clamore
 clamori
 clamoroso
+classe
 classico
 classifica
 classificati
@@ -3017,6 +3025,7 @@ cresima
 crespo
 cresta
 crete
+cretino
 criastallo
 criminale
 crimine
@@ -3066,6 +3075,7 @@ cucino
 cucitura
 cuculo
 cuffia
+cugino
 culetto
 cullare
 cullato
@@ -3726,6 +3736,7 @@ discernere
 discerno
 disceso
 dischetto
+disco
 discolpare
 discolpato
 discolpo
@@ -4503,6 +4514,7 @@ facessimo
 facevate
 facevi
 facezie
+fachiro
 facile
 facilitare
 facilmente
@@ -4549,6 +4561,7 @@ fantasma
 fantastico
 fante
 fanteria
+fantino
 farai
 farcelo
 farcene
@@ -4740,6 +4753,7 @@ firmato
 firmo
 fischiato
 fischio
+fisco
 fisicamente
 fisico
 fissando
@@ -5161,6 +5175,7 @@ girare
 girasole
 girasoli
 girato
+giro
 gironzolo
 gita
 giubileo
@@ -5364,6 +5379,7 @@ guinzaglio
 guizzando
 guizzare
 guizzato
+guizzo
 gusci
 guscio
 gustare
@@ -6799,6 +6815,7 @@ matrice
 matrici
 matrigna
 matrimoni
+mattino
 matto
 mattone
 mattonella
@@ -6879,6 +6896,7 @@ meritato
 meritevole
 merito
 merletti
+merlo
 merluzzo
 mescolare
 mescolato
@@ -7099,27 +7117,18 @@ mordersi
 morente
 morfina
 morfologia
-moribonda
-morii
-morisse
-moriva
+moribondo
+mormorare
 mormorio
-mornmorare
-mornmorato
-mornmoro
 moro
 morso
 mortale
-mortali
 mortalità
-mortificai
 mortifico
 morto
 mosaico
 moscerino
-moschea
 moscone
-mosconi
 mosso
 mostarda
 mostrare
@@ -7129,29 +7138,15 @@ motivo
 moto
 motociclette
 motore
-motori
 motoscafo
 movimento
-moviti
 mozzare
 mozzato
 mozze
 mozzicone
-mozziconi
 mucca
 mucchio
 muffa
-muggi
-muggiate
-muggii
-muggimmo
-muggirai
-muggisse
-muggissimo
-muggiste
-muggito
-muggivate
-muggivo
 mugnaio
 mugolare
 mugolato
@@ -7164,7 +7159,6 @@ multa
 multidimensionali
 multiplo
 mummia
-municipi
 municipio
 munito
 munizione
@@ -7174,9 +7168,6 @@ muori
 muotivo
 muovendosi
 muovere
-muovermi
-muoversi
-muoverti
 muovo
 muratore
 muratori
@@ -7193,7 +7184,6 @@ mutare
 mutato
 mutevole
 muto
-nacqui
 nafta
 nano
 nappa
@@ -7206,9 +7196,7 @@ nasale
 nascere
 nascita
 nasco
-nasconda
 nascondere
-nascondila
 nascosto
 naso
 nastro
@@ -7231,10 +7219,8 @@ nauseo
 navale
 nave
 navigabile
-navigabili
 navigare
 navigato
-navigo
 nazionale
 nazionali
 nazione
@@ -7609,6 +7595,7 @@ orizzonti
 orlare
 orlato
 orlatura
+orlo
 orma
 ormai
 ormeggi
@@ -7912,6 +7899,7 @@ patteggi
 patteggio
 pattinare
 pattinato
+pattino
 patto
 pattuglia
 pattumiere
@@ -8136,6 +8124,7 @@ pianterreno
 pianto
 pianura
 piastre
+piattino
 piatto
 piattola
 piazza
@@ -8234,6 +8223,7 @@ pizzicare
 pizzicato
 pizzico
 pizzicotto
+pizzo
 placcare
 placcato
 placco
@@ -8248,6 +8238,7 @@ plasmo
 plastica
 platani
 platea
+platino
 platonico
 plausibile
 plebe
@@ -8403,6 +8394,7 @@ postali
 posteggi
 posteggio
 postilla
+postino
 posto
 potabile
 potatura
@@ -9303,6 +9295,7 @@ rene
 reni
 renna
 reparto
+repentino
 reperibile
 reperire
 repertori
@@ -9747,6 +9740,7 @@ ripresa
 ripristinare
 ripristinarne
 ripristinato
+ripristino
 riproposta
 riprovare
 riprove
@@ -9861,6 +9855,7 @@ ritenuto
 riterrete
 ritirare
 ritirato
+ritiro
 ritmo
 rito
 ritoccando
@@ -10357,6 +10352,7 @@ schifo
 schifoso
 schiuma
 schizzetto
+schizzo
 scia
 sciabola
 sciacallo
@@ -10754,6 +10750,7 @@ serio
 sermone
 serpente
 serpenti
+serpentino
 serragli
 serraglio
 serrare
@@ -11824,7 +11821,6 @@ statuario
 statuetta
 statura
 statuto
-stava
 stavano
 stavate
 stazionari
@@ -11862,6 +11858,7 @@ sterzare
 sterzato
 sterzo
 steso
+stessimo
 stesso
 stesura
 stette
@@ -12295,7 +12292,6 @@ sviluppo
 svincolare
 svincolato
 svincolo
-svino
 svio
 svisare
 svisato
@@ -12667,6 +12663,7 @@ timpani
 tinello
 tingere
 tingersi
+tino
 tinozza
 tinteggi
 tinteggio
@@ -13287,7 +13284,6 @@ ugualia
 ugualmente
 ulcere
 ulteriore
-ulteriori
 ulteriormente
 ultimai
 ultimarti
@@ -13356,6 +13352,7 @@ urbano
 urgente
 urlare
 urlato
+urlo
 urna
 urtante
 urtare
@@ -13873,9 +13870,9 @@ volubilità
 volume
 volutamente
 voluto
-voluttà
 voluttaio
 voluttari
+voluttà
 vongola
 vorace
 voraci
@@ -13906,6 +13903,7 @@ zabaione
 zabaioni
 zaffata
 zafferani
+zaffiro
 zaino
 zampa
 zampillo
@@ -13953,35 +13951,3 @@ zuffolo
 zuppa
 zuppiera
 zuzzurellone
-disco
-fisco
-asse
-classe
-merlo
-orlo
-urlo
-guizzo
-schizzo
-pizzo
-capogiro
-fachiro
-giro
-ritiro
-zaffiro
-cugino
-bollettino
-bottino
-burattino
-catino
-cestino
-cretino
-fantino
-mattino
-pattino
-piattino
-platino
-postino
-repentino
-ripristino
-serpentino
-tino
