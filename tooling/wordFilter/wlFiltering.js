@@ -195,7 +195,7 @@ fs.readFile(filePath, 'utf8', async (err, data) => {
 
 	for (let i = 0; i < lines.length; i++) {
 
-		if (lines[i].match(/(aste)$/)) {
+		if (lines[i].match(/(tc)$/)) {
 
 			if (!resultsFound) {
 				process.stdout.write("\n");
