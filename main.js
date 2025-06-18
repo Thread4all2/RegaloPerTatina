@@ -123,8 +123,8 @@ const quotes = [
 	`Voglio portarti a prendere un gelato`,
 	`Bimba mia bellaaa vieni a raccontarmi che stai facendo, che ho voglia di sentirti`,
 	`Se dovessimo mai andare a fare bungee jumping insieme farei un infarto per le troppe emozioni forti insieme; in ordine: la tua presenza, l'averti tra le braccia e cadere nel vuoto`,
-	`Patatatinaaaaaaaaaaaaaaa sono così contento di vederti oggiiiii`,
-	`Hai invaso ogni parte di me: non c'è parte del mio essere che non ti brami`,
+	`Buona fortuna amore miooo|600;<br><br>sei così brava a farmi da musa; prova ad usare un po' di questo talento su te stessa|400;@1;<div class="beatingHeart big" style="margin-top: 8px;">🤍</div>|1200;@-1;<div class="small">ps: ricorda che devi far piangere Eco d'invidia dalla tomba</div>`,
+	`Buona fortuna anche oggi bimbaaa|600;<br><br>credo in te con tutto me stesso, ieri, oggi e per sempreee|400;@0;<div class="beatingHeart big" style="margin-top: 8px;">🤍</div>`,
 	`Se ci fai caso, le graffette il cuore e la nuvola oscillano lungo delle traiettorie a forma di cuore<br><3`,
 	`Quando stiamo un po' su un'amaca insieme?`,
 	`Mi rendi una persona migliore`,
@@ -132,6 +132,8 @@ const quotes = [
 	`La tua presenza guarisce la mia anima`,
 	`Ciao nuvoletta rosa miaaaa`,
 	`Inizialmente volevo mettere 4 simboli su questa pagina, ma ero indeciso tra una birra ed un tulipano, quindi ho lasciato stare (non l'ho assolutamente fatto perché non so disegnare)`,
+	`Patatatinaaaaaaaaaaaaaaa sono così contento di vederti oggiiiii`,
+	`Hai invaso ogni parte di me: non c'è parte del mio essere che non ti brami`,
 	`- fine della versione corrente-`,
 ];
 
@@ -154,6 +156,7 @@ const hangman_ = document.getElementById('hangmanButton');
 // sweet juicy analytics
 const timesOpened = +localStorage.getItem("timesOpened") || 0;
 localStorage.setItem("timesOpened", timesOpened + 1);
+localStorage.setItem("lastOpenTime", new Date().getTime()); // last time the page was opened
 
 
 // main timekeeping
@@ -171,7 +174,7 @@ function setTime() {
 	daysSince = Math.floor(((timeDiff / 60000) - today.getTimezoneOffset()) / (60 * 24));
 
 
-	hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length == 2 ? month : "0" + month} -`;
+	hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length === 2 ? month : "0" + month} -`;
 }
 
 // typing handling
@@ -190,22 +193,16 @@ let lastClickTime = 0;
 function createHeart(x, y) {
 	const heart = document.createElement('div');
 	heart.classList.add('heart');
-	heart.innerHTML = Math.random() > .5 ? "🤍" : Math.random() > .5 ? "💕" : "❤️";
-	heart.style.zIndex = Math.random() > .5 ? 2 : Math.random() > .5 ? 1 : 0;
-	const size = Math.random() * 25 + 25;
+	heart.innerHTML = ["🤍", "🤍", "💕", "❤️"][Math.random() * 4 | 0];
+	heart.style.zIndex = [2, 2, 1, 0][Math.random() * 4 | 0];
+	const size = (Math.random() * 26 | 0) + 25;
 	heart.style.fontSize = `${size}px`;
 	heart.style.left = `${x - (size >> 3)}px`;
 	heart.style.top = `${y - (size >> 2)}px`;
 
-	// const correctionFactor = x < 200 ? 150 : x > window.innerWidth - 100 ? 600 : 400; // correction factor to avoid hearts going off screen
-
-	// random animation duration and curve
-	const duration = Math.random() * 4 + 2; // take between 2 and 6 seconds
-	const curve = Math.random() * 800 - 400; // between -400px and 400px
-
 	// Apply the animation dynamically
-	heart.style.animation = `floatUp ${duration}s cubic-bezier(.59, .12, .78, .4) forwards`;
-	heart.style.setProperty('--curve', `${curve}px`);
+	heart.style.animation = `floatUp ${Math.random() * 4 + 2}s cubic-bezier(.59, .12, .78, .4) forwards`; // between 2 and 6 seconds
+	heart.style.setProperty('--curve', `${(Math.random() * 800 | 0) - 400}px`); // between -400px and 400px
 
 	// Append the heart to the container
 	heartOverlay_.appendChild(heart);
@@ -258,8 +255,8 @@ function heartOnDoubleClick(event) {
 	if (clickCount === 2) {
 		clickCount = 0; // Reset for the next double click
 
-		// Create multiple hearts with slightly different curves
-		const numHearts = 16 + (40 * Math.random() | 0); // Between 16 and 55 hearts
+		// Create hearts
+		const numHearts = 16 + (Math.random() * 40 | 0); // Between 16 and 55 hearts
 		for (let i = 0; i < numHearts; i++) {
 			createHeart(event.clientX - 30, event.clientY - 30);
 		}
@@ -319,8 +316,8 @@ function updateLivesCounter() {
 function checkWin() {
 	if (hangmanState.word.split("").every(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " "))) {
 		displayMessage(
-			hangmanState.lives == 6 ? "mia bimba perfetta" :
-				hangmanState.lives == 1 ? "pheww" :
+			hangmanState.lives === 6 ? "mia bimba perfetta" :
+				hangmanState.lives === 1 ? "pheww" :
 					["hai vinto bimbaaa", "bravaaaaaaaa", "mia genietta tu", "brava cucciolaa", "meriti un premio"][Math.random() * 5 | 0],
 			"rgb(238, 130, 238, 0.8)", 4000, 1.5
 		);
@@ -726,14 +723,24 @@ hangman_.onclick = () => {
 
 // code calling
 
+const [navigationEntry] = performance.getEntriesByType("navigation");
+
+if (navigationEntry && navigationEntry.transferSize === 0) {
+	location.reload(true);
+}
+
 window.scrollTo(0, 0); // avoids the page getting off center on browser reopening (due to browser heuristics' black magic)
 if ('scrollRestoration' in history) {
 	history.scrollRestoration = 'manual';
 }
 
-setTimeout(() => { // forcefully reload from server after .5 hours
-	location.reload();
-}, 1_800_000);
+setInterval(() => { // forcefully reload from server after .5 hours
+
+	if (new Date().getTime() - localStorage.getItem("lastOpenTime") > 1_800_000) {
+		location.reload(true);
+	}
+
+}, 60_000);
 
 
 setTime();
@@ -759,7 +766,7 @@ if (daysSince > 24) { // enable the hangman game
 	hangman_.style.display = "block";
 }
 
-if (daysSince % 11 === 0) {
+if (daysSince % 11 === 0) { // make a heart fountain on every 11 days
 
 	hudDate_.style.color = "rgb(162, 19, 100)";
 

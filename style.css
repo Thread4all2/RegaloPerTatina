@@ -338,7 +338,7 @@ i {
 
 .big {
 	font-size: 2em;
-	min-height: 2em;
+	min-height: 1.6em;
 }
 
 .heart {
@@ -439,7 +439,7 @@ i {
 
 	100% {
 		transform: translate(var(--curve), -110vh);
-		opacity: 0.2;
+		opacity: 0.3;
 	}
 }
 
