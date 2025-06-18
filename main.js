@@ -710,10 +710,6 @@ hangman_.onclick = () => {
 		hangman_.style.display = "block";
 
 		updateDayChangeButtonsVisibility();
-
-		// reattach the update-at-midnight timer
-		quoteUpdateTimer = setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
-
 		setQuote();
 	}
 };
