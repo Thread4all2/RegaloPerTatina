@@ -813,6 +813,7 @@ switch (timesOpened) {
 // debug ------------------------------
 
 const debug = new URLSearchParams(window.location.search).get("dbg");
+let debugMenuUpdater = null;
 
 if (debug === "stat") {
 
@@ -822,6 +823,7 @@ if (debug === "stat") {
 
 		if (info_.style.display === "none") {
 
+			// adapt the info box styles
 			infoTitle_.style.margin = "-20px 0 16px 0";
 			infoTitle_.style.fontSize = "1.5em";
 			infoTitle_.style.textAlign = "left";
@@ -831,34 +833,43 @@ if (debug === "stat") {
 			infoText_.style.fontSize = "0.8em";
 			infoText_.style.textAlign = "left";
 
+			// adjust the x button bevavior, as it mustn't trigger the quote update
 			document.getElementById("xButton").onclick = () => { document.getElementById('info').style.display = 'none'; };
 
 			infoTitle_.textContent = "DEBUG INFO";
+
 			infoText_.innerHTML = `\
 <b>MAIN:</b>
 Visit at   : ${today.toISOString().slice(0, -5).replace("T", ", ")} UTC
 Time Diff  : ${timeDiff.toLocaleString("en-US")}
 Days Since : ${daysSince} (${((today.getTime() - startDate.getTime()) / 86_400_000).toFixed(6)})
 Opened     : ${timesOpened} times
-Last tick  : ${new Date(+localStorage.getItem("tick")).toISOString().split('T')[1].slice(0, -1)} UTC
+Last tick  : <span id="dbgLastTickTime" style="font-family:monospace;">${new Date(+localStorage.getItem("tick")).toISOString().split('T')[1].slice(0, -1)}</span> UTC
+Hearts     : <span id="dbgHeartsCounter" style="font-family:monospace;">${heartOverlay_.children.length}</span>
 
 <b>FLAGS:</b>
 Asked      : ${localStorage.getItem("askedToGoToBirthday") === "1" ? "yes" : "no"}
-End        : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}`;
+End        : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
 
+<div style="display:flex; flex-direction:row; justify-content:space-between; position:absolute; bottom: 10px; left: 10px; gap: 8px;">
+<button style="padding: 8px 8px 4px 8px; border-radius: 8px; border: none; font-size: 1em; background-color: #aa3333; color: #fff;" onclick="location.reload(true);">Reload</button>
+</div>
+`;
+
+			debugMenuUpdater = setInterval(() => {
+				document.getElementById("dbgLastTickTime").textContent = new Date(+localStorage.getItem("tick")).toISOString().split('T')[1].slice(0, -1);
+				document.getElementById("dbgHeartsCounter").textContent = heartOverlay_.children.length;
+			}, 100);
 			info_.style.display = "block";
 
 		} else {
+
+			if (debugMenuUpdater) {
+				clearInterval(debugMenuUpdater);
+				debugMenuUpdater = null;
+			}
 			info_.style.display = "none";
 		}
 	};
 
 }
-
-// console.log(`\x1b[94mDebug info:\x1b[0m
-// Today is    : ${today}
-// TimeDiff    : ${timeDiff} (${(today.getTime() - startDate.getTime()) / 86_400_000} days)
-// DaysSince   : ${daysSince}
-// Opened	    : ${timesOpened} times
-// EndMessage  : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
-// `);
