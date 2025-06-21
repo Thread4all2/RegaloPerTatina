@@ -1,5 +1,5 @@
 const quotes = [
-	`- error -`,
+	`Ciao amoreee<br>BUON SAN VALENTINOOO|400;<br>---<br>|400;Il cuore di un uomo batte mediamente 3 miliardi di volte.<br>Tutti i battiti che ha fatto il mio da quando sei nella mia vita sono stati dovuti a te, ed ora come ora ammontano a circa<br><span id="heartbeats">${(Math.round((new Date() - new Date("2022-07-20")) / 850 + 19)).toLocaleString()}$updateHeartbeatCounter;@0;</span><div class="beatingHeart" style="margin-top: 8px;">🤍🤍🤍</div>`,
 	`Lo specchio in camera tua deve aver vinto alla lotteria degli specchi o qualcosa del genere per poterti vedere così tanto ogni giorno`,
 	`Voglio massaggiarti su un lettino in una stanza piena di candele e petali di rosa`,
 	`Oggi ti mostro la prima cosa particolare di cui ti ho parlato nell'introduzione della pagina: fai doppio click da qualche parte`,
@@ -453,16 +453,18 @@ function setQuote(bypassInfo = 1) {
 		return;
 	}
 
+function setQuote() {
 
 	if (daysSince < 0) {
 
-		if (today.getDate() === 11 && today.getMonth() === 9 && today.getFullYear() === 2006) {
-
+		const date = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+		switch (date) {
+			case "2006-10-11":
 			quoteTyper.addTask("type", "Oggi nasce l'amore della mia vita, ed io sono ancora troppo pargolo per realizzarlo");
 			localStorage.removeItem("askedToGoToBirthday");
-		}
-		else {
+				break;
 
+			default:
 			if (localStorage.getItem("askedToGoToBirthday") === "1") {
 				quoteTyper.addTask("type", "Giorno sbagliato amore 🙃");
 			}
@@ -477,36 +479,7 @@ function setQuote(bypassInfo = 1) {
 		const now = new Date();
 		quoteUpdateTimer = setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
 
-
-		if (daysSince === 0) {
-
-			function updateHeartbeats() {
-				quoteTyper.removeEventListener("tasksCompleted", updateHeartbeats);
-
-				if (document.getElementById("heartbeats")) {
-					updaterInterval = setInterval(() => {
-						document.getElementById("heartbeats").innerText = ((new Date() - new Date("2022-07-20")) / 850 | 0).toLocaleString();
-
-					}, 850);
-				}
-				// document.getElementById("beatingHearts").style.animationDelay = "450ms";
-			}
-
-			quoteTyper.addTask(
-				"type",
-				`Ciao amoreee<br>BUON SAN VALENTINOOO|400;<br>---<br>|400; \
-				Il cuore di un uomo batte mediamente 3 miliardi di volte. \
-				Tutti i battiti che ha fatto il mio da quando sei nella mia vita sono stati dovuti a te, ed ora come ora ammontano a circa \
-				<span id="heartbeats">${(Math.round((new Date() - new Date("2022-07-20")) / 850 + 19)).toLocaleString()}</span><div class="beatingHeart" style="margin-top: 8px;">🤍🤍🤍</div>`
-			);
-
-			quoteTyper.addEventListener("tasksCompleted", updateHeartbeats);
-
-		}
-		else {
 			quoteTyper.addTask("type", quotes[daysSince]);
-		}
-
 
 	}
 	else if (daysSince === 365 && localStorage.getItem("endMessageShown") === null) {

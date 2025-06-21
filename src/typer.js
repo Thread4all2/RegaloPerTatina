@@ -7,9 +7,14 @@ class Typer extends EventTarget {
 		this.taskQueue = [];
 		this.isProcessing = false;
 		this.interrupt = false;
-		this.helperFuncs = {
-			// add custom helper functions here, to be called with $funName; in the type() method
-			// eg: myFunc: () => { console.log("Hello from myFunc!"); }
+		this.helperFuncs = { // custom helper functions, called with $funName; in the type() method
+			updateHeartbeatCounter: () => {
+				if (document.getElementById("heartbeats")) {
+					updaterInterval = setInterval(() => {
+						document.getElementById("heartbeats").innerText = ((new Date() - new Date("2022-07-20")) / 850 | 0).toLocaleString();
+					}, 850);
+				}
+			}
 		};
 	}
 
@@ -75,6 +80,7 @@ class Typer extends EventTarget {
 	// @number; sets the typing speed to <number> (-1 resets to default, 0 outputs the whole string at once)
 	// |number; waits <number> milliseconds
 	// ~number; erases <number> characters
+	// $funName; executes helperFuncs[funName]
 	async type(content, toWriteNextIndex = 0, speed = this.speed) {
 
 		this.isProcessing = true;
