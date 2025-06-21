@@ -2607,7 +2607,6 @@ corridoi
 corridoio
 corridore
 corriere
-corrisponda
 corrispondente
 corrispondenza
 corrispondere
@@ -9793,7 +9792,7 @@ sguainato
 sguaino
 sguardo
 sguattero
-sguinzaglo
+sguinzagliare
 siano
 sibilare
 sibilato
