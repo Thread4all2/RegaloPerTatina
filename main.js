@@ -703,13 +703,22 @@ if ('scrollRestoration' in history) {
 	history.scrollRestoration = 'manual';
 }
 
-setInterval(() => { // forcefully reload from server after .5 hours
 
-	if (new Date().getTime() - localStorage.getItem("lastOpenTime") > 1_800_000) {
+
+// set a clock to refresh the page if it goes inactive (like in background) for more than 4 seconds (to correctly count visits)
+
+localStorage.setItem("tick", new Date().getTime());
+
+setInterval(() => {
+
+	if (new Date().getTime() - localStorage.getItem("tick") > 8_000) {
 		location.reload(true);
 	}
 
-}, 60_000);
+	localStorage.setItem("tick", new Date().getTime());
+
+}, 4_000);
+
 
 
 setTime();
