@@ -803,7 +803,6 @@ switch (timesOpened) {
 		info_.style.display = "block";
 		break;
 
-
 	default:
 		setTimeout(() => { setQuote(1); }, 150);
 }
@@ -829,24 +828,23 @@ if (debug === "stat") {
 
 			infoText_.style.fontFamily = "monospace";
 			infoText_.style.whiteSpace = "pre-wrap";
+			infoText_.style.fontSize = "0.8em";
 			infoText_.style.textAlign = "left";
-
-			info_.style.minHeight = "60%";
 
 			document.getElementById("xButton").onclick = () => { document.getElementById('info').style.display = 'none'; };
 
 			infoTitle_.textContent = "DEBUG INFO";
 			infoText_.innerHTML = `\
 <b>MAIN:</b>
-Today     : ${today.toISOString().split('.')[0]}
-TimeDiff  : ${timeDiff}
-DaysSince : ${daysSince} (${((today.getTime() - startDate.getTime()) / 86_400_000).toFixed(6)})
-Opened    : ${timesOpened} times
-Last tick : ${new Date(+localStorage.getItem("tick")).toISOString().split('T')[1].slice(0, -1)}
+Visit at   : ${today.toISOString().slice(0, -5).replace("T", ", ")} UTC
+Time Diff  : ${timeDiff.toLocaleString("en-US")}
+Days Since : ${daysSince} (${((today.getTime() - startDate.getTime()) / 86_400_000).toFixed(6)})
+Opened     : ${timesOpened} times
+Last tick  : ${new Date(+localStorage.getItem("tick")).toISOString().split('T')[1].slice(0, -1)} UTC
 
 <b>FLAGS:</b>
-Asked     : ${localStorage.getItem("askedToGoToBirthday") === "1" ? "yes" : "no"}
-End       : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}`;
+Asked      : ${localStorage.getItem("askedToGoToBirthday") === "1" ? "yes" : "no"}
+End        : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}`;
 
 			info_.style.display = "block";
 
