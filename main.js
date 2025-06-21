@@ -125,7 +125,7 @@ const quotes = [
 	`Se dovessimo mai andare a fare bungee jumping insieme farei un infarto per le troppe emozioni forti insieme; in ordine: la tua presenza, l'averti tra le braccia e cadere nel vuoto`,
 	`Buona fortuna amore miooo|600;<br><br>sei così brava a farmi da musa; prova ad usare un po' di questo talento su te stessa|400;@1;<div class="beatingHeart big" style="margin-top: 8px;">🤍</div>|1200;@-1;<div class="small">ps: ricorda che devi far piangere Eco d'invidia dalla tomba</div>`,
 	`Buona fortuna anche oggi bimbaaa|600;<br><br>credo in te con tutto me stesso, ieri, oggi e per sempreee|400;@0;<div class="beatingHeart big" style="margin-top: 8px;">🤍</div>`,
-	`Se ci fai caso, le graffette il cuore e la nuvola oscillano lungo delle traiettorie a forma di cuore<br><3`,
+	`Se ci fai caso, le graffette, il cuore e la nuvola oscillano lungo delle traiettorie a forma di cuore<br><3`,
 	`Quando stiamo un po' su un'amaca insieme?`,
 	`Mi rendi una persona migliore`,
 	`Voglio attraversare l'Europa guidando con te in braccio`,
@@ -143,23 +143,31 @@ document.documentElement.style.setProperty("--shape1AnimationDelay", -Math.rando
 document.documentElement.style.setProperty("--shape2AnimationDelay", -Math.random() * 20 + "s");
 document.documentElement.style.setProperty("--shape3AnimationDelay", -Math.random() * 20 + "s");
 
-// hooks
+// hooks ------------------------------
 const quote_ = document.getElementById('quote');
 const hudDate_ = document.getElementById('hudDate');
+const info_ = document.getElementById('info');
+const infoTitle_ = document.getElementById('infoTitle');
+const infoText_ = document.getElementById('infoText');
 const heartOverlay_ = document.getElementById('heartOverlay');
 const prevDay_ = document.getElementById('prevDay');
 const nextDay_ = document.getElementById('nextDay');
 const prevDayBulk_ = document.getElementById('prevDayBulk');
 const nextDayBulk_ = document.getElementById('nextDayBulk');
 const hangman_ = document.getElementById('hangmanButton');
+const dbg_ = document.getElementById('dbgMenuToggle');
 
-// sweet juicy analytics
+
+
+// sweet juicy analytics --------------
+
 const timesOpened = +localStorage.getItem("timesOpened") || 0;
 localStorage.setItem("timesOpened", timesOpened + 1);
-localStorage.setItem("lastOpenTime", new Date().getTime()); // last time the page was opened
 
 
-// main timekeeping
+
+// timekeeping ------------------------
+
 const startDate = new Date("2025-02-14 00:00:00Z");
 let daysOffset = +(new URLSearchParams(window.location.search).get("t")) || 0;
 let today, day, month, timeDiff, daysSince;
@@ -177,7 +185,9 @@ function setTime() {
 	hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length === 2 ? month : "0" + month} -`;
 }
 
-// typing handling
+
+
+// typing handling --------------------
 
 let updaterInterval = null;
 let quoteUpdateTimer = null;
@@ -185,7 +195,7 @@ let quoteTyper = new Typer(quote_);
 
 
 
-// hearts logic
+// hearts logic -----------------------
 
 let clickCount = 0;
 let lastClickTime = 0;
@@ -264,7 +274,8 @@ function heartOnDoubleClick(event) {
 }
 
 
-// hangman game
+
+// hangman game -----------------------
 
 let isPlayingHangman = false;
 let hangmanState = {
@@ -276,6 +287,12 @@ let hangmanState = {
 	isSpecialWord: false,
 };
 let bigWordList = [];
+
+const wordContainer_ = document.getElementById("hangmanWord");
+const livesContainer_ = document.getElementById("hangmanLives");
+const hangmanMessage_ = document.getElementById("hangmanMessage");
+
+const areSameLetter = (base, accented) => base.toLowerCase() === accented.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
 async function fetchList(attempt = 0) {
 	await fetch("https://raw.githubusercontent.com/Thread4all2/RegaloPerTatina/refs/heads/main/src/parole.txt")
@@ -295,14 +312,6 @@ async function fetchList(attempt = 0) {
 			}, 300);
 		});
 };
-
-fetchList();
-
-const wordContainer_ = document.getElementById("hangmanWord");
-const livesContainer_ = document.getElementById("hangmanLives");
-const hangmanMessage_ = document.getElementById("hangmanMessage");
-
-const areSameLetter = (base, accented) => base.toLowerCase() === accented.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
 function revealKnownLetters() {
 	wordContainer_.innerHTML = "<br>" + hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : "_").join("");
@@ -433,7 +442,7 @@ function checkLetter(elem, letter) {
 
 
 
-// main functions
+// main functions ---------------------
 
 function loadShapes() { // injects svgs, to avoid flashing them before page load
 	document.getElementById("leftArrow").src = "graphics/leftArrow.svg";
@@ -444,14 +453,8 @@ function loadShapes() { // injects svgs, to avoid flashing them before page load
 	document.getElementById("paperclips").src = "graphics/paperclips.svg";
 	document.getElementById("whiteHeart").src = "graphics/whiteHeart.svg";
 	document.getElementById("pinkCloud").src = "graphics/pinkCloud.svg";
+	document.getElementById("dbg").src = "graphics/debug.svg";
 }
-
-function setQuote(bypassInfo = 1) {
-
-	if (!bypassInfo && timesOpened === 0 && daysSince === 0) { // show info on first visit
-		document.getElementById("info").style.display = "block";
-		return;
-	}
 
 function setQuote() {
 
@@ -460,17 +463,17 @@ function setQuote() {
 		const date = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
 		switch (date) {
 			case "2006-10-11":
-			quoteTyper.addTask("type", "Oggi nasce l'amore della mia vita, ed io sono ancora troppo pargolo per realizzarlo");
-			localStorage.removeItem("askedToGoToBirthday");
+				quoteTyper.addTask("type", "Oggi nasce l'amore della mia vita, ed io sono ancora troppo pargolo per realizzarlo");
+				localStorage.removeItem("askedToGoToBirthday");
 				break;
 
 			default:
-			if (localStorage.getItem("askedToGoToBirthday") === "1") {
-				quoteTyper.addTask("type", "Giorno sbagliato amore 🙃");
-			}
-			else {
-				quoteTyper.addTask("type", "Ehi, non si viaggia nel tempo senza permesso<br>(ti amo lo stesso)");
-			}
+				if (localStorage.getItem("askedToGoToBirthday") === "1") {
+					quoteTyper.addTask("type", "Giorno sbagliato amore 🙃");
+				}
+				else {
+					quoteTyper.addTask("type", "Ehi, non si viaggia nel tempo senza permesso<br>(ti amo lo stesso)");
+				}
 		}
 	}
 	else if (daysSince < 365) {
@@ -479,7 +482,7 @@ function setQuote() {
 		const now = new Date();
 		quoteUpdateTimer = setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
 
-			quoteTyper.addTask("type", quotes[daysSince]);
+		quoteTyper.addTask("type", quotes[daysSince]);
 
 	}
 	else if (daysSince === 365 && localStorage.getItem("endMessageShown") === null) {
@@ -517,7 +520,7 @@ function updateQuote(midnightMessage = 0) {
 
 
 
-// event handlers
+// event handlers ---------------------
 
 let dayChanges = 0;
 let areBulksHidden = true;
@@ -560,7 +563,6 @@ function updateDayChangeButtonsVisibility() {
 		}, 200);
 	}
 }
-
 
 prevDay_.onclick = () => {
 
@@ -689,14 +691,10 @@ hangman_.onclick = () => {
 
 
 
+// code calling -----------------------
 
-// code calling
 
-const [navigationEntry] = performance.getEntriesByType("navigation");
-
-if (navigationEntry && navigationEntry.transferSize === 0) {
-	location.reload(true);
-}
+// scroll restoration (sometimes on iPhone the page gets scrolled down when reopening the browser, webkit I guess)
 
 window.scrollTo(0, 0); // avoids the page getting off center on browser reopening (due to browser heuristics' black magic)
 if ('scrollRestoration' in history) {
@@ -721,12 +719,15 @@ setInterval(() => {
 
 
 
+// set the time and load the shapes
+
 setTime();
 loadShapes();
 
 
 
 // check whether to enable features
+
 if (daysSince > 0) { // if it's not the first day, we can go back
 	prevDay_.style.display = "block";
 }
@@ -758,17 +759,108 @@ if (daysSince % 11 === 0) { // make a heart fountain on every 11 days
 }
 
 
+// make the stream of up-bubbling hearts
 
 makeRisingHearts(20);
 heartStream();
 
-setTimeout(() => { setQuote(0); }, 150);
+
+// set the quote (displaying messages on special occasions)
+
+switch (timesOpened) {
+	case 0:
+		if (daysSince === 0) {
+			infoTitle_.innerHTML = "Ciao patatina";
+			infoText_.innerHTML = `Questa pagina serve a ricordarti che ti penso sempre: ogni giorno fino al prossimo 14 febbraio, qui troverai una frase diversa dedicata a te (in alcuni giorni ci saranno cose particolari che ho passato decisamente troppo tempo a programmare hahaha)<br><br><br>spero tanto ti piaccia <3`;
+			info_.style.display = "block";
+		} else {
+			setTimeout(() => { setQuote(1); }, 150);
+		}
+		break;
+
+	case 100:
+	case 200:
+	case 300:
+		infoTitle_.innerHTML = `${timesOpened}!`;
+		infoText_.innerHTML = `Hai aperto questa pagina ${timesOpened} volte bimba<br><br><div style="position:absolute; left: 12%; bottom: 12%; font-size:3em; ">🤍</div> hihihih <span style="position:absolute; right: 12%; bottom: 12%; font-size:3em; ">🤍</span><br><br><span class="small">lice io</span>`;
+		info_.style.display = "block";
+		break;
+
+	case 400:
+	case 500:
+	case 600:
+	case 700:
+	case 800:
+	case 900:
+		infoTitle_.innerHTML = `${timesOpened}?!`;
+		infoText_.innerHTML = `Wow se sono tante<br><br>adesso facciamo un po' di statistica: dunque, sono passati ${daysSince} giorni da san valentino, quindi in media l'hai aperta ${(timesOpened / daysSince).toFixed(2)} volte al giorno hihihih<br><br>ti amo patata <3`;
+		info_.style.display = "block";
+		break;
+
+	case 1000:
+		infoTitle_.innerHTML = `${timesOpened}???`;
+		infoText_.innerHTML = `Amore mio<br><br>non so bene cosa dire hahaha<br><br>Immagino dovrò rifarlo se ti è piaciuto tanto 🙃`;
+		info_.style.display = "block";
+		break;
 
 
-console.log(`\x1b[94mDebug info:\x1b[0m
-Today is    : ${today}
-TimeDiff    : ${timeDiff} (${(today.getTime() - startDate.getTime()) / 86_400_000} days)
-DaysSince   : ${daysSince}
-Opened	    : ${timesOpened} times
-EndMessage  : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
-`);
+	default:
+		setTimeout(() => { setQuote(1); }, 150);
+}
+
+
+
+
+// debug ------------------------------
+
+const debug = new URLSearchParams(window.location.search).get("dbg");
+
+if (debug === "stat") {
+
+	dbg_.style.display = "block";
+
+	dbg_.onclick = () => {
+
+		if (info_.style.display === "none") {
+
+			infoTitle_.style.margin = "-20px 0 16px 0";
+			infoTitle_.style.fontSize = "1.5em";
+			infoTitle_.style.textAlign = "left";
+
+			infoText_.style.fontFamily = "monospace";
+			infoText_.style.whiteSpace = "pre-wrap";
+			infoText_.style.textAlign = "left";
+
+			info_.style.minHeight = "60%";
+
+			document.getElementById("xButton").onclick = () => { document.getElementById('info').style.display = 'none'; };
+
+			infoTitle_.textContent = "DEBUG INFO";
+			infoText_.innerHTML = `\
+<b>MAIN:</b>
+Today     : ${today.toISOString().split('.')[0]}
+TimeDiff  : ${timeDiff}
+DaysSince : ${daysSince} (${((today.getTime() - startDate.getTime()) / 86_400_000).toFixed(6)})
+Opened    : ${timesOpened} times
+Last tick : ${new Date(+localStorage.getItem("tick")).toISOString().split('T')[1].slice(0, -1)}
+
+<b>FLAGS:</b>
+Asked     : ${localStorage.getItem("askedToGoToBirthday") === "1" ? "yes" : "no"}
+End       : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}`;
+
+			info_.style.display = "block";
+
+		} else {
+			info_.style.display = "none";
+		}
+	};
+
+}
+
+// console.log(`\x1b[94mDebug info:\x1b[0m
+// Today is    : ${today}
+// TimeDiff    : ${timeDiff} (${(today.getTime() - startDate.getTime()) / 86_400_000} days)
+// DaysSince   : ${daysSince}
+// Opened	    : ${timesOpened} times
+// EndMessage  : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
+// `);

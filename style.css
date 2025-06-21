@@ -101,7 +101,7 @@ i {
 	width: calc(100% - 20px);
 	top: 50%;
 	left: 50%;
-	height: calc(100% - 20px);
+	/* height: calc(100% - 20px); */
 	transform: translate(-50%, -50%);
 	background-color: #fdc4d9f0;
 	padding: 40px 20px;
@@ -201,6 +201,20 @@ i {
 	z-index: 4;
 }
 
+#dbgMenuToggle {
+	position: absolute;
+	left: 10px;
+	top: 68px;
+	background: #0a021d10;
+	border-radius: 8px;
+	padding: 7px 5px 3px 5px;
+	border: 1px solid #0a021d10;
+	user-select: none;
+	-webkit-touch-callout: none;
+	cursor: pointer;
+	z-index: 4;
+}
+
 #hangmanContainer {
 	display: flex;
 	flex-direction: column;
@@ -270,21 +284,21 @@ i {
 	top: 100px;
 	left: 20px;
 	animation: move var(--shape1AnimationTime) ease-in-out
-		var(--shape1AnimationDelay) infinite alternate;
+		var(--shape1AnimationDelay) infinite;
 }
 
 #shape2 {
 	top: 30px;
 	right: 50px;
 	animation: move var(--shape2AnimationTime) ease-in-out
-		var(--shape2AnimationDelay) infinite alternate;
+		var(--shape2AnimationDelay) infinite;
 }
 
 #shape3 {
 	bottom: 40px;
 	right: calc(20vw + 10px);
 	animation: move var(--shape3AnimationTime) ease-in-out
-		var(--shape3AnimationDelay) infinite alternate;
+		var(--shape3AnimationDelay) infinite;
 }
 
 #heartOverlay {
@@ -395,39 +409,39 @@ i {
 
 @keyframes move {
 	0% {
-		transform: translate(0, 6) rotate(0deg);
+		transform: translate(0px, -6px) rotate(0deg);
 	}
 
-	12% {
-		transform: translate(6px, 10px) rotate(3deg);
+	8.4% {
+		transform: translate(6px, -10px) rotate(3deg);
 	}
 
-	25% {
-		transform: translate(14px, 4px) rotate(6deg);
+	20.1% {
+		transform: translate(14px, -4px) rotate(6deg);
 	}
 
-	37% {
-		transform: translate(10px, -8px) rotate(-6deg);
+	34.9% {
+		transform: translate(10px, 8px) rotate(-6deg);
 	}
 
-	50% {
-		transform: translate(0px, -16px) rotate(5deg);
+	49.9% {
+		transform: translate(0px, 16px) rotate(5deg);
 	}
 
-	62% {
-		transform: translate(-10px, -8px) rotate(-4deg);
+	64.9% {
+		transform: translate(-10px, 8px) rotate(-4deg);
 	}
 
-	75% {
-		transform: translate(-14px, 4px) rotate(8deg);
+	79.6% {
+		transform: translate(-14px, -4px) rotate(8deg);
 	}
 
-	87% {
-		transform: translate(-8px, 10px) rotate(-3deg);
+	89.5% {
+		transform: translate(-8px, -10px) rotate(-3deg);
 	}
 
 	100% {
-		transform: translate(0, 6) rotate(0deg);
+		transform: translate(0px, -6px) rotate(0deg);
 	}
 }
 
