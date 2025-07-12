@@ -148,6 +148,13 @@ const quotes = [
 	`<a href="https://xkcd.com/150/">Quando vivremo insieme <3</a>`,
 	`Voglio baciare dolcemente ogni centimetro del tuo corpo`,
 	`Sei la soluzione a qualunque mio problema`,
+	`Voglio comprare un pigiama per 2 persone e passarci le sere con te`,
+	`And I don't need to speak a single word<br>'Cause you got me howlin', <a href="https://open.spotify.com/track/596lDSwIMzDoiq3E6jJ0wC">howlin'</a>`,
+	`Vorrei coprire la Luna di specchi<br>per poterti cercare la notte nei riflessi<br>guardando in cielo tra le stelle, tue simili<br>e rivolgendomi verso la più luminosa`,
+	`Ho ancora in testa l'igloo eh`,
+	`Siamo come due anelli di una catena, intrecciati e collegati per sempre, nonostante tutti i nostri simili tentino di separarci tirandoci`,
+	`Quando ci facciamo un <a href="https://open.spotify.com/track/6sLOTtQ7NxRBBjaHE0gz9I">caffè freddo</a> e tante coccole?`,
+	`<i>Si' tu l'unica luce d''o core mio, l'ammore ca mai cchiù amerò accussì</i> (pure in napoletano eh)`,
 	`- fine della versione corrente-`,
 ];
 
