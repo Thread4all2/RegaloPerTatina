@@ -150,7 +150,7 @@ const quotes = [
 	`Sei la soluzione a qualunque mio problema`,
 	`Voglio comprare un pigiama per 2 persone e passarci le sere con te`,
 	`And I don't need to speak a single word<br>'Cause you got me howlin', <a href="https://open.spotify.com/track/596lDSwIMzDoiq3E6jJ0wC">howlin'</a>`,
-	`Vorrei coprire la Luna di specchi<br>per poterti cercare la notte nei riflessi<br>guardando in cielo tra le stelle, tue simili<br>e rivolgendomi verso la più luminosa`,
+	`Vorrei coprire la Luna di specchi<br>per poterti cercare la notte nei riflessi`,
 	`Ho ancora in testa l'igloo eh`,
 	`Siamo come due anelli di una catena, intrecciati e collegati per sempre, nonostante tutti i nostri simili tentino di separarci tirandoci`,
 	`Quando ci facciamo un <a href="https://open.spotify.com/track/6sLOTtQ7NxRBBjaHE0gz9I">caffè freddo</a> e tante coccole?`,
