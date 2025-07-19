@@ -1,5 +1,5 @@
 const quotes = [
-	`Ciao amoreee<br>BUON SAN VALENTINOOO|400;<br>---<br>|400;Il cuore di un uomo batte mediamente 3 miliardi di volte.<br>Tutti i battiti che ha fatto il mio da quando sei nella mia vita sono stati dovuti a te, ed ora come ora ammontano a circa<br><span id="heartbeats">${(Math.round((new Date() - new Date("2022-07-20")) / 850 + 19)).toLocaleString()}$updateHeartbeatCounter;@0;</span><div class="beatingHeart" style="margin-top: 8px;">🤍🤍🤍</div>`,
+	`Ciao amoreee<br>BUON SAN VALENTINOOO|400;<div class="small"> </div>|400;Il cuore di un uomo batte mediamente 3 miliardi di volte.<br>Tutti i battiti che ha fatto il mio da quando sei nella mia vita sono stati dovuti a te, ed ora come ora ammontano a circa<br><span id="heartbeats">${(Math.round((new Date() - new Date("2022-07-20")) / 850 + 19)).toLocaleString()}$updateHeartbeatCounter;@0;</span><div class="beatingHeart" style="margin-top: 8px;">🤍🤍🤍</div>`,
 	`Lo specchio in camera tua deve aver vinto alla lotteria degli specchi o qualcosa del genere per poterti vedere così tanto ogni giorno`,
 	`Voglio massaggiarti su un lettino in una stanza piena di candele e petali di rosa`,
 	`Oggi ti mostro la prima cosa particolare di cui ti ho parlato nell'introduzione della pagina: fai doppio click da qualche parte`,
@@ -155,6 +155,13 @@ const quotes = [
 	`Siamo come due anelli di una catena, intrecciati e collegati per sempre, nonostante tutti i nostri simili tentino di separarci tirandoci`,
 	`Quando ci facciamo un <a href="https://open.spotify.com/track/6sLOTtQ7NxRBBjaHE0gz9I">caffè freddo</a> e tante coccole?`,
 	`<i>Si' tu l'unica luce d''o core mio, l'ammore ca mai cchiù amerò accussì</i> (pure in napoletano eh)`,
+	`Vorrei essere lì a darti tanti bacini sulla fronte`,
+	`Oggi vengo da te hihihih|900;@25;<div class="small">hihihihihihihihihihihihihihihihihihihih</div>`,
+	`Ma ciao amore mioooooooooooooooo`,
+	`La prossima volta che scalerò una montagna, giunto in cima urlerò il tuo nome`,
+	`Ti va di andare a far vedere ai poveretti nella caverna di Platone le nostre ombre finché scopiamo?`,
+	`Se nella confusione<br>piovesse il tuo nome<br><a href="https://open.spotify.com/track/3PYYiqmhooCNCGiiPTM5zS">una lettera per volta vorrei bereeeee</a><br><br><span class="small">(è l'edit con calcutta, a me piace un sacco)</span>`,
+	`Ma lo sai che ti amo?`,
 	`- fine della versione corrente-`,
 ];
 
