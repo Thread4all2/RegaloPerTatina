@@ -162,6 +162,13 @@ const quotes = [
 	`Ti va di andare a far vedere ai poveretti nella caverna di Platone le nostre ombre finché scopiamo?`,
 	`Se nella confusione<br>piovesse il tuo nome<br><a href="https://open.spotify.com/track/3PYYiqmhooCNCGiiPTM5zS">una lettera per volta vorrei bereeeee</a><br><br><span class="small">(è l'edit con calcutta, a me piace un sacco)</span>`,
 	`Ma lo sai che ti amo?`,
+	`Sei come le pagine di un bel libro: vorrei bagnarmi le dita e sfogliarti lentamente, per perdermi in ogni parola`,
+	`L'idea di perderti è la cosa che più al mondo mi spaventa`,
+	`E così bello sentirmi il tuo profumo addosso dopo essere stato con te`,
+	`@80;Dovevo farti più foto|350;<br>quando ti avevo|350;<br><br>Dovevo darti più baci|350;<br>ed abbracci|350;<br>quando potevo`,
+	`Già mi immagino tutte le cene fuori improvvisate che faremo quando vivremo insieme, perché saremo troppo '''impegnati''' per farci da mangiare|400;<div class="small"><br>hehehe</div>`,
+	`<a href="https://open.spotify.com/track/3CYBvI2kRCPPFnIeZdSLcn?si=58fa81e81bf14ec8">Questa canzone</a> mi ricorda molto bene quello che voglio fare con te`,
+	`Topinaaaa so che probabilmente ora farà un caldo assurdo, ma vorrei tanto sentire il calore di un tuo abbraccio@35;<div class="small"><br>(abbi pietà del me che ha scritto questa cosa a febbraio, ed ha pensato non troppo argutamente di mostrartela ad agosto)</div>`,
 	`- fine della versione corrente-`,
 ];
 
