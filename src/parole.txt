@@ -95,7 +95,6 @@ accampato
 accampo
 accanano
 accani
-accanii
 accanimmo
 accanirono
 accanisse
@@ -187,7 +186,6 @@ accorgesse
 accortezza
 accostare
 accostato
-accosto
 accreditai
 accredito
 accumulare
@@ -215,7 +213,6 @@ acquieto
 acquirente
 acquistare
 acquistato
-acquisto
 acquitrino
 acustico
 acuto
@@ -420,7 +417,6 @@ aggiuntive
 aggiunto
 aggiustare
 aggiustato
-aggiusto
 aggrappare
 aggrappato
 aggrappo
@@ -510,7 +506,6 @@ alleato
 allegare
 allegato
 alleggeri
-alleggerii
 allego
 allegoria
 allegria
@@ -1657,13 +1652,11 @@ calcolo
 caldaia
 caldo
 caleidoscopio
-calendari
 calendario
 calibro
 calice
 california
 caligine
-callista
 callo
 calmante
 calmare
@@ -1674,12 +1667,8 @@ calore
 calorifero
 calpestare
 calpestato
-calpesto
-calunni
 calunniare
 calunniato
-calunnino
-calunnio
 calvizia
 calvo
 calzare
@@ -2092,7 +2081,6 @@ collisione
 collo
 collocare
 collocato
-colloco
 colloqui
 colloquio
 colmare
@@ -2109,7 +2097,6 @@ coloro
 colossale
 colosso
 colpevole
-colpii
 colpimmo
 colpirai
 colpisse
@@ -2168,7 +2155,6 @@ compagnia
 compagno
 comparazione
 compare
-comparii
 compariranno
 comparisse
 comparito
@@ -2305,7 +2291,6 @@ condensare
 condensato
 condenso
 condi
-condii
 condimento
 condirai
 condiranno
@@ -2327,7 +2312,6 @@ condurre
 condussi
 conferenza
 conferi
-conferii
 conferisse
 conferito
 confermare
@@ -2357,7 +2341,6 @@ conflitto
 confluente
 confluenza
 conflui
-confluii
 confluirai
 confluisse
 confluito
@@ -2513,7 +2496,6 @@ contornato
 contorno
 contorto
 contraddi
-contraddii
 contraddistinguere
 contraente
 contrapposizione
@@ -2548,14 +2530,12 @@ convinco
 convinto
 convocare
 convocato
-convoco
 convulso
 cooperare
 cooperato
 coordinare
 coordinato
-coordino
-coorispondente
+corrispondente
 coperchio
 copertina
 coperto
@@ -2664,7 +2644,6 @@ costretto
 costriera
 costruano
 costrui
-costruii
 costruito
 costrutto
 costruzione
@@ -2793,7 +2772,6 @@ cumulo
 cunetta
 cuocere
 cuocia
-cuoco
 cuoio
 cuore
 cupidigia
@@ -2937,7 +2915,6 @@ deflettere
 defletto
 deflettuto
 deflui
-defluii
 defluisse
 defluito
 defluivamo
@@ -2998,7 +2975,6 @@ demerito
 democrazia
 demografia
 demolano
-demolii
 demolimmo
 demolisse
 demolito
@@ -3031,7 +3007,6 @@ denuncio
 denutrito
 deodorante
 deperi
-deperii
 deperisse
 deperito
 deperivate
@@ -3240,7 +3215,6 @@ diligenza
 dillo
 diluano
 dilui
-diluii
 diluirai
 diluiremo
 diluisse
@@ -3261,7 +3235,6 @@ dimezzato
 dimezzo
 diminuano
 diminui
-diminuii
 diminuirai
 diminuisca
 diminuito
@@ -3402,7 +3375,6 @@ disinfetto
 disinvolto
 dislocare
 dislocato
-disloco
 disonesto
 disonorare
 disonorato
@@ -3481,7 +3453,6 @@ disto
 distratto
 distretto
 distribui
-distribuii
 distruggo
 distrusse
 distruttiva
@@ -3814,7 +3785,6 @@ equivalare
 equivalato
 equivalente
 equivalo
-equivoco
 equo
 erano
 eravamo
@@ -3862,7 +3832,6 @@ esatto
 esattore
 esaudiente
 esauri
-esaurii
 esaurimento
 esaurisca
 esaurisse
@@ -4236,7 +4205,6 @@ finestroni
 fingero
 fingi
 fingono
-finii
 finirai
 finisse
 finissimo
@@ -4345,7 +4313,6 @@ fornai
 fornaio
 fornello
 fornendone
-fornii
 fornirai
 fornisse
 fornissimo
@@ -4469,7 +4436,6 @@ funzionale
 funzionamento
 funzionare
 funzione
-fuoco
 fuori
 furberia
 furbo
@@ -4601,7 +4567,6 @@ giocare
 giocato
 giocatore
 giocattolo
-gioco
 giogo
 gioi
 gioia
@@ -4752,7 +4717,6 @@ greco
 gregge
 grembo
 gremi
-gremii
 gremirai
 gremisca
 gremisse
@@ -4790,7 +4754,6 @@ guardingo
 guardo
 guari
 guarigione
-guarii
 guarirono
 guarisse
 guarissimo
@@ -4883,14 +4846,11 @@ imbevuto
 imbiancare
 imbiancato
 imbianco
-imbiondi
-imbiondii
 imbiondito
 imboccare
 imboccato
 imbocco
 imboscato
-imbottii
 imbottirai
 imbottisse
 imbottito
@@ -4945,7 +4905,6 @@ impastare
 impastato
 impasto
 impauri
-impaurii
 impaurirai
 impaurisse
 impaurito
@@ -4956,7 +4915,6 @@ impazienza
 impazzire
 impazzito
 impedi
-impedii
 impedirai
 impedisse
 impedito
@@ -5016,7 +4974,6 @@ imprecare
 imprecato
 impreco
 impresa
-impressioo
 imprestare
 imprestato
 impresto
@@ -5095,7 +5052,6 @@ incendiato
 incendino
 incendio
 inceneri
-incenerii
 incenerito
 incenso
 incentrato
@@ -5291,7 +5247,6 @@ ingannato
 inganno
 ingegnere
 ingelosi
-ingelosii
 ingelosito
 ingelosivo
 ingente
@@ -5313,7 +5268,6 @@ ingranaggi
 ingranare
 ingranato
 ingrandi
-ingrandii
 ingrandito
 ingrassare
 ingrassato
@@ -5451,7 +5405,6 @@ intercedei
 intercetto
 interdette
 interdi
-interdii
 interdirai
 interdito
 interessamento
@@ -5491,7 +5444,6 @@ intesto
 intimare
 intimato
 intimidi
-intimidii
 intimidito
 intimita
 intimo
@@ -5549,7 +5501,6 @@ invitato
 invito
 invocare
 invocato
-invoco
 involucro
 inzuppare
 inzuppato
@@ -5629,7 +5580,6 @@ laguna
 laico
 lama
 lambano
-lambii
 lambirai
 lambiranno
 lambiremo
@@ -5957,7 +5907,6 @@ maldestro
 maldicenza
 male
 maledi
-maledii
 maledimmo
 maledirai
 maledisse
@@ -6994,7 +6943,6 @@ parlatori
 parodia
 parola
 parolaccie
-parroco
 parrucca
 parso
 partecipai
@@ -7376,7 +7324,6 @@ plotone
 plurale
 plusvalore
 pneumatico
-poco
 podere
 poderoso
 podio
@@ -7825,7 +7772,6 @@ propizi
 propizia
 proporzio
 proporzionalmente
-proporzioo
 proposito
 proposto
 propri
@@ -7877,7 +7823,6 @@ provincia
 provo
 provocare
 provocato
-provoco
 provolone
 provvedere
 provvedo
@@ -8205,7 +8150,6 @@ recido
 recingere
 recinto
 recipiente
-reciproco
 reciso
 recitare
 recitativo
@@ -8382,7 +8326,6 @@ reumatismo
 revisore
 revocare
 revocato
-revoco
 rialzare
 rialzato
 rialzo
@@ -8394,7 +8337,6 @@ riapparire
 riapparito
 riapparso
 riapplica
-riassorbii
 riassumere
 riassumo
 riassunto
@@ -8482,7 +8424,6 @@ ricorsivita
 ricorsivo
 ricorso
 ricostru
-ricostruii
 ricotta
 ricoverare
 ricoverato
@@ -8516,7 +8457,6 @@ riescano
 riesci
 rievocare
 rievocato
-rievoco
 riferimento
 riferire
 riferisca
@@ -8556,9 +8496,6 @@ rigoverno
 riguardare
 riguardato
 riguardo
-riinizio
-riinserire
-riinserisci
 rilascio
 rilassare
 rilassato
@@ -8801,7 +8738,6 @@ rispondere
 risposi
 risposto
 rissa
-ristabilii
 ristampare
 ristampato
 ristampo
@@ -10008,7 +9944,6 @@ soffione
 soffitto
 soffocare
 soffocato
-soffoco
 soffrano
 soffrire
 soffrirne
@@ -10228,7 +10163,6 @@ sovrasto
 sovreccito
 sovrumano
 sovvenzio
-sovvenzioo
 sovversivo
 sovvertire
 sovvertito
@@ -10930,7 +10864,6 @@ suggerendo
 suggerire
 suggerito
 suggestio
-suggestioo
 suggestivo
 sughero
 suicida
@@ -11350,9 +11283,6 @@ tetto
 tettoia
 tibie
 ticchettio
-tienilo
-tienimi
-tientela
 tiepido
 tifo
 tifone
@@ -11654,7 +11584,6 @@ trasferito
 trasfette
 trasformare
 trasformo
-trasgredii
 traslare
 traslato
 traslazione
