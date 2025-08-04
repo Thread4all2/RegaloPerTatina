@@ -166,9 +166,17 @@ const quotes = [
 	`L'idea di perderti è la cosa che più al mondo mi spaventa`,
 	`E così bello sentirmi il tuo profumo addosso dopo essere stato con te`,
 	`@80;Dovevo farti più foto|350;<br>quando ti avevo|350;<br><br>Dovevo darti più baci|350;<br>ed abbracci|350;<br>quando potevo`,
+	`Esattamente un anno fa è successa una cosa meravigliosa su uno sdraio...<br><br><3`,
+	`Ehi oggi è la giornata mondiale delle fidanzate, va bene se mi presento da te verso le 18 con fiori, cioccolatini, <span class="small">il vibratore</span> e 2 biglietti per il cinema?`,
 	`Già mi immagino tutte le cene fuori improvvisate che faremo quando vivremo insieme, perché saremo troppo '''impegnati''' per farci da mangiare|400;<div class="small"><br>hehehe</div>`,
 	`<a href="https://open.spotify.com/track/3CYBvI2kRCPPFnIeZdSLcn?si=58fa81e81bf14ec8">Questa canzone</a> mi ricorda molto bene quello che voglio fare con te`,
 	`Topinaaaa so che probabilmente ora farà un caldo assurdo, ma vorrei tanto sentire il calore di un tuo abbraccio@35;<div class="small"><br>(abbi pietà del me che ha scritto questa cosa a febbraio, ed ha pensato non troppo argutamente di mostrartela ad agosto)</div>`,
+	`'Cause you're a sky, 'cause you're <a href=https://open.spotify.com/track/0FDzzruyVECATHXKHFs9eJ>a sky full of stars</a>`,
+	`Oggi interpello l'Eric del futuro, chiedi a lui di dirti qualcosa di carino (e digli di vergognarsi se non l'ha ancora mai fatto oggi)`,
+	`Voglio regalarti delle conchiglie, dopo aver speso ore a cercare le più belle tra le più belle`,
+	`Sei il pensiero che faccio in assoluto più fatica a togliermi dalla testa`,
+	`Da quando ci sei vedo il mondo di colori più <span style="color: #FF0080;">v</span><span style="color: #FF8000;">i</span><span style="color: #00FFFF;">v</span><span style="color: #39FF14;">i</span><span style="color: #8A2BE2;">d</span>`,
+	`Un giorno capirò di che colore hai gli occhioni, dovessi passare tutta la vita a guardarli per riuscirci|600;<div class="small"><br>spero tanto ce ne sia bisogno hihih</div>`,
 	`- fine della versione corrente-`,
 ];
 
