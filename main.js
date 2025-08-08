@@ -175,8 +175,8 @@ const quotes = [
 	`Oggi interpello l'Eric del futuro, chiedi a lui di dirti qualcosa di carino (e digli di vergognarsi se non l'ha ancora mai fatto oggi)`,
 	`Voglio regalarti delle conchiglie, dopo aver speso ore a cercare le più belle tra le più belle`,
 	`Sei il pensiero che faccio in assoluto più fatica a togliermi dalla testa`,
-	`Da quando ci sei vedo il mondo di colori più <span style="color: #FF0080;">v</span><span style="color: #FF8000;">i</span><span style="color: #00FFFF;">v</span><span style="color: #39FF14;">i</span><span style="color: #8A2BE2;">d</span>`,
-	`Un giorno capirò di che colore hai gli occhioni, dovessi passare tutta la vita a guardarli per riuscirci|600;<div class="small"><br>spero tanto ce ne sia bisogno hihih</div>`,
+	`Da quando ci sei vedo il mondo di colori più <span style="color: #001b5bff;">v</span><span style="color: #124062;">i</span><span style="color: #61408b;">v</span><span style="color: #ec4a6e;">i</span><span style="color: #ff8d28;">d</span><span style="color: #ffdc13;">i</span>`,
+	`Un giorno capirò di che colore hai gli occhioni, dovessi passare tutta la vita a guardarli per riuscirci|600;<div class="small"><br>spero tanto che sia necessario hihih</div>`,
 	`- fine della versione corrente-`,
 ];
 
