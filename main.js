@@ -177,6 +177,7 @@ const quotes = [
 	`Sei il pensiero che faccio in assoluto più fatica a togliermi dalla testa`,
 	`Da quando ci sei vedo il mondo di colori più <span style="color: #001b5bff;">v</span><span style="color: #124062;">i</span><span style="color: #61408b;">v</span><span style="color: #ec4a6e;">i</span><span style="color: #ff8d28;">d</span><span style="color: #ffdc13;">i</span>`,
 	`Un giorno capirò di che colore hai gli occhioni, dovessi passare tutta la vita a guardarli per riuscirci|600;<div class="small"><br>spero tanto che sia necessario hihih</div>`,
+	`Sei dietro ad ogni mio sorriso`,
 	`- fine della versione corrente-`,
 ];
 
