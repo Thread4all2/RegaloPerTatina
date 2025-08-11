@@ -4,7 +4,7 @@
 	left: 0;
 	width: 100%;
 	height: 120%;
-	transform: rotate(-45deg);
+	transform: rotate(-40deg);
 }
 
 .star {
@@ -353,7 +353,7 @@
 
 @keyframes fall {
 	to {
-		transform: translate3d(-30em, 0, 0);
+		transform: translate3d(-50em, 0, 0);
 	}
 }
 @keyframes tail-fade {
