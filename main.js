@@ -178,6 +178,12 @@ const quotes = [
 	`Da quando ci sei vedo il mondo di colori più <span style="color: #001b5bff;">v</span><span style="color: #124062;">i</span><span style="color: #61408b;">v</span><span style="color: #ec4a6e;">i</span><span style="color: #ff8d28;">d</span><span style="color: #ffdc13;">i</span>`,
 	`Un giorno capirò di che colore hai gli occhioni, dovessi passare tutta la vita a guardarli per riuscirci|600;<div class="small"><br>spero tanto che sia necessario hihih</div>`,
 	`Sei dietro ad ogni mio sorriso`,
+	`$shootingStars;Stanotte avrei tanto voluto passarla con te a guardare le stelle<br><div class="small">(so che San Lorenzo era ieri, ma il picco di visibilità quest'anno cade oggi)</div>`,
+	`Ti amo come Deno ama il cibo: ti cerco di continuo, senza di te mi sento vuoto, e quando ti ho davanti mi godo fino all'ultima briciola hehe`,
+	`Nessuna sensazione mi manca come tenerti tra le braccia`,
+	`Non c'è pace per chi cerca la felicità in qualcuno di impossibile eh?`,
+	`Ogni tanto mi immagino sotto alla finestra di camera tua a strimpellare una chitarra e cantarti una serenata`,
+	`Ho voglia di sentire le tue labbra`,
 	`- fine della versione corrente-`,
 ];
 
