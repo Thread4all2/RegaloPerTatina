@@ -753,19 +753,19 @@ if ('scrollRestoration' in history) {
 
 
 
-// set a clock to refresh the page if it goes inactive (like in background) for more than 4 seconds (to correctly count visits)
+// set a clock to refresh the page if it goes inactive (like in background) for more than 16 seconds (to correctly count visits)
 
 localStorage.setItem("tick", new Date().getTime());
 
 setInterval(() => {
 
-	if (new Date().getTime() - localStorage.getItem("tick") > 8_000) {
+	if (new Date().getTime() - localStorage.getItem("tick") > 32_000) {
 		location.reload(true);
 	}
 
 	localStorage.setItem("tick", new Date().getTime());
 
-}, 4_000);
+}, 16_000);
 
 
 
