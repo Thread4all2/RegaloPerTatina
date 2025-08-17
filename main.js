@@ -184,6 +184,11 @@ const quotes = [
 	`Non c'è pace per chi cerca la felicità in qualcuno di impossibile eh?`,
 	`Ogni tanto mi immagino sotto alla finestra di camera tua a strimpellare una chitarra e cantarti una serenata`,
 	`Ho voglia di sentire le tue labbra`,
+	`Né i più arborei <span style="color: #32cf8188">verdi</span>|200;<br>od i glaciali <span style="color: #63a4cf88">azzurri</span>|200;<br>potranno mai paragonarsi|200;<br>alla meraviglia dei tuoi <span class="angelEyes">occhioni</span>`,
+	`Ehi|400;<br>ma sai|400;<br>che sei|400;<br>proprio bellaaaaaaa?`,
+	`Ti ricordi l’idea di tatuarci la % di dna che abbiamo in comune?|300;<br>Io ci penso ancora molto spesso`,
+	`Voglio cambiare le federe del nostro letto con te|800;<div class="small"><br>(e provarle subito dopo hehehe)</div>`,
+	`Quando andiamo a scegliere le piastrelle da mettere nel nostro bagno?`,
 	`- fine della versione corrente-`,
 ];
 
@@ -194,6 +199,7 @@ document.documentElement.style.setProperty("--shape2AnimationDelay", -Math.rando
 document.documentElement.style.setProperty("--shape3AnimationDelay", -Math.random() * 20 + "s");
 
 // hooks ------------------------------
+const searchParams = new URLSearchParams(window.location.search);
 const quote_ = document.getElementById('quote');
 const hudDate_ = document.getElementById('hudDate');
 const info_ = document.getElementById('info');
@@ -219,7 +225,7 @@ localStorage.setItem("timesOpened", timesOpened + 1);
 // timekeeping ------------------------
 
 const startDate = new Date("2025-02-14 00:00:00Z");
-let daysOffset = +(new URLSearchParams(window.location.search).get("t")) || 0;
+let daysOffset = +(searchParams.get("t")) || 0;
 let today, day, month, timeDiff, daysSince;
 
 function setTime() {
@@ -862,7 +868,7 @@ switch (timesOpened) {
 
 // debug ------------------------------
 
-const debug = new URLSearchParams(window.location.search).get("dbg");
+const debug = searchParams.get("dbg");
 let debugMenuUpdater = null;
 
 if (debug === "stat") {
