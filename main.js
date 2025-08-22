@@ -531,7 +531,7 @@ function setQuote() {
 				break;
 
 			default:
-				if (localStorage.getItem("askedToGoToBirthday") === "1") {
+				if (localStorage.getItem("askedToGoToBirthday")) {
 					quoteTyper.addTask("type", "Giorno sbagliato amore 🙃");
 				}
 				else {
@@ -549,7 +549,7 @@ function setQuote() {
 
 	}
 	else if (daysSince === 365 && localStorage.getItem("endMessageShown") === null) {
-		localStorage.setItem("endMessageShown", "1");
+		localStorage.setItem("endMessageShown", "true");
 		quoteTyper.addTask("type", "È passato 1yr, quindi la pagina ha fatto il suo corso.<br>D'ora in poi, ad ogni apertura mostrerà una frase a caso");
 	}
 	else {
@@ -911,7 +911,7 @@ Last tick  : <span id="dbgLastTickTime" style="font-family:monospace;">${new Dat
 Hearts     : <span id="dbgHeartsCounter" style="font-family:monospace;">${heartOverlay_.children.length}</span>
 
 <b>FLAGS:</b>
-Asked      : ${localStorage.getItem("askedToGoToBirthday") === "1" ? "yes" : "no"}
+Asked      : ${localStorage.getItem("askedToGoToBirthday") ? "yes" : "no"}
 End        : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
 
 <div style="display:flex; flex-direction:row; justify-content:space-between; position:absolute; bottom: 10px; left: 10px; gap: 8px;">
