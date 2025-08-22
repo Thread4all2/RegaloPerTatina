@@ -1,4 +1,3 @@
-
 abate
 abbagliare
 abbagliato
@@ -145,7 +144,6 @@ accettato
 acciacco
 acciaieria
 acciaio
-accidentalmente
 accidente
 accidia
 accigliare
@@ -160,7 +158,6 @@ accodare
 accodato
 accogliere
 accoltelo
-accomiatai
 accomiato
 accomodare
 accomodato
@@ -186,7 +183,6 @@ accorgesse
 accortezza
 accostare
 accostato
-accreditai
 accredito
 accumulare
 accumulato
@@ -354,8 +350,6 @@ affilare
 affilato
 affiliare
 affiliato
-affilio
-affilo
 affinché
 affine
 affinita
@@ -470,7 +464,6 @@ alcol
 alcuna
 aleatorio
 alfa
-alfabeticamente
 alfabetico
 alfabeto
 alfanumerico
@@ -752,7 +745,6 @@ antenato
 anteriore
 anticamere
 anticipare
-anticipatamente
 anticipato
 anticipo
 antico
@@ -867,7 +859,6 @@ arancia
 arare
 arato
 aratro
-arbitrariamente
 arbitrario
 arbitrato
 arbitrio
@@ -1133,7 +1124,6 @@ attrice
 attuabile
 attuale
 attualita
-attualizzazione
 attualmente
 attuare
 attuato
@@ -1159,9 +1149,7 @@ autista
 auto
 autobus
 autocarro
-autoesplicativa
 automa
-automaticamente
 automatico
 automobile
 autonomo
@@ -1172,7 +1160,6 @@ autorita
 autorizzai
 autorizzato
 autorizzazione
-autovalutazione
 autunni
 avallare
 avallato
@@ -1347,7 +1334,6 @@ battesimo
 battesse
 battessimo
 batteste
-battete
 battette
 battettero
 battevate
@@ -1400,7 +1386,6 @@ bestiame
 bettola
 betulla
 bevanda
-bevete
 bevetene
 bevibile
 bevilo
@@ -2025,7 +2010,6 @@ clamoroso
 classe
 classico
 classifica
-classificazione
 clausola
 clausura
 clemenza
@@ -2116,7 +2100,6 @@ comandato
 comando
 combattei
 combattero
-combattete
 combatto
 combattuto
 combinare
@@ -2141,7 +2124,6 @@ commedia
 commentare
 commentato
 commento
-commercializzato
 commercio
 commesso
 commettere
@@ -2177,7 +2159,6 @@ competenza
 competero
 competesse
 competeste
-competete
 competette
 competo
 competuto
@@ -2393,7 +2374,6 @@ conoscenza
 conoscere
 conoscerne
 conosciuto
-conquistai
 conquisto
 consacrare
 consacrato
@@ -2467,7 +2447,6 @@ contegnoso
 contemplai
 contemplo
 contemporanea
-contemporaneamente
 contenente
 contenere
 contenga
@@ -2494,9 +2473,7 @@ contornato
 contorno
 contorto
 contraddi
-contraddistinguere
 contraente
-contrapposizione
 contrari
 contrarino
 contrario
@@ -2533,7 +2510,6 @@ cooperare
 cooperato
 coordinare
 coordinato
-corrispondente
 coperchio
 copertina
 coperto
@@ -2585,6 +2561,7 @@ corridoi
 corridoio
 corridore
 corriere
+corrispondente
 corrispondente
 corrispondenza
 corrispondere
@@ -2676,7 +2653,6 @@ credero
 credesse
 credessimo
 credeste
-credete
 credette
 credevate
 credevo
@@ -2857,7 +2833,6 @@ decentro
 decesso
 deciderle
 decidero
-decidete
 decidi
 decifrare
 decifrato
@@ -2921,7 +2896,6 @@ defluivate
 deformare
 deformato
 deformita
-deformo
 defraudare
 defraudato
 defraudo
@@ -3085,7 +3059,6 @@ detestato
 detesto
 detieni
 detrazione
-dettagliatamente
 dettaglio
 dettare
 dettato
@@ -3130,7 +3103,6 @@ diciotto
 dicitura
 dico
 dicotomia
-dicotomicamente
 didattico
 dieci
 diedi
@@ -3294,7 +3266,6 @@ dirozzato
 dirozzo
 dirupo
 disabilitare
-disabilitazione
 disabitato
 disabituai
 disabituo
@@ -3550,7 +3521,6 @@ dorato
 dormiente
 dormire
 dormito
-dormo
 dorso
 dosare
 dosato
@@ -3604,7 +3574,6 @@ eccedero
 eccederono
 eccedesse
 eccedeste
-eccedete
 eccedette
 eccedeva
 eccedevate
@@ -3647,13 +3616,11 @@ effetto
 effettuare
 effettuato
 effettuo
-effetture
 efficace
 efficacemente
 efficacia
 efficenza
 efficiente
-efficientemente
 efficienza
 effusione
 egoismo
@@ -4036,7 +4003,6 @@ familiare
 familiarita
 fammela
 fammi
-fammici
 famoso
 fanale
 fanciullo
@@ -4059,7 +4025,6 @@ farmacia
 farmacista
 farmelo
 farmene
-farmici
 farmisi
 farne
 farnetico
@@ -4287,7 +4252,6 @@ formattamento
 formattata
 formattatore
 formica
-formo
 formoso
 formula
 formulari
@@ -4854,7 +4818,6 @@ imitato
 imitazione
 imito
 immagazzina
-immagazzinamento
 immaginare
 immaginato
 immagine
@@ -4930,7 +4893,6 @@ impiego
 implementare
 implementativo
 implementato
-implementazione
 implicare
 implicato
 implicito
@@ -5135,16 +5097,13 @@ indetta
 indi
 indicante
 indicare
-indicativamente
 indicato
 indicatore
 indicazione
 indiciata
 indietro
-indifferentemente
 indifferenza
 indipendente
-indipendentemente
 indirettamente
 indirettezze
 indiretto
@@ -5215,7 +5174,6 @@ informare
 informatico
 informato
 informazione
-informo
 infortuni
 infortunio
 infrangere
@@ -5270,7 +5228,6 @@ inizi
 iniziale
 inizializzare
 inizializzato
-inizializzazione
 inizialmente
 iniziare
 iniziativa
@@ -5338,7 +5295,6 @@ insistere
 insistette
 insistito
 insisto
-insoddisfazione
 insolente
 insolenza
 insolito
@@ -5350,7 +5306,6 @@ insuccesso
 insudici
 insudicino
 insudicio
-insufficientemente
 insultare
 insultato
 insulto
@@ -5381,7 +5336,6 @@ intensione
 intento
 intenzione
 interagire
-interattivamente
 interattivita
 interattivo
 interazione
@@ -5395,7 +5349,6 @@ interdito
 interessamento
 interessante
 interesso
-interfacciamento
 interfacciare
 interface
 interferisce
@@ -5405,7 +5358,6 @@ interno
 intero
 interpretare
 interpretato
-interpretazione
 interpreto
 interrogare
 interrogato
@@ -5515,7 +5467,6 @@ irrigare
 irrigato
 irrigidito
 irrigo
-irrimediabilmente
 irrisori
 irritare
 irritato
@@ -5675,7 +5626,6 @@ leggerezza
 leggermente
 leggerne
 leggero
-leggete
 leggevo
 leggiadro
 leggibile
@@ -6130,7 +6080,6 @@ mettevano
 mettevo
 mettiamolo
 metticela
-mettici
 mettilo
 mezzanotte
 mezzo
@@ -6150,7 +6099,6 @@ mietero
 mietesse
 mietessimo
 mieteste
-mietete
 mietette
 mietettero
 mieteva
@@ -6251,7 +6199,6 @@ mollusco
 molo
 moltiplico
 molto
-momentaneamente
 momentaneo
 momento
 monaca
@@ -6263,7 +6210,6 @@ mondiale
 mondo
 monello
 moneta
-monodimensionale
 monokini
 monopolio
 monotona
@@ -6392,9 +6338,7 @@ nebbia
 nebbioso
 necesario
 necessari
-necessariamente
 necessario
-necessitai
 necessito
 negare
 negativo
@@ -6838,7 +6782,6 @@ paese
 paffuto
 pagabile
 pagamento
-pagana
 pagare
 pagato
 pagella
@@ -6936,7 +6879,6 @@ partecipo
 partenza
 particolare
 particolarita
-particolarmente
 partigiano
 partire
 partito
@@ -7124,7 +7066,6 @@ perizia
 perla
 permaloso
 permanente
-permanentemente
 permeato
 permesso
 permetta
@@ -7456,7 +7397,6 @@ precari
 precario
 precauzione
 precedente
-precedentemente
 precedenza
 precedere
 precedette
@@ -7464,7 +7404,6 @@ precedo
 preceduto
 precetto
 precettore
-precipitai
 precipito
 precipizi
 precipizio
@@ -7481,7 +7420,6 @@ precoce
 precompilare
 precompilato
 precompilatore
-precompilazione
 precorrere
 precorro
 precorso
@@ -7499,7 +7437,6 @@ prediletto
 prediligo
 predire
 predispone
-predisposizione
 predisposte
 predito
 predone
@@ -7756,7 +7693,6 @@ propino
 propizi
 propizia
 proporzio
-proporzionalmente
 proposito
 proposto
 propri
@@ -7941,7 +7877,6 @@ quinto
 quotando
 quotare
 quotato
-quotidianamente
 quotidiano
 rabarbaro
 rabbia
@@ -8061,7 +7996,6 @@ rappezzo
 rapporto
 rappreseno
 rappresentato
-rappresentazione
 rapsodia
 raramente
 raro
@@ -8202,9 +8136,7 @@ regolato
 regolatore
 regolo
 regresso
-reimportai
 reimporto
-reinizializzazione
 reintegrai
 reintegro
 relativamente
@@ -8295,7 +8227,6 @@ retro
 retroazione
 retrocedi
 retrocesso
-retrodatai
 retrodato
 retrogrado
 retroscena
@@ -8328,7 +8259,6 @@ riattivato
 riattivo
 riavere
 riavette
-riavo
 riavuto
 ribadano
 ribadire
@@ -8359,7 +8289,6 @@ ricambiare
 ricambiato
 ricambio
 ricamo
-ricapitolo
 ricattare
 ricattato
 ricatto
@@ -8460,7 +8389,6 @@ riflettuto
 riflusso
 riformare
 riformato
-riformo
 rifornire
 rifornito
 rifuggire
@@ -8593,7 +8521,6 @@ rione
 riordinare
 riordinato
 riorganizo
-riorganizzazione
 ripagare
 ripagato
 ripago
@@ -8611,7 +8538,6 @@ ripenso
 ripetano
 ripetere
 ripetette
-ripetitivamente
 ripetitivo
 ripetizione
 ripeto
@@ -8681,7 +8607,6 @@ riscrive
 riscuotere
 riscuoto
 riscuotuto
-riselezionabile
 riselezionare
 riservare
 riservato
@@ -8710,7 +8635,6 @@ risparmio
 rispettandone
 rispettare
 rispettato
-rispettivamente
 rispettivo
 rispetto
 rispettoso
@@ -9269,7 +9193,6 @@ sconsiglio
 sconsolato
 scontare
 scontato
-scontentai
 scontento
 sconto
 scontrino
@@ -9295,7 +9218,6 @@ scordare
 scordato
 scordo
 scorgere
-scorgo
 scorpione
 scorrere
 scorreria
@@ -9528,7 +9450,6 @@ seppure
 sequela
 sequenza
 sequenziale
-sequenzialmente
 sequestro
 sera
 serata
@@ -9727,7 +9648,6 @@ siedi
 siepe
 siero
 siesta
-siete
 sifone
 sigaretta
 sigaro
@@ -9769,7 +9689,6 @@ simultaneo
 sinagoga
 sincero
 sincope
-sincronizzazione
 sindacato
 sinfonia
 singhiozzo
@@ -9777,7 +9696,6 @@ singolo
 sinistro
 sino
 sinonimo
-sintatticamente
 sintattico
 sintesi
 sintetico
@@ -9967,7 +9885,6 @@ solitari
 solitario
 solito
 solitudine
-sollecitai
 sollecito
 solletico
 sollevando
@@ -10019,7 +9936,6 @@ sopperito
 soppesare
 soppesato
 soppeso
-soppiantai
 soppianto
 sopportare
 sopportato
@@ -10092,7 +10008,6 @@ sospirare
 sospirato
 sostantivo
 sostanza
-sostanzialmente
 sostare
 sostato
 sostegno
@@ -10115,7 +10030,6 @@ sottile
 sotto
 sottocapitolo
 sottochio
-sottoespressione
 sottolineare
 sottolineato
 sottomani
@@ -10239,7 +10153,6 @@ spello
 spendere
 spenga
 spengono
-spensi
 spento
 speranza
 sperare
@@ -10488,7 +10401,6 @@ stanato
 stancare
 stancato
 stanco
-standardizzazione
 standosene
 stangata
 stanno
@@ -10634,7 +10546,6 @@ storione
 stormano
 stormire
 stormito
-stormo
 stornare
 stornato
 stornello
@@ -10753,11 +10664,9 @@ stropiccio
 strozzino
 struggere
 struggo
-strumentai
 strumento
 strutto
 struttura
-strutturalmente
 strutturare
 strutturato
 struzzo
@@ -10810,7 +10719,6 @@ substrato
 succede
 succesiva
 successione
-successivamente
 successivo
 succinto
 succo
@@ -10826,16 +10734,12 @@ suddetto
 suddito
 suddivido
 suddiviso
-sudice
 sudiceria
 sudicio
 sudiciume
 sudiviso
-sudo
 sudore
-suesposto
 sufficiente
-sufficientemente
 suffisso
 suffragare
 suffragio
@@ -10859,7 +10763,6 @@ sunteggi
 sunteggio
 sunto
 suocero
-suoi
 suola
 suonare
 suonato
@@ -10868,9 +10771,7 @@ suora
 superabile
 superare
 superato
-superbi
-superbio
-superfici
+superbo
 superficie
 superfluo
 superiore
@@ -11089,7 +10990,6 @@ tatuaggi
 tatuaggio
 tatuare
 tatuato
-tatuo
 taverna
 taverniere
 tavolazza
@@ -11142,7 +11042,6 @@ tempia
 tempista
 tempo
 temporale
-temporaneamente
 temporaneo
 temporeggo
 temprare
@@ -11453,7 +11352,6 @@ tradisca
 tradito
 traditore
 tradizionale
-tradizionalmente
 tradizione
 tradotto
 traducendolo
@@ -11516,7 +11414,6 @@ tranello
 trangugi
 trangugio
 tranne
-tranquillamente
 tranquillo
 transitare
 transitato
@@ -11540,7 +11437,6 @@ trapelato
 trapelo
 trapezi
 trapezio
-trapiantai
 trapianto
 trappola
 trapunte
@@ -11564,9 +11460,7 @@ trasecolo
 trasferimento
 trasferire
 trasferito
-trasfette
 trasformare
-trasformo
 traslare
 traslato
 traslazione
@@ -11640,11 +11534,8 @@ trazione
 trebbi
 trebbiare
 trebbiato
-trebbino
-trebbio
 trecca
 treccia
-tregea
 tremare
 tremato
 tremendo
@@ -11671,7 +11562,6 @@ tribolo
 tribolurei
 tribuna
 tributabe
-tributai
 tributamo
 tributari
 tributario
@@ -11877,7 +11767,6 @@ ungere
 unghia
 unguento
 unico
-unidimensionale
 unidirezionale
 unificare
 unificato
@@ -11885,7 +11774,6 @@ unifico
 uniformare
 uniformato
 uniformita
-uniformo
 unione
 unire
 unito
@@ -12042,7 +11930,6 @@ vecchio
 vedendolo
 vedendomi
 vedere
-vedermici
 vederne
 vederselo
 vedetta
@@ -12293,7 +12180,6 @@ visto
 vistoso
 visualizzare
 visualizzato
-visualizzazione
 vita
 vitale
 vitalita
