@@ -189,6 +189,13 @@ const quotes = [
 	`Ti ricordi l’idea di tatuarci la % di dna che abbiamo in comune?|300;<br>Io ci penso ancora molto spesso`,
 	`Voglio cambiare le federe del nostro letto con te|800;<div class="small"><br>(e provarle subito dopo hehehe)</div>`,
 	`Quando andiamo a scegliere le piastrelle da mettere nel nostro bagno?`,
+	`Voglio guardare le nuvole con te`,
+	`Da quando sei nella mia vita sei l'unica cosa in grado di rendermi vereamente felice`,
+	`Quando andiamo a fare un giro in motoscafo?`,
+	`Chiunque dica che il mare è pieno di pesci chiaramente non si è mai innamorato quanto me`,
+	`Allora, quando vieni da me a finire di fare i pancake?<br>L'impasto dello scorso yr si sarà stufato di aspettare (e anche io)`,
+	`Sei la mia patatina tu`,
+	`Quanto sarà bello un giorno prenderci cura l'uno dell'altra hihih`,
 	`- fine della versione corrente-`,
 ];
 
