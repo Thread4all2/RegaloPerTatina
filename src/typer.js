@@ -57,6 +57,9 @@ class Typer extends EventTarget {
 				link.rel = "stylesheet";
 				link.href = "src/shootingStars.css";
 				document.head.appendChild(link);
+			},
+			timesOpenedMessagesCounter: () => { // can't be inlined in the quote because of dynamic values that need to be fetched after full page load (timesOpened)
+				quoteTyper.addTask("type", `Ora sei a ${timesOpened}${timesOpened > 1000 ? "|400; (wow hihih)" : ""}, quindi dovresti ${timesOpened / 100 | 0 > 10 ? "averli visti tutti" : `averne visti ${timesOpened / 100 | 0}`}`);
 			}
 		};
 	}

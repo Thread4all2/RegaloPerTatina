@@ -197,6 +197,11 @@ const quotes = [
 	`Sei la mia patatina tu`,
 	`Quanto sarà bello un giorno prenderci cura l'uno dell'altra hihih`,
 	`Non so se lo sai, ma pianti di continuo stupendi fiori nei miei pensieri`,
+	`@100;Sei|500;<br>il|500;<br>mio|500;<br>tutto`,
+	`Quando ti ho conosciuta ho visto subito qualcosa in te|800;<br><br>non sapevo bene cosa, ma avevo intuito fin dal primo momento che fossi speciale|800;<div class="small"><br>hihihih</div>`,
+	`Tutte le cose migliori nella vita sono costosissime, illegali, impermanenti, o si chiamano Giada`,
+	` <a href="https://xkcd.com/162/">Mi fai girare</a>`,
+	`Sai che ho programmato un messaggio speciale da mostrare ogni 100 aperture della pagina?<br>$timesOpenedMessagesCounter;`,
 	`- fine della versione corrente-`,
 ];
 
