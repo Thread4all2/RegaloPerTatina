@@ -196,6 +196,7 @@ const quotes = [
 	`Allora, quando vieni da me a finire di fare i pancake?<br>L'impasto dello scorso yr si sarà stufato di aspettare (e anche io)`,
 	`Sei la mia patatina tu`,
 	`Quanto sarà bello un giorno prenderci cura l'uno dell'altra hihih`,
+	`Non so se lo sai, ma pianti di continuo stupendi fiori nei miei pensieri`,
 	`- fine della versione corrente-`,
 ];
 
