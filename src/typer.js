@@ -58,6 +58,29 @@ class Typer extends EventTarget {
 				link.href = "src/shootingStars.css";
 				document.head.appendChild(link);
 			},
+			updateYoureMyEverything: () => {
+
+				if (daysSince === 198) {
+
+					const stepSize = +window.sessionStorage.getItem("youreMyEverythingStepSize") || ((Math.random() * 3 + 1) | 0);
+					window.sessionStorage.setItem("youreMyEverythingStepSize", stepSize);
+
+					const choiceIndex = ((+window.sessionStorage.getItem("youreMyEverythingChoiceIndex") || 0) + stepSize) % 7;
+					window.sessionStorage.setItem("youreMyEverythingChoiceIndex", choiceIndex);
+
+					const choice = ["tutto", "mondo", "futuro", "primo pensiero", "desiderio", "amore", "cuoricino"][choiceIndex];
+
+					console.log(`youreMyEverything stepSize: ${stepSize}, choiceIndex: ${choiceIndex}, choice: ${choice}`);
+
+
+					quoteTyper.addTask("type", choice, 100);
+					quoteTyper.addTask("wait", 2000);
+					quoteTyper.addTask("erase", choice.length, 50);
+					quoteTyper.addTask("wait", 600);
+
+					quoteTyper.addTask("call", "updateYoureMyEverything"); // call the function again when the queue is done
+				}
+			},
 			timesOpenedMessagesCounter: () => { // can't be inlined in the quote because of dynamic values that need to be fetched after full page load (timesOpened)
 				quoteTyper.addTask("type", `Ora sei a ${timesOpened}${timesOpened > 1000 ? "|400; (wow hihih)" : ""}, quindi dovresti ${timesOpened / 100 | 0 > 10 ? "averli visti tutti" : `averne visti ${timesOpened / 100 | 0}`}`);
 			}
@@ -107,6 +130,13 @@ class Typer extends EventTarget {
 					break;
 				case "wait":
 					await this.wait(+value || 1000);
+					break;
+				case "call":
+					if (this.helperFuncs[value]) {
+						await this.helperFuncs[value]();
+					} else {
+						console.error("Unknown helper function : ", value);
+					}
 					break;
 				default:
 					console.error("Unknown instruction : ", instruction);
