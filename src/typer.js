@@ -7,7 +7,7 @@ class Typer extends EventTarget {
 		this.taskQueue = [];
 		this.isProcessing = false;
 		this.interrupt = false;
-		this.helperFuncs = { // custom helper functions, called with $funName; in the type() method
+		this.helperFuncs = { // custom helper functions, called with $funName; in the type() method, or with addTask("call", "funName")
 			updateHeartbeatCounter: () => {
 				if (document.getElementById("heartbeats")) {
 					updaterInterval = setInterval(() => {
@@ -16,7 +16,6 @@ class Typer extends EventTarget {
 				}
 			},
 			shootingStars: () => {
-				// put html in the body element
 				const shootingStars = document.createElement("div");
 				shootingStars.innerHTML = `<div class="stars">
   <div class="star"></div>
@@ -82,7 +81,7 @@ class Typer extends EventTarget {
 				}
 			},
 			timesOpenedMessagesCounter: () => { // can't be inlined in the quote because of dynamic values that need to be fetched after full page load (timesOpened)
-				quoteTyper.addTask("type", `Ora sei a ${timesOpened}${timesOpened > 1000 ? "|400; (wow hihih)" : ""}, quindi dovresti ${timesOpened / 100 | 0 > 10 ? "averli visti tutti" : `averne visti ${timesOpened / 100 | 0}`}`);
+				quoteTyper.addTask("type", `Ora sei a ${timesOpened}${timesOpened > 1000 ? "|400; (wow hihih)" : ""}, quindi dovresti ${(timesOpened / 100 | 0) > 10 ? "averli visti tutti" : `averne visti ${timesOpened / 100 | 0}`}`);
 			}
 		};
 	}
