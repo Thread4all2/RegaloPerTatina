@@ -81,7 +81,7 @@ class Typer extends EventTarget {
 				}
 			},
 			timesOpenedMessagesCounter: () => { // can't be inlined in the quote because of dynamic values that need to be fetched after full page load (timesOpened)
-				quoteTyper.addTask("type", `Ora sei a ${timesOpened}${timesOpened > 1000 ? "|400; (wow hihih)" : ""}, quindi dovresti ${timesOpened > 1000 ? "averli visti tutti" : `averne visti ${timesOpened / 100 | 0}`}`);
+				quoteTyper.addTask("type", `Ora sei a ${timesOpened}${timesOpened > 1000 ? "|400; (wow hihih)" : ""}, quindi dovresti ${(timesOpened > 1000) ? "averli visti tutti" : `averne vist${timesOpened < 200 ? "o" : "i"} ${timesOpened / 100 | 0}`}`);
 			}
 		};
 	}
