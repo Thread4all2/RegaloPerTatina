@@ -208,6 +208,13 @@ const quotes = [
 	`Sei la mia frequenza di risonanza`,
 	`Quando mi aiuti a<br>fare un po' di migliorie<br>estetiche a questa<br>pagina?<br>Dopotutto sono un<br>programmatore, non<br>un designer, e quella<br>col senso del bello<br>sei tu`,
 	`Ehi,<br>nel caso non te ne fossi ancora accorta: mi sono innamorato di te`,
+	`Sono così assuefatto al pensiero di te che nei rari momenti in cui non sei nella mia testa mi sento angosciato`,
+	`Ho bisogno di te`,
+	``,
+	``,
+	``,
+	``,
+	``,
 	`- fine della versione corrente-`,
 ];
 
@@ -619,6 +626,7 @@ function updateDayChangeButtonsVisibility() {
 	}
 	else {
 		nextDay_.style.display = "block";
+
 		if (!areBulksHidden) {
 			nextDayBulk_.style.display = "block";
 		}
@@ -693,7 +701,6 @@ nextDayBulk_.onclick = () => {
 	const daysInCurrMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][new Date(new Date().getTime() + 86400000 * daysOffset).getMonth()]; // days in the previous month
 
 	const diff = (new Date().getTime() - startDate.getTime()) / 86_400_000 | 0; // days since start date
-	console.log(diff);
 
 
 	if (diff - daysSince > daysInCurrMonth) {
