@@ -214,6 +214,7 @@ const quotes = [
 	`Quando ti fai coprire di bacini dalla testa ai piedi?`,
 	`Le migliori dormite della mia vita saranno quelle con te tra le braccia`,
 	`Amarti è la cosa più difficile ed al contempo facile che abbia mai fatto`,
+	`Potrei ammirarti per sempre e non stancarmi mai`,
 	``,
 	`- fine della versione corrente-`,
 ];
