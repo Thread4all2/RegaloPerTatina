@@ -215,7 +215,9 @@ const quotes = [
 	`Le migliori dormite della mia vita saranno quelle con te tra le braccia`,
 	`Amarti è la cosa più difficile ed al contempo facile che abbia mai fatto`,
 	`Potrei ammirarti per sempre e non stancarmi mai`,
-	``,
+	`La <span style="text-shadow: #e2b714 0 2px 20px">luce</span> che c'è nei tuoi occhi ha un'intensità che non ho mai visto in niente e nessun altro`,
+	`Stars above us<br>Stars below us<br>Stars within us<br>and I<br>don't want you<br><a href="https://open.spotify.com/track/6HMFOl9HIO4qB19VAshLKE?si=e573c6edd5a74add">to ever disappear</a>`,
+	`Time will never<br>be forever<br>but I will always<br>be there<br>from sunrise<br><a href="https://open.spotify.com/track/6HMFOl9HIO4qB19VAshLKE?si=e573c6edd5a74add">till light has turned to gray</a>`,
 	`- fine della versione corrente-`,
 ];
 
