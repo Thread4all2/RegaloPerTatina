@@ -216,8 +216,10 @@ const quotes = [
 	`Amarti è la cosa più difficile ed al contempo facile che abbia mai fatto`,
 	`Potrei ammirarti per sempre e non stancarmi mai`,
 	`La <span style="text-shadow: #e2b714 0 2px 20px">luce</span> che c'è nei tuoi occhi ha un'intensità che non ho mai visto in niente e nessun altro`,
-	`Stars above us<br>Stars below us<br>Stars within us<br>and I<br>don't want you<br><a href="https://open.spotify.com/track/6HMFOl9HIO4qB19VAshLKE?si=e573c6edd5a74add">to ever disappear</a>`,
-	`Time will never<br>be forever<br>but I will always<br>be there<br>from sunrise<br><a href="https://open.spotify.com/track/6HMFOl9HIO4qB19VAshLKE?si=e573c6edd5a74add">till light has turned to gray</a>`,
+	`@100;Stars above us|200;<br>Stars below us|200;<br>Stars within @300;us@100;|200;<br>and I|800;@120;<br>don't want you|150;<br><a href="https://open.spotify.com/track/6HMFOl9HIO4qB19VAshLKE?si=e573c6edd5a74add">to ever disappear</a>`,
+	`@100;Time will never|200;<br>be forever|200;<br>but I will always|250;<br>be there|400;<br>from sunrise<br><a href="https://open.spotify.com/track/6HMFOl9HIO4qB19VAshLKE?si=e573c6edd5a74add">till light has turned to gray</a>`,
+	`@80;Raccontami tutte le cose terribili che hai fatto, e lascia che ti ami lo stesso<div class="small"><br>(questa l'ho rubata a Poe)</div>`,
+	`<div style="font-size:0.7em; line-height: 1.8">With you I don't close my eyes,<br>Since slumber I gladly despise;<br>Why waste time in dreams<br>When your presence, it seems,<br>Is heaven there to be apprised?</div>`,
 	`- fine della versione corrente-`,
 ];
 
