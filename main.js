@@ -220,6 +220,7 @@ const quotes = [
 	`@100;Time will never|200;<br>be forever|200;<br>but I will always|250;<br>be there|400;<br>from sunrise<br><a href="https://open.spotify.com/track/6HMFOl9HIO4qB19VAshLKE?si=e573c6edd5a74add">till light has turned to gray</a>`,
 	`@80;Raccontami tutte le cose terribili che hai fatto, e lascia che ti ami lo stesso<div class="small"><br>(questa l'ho rubata a Poe)</div>`,
 	`<div style="font-size:0.7em; line-height: 1.8">With you I don't close my eyes,<br>Since slumber I gladly despise;<br>Why waste time in dreams<br>When your presence, it seems,<br>Is heaven there to be apprised?</div>`,
+	`Mi immagino così spesso la nostra vita insieme hihihih`,
 	`- fine della versione corrente-`,
 ];
 
