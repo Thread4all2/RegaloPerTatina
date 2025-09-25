@@ -222,7 +222,9 @@ const quotes = [
 	`<div style="font-size:0.7em; line-height: 1.8">With you I don't close my eyes,<br>Since slumber I gladly despise;<br>Why waste time in dreams<br>When your presence, it seems,<br>Is heaven there to be apprised?</div>`,
 	`Mi immagino così spesso la nostra vita insieme hihihih`,
 	`Sei l'unica cosa a cui riesco a pensare lucidamente appena svegliato`,
-	`ciao conigliettaaa`,
+	`Ciao conigliettaaa`,
+	`Quando facciamo un calco delle nostre mani intrecciate?`,
+	`Sei tutte le stelle$allStars;`,
 	`- fine della versione corrente-`,
 ];
 

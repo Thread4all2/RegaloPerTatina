@@ -82,6 +82,40 @@ class Typer extends EventTarget {
 			},
 			timesOpenedMessagesCounter: () => { // can't be inlined in the quote because of dynamic values that need to be fetched after full page load (timesOpened)
 				quoteTyper.addTask("type", `Ora sei a ${timesOpened}${timesOpened > 1000 ? "|400; (wow hihih)" : ""}, quindi dovresti ${(timesOpened > 1000) ? "averli visti tutti" : `averne vist${timesOpened < 200 ? "o" : "i"} ${timesOpened / 100 | 0}`}`);
+			},
+			allStars: () => {
+
+				document.body.style.backgroundColor = "black";
+				document.body.style.color = "white";
+				const starsContainer = document.createElement("div");
+				starsContainer.className = "stars-container";
+				starsContainer.style.position = "absolute";
+				starsContainer.style.top = "0";
+				starsContainer.style.left = "0";
+				starsContainer.style.width = "100%";
+				starsContainer.style.height = "100%";
+
+				for (let i = 0; i < 100; i++) {
+					const star = document.createElement("div");
+					star.className = "star";
+					star.innerHTML = "&#9733;";
+					star.style.position = "absolute";
+
+					let top = Math.random() * 100;
+					let left = Math.random() * 100;
+
+
+
+					star.style.top = `${top}%`;
+					star.style.left = `${left}%`;
+					star.style.width = "1em";
+					star.style.height = "1em";
+					star.style.color = Math.random() < 0.5 ? "white" : "yellow";
+					starsContainer.appendChild(star);
+
+				}
+				document.body.appendChild(starsContainer);
+
 			}
 		};
 	}
