@@ -224,6 +224,8 @@ const quotes = [
 	`Sei l'unica cosa a cui riesco a pensare lucidamente appena svegliato`,
 	`Ciao conigliettaaa`,
 	`Quando facciamo un calco delle nostre mani intrecciate?`,
+	`Vieni qui da me infiocchettata come regalo?`,
+	`La tua curva più bella è quella del tuo sorriso`,
 	`Sei tutte le stelle$allStars;`,
 	`- fine della versione corrente-`,
 ];
