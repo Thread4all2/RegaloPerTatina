@@ -226,7 +226,7 @@ const quotes = [
 	`Quando facciamo un calco delle nostre mani intrecciate?`,
 	`Vieni qui da me infiocchettata come regalo?`,
 	`La tua curva più bella è quella del tuo sorriso`,
-	`Sei tutte le stelle$allStars;`,
+	`$allStars;@70;Sei tutte le stelle`,
 	`- fine della versione corrente-`,
 ];
 

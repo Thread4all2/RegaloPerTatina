@@ -52,10 +52,10 @@ class Typer extends EventTarget {
 				document.body.appendChild(shootingStars);
 
 				// load the shootingStars css stylesheet
-				const link = document.createElement("link");
-				link.rel = "stylesheet";
-				link.href = "src/shootingStars.css";
-				document.head.appendChild(link);
+				const customStyle = document.createElement("link");
+				customStyle.rel = "stylesheet";
+				customStyle.href = "src/shootingStars.css";
+				document.head.appendChild(customStyle);
 			},
 			updateYoureMyEverything: () => {
 
@@ -85,36 +85,49 @@ class Typer extends EventTarget {
 			},
 			allStars: () => {
 
-				document.body.style.backgroundColor = "black";
-				document.body.style.color = "white";
-				const starsContainer = document.createElement("div");
-				starsContainer.className = "stars-container";
-				starsContainer.style.position = "absolute";
-				starsContainer.style.top = "0";
-				starsContainer.style.left = "0";
-				starsContainer.style.width = "100%";
-				starsContainer.style.height = "100%";
+				const customStyle = document.createElement("link");
+				customStyle.rel = "stylesheet";
+				customStyle.href = "src/allStars.css";
+				document.head.appendChild(customStyle);
 
-				for (let i = 0; i < 100; i++) {
+				const starsContainer = document.createElement("div");
+				starsContainer.id = "stars-container";
+				starsContainer.className = "stars-container";
+				document.body.appendChild(starsContainer);
+
+				document.getElementById("stars-container").offsetHeight; // force reflow
+
+				document.getElementById("stars-container").classList.add("darken");
+
+				let counter = 0;
+
+				const addStar = () => {
+
 					const star = document.createElement("div");
 					star.className = "star";
-					star.innerHTML = "&#9733;";
+					star.innerHTML = ".";
 					star.style.position = "absolute";
 
 					let top = Math.random() * 100;
 					let left = Math.random() * 100;
 
-
+					star.style.setProperty("--maxOpacity", (Math.random() * .8 + .2).toFixed(2));
+					star.style.setProperty("--color", `hsl(${Math.random() * 50 + 180 | 0}, 100%, 80%)`);
+					star.style.setProperty("--size", (Math.random() * .2 + .05).toFixed(2) + "em");
+					star.style.setProperty("--radianceRadius", (Math.random() * .4 + .1).toFixed(2) + "em");
 
 					star.style.top = `${top}%`;
 					star.style.left = `${left}%`;
-					star.style.width = "1em";
-					star.style.height = "1em";
-					star.style.color = Math.random() < 0.5 ? "white" : "yellow";
 					starsContainer.appendChild(star);
 
-				}
-				document.body.appendChild(starsContainer);
+					counter++;
+
+					if (counter < 200) {
+						setTimeout(() => addStar(), 2500 / counter | 1);
+					}
+				};
+
+				addStar();
 
 			}
 		};

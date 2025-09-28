@@ -1,0 +1,32 @@
+.star {
+	font-size: var(--size);
+	text-shadow: 0 0 var(--radianceRadius) var(--color);
+	color: var(--color);
+	opacity: 0;
+	animation: fadeIn 5s ease-in forwards;
+}
+
+.stars-container {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 4;
+	background: #00000000;
+	transition: background 16s ease-in-out;
+}
+
+.stars-container.darken {
+	background: #01030edd;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: var(--maxOpacity);
+	}
+}
