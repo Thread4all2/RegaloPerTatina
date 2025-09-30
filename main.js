@@ -228,6 +228,8 @@ const quotes = [
 	`La tua curva più bella è quella del tuo sorriso`,
 	`$allStars;@70;Sei tutte le stelle`,
 	`@80;Like <a href="https://open.spotify.com/track/5Y6aGweJC7l1N5CVfHmf3E">lullabies</a> you are|250;<br>forever in my mind|250;<br>I see you in all|250;<br>the pieces in my life`,
+	`Sei ciò che mi spinge a migliorarmi`,
+	``,
 	`- fine della versione corrente-`,
 ];
 
