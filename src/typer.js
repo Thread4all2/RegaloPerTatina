@@ -365,7 +365,16 @@ class Typer extends EventTarget {
 		this.isProcessing = true;
 
 		return await new Promise((resolve) => {
+
+			let interruptCatcher = setInterval(() => {
+				if (this.interrupt) {
+					clearInterval(interruptCatcher);
+					resolve();
+				}
+			}, 50);
+
 			setTimeout(() => {
+				clearInterval(interruptCatcher);
 				resolve();
 			}, delay);
 		});
