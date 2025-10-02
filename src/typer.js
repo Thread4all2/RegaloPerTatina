@@ -16,8 +16,11 @@ class Typer extends EventTarget {
 				}
 			},
 			shootingStars: () => {
+
+				stopSpecialQuoteRendering = false;
+
 				const shootingStars = document.createElement("div");
-				shootingStars.innerHTML = `<div class="stars">
+				shootingStars.innerHTML = `<div class="stars specialQuoteContent">
   <div class="star"></div>
   <div class="star"></div>
   <div class="star"></div>
@@ -55,6 +58,7 @@ class Typer extends EventTarget {
 				const customStyle = document.createElement("link");
 				customStyle.rel = "stylesheet";
 				customStyle.href = "src/shootingStars.css";
+				customStyle.className = "specialQuoteContent";
 				document.head.appendChild(customStyle);
 			},
 			updateYoureMyEverything: () => {
@@ -69,7 +73,7 @@ class Typer extends EventTarget {
 
 					const choice = ["tutto", "mondo", "futuro", "primo pensiero", "desiderio", "amore", "cuoricino"][choiceIndex];
 
-					console.log(`youreMyEverything stepSize: ${stepSize}, choiceIndex: ${choiceIndex}, choice: ${choice}`);
+					// console.log(`youreMyEverything stepSize: ${stepSize}, choiceIndex: ${choiceIndex}, choice: ${choice}`);
 
 
 					quoteTyper.addTask("type", choice, 100);
@@ -85,14 +89,17 @@ class Typer extends EventTarget {
 			},
 			allStars: () => {
 
+				stopSpecialQuoteRendering = false;
+
 				const customStyle = document.createElement("link");
 				customStyle.rel = "stylesheet";
 				customStyle.href = "src/allStars.css";
+				customStyle.className = "specialQuoteContent";
 				document.head.appendChild(customStyle);
 
 				const starsContainer = document.createElement("div");
 				starsContainer.id = "stars-container";
-				starsContainer.className = "stars-container";
+				starsContainer.className = "specialQuoteContent";
 				document.body.appendChild(starsContainer);
 
 				document.getElementById("stars-container").offsetHeight; // force reflow
@@ -122,7 +129,7 @@ class Typer extends EventTarget {
 
 					counter++;
 
-					if (counter < 200) {
+					if (!stopSpecialQuoteRendering && counter < 200) {
 						setTimeout(() => addStar(), 2500 / counter | 1);
 					}
 				};

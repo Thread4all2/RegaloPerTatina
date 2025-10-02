@@ -6,7 +6,7 @@
 	animation: fadeIn 5s ease-in forwards;
 }
 
-.stars-container {
+#stars-container {
 	pointer-events: none;
 	position: absolute;
 	top: 0;
@@ -18,7 +18,7 @@
 	transition: background 16s ease-in-out;
 }
 
-.stars-container.darken {
+#stars-container.darken {
 	background: #01030edd;
 }
 

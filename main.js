@@ -575,13 +575,7 @@ function setQuote() {
 		}
 	}
 	else if (daysSince < 365) {
-
-		// update the quote at midnight (wait at least 30s to avoid erasing while the quote is still being typed, as it would be annoying)
-		const now = new Date();
-		quoteUpdateTimer = setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
-
 		quoteTyper.addTask("type", quotes[daysSince]);
-
 	}
 	else if (daysSince === 365 && localStorage.getItem("endMessageShown") === null) {
 		localStorage.setItem("endMessageShown", "true");
@@ -591,16 +585,25 @@ function setQuote() {
 		quoteTyper.addTask("type", quotes[(Math.random() * quotes.length) | 0]);
 	}
 
+	// update the quote at midnight (wait at least 30s to avoid erasing while the quote is still being typed, as it would be annoying)
+	const now = new Date();
+	quoteUpdateTimer = setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
+
 }
 
 function updateQuote(midnightMessage = 0) {
 
 	clearInterval(updaterInterval);
 
-	// add cleanup code here
-
 	if (quoteTyper.isProcessing) {
 		quoteTyper.haltProcessing();
+	}
+
+	stopSpecialQuoteRendering = true; // send stop signal to special quote tasks
+
+	// remove anything put on the page by a special quote
+	for (let i of document.querySelectorAll(".specialQuoteContent")) {
+		i.remove();
 	}
 
 	quoteTyper.addTask("erase");
@@ -624,6 +627,8 @@ function updateQuote(midnightMessage = 0) {
 
 let dayChanges = 0;
 let areBulksHidden = true;
+let stopSpecialQuoteRendering = false; // used to send a stop signal to continuously running tasks executed by special quotes
+
 
 function updateDayChangeButtonsVisibility() {
 
