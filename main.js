@@ -231,6 +231,11 @@ const quotes = [
 	`Sei ciò che mi spinge a migliorarmi`,
 	`Sei il mio punto debole`,
 	`Sei la mia Stella Polare,|300;<br>il mio punto fisso|300;<br>il mio assioma`,
+	`Ancora non mi capacito del fatto che tu sia mia|2000;<br><br><div class="small">però ne sono così felice hihih</div>`,
+	`Quando sono con te non sento il peso del mondo`,
+	`Sei il regalo più bello che l'universo mi abbia mai fatto`,
+	`I didn't know love<br>'til I saw you there|300;<br><br>as the sun beamed<br>down on your wavy hair|300;<br><br>now my heart<br>beats fast,<br><a href="https://open.spotify.com/track/6KNVrOaj6LVgWbPz6NxvxY">I couldn't prepare</a>`,
+	`Mi è così facile sviluppare un attaccamento per qualunque cosa mi ricordi di te`,
 	`- fine della versione corrente-`,
 ];
 
