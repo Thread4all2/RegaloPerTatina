@@ -3,7 +3,7 @@
 	text-shadow: 0 0 var(--radianceRadius) var(--color);
 	color: var(--color);
 	opacity: 0;
-	animation: fadeIn 5s ease-in forwards;
+	animation: starFadeIn 5s ease-in forwards;
 }
 
 #stars-container {
@@ -22,7 +22,7 @@
 	background: #01030edd;
 }
 
-@keyframes fadeIn {
+@keyframes starFadeIn {
 	from {
 		opacity: 0;
 	}
