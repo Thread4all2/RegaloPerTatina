@@ -236,7 +236,7 @@ const quotes = [
 	`Sei il regalo più bello che l'universo mi abbia mai fatto`,
 	`I didn't know love<br>'til I saw you there|300;<br><br>as the sun beamed<br>down on your wavy hair|300;<br><br>now my heart<br>beats fast,<br><a href="https://open.spotify.com/track/6KNVrOaj6LVgWbPz6NxvxY">I couldn't prepare</a>`,
 	`Mi è così facile sviluppare un attaccamento per qualunque cosa mi ricordi di te`,
-	`Come un magnete<br>m'attiri`,
+	`Come un magnete|900;<br>m'attiri`,
 	`Sei il mio piatto preferito`,
 	`Ma ciao bimba mia grande<br>Auguriiiiiiiiii<br><br><div class="small">prova ad impostare la data del telefono ad un bel giorno di 19 anni fa</div>`,
 	``,
