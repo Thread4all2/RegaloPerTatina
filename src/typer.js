@@ -136,6 +136,9 @@ class Typer extends EventTarget {
 
 				addStar();
 
+			},
+			setAskToGoToBd: () => {
+				localStorage.setItem("askedToGoToBirthday", "1");
 			}
 		};
 	}
