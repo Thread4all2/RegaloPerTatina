@@ -573,7 +573,7 @@ function setQuote() {
 		const date = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
 		switch (date) {
 			case "2006-10-11":
-				quoteTyper.addTask("type", "Oggi nasce l'amore della mia vita, ed io sono ancora troppo pargolo per realizzarlo");
+				quoteTyper.addTask("type", "Oggi nasce l'amore della mia vita, ed io sono ancora troppo pargolo per realizzare quanta felicità potrà portarmi|400; hihihih");
 				localStorage.removeItem("askedToGoToBirthday");
 				break;
 
