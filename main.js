@@ -239,10 +239,10 @@ const quotes = [
 	`Come un magnete|900;<br>m'attiri`,
 	`Sei il mio piatto preferito`,
 	`$setAskToGoToBd;Ma ciao bimba grande|400;<br><br>@80;AUGURIIIIIIIIII|4000;@-1;<br><br><div class="small">prova ad impostare la data del telefono ad un bel giorno di 19 anni fa</div>`,
-	``,
-	``,
-	``,
-	``,
+	`Sei la mia ciliegina`,
+	`Ti penso anche quando non dovrei sai`,
+	`È così brutto non poter parlare di te a tutto e tutti`,
+	`Ho voglia di comporre qualcosa per te`,
 	`- fine della versione corrente-`,
 ];
 
