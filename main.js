@@ -243,6 +243,8 @@ const quotes = [
 	`Ti penso anche quando non dovrei sai`,
 	`È così brutto non poter parlare di te a tutto e tutti`,
 	`Ho voglia di comporre qualcosa per te`,
+	`Voglio addormentarmi immerso nel tuo profumo`,
+	`Quando mi fai fotografare ed incorniciare occhioni?`,
 	`- fine della versione corrente-`,
 ];
 
