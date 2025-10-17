@@ -245,6 +245,7 @@ const quotes = [
 	`Ho voglia di comporre qualcosa per te`,
 	`Voglio addormentarmi immerso nel tuo profumo`,
 	`Quando mi fai fotografare ed incorniciare occhioni?`,
+	`Sei la mia migliore amica`,
 	`- fine della versione corrente-`,
 ];
 
