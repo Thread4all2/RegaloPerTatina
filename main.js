@@ -246,7 +246,10 @@ const quotes = [
 	`Voglio addormentarmi immerso nel tuo profumo`,
 	`Quando mi fai fotografare ed incorniciare occhioni?`,
 	`Sei la mia migliore amica`,
-	`- fine della versione corrente-`,
+	`Sei la mia vita sai`,
+	`Non so se te ne sei accorta, ma quando ti guardo ho gli occhi a cuoricino`,
+	`Quando ripenso a tutta la strada che hai fatto con me, mi sento così fiero`,
+	`- fine -`,
 ];
 
 
