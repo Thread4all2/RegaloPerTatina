@@ -249,6 +249,7 @@ const quotes = [
 	`Sei la mia vita sai`,
 	`Non so se te ne sei accorta, ma quando ti guardo ho gli occhi a cuoricino`,
 	`Quando ripenso a tutta la strada che hai fatto con me, mi sento così fiero`,
+	`Vieni prima di tutto tu`,
 	`- fine -`,
 ];
 
