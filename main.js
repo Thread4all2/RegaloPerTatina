@@ -251,10 +251,10 @@ const quotes = [
 	`Quando ripenso a tutta la strada che hai fatto con me, mi sento così fiero`,
 	`Vieni prima di tutto tu`,
 	`Casa mia è dove sei tu`,
-	``,
-	``,
-	``,
-	``,
+	`@80;And I feel life for the very first time|600;<br>Love in my arms and the <a href="https://open.spotify.com/track/5pLpkaIRobcvPnUmclNv6o">sun in my eyes</a>`,
+	`Sei l'unico desiderio che esprimo nelle situazioni in cui è consuetudine farlo`,
+	`Quando facciamo il gioco della ciglia per vedere chi dei 2 dovrà passare il resto della vita con l'altro?`,
+	`Andiamo a bere qualcosa stasera?`,
 	`- fine -`,
 ];
 
