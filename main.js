@@ -255,7 +255,7 @@ const quotes = [
 	`Sei l'unico desiderio che esprimo nelle situazioni in cui è consuetudine farlo`,
 	`Quando facciamo il gioco della ciglia per vedere chi dei 2 dovrà passare il resto della vita con l'altro?`,
 	`Andiamo a bere qualcosa stasera?`,
-	`Se c'è una cosa<br>che odio di piuuù|400;<br>È che non posso vederti<br><a href="https://open.spotify.com/track/6KFxSSyI4KR3bqflXMCnnu">tutti i giorni</a>`,
+	`Se c'è una cosa<br>che odio di pi@150;uuù|400;<br>@-1;È che non posso vederti|400;<br><a href="https://open.spotify.com/track/6KFxSSyI4KR3bqflXMCnnu">tutti i giorn@150;iii</a>`,
 	`Sei dove finisce l'arcobaleno`,
 	`Il caldo tepore d'un tuo abbraccio è tutto ciò che bramo`,
 	`Got me lookin'<br>got me lookin'<br>so <a href="https://open.spotify.com/track/5iJS04ZXjMkQZ5nS0PsIeY">crazy in love</a>`,
