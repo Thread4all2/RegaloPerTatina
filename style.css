@@ -481,6 +481,21 @@ i {
 	}
 }
 
+@keyframes float {
+	0% {
+		text-shadow: #00000033 1px 3px 4px;
+		transform: translateY(-0.05em);
+	}
+	50% {
+		text-shadow: #00000026 1px calc(0.05em + 3px) 4px;
+		transform: translateY(-0.1em);
+	}
+	100% {
+		text-shadow: #00000033 1px 3px 4px;
+		transform: translateY(-0.05em);
+	}
+}
+
 @keyframes zoomIn {
 	0% {
 		transform: scale(0);

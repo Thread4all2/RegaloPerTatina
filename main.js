@@ -255,6 +255,13 @@ const quotes = [
 	`Sei l'unico desiderio che esprimo nelle situazioni in cui è consuetudine farlo`,
 	`Quando facciamo il gioco della ciglia per vedere chi dei 2 dovrà passare il resto della vita con l'altro?`,
 	`Andiamo a bere qualcosa stasera?`,
+	`Se c'è una cosa<br>che odio di piuuù|400;<br>È che non posso vederti<br><a href="https://open.spotify.com/track/6KFxSSyI4KR3bqflXMCnnu">tutti i giorni</a>`,
+	`Sei dove finisce l'arcobaleno`,
+	`Il caldo tepore d'un tuo abbraccio è tutto ciò che bramo`,
+	`Got me lookin'<br>got me lookin'<br>so <a href="https://open.spotify.com/track/5iJS04ZXjMkQZ5nS0PsIeY">crazy in love</a>`,
+	`Sai perché non ci si può definire? Perché le parole descrivono bene concetti generali, tipo <span style="text-shadow: #d63a25bf 0 0 4px, #b98d2779 0 0 6px, #fbeb0735 0 0 12px; color: #580c32ff">caldo</span>, <span style="color: #f7f7e4ff">bianco</span>, <span style="color: #17031c91; display: inline-block; animation: float 6s ease-in-out infinite">leggero</span>; non sono fatte per le cose uniche, e noi lo siamo <3`,
+	`Mi hanno sempre affascinato i rompicapo.|800;<br>|300;<br>|300;Forse è per questo che mi piaci tanto`,
+	`Mio locus amoenus tu`,
 	`- fine -`,
 ];
 
