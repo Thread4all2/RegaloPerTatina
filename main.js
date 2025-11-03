@@ -263,6 +263,7 @@ const quotes = [
 	`Mi hanno sempre affascinato i rompicapo.|800;<br>|300;<br>|300;Forse è per questo che mi piaci tanto`,
 	`Mio locus amoenus tu`,
 	`Ho voglia di spiaggia, patatine al rosmarino, Moretti da 66, e te`,
+	`Mi manchi`,
 	``,
 	`- fine -`,
 ];
