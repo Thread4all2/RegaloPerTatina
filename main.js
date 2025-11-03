@@ -262,6 +262,8 @@ const quotes = [
 	`Sai perché non ci si può definire? Perché le parole descrivono bene concetti generali, tipo <span style="text-shadow: #d63a25bf 0 0 4px, #b98d2779 0 0 6px, #fbeb0735 0 0 12px; color: #580c32ff">caldo</span>, <span style="color: #f7f7e4ff">bianco</span>, <span style="color: #17031c91; display: inline-block; animation: float 6s ease-in-out infinite">leggero</span>; non sono fatte per le cose uniche, e noi lo siamo <3`,
 	`Mi hanno sempre affascinato i rompicapo.|800;<br>|300;<br>|300;Forse è per questo che mi piaci tanto`,
 	`Mio locus amoenus tu`,
+	`Ho voglia di spiaggia, patatine al rosmarino, Moretti da 66, e te`,
+	``,
 	`- fine -`,
 ];
 
