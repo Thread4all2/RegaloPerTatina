@@ -264,7 +264,7 @@ const quotes = [
 	`Mio locus amoenus tu`,
 	`Ho voglia di spiaggia, patatine al rosmarino, Moretti da 66, e te`,
 	`Mi manchi`,
-	``,
+	`Sei il libro più bello che abbia mai iniziato a leggere`,
 	`- fine -`,
 ];
 
