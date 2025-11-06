@@ -265,6 +265,7 @@ const quotes = [
 	`Ho voglia di spiaggia, patatine al rosmarino, Moretti da 66, e te`,
 	`Mi manchi`,
 	`Sei il libro più bello che abbia mai iniziato a leggere`,
+	`Miliardi di umani hanno scritto dediche prima di me, eppure nessuna di esse sarebbe in grado di esprimere anche solo una frazione di quello che provo per te`,
 	`- fine -`,
 ];
 
