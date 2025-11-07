@@ -268,8 +268,8 @@ const quotes = [
 	`Miliardi di umani hanno scritto dediche prima di me, eppure nessuna di esse sarebbe in grado di esprimere anche solo una frazione di quello che provo per te`,
 	`Sei i fiori<br>tra i sanpietrini`,
 	`Mi manca ogni parte di te`,
-	``
-		`- fine -`,
+	``,
+	`- fine -`,
 ];
 
 
