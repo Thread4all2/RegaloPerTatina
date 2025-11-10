@@ -269,7 +269,7 @@ const quotes = [
 	`Sei i fiori<br>tra i sanpietrini`,
 	`Mi manca ogni parte di te`,
 	`Non vedo l'ora di andare a comprare vestiti con te, con te che mi dirai cosa prendere ed io che sorriderò annuendo`,
-	``,
+	`Ciao, io sono un buono per una cenetta romantica<br><br>Reclamami pure in qualsiasi momento, poi pensa solo a farti bella per uscire`,
 	`- fine -`,
 ];
 
