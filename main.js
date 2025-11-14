@@ -273,6 +273,7 @@ const quotes = [
 	`Voglio farti un cocktail`,
 	`Sei il mio sogno più bello`,
 	`Quando faccio qualcosa per te mi sento sempre così motivato`,
+	`Sei mia pesiolinaaaaa`,
 	`- fine -`,
 ];
 
