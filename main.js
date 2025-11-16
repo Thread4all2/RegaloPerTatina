@@ -275,6 +275,10 @@ const quotes = [
 	`Quando faccio qualcosa per te mi sento sempre così motivato`,
 	`Sei mia pesiolinaaaaa`,
 	`Mi fai ardere il cuore`,
+	`Sei la mia persona medicina`,
+	`Un giorno ti porterò a vedere l'aurora boreale|800;@100;...`,
+	`@100;...@-1;E tu un giorno mi porterai a vedere una qualche famosa sfilata a Parigi`,
+	`I see you, you see me|100;<br>How pleasant this feeling|100;<br>The moment you hold me|100;<br>I missed you, I'm sorry`,
 	`- fine -`,
 ];
 
