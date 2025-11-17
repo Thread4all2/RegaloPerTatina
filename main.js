@@ -277,8 +277,8 @@ const quotes = [
 	`Mi fai ardere il cuore`,
 	`Sei la mia persona medicina`,
 	`Un giorno ti porterò a vedere l'aurora boreale|800;@100;...`,
-	`@100;...@-1;E tu un giorno mi porterai a vedere una qualche famosa sfilata a Parigi`,
-	`I see you, you see me|100;<br>How pleasant this feeling|100;<br>The moment you hold me|100;<br>I missed you, I'm sorry`,
+	`@100;...@-1;E poi tu mi porterai a vedere una qualche famosa sfilata a Parigi`,
+	`As the hours pass<br>I will let you know<br>That I need to ask<br>Before I'm alone<br>How it feels to rest<br>On your patient lips<br>To eternal bliss<br><a href="https://open.spotify.com/track/5FkJHVudUByVjanCqFXRql?si=dea371be3cb144f3">I'm so glad to know</a>`,
 	`- fine -`,
 ];
 
@@ -811,6 +811,7 @@ hangman_.onclick = () => {
 		document.getElementById("openGame").src = "graphics/leftArrow.svg";
 
 		hangman_.style.display = "none";
+		hangman_.offsetHeight; // trigger reflow
 		hangman_.style.bottom = "unset";
 		hangman_.style.top = "10px";
 		hangman_.style.padding = "7px 8px 3px 6px";
@@ -831,6 +832,7 @@ hangman_.onclick = () => {
 		document.getElementById("openGame").src = "graphics/hangman.svg";
 
 		hangman_.style.display = "none";
+		hangman_.offsetHeight; // trigger reflow
 		hangman_.style.top = "unset";
 		hangman_.style.bottom = "10px";
 		hangman_.style.padding = " 2px 2px 0px 2px";
