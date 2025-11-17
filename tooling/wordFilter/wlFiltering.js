@@ -3,6 +3,7 @@ const path = require('path');
 
 
 const filePath = path.join(__dirname, "data.txt");
+// const filePath = path.join(__dirname, "../../src/parole.txt");
 
 async function askYN(question) {
 	return new Promise(resolve => {
@@ -195,7 +196,7 @@ fs.readFile(filePath, 'utf8', async (err, data) => {
 
 	for (let i = 0; i < lines.length; i++) {
 
-		if (lines[i].match(/(sto)$/)) {
+		if (lines[i].match(/(ni)$/)) {
 
 			if (!resultsFound) {
 				process.stdout.write("\n");
@@ -230,7 +231,7 @@ fs.readFile(filePath, 'utf8', async (err, data) => {
 		return;
 	}
 
-	if (await askYN('\x1b[36mDo you want to save the changes?\x1b[0m')) {
+	if (await askYN('\n\x1b[36mDo you want to save the changes?\x1b[0m')) {
 		fs.writeFile(filePath, newData, err => {
 
 			if (err) {

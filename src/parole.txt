@@ -35,7 +35,6 @@ abbozzare
 abbozzato
 abbozzo
 abbracci
-abbraccino
 abbraccio
 abbreviare
 abbreviato
@@ -311,7 +310,6 @@ affaccera
 affacci
 affacciare
 affacciato
-affaccino
 affaccio
 affamare
 affamato
@@ -416,7 +414,6 @@ aggrappato
 aggrappo
 aggravare
 aggravato
-aggravo
 aggraziato
 aggressore
 aggruppare
@@ -481,7 +478,6 @@ allaccero
 allacci
 allacciare
 allacciato
-allaccino
 allaccio
 allagare
 allagato
@@ -1031,7 +1027,6 @@ associare
 associativa
 associato
 associazione
-associno
 associo
 assodare
 assodato
@@ -1201,7 +1196,6 @@ avviare
 avviato
 avvicinare
 avvicinato
-avvicino
 avvino
 avvio
 avvisare
@@ -1443,7 +1437,6 @@ bisogno
 bisognoso
 bistecca
 bisticci
-bisticcino
 bisticcio
 bisturi
 bitorzolo
@@ -1565,7 +1558,6 @@ bronzo
 brucero
 bruciare
 bruciato
-brucino
 brucio
 bruco
 brulla
@@ -2726,7 +2718,6 @@ cucchiaio
 cucciolo
 cucinare
 cucinato
-cucino
 cucitura
 cuculo
 cuffia
@@ -3986,7 +3977,6 @@ fagotto
 falcero
 falciare
 falciato
-falcino
 falcio
 falco
 falda
@@ -4654,7 +4644,6 @@ gravare
 gravato
 gravidanza
 gravita
-gravo
 gravoso
 grazi
 graziare
@@ -5073,7 +5062,6 @@ incrino
 incrocero
 incrociare
 incrociato
-incrocino
 incrocio
 incubo
 incudine
@@ -5304,7 +5292,6 @@ installato
 installo
 insuccesso
 insudici
-insudicino
 insudicio
 insultare
 insultato
@@ -5395,7 +5382,6 @@ intonaco
 intorno
 intossico
 intralci
-intralcino
 intralcio
 intrecci
 intreccio
@@ -5600,7 +5586,6 @@ lavandaio
 lavanderia
 lavare
 lavato
-lavo
 lavorare
 lavorato
 lavoratore
@@ -6911,7 +6896,6 @@ passivo
 passo
 pastello
 pasticci
-pasticcino
 pasticcio
 pasto
 pastore
@@ -6926,7 +6910,6 @@ patrimoni
 patrimonio
 patriota
 patrocinai
-patrocino
 patronato
 patteggi
 patteggio
@@ -7576,7 +7559,6 @@ probabile
 probabilmente
 problema
 procacci
-procaccino
 procaccio
 procedano
 procedere
@@ -7774,7 +7756,6 @@ pugnalato
 pugnalo
 pugno
 pulce
-pulcino
 puledro
 pulegge
 puleggia
@@ -8955,14 +8936,12 @@ sbilanci
 sbilancio
 sbirciare
 sbirciato
-sbircino
 sbircio
 sbloccare
 sbloccato
 sblocco
 sbocciare
 sbocciato
-sboccino
 sbocco
 sbornie
 sbottonare
@@ -8981,7 +8960,6 @@ sbroglio
 sbucci
 sbucciare
 sbucciato
-sbuccino
 sbuffando
 sbuffare
 sbuffato
@@ -8991,7 +8969,6 @@ scabroso
 scacci
 scacciare
 scacciato
-scaccino
 scaccio
 scadente
 scadenza
@@ -9381,7 +9358,6 @@ seguo
 selci
 selciare
 selciato
-selcino
 selcio
 selettore
 selezionabile
@@ -9542,7 +9518,6 @@ sfioro
 sfitto
 sfociare
 sfociato
-sfocino
 sfoderare
 sfoderato
 sfodero
@@ -9719,7 +9694,6 @@ situo
 slacci
 slacciare
 slacciato
-slaccino
 slaccio
 slanci
 slanciato
@@ -9768,7 +9742,6 @@ smentito
 smeraldo
 smerciare
 smerciato
-smercino
 smercio
 smeriglio
 smesso
@@ -10344,7 +10317,6 @@ squalo
 squama
 squarciare
 squarciato
-squarcino
 squarcio
 squartare
 squartato
@@ -10565,7 +10537,6 @@ stracarico
 stracci
 stracciare
 stracciato
-straccino
 straccio
 straccione
 stracotto
@@ -10575,7 +10546,6 @@ strage
 stralci
 stralciare
 stralciato
-stralcino
 stralcio
 stralunato
 stramazzai
@@ -10905,7 +10875,6 @@ taccagno
 tacchino
 tacciare
 tacciato
-taccino
 taccio
 tacco
 taccuino
@@ -11340,7 +11309,6 @@ tracce
 tracciamento
 tracciare
 tracciato
-traccino
 traccio
 trachea
 tracollare
@@ -11556,7 +11524,6 @@ tribolae
 tribolafa
 tribolano
 tribolato
-tribolavo
 triboliae
 tribolo
 tribolurei
@@ -11566,7 +11533,6 @@ tributamo
 tributari
 tributario
 tributato
-tributavo
 tributera
 tributio
 tributo
@@ -11719,7 +11685,6 @@ uffici
 ufficiale
 ufficiare
 ufficiato
-ufficino
 ufficio
 ufficioso
 uggiolare
@@ -11739,7 +11704,6 @@ ultimai
 ultimato
 ultimavano
 ultimavate
-ultimavo
 ultimino
 ultimo
 ululare
@@ -11761,7 +11725,6 @@ umorismo
 unanime
 unanimita
 uncinetto
-uncino
 ungendolo
 ungere
 unghia
@@ -12012,7 +11975,6 @@ vermiglio
 vernice
 vernicera
 verniciato
-verniciavo
 vero
 verra
 verranno
@@ -12102,7 +12064,6 @@ vigila
 vigilai
 vigilanze
 vigilato
-vigilavo
 vigilia
 vigiliato
 vigliaccne
