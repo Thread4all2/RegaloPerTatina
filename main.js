@@ -279,6 +279,8 @@ const quotes = [
 	`Un giorno ti porterò a vedere l'aurora boreale|800;@100;...`,
 	`@100;...@-1;E poi tu mi porterai a vedere una qualche famosa sfilata a Parigi`,
 	`As the hours pass<br>I will let you know<br>That I need to ask<br>Before I'm alone<br>How it feels to rest<br>On your patient lips<br>To eternal bliss<br><a href="https://open.spotify.com/track/5FkJHVudUByVjanCqFXRql?si=dea371be3cb144f3">I'm so glad to know</a>`,
+	`Più penso a noi più mi convinco che siamo tutto ciò che voglio`,
+	`Né pace mai conobbi,<br>finché negli occhi tuoi<br>non mi persi`,
 	`- fine -`,
 ];
 
