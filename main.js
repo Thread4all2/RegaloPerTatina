@@ -282,6 +282,7 @@ const quotes = [
 	`Più penso a noi più mi convinco che siamo tutto ciò che voglio`,
 	`Né pace mai conobbi,<br>finché negli occhi tuoi<br>non mi persi`,
 	`Sei sempre il centro dei miei pensieri`,
+	`Sei la più bella delle ninfe`,
 	`- fine -`,
 ];
 
