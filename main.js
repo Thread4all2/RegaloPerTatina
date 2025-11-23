@@ -852,9 +852,10 @@ hangman_.onclick = () => {
 // code calling -----------------------
 
 
-// scroll restoration (sometimes on iPhone the page gets scrolled down when reopening the browser, webkit I guess)
+// scroll restoration (sometimes on iPhone the page gets scrolled down when reopening the browser, WebKit shenanigans I guess)
 
 window.scrollTo(0, 0); // avoids the page getting off center on browser reopening (due to browser heuristics' black magic)
+
 if ('scrollRestoration' in history) {
 	history.scrollRestoration = 'manual';
 }
@@ -862,6 +863,9 @@ if ('scrollRestoration' in history) {
 
 
 // set a clock to refresh the page if it goes inactive (like in background) for more than 16 seconds (to correctly count visits)
+// TODO: check whether the Page Visibility API would be better suited for this
+// https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
+
 
 localStorage.setItem("tick", new Date().getTime());
 
@@ -1010,7 +1014,7 @@ Asked      : ${localStorage.getItem("askedToGoToBirthday") ? "yes" : "no"}
 End        : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
 
 <div style="display:flex; flex-direction:row; justify-content:space-between; position:absolute; bottom: 10px; left: 10px; gap: 8px;">
-<button style="padding: 8px 8px 4px 8px; border-radius: 8px; border: none; font-size: 1em; background-color: #aa3333; color: #fff;" onclick="location.reload(true);">Reload</button>
+<button id="dbgReloadButton" onclick="location.reload(true);">Reload</button>
 </div>
 `;
 

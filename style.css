@@ -215,6 +215,15 @@ i {
 	z-index: 4;
 }
 
+#dbgReloadButton {
+	padding: 8px 8px 4px 8px;
+	border-radius: 8px;
+	border: none;
+	font-size: 1em;
+	background-color: #aa3333;
+	color: #fff;
+}
+
 #hangmanContainer {
 	display: flex;
 	flex-direction: column;
