@@ -283,6 +283,9 @@ const quotes = [
 	`Né pace mai conobbi,<br>finché negli occhi tuoi<br>non mi persi`,
 	`Sei sempre il centro dei miei pensieri`,
 	`Sei la più bella delle ninfe`,
+	`Non c'è parte di te che non mi piaccia`,
+	``,
+	``,
 	`- fine -`,
 ];
 
