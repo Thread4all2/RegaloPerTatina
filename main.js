@@ -284,7 +284,7 @@ const quotes = [
 	`Sei sempre il centro dei miei pensieri`,
 	`Sei la più bella delle ninfe`,
 	`Non c'è parte di te che non mi piaccia`,
-	``,
+	`Voglio sentirti supplicare`,
 	``,
 	`- fine -`,
 ];
