@@ -286,9 +286,9 @@ const quotes = [
 	`Non c'è parte di te che non mi piaccia`,
 	`Voglio sentirti supplicare`,
 	`Voglio tenerti al calduccio`,
-	`Voglio venire da te con un mazzo di fiori`,
 	`Sei mio sole`,
 	`Voglio sentire il tuo profumo sulle mie lenzuola`,
+	`Voglio venire da te con un mazzo di fiori`,
 	`- fine -`,
 ];
 
