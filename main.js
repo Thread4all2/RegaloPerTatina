@@ -289,6 +289,7 @@ const quotes = [
 	`Sei mio sole`,
 	`Voglio sentire il tuo profumo sulle mie lenzuola`,
 	`Voglio venire da te con un mazzo di fiori`,
+	`When I could only see the floor,<br> you made my window a <a href="https://open.spotify.com/track/33MnSYLvtOrbj5zwfioEiH">door</a>`,
 	`- fine -`,
 ];
 
