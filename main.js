@@ -291,6 +291,8 @@ const quotes = [
 	`Voglio venire da te con un mazzo di fiori`,
 	`When I could only see the floor,<br> you made my window a <a href="https://open.spotify.com/track/33MnSYLvtOrbj5zwfioEiH">door</a>`,
 	`Voglio saltarti addosso`,
+	`Sei la prima persona a cui dico le cose`,
+	``,
 	`- fine -`,
 ];
 
