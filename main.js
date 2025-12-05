@@ -294,7 +294,7 @@ const quotes = [
 	`Sei la prima persona a cui dico le cose`,
 	`Quando vieni a schiacciarmi i brufoli finché ti accarezzo tutta?`,
 	`Una delle cose più belle di te è che sei una persona in 3d: non cerchi di essere il riflesso di qualcuno, una mera proiezione di qualcosa che non sei davvero; ed è proprio di questa tua meravigliosa forma che sono perdutamente innamorato`,
-	``,
+	`Voglio un tramonto insieme per ogni alba che non abbiamo potuto avere`,
 	``,
 	``,
 	``,
