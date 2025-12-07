@@ -296,7 +296,7 @@ const quotes = [
 	`Una delle cose più belle di te è che sei una persona in 3d: non cerchi di essere il riflesso di qualcuno, una mera proiezione di qualcosa che non sei davvero; ed è proprio di questa tua meravigliosa forma che sono perdutamente innamorato`,
 	`Voglio un tramonto insieme per ogni alba che non abbiamo potuto avere`,
 	`Ti aspetterei per sempre`,
-	``,
+	`Sei come il ghiaccio nei cocktail: necessaria`,
 	``,
 	`- fine -`,
 ];
