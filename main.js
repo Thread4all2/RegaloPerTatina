@@ -297,7 +297,8 @@ const quotes = [
 	`Voglio un tramonto insieme per ogni alba che non abbiamo potuto avere`,
 	`Ti aspetterei per sempre`,
 	`Sei come il ghiaccio nei cocktail: necessaria`,
-	``,
+	`Ci completiamo`,
+	`Senza di te non avrei un senso; grazie di darmene uno`,
 	`- fine -`,
 ];
 
