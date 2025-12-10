@@ -299,6 +299,7 @@ const quotes = [
 	`Sei come il ghiaccio nei cocktail: necessaria`,
 	`Ci completiamo`,
 	`Senza di te non avrei un senso; grazie di darmene uno`,
+	`Sei ciò che vedo quando chiudo gli occhi, e spesso e volentieri anche quando li tengo aperti`,
 	`- fine -`,
 ];
 
