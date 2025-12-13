@@ -302,6 +302,7 @@ const quotes = [
 	`Sei ciò che vedo quando chiudo gli occhi, e spesso e volentieri anche quando li tengo aperti`,
 	`Quando sto con te mi dimentico di chi credevo di essere, e capisco chi sono davvero`,
 	`È tutto cosi bello con te`,
+	`Sei proprio carina`,
 	`- fine -`,
 ];
 
