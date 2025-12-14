@@ -303,6 +303,7 @@ const quotes = [
 	`Quando sto con te mi dimentico di chi credevo di essere, e capisco chi sono davvero`,
 	`È tutto cosi bello con te`,
 	`Sei proprio carina`,
+	`Non mi stancherò mai di te`,
 	`- fine -`,
 ];
 
