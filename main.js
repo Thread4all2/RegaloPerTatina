@@ -307,6 +307,7 @@ const quotes = [
 	`Ogni giorno vorrei starti più vicino`,
 	`Sei la mia bambina tu`,
 	`Sei la cosa più importante che esista`,
+	`Quando ti penso sento i cori angelici in sottofondo`,
 	`- fine -`,
 ];
 
