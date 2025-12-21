@@ -310,6 +310,7 @@ const quotes = [
 	`Quando ti penso sento i cori angelici in sottofondo`,
 	`Sei mia`,
 	`Non vedo l'ora che arrivi il giorno in cui potrò tornare a casa con un mazzo di fiori e dartelo baciandoti`,
+	`Senza di te mi sento come un'auto senza carburante: mi manca ciò che mi fa bruciare dentro ed andare avanti`,
 	`- fine -`,
 ];
 
