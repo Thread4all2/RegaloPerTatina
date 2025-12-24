@@ -313,6 +313,7 @@ const quotes = [
 	`Senza di te mi sento come un'auto senza carburante: mi manca ciò che mi fa bruciare dentro ed andare avanti`,
 	`Sei il più bel sogno proibito che potessi chiedere di vivere`,
 	`Non c'è cosa più brutta che aspettarti`,
+	`Buon natale topaaaaa!<br><br>|600;Sei l'unico regalo che vorrei scartare e provare oggi`,
 	`- fine -`,
 ];
 
