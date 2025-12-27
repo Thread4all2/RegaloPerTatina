@@ -315,6 +315,7 @@ const quotes = [
 	`Non c'è cosa più brutta che aspettarti`,
 	`Buon natale topaaaaa!<br><br>|600;Sei l'unico regalo che vorrei scartare e provare oggi`,
 	`Le feste andrebbero passate con chi si ama, come mai non siamo insieme?`,
+	`Ciao bella topaaaa<br>Coi miei poteri psichici percepisco che stai leggendo questa frase mentre indossi un bel pigiamino sexy che vorrei tanto venirti a togliere`,
 	`- fine -`,
 ];
 
