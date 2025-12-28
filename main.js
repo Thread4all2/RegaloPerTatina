@@ -317,6 +317,7 @@ const quotes = [
 	`Le feste andrebbero passate con chi si ama, come mai non siamo insieme?`,
 	`Sei assoluta: non c'e nulla nella mia vita che possa in qualche modo compararsi a cosa sei per me od a come mi fai sentire`,
 	`Ciao bella topaaaa<br>Coi miei poteri psichici percepisco che stai leggendo questa frase mentre indossi un bel pigiamino sexy che vorrei tanto venirti a togliere`,
+	`If your body matches what your eyes can do<br>You'll probably move right through me<br><a href="https://open.spotify.com/track/28IEbk5a7twNTbUEvWslUb">on my way to you</a> `,
 	`- fine -`,
 ];
 
