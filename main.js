@@ -319,6 +319,7 @@ const quotes = [
 	`Ciao bella topaaaa<br>Coi miei poteri psichici percepisco che stai leggendo questa frase mentre indossi un bel pigiamino sexy che vorrei tanto venirti a togliere`,
 	`If your body matches what your eyes can do<br>You'll probably move right through me<br><a href="https://open.spotify.com/track/28IEbk5a7twNTbUEvWslUb">on my way to you</a> `,
 	`È quasi capodanno, quando ci ubriachiamo insieme?`,
+	`Non smetterò mai di dirti cose carinead ogni occasione`,
 	`- fine -`,
 ];
 
