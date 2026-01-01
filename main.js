@@ -321,6 +321,7 @@ const quotes = [
 	`È quasi capodanno, quando ci ubriachiamo insieme?`,
 	`Non smetterò mai di dirti cose carinead ogni occasione`,
 	`Buon anno amore miooooo<br>Vorrei cosi tanto essere lì con te per la questione del detto hehe`,
+	`Il mio primo proposito per l'anno nuovo è stare di più con te, ho sempre l'impressione di non viverti abbstanza`,
 	`- fine -`,
 ];
 
