@@ -324,6 +324,7 @@ const quotes = [
 	`Il mio primo proposito per l'anno nuovo è stare di più con te, ho sempre l'impressione di non viverti abbstanza`,
 	`Oggi è il 3, ed il 3 è proprio il numero perfetto: tu, io ed un bel camino acceso a tenerci caldi quasi quanto i nostri corpi`,
 	`Anche il 4 non se la cava male come numero perfetto: tu, io ed i nostri 2 bimbi`,
+	`Stay for me<br>Wait for me<br>Bleed and break for me<br>I'll give the world <a href="https://open.spotify.com/track/2BvCKRAs9xnDzm8CFo0hi9">somehow</a>`,
 	`- fine -`,
 ];
 
