@@ -326,6 +326,7 @@ const quotes = [
 	`Anche il 4 non se la cava male come numero perfetto: tu, io ed i nostri 2 bimbi`,
 	`Stay for me<br>Wait for me<br>Bleed and break for me<br>I'll give the world <a href="https://open.spotify.com/track/2BvCKRAs9xnDzm8CFo0hi9">somehow</a>`,
 	`Sei per me quello che nessuno è mai stato e nessuno mai sarà`,
+	`Sei unica`,
 	`- fine -`,
 ];
 
