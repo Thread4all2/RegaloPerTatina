@@ -327,6 +327,7 @@ const quotes = [
 	`Stay for me<br>Wait for me<br>Bleed and break for me<br>I'll give the world <a href="https://open.spotify.com/track/2BvCKRAs9xnDzm8CFo0hi9">somehow</a>`,
 	`Sei per me quello che nessuno è mai stato e nessuno mai sarà`,
 	`Sei unica`,
+	`Sei bella che <a href="https://open.spotify.com/track/7MMJa7cjMadOSR6CFWvB1x">la musica non c'è</a>`,
 	`- fine -`,
 ];
 
