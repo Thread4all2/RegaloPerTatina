@@ -331,6 +331,7 @@ const quotes = [
 	`Non credo sia un caso che le giornate siano più lunghe d’estate, quando passo più tempo con te`,
 	`Sei la prima meta che mi viene in mente ogni volta che salgo in macchina`,
 	`Yeah, I got <a href="https://open.spotify.com/track/7vu0JkJh0ldukEYbTVcqd0">issues</a><br>And one of them is how bad I need you`,
+	`I can't help but<br>think about you`,
 	`- fine -`,
 ];
 
