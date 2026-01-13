@@ -332,6 +332,7 @@ const quotes = [
 	`Sei la prima meta che mi viene in mente ogni volta che salgo in macchina`,
 	`Yeah, I got <a href="https://open.spotify.com/track/7vu0JkJh0ldukEYbTVcqd0">issues</a><br>And one of them is how bad I need you`,
 	`I can't help but<br>think about you`,
+	`Ho provato a pensare a qualcosa da dirti, ma ho solo te in testa`,
 	`- fine -`,
 ];
 
