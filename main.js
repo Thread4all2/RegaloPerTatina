@@ -333,6 +333,7 @@ const quotes = [
 	`Yeah, I got <a href="https://open.spotify.com/track/7vu0JkJh0ldukEYbTVcqd0">issues</a><br>And one of them is how bad I need you`,
 	`I can't help but<br>think about you`,
 	`Sei l'unica persona con cui vorrei passare le serate`,
+	`Ho provato a pensare a qualcosa da dirti, ma ho solo te in testa`,
 	`- fine -`,
 ];
 
