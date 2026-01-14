@@ -344,6 +344,7 @@ document.documentElement.style.setProperty("--shape1AnimationDelay", -Math.rando
 document.documentElement.style.setProperty("--shape2AnimationDelay", -Math.random() * 20 + "s");
 document.documentElement.style.setProperty("--shape3AnimationDelay", -Math.random() * 20 + "s");
 
+
 // hooks ------------------------------
 const searchParams = new URLSearchParams(window.location.search);
 const quote_ = document.getElementById('quote');
