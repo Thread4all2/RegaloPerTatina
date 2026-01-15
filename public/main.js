@@ -501,7 +501,7 @@ const hangmanMessage_ = document.getElementById("hangmanMessage");
 const areSameLetter = (base, accented) => base.toLowerCase() === accented.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
 async function fetchList(attempt = 0) {
-	await fetch("/public/src/parole.txt")
+	await fetch("/src/parole.txt")
 		// .then(response => response.blob())
 		.then(response => response.text())
 		.then(text => { bigWordList = text.split("\n"); })
