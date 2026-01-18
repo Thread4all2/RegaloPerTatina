@@ -338,6 +338,7 @@ const quotes = [
 	`Quando sto con te la linea di confine tra sogno e realtà diventa sfocata, perché sembra tutto troppo bello per essere vero`,
 	`Fuori da casa nostra voglio una serra in cui coltivare fiori da regalarti`,
 	`You and me belong|400;<br><a href="https://open.spotify.com/track/5uQ7de4EWjb3rkcFxyEOpu">together</a>|400;<br><br>Like cold iced tea|400;<br>and warm weather`,
+	`Sei ciò che desidero quando lancio le monete nei pozzi`,
 	`- fine -`,
 ];
 
