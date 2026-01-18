@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-const filePath = path.join(__dirname, "data.txt");
+const filePath = path.join(__dirname, "../public/src/parole.txt");
 // const filePath = path.join(__dirname, "../../src/parole.txt");
 
 async function askYN(question) {
@@ -196,7 +196,7 @@ fs.readFile(filePath, 'utf8', async (err, data) => {
 
 	for (let i = 0; i < lines.length; i++) {
 
-		if (lines[i].match(/(ate)$/)) {
+		if (lines[i].match(/(ero)$/)) {
 
 			if (!resultsFound) {
 				process.stdout.write("\n");
