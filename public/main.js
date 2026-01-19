@@ -339,6 +339,7 @@ const quotes = [
 	`Fuori da casa nostra voglio una serra in cui coltivare fiori da regalarti`,
 	`You and me belong|400;<br><a href="https://open.spotify.com/track/5uQ7de4EWjb3rkcFxyEOpu">together</a>|400;<br><br>Like cold iced tea|400;<br>and warm weather`,
 	`Sei ciò che desidero quando lancio le monete nei pozzi`,
+	`Per essere una coniglietta fai venire veramente tanto appetito a questo vegetariano|800;<br><br>hehe`,
 	`- fine -`,
 ];
 
