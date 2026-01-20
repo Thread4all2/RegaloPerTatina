@@ -1,3 +1,4 @@
+
 abate
 abbagliare
 abbagliato
@@ -19,7 +20,6 @@ abbiente
 abbietto
 abbigliare
 abbigliato
-abbiglio
 abbinare
 abbinato
 abboccare
@@ -43,7 +43,6 @@ abbrunato
 abbruno
 abdicare
 abdicato
-abdico
 abete
 abile
 abilitare
@@ -84,12 +83,10 @@ accaloro
 accampare
 accampato
 accampo
-accanano
 accanimmo
 accanirono
 accanisse
 accanito
-accanivano
 accanivo
 accanto
 accarezzo
@@ -133,7 +130,6 @@ accidente
 accidia
 accigliare
 accigliato
-acciglio
 acciuga
 acclamare
 acclamato
@@ -293,7 +289,6 @@ affarista
 affascina
 affaticare
 affaticato
-affatico
 affatto
 affermare
 affermativo
@@ -348,7 +343,6 @@ affrontato
 affronto
 affumicare
 affumicato
-affumico
 afona
 afoso
 agenda
@@ -366,7 +360,6 @@ aggiornare
 aggiornato
 aggirare
 aggirato
-aggiudico
 aggiungere
 aggiunse
 aggiuntive
@@ -479,7 +472,6 @@ allocazione
 alloggiare
 alloggiato
 alloggio
-allontano
 allora
 alluminio
 allungare
@@ -722,7 +714,6 @@ appesto
 appetito
 appianare
 appianato
-appiccico
 appiglio
 applauso
 applicare
@@ -935,7 +926,6 @@ assolto
 assoluto
 assolvere
 assolvo
-assomiglio
 assonnato
 assorbente
 assorbire
@@ -1161,7 +1151,6 @@ bancarotta
 banchetto
 banconota
 banda
-bandano
 bandiere
 bandito
 baracca
@@ -1561,6 +1550,7 @@ cannone
 cannucce
 cannuccia
 canonica
+canonico
 canoro
 canotto
 cantante
@@ -1869,7 +1859,6 @@ cogliere
 cognato
 cognome
 coincida
-coincidano
 coincidere
 coinvolga
 cola
@@ -1971,7 +1960,6 @@ compendio
 compenso
 comperare
 comperato
-competano
 competente
 competenza
 competesse
@@ -2181,7 +2169,6 @@ conseguente
 conseguenza
 consegueza
 consenso
-consentano
 consentendone
 consentito
 consentiva
@@ -2346,7 +2333,6 @@ corrispondere
 corro
 corrodere
 corrodo
-corrompano
 corrompere
 corrompo
 corrosivo
@@ -2392,7 +2378,6 @@ costola
 costoso
 costretto
 costriera
-costruano
 costruito
 costrutto
 costruzione
@@ -2563,7 +2548,6 @@ davanzale
 davvero
 dazio
 deallocazione
-debbano
 debbo
 debbono
 debito
@@ -2617,7 +2601,6 @@ decretato
 decreto
 dedicare
 dedicato
-dedico
 dedito
 dedizione
 dedotto
@@ -2685,11 +2668,9 @@ demenza
 demerito
 democrazia
 demografia
-demolano
 demolimmo
 demolisse
 demolito
-demolivano
 demolivo
 demonio
 denaro
@@ -2735,7 +2716,6 @@ depuro
 deputato
 deragliare
 deragliato
-deraglio
 deridere
 derido
 derisione
@@ -2815,7 +2795,6 @@ dialogare
 dialogo
 diamante
 diametro
-diano
 diario
 diavolo
 dibattito
@@ -2847,7 +2826,6 @@ diffamare
 diffamato
 differente
 differenza
-differenziano
 differenziato
 difficile
 difficolta
@@ -2904,24 +2882,20 @@ diletto
 diligente
 diligenza
 dillo
-diluano
 diluiremo
 diluisse
 diluissimo
 diluito
-diluivano
 diluvio
 dimenare
 dimenato
 dimeno
 dimensionale
 dimensione
-dimentico
 dimesso
 dimezzare
 dimezzato
 dimezzo
-diminuano
 diminuisca
 diminuito
 dimissione
@@ -2933,10 +2907,8 @@ dinamicamente
 dinamico
 dinamite
 dinastia
-dinne
 dipanare
 dipanato
-dipano
 dipartimento
 dipendente
 dipendenza
@@ -3235,7 +3207,6 @@ durato
 durevole
 durezza
 duro
-ebano
 ebete
 ebraico
 ebreo
@@ -3296,7 +3267,6 @@ egoismo
 egoista
 eguagliare
 eguagliato
-eguaglio
 eguale
 elaborare
 elaborato
@@ -3408,8 +3378,6 @@ equivalato
 equivalente
 equivalo
 equo
-erano
-eravamo
 erba
 erbaccia
 ereditare
@@ -3623,7 +3591,6 @@ falegname
 fallimento
 fallito
 fallo
-falsifico
 falsita
 falso
 fama
@@ -3635,7 +3602,6 @@ famoso
 fanale
 fanciullo
 fango
-fanne
 fantasia
 fantasma
 fantastico
@@ -3650,7 +3616,6 @@ farmacia
 farmacista
 farmelo
 farmene
-farnetico
 faro
 farsela
 farsene
@@ -3671,7 +3636,6 @@ fatecene
 fatelo
 faticare
 faticato
-fatico
 faticoso
 fato
 fattelo
@@ -3711,7 +3675,6 @@ ferie
 ferimento
 ferissimo
 ferito
-ferivamo
 fermare
 fermata
 fermezza
@@ -3806,7 +3769,6 @@ fluiscono
 fluisse
 fluissimo
 fluito
-fluivamo
 flusso
 flutto
 foca
@@ -3866,7 +3828,6 @@ forno
 foro
 forse
 forte
-fortifico
 fortuna
 fortunato
 forzare
@@ -4105,7 +4066,6 @@ gioiremo
 gioisca
 gioissimo
 gioito
-gioivano
 giornale
 giornata
 giorno
@@ -4128,7 +4088,6 @@ gita
 giubileo
 giudicare
 giudicato
-giudico
 giudizio
 giudizioso
 giugno
@@ -4143,7 +4102,6 @@ giurato
 giuria
 giurista
 giustamente
-giustifico
 giustizia
 giusto
 glaciale
@@ -4265,7 +4223,6 @@ guarirono
 guarisse
 guarissimo
 guarito
-guarivano
 guastare
 guastato
 guasto
@@ -4296,7 +4253,6 @@ identificare
 identificativo
 identificato
 identificatore
-identifico
 identita
 ideologia
 idioma
@@ -4507,7 +4463,6 @@ inavvertite
 inazione
 incagliare
 incagliato
-incaglio
 incalzare
 incalzato
 incalzo
@@ -4885,7 +4840,6 @@ intitolato
 intitolo
 intonaco
 intorno
-intossico
 intralcio
 intreccio
 intrepida
@@ -4996,14 +4950,11 @@ lagnanza
 laguna
 laico
 lama
-lambano
 lambiranno
 lambiremo
 lambisse
 lambissimo
 lambito
-lambivamo
-lambivano
 lambivo
 lamentare
 lamentato
@@ -5025,7 +4976,6 @@ lanciare
 lanciato
 lancio
 landa
-languano
 languimmo
 languirono
 languisse
@@ -5226,7 +5176,6 @@ lottato
 lotteria
 lotto
 lozione
-lubrifico
 lucchetto
 luccicare
 luccicato
@@ -5299,7 +5248,6 @@ male
 maledimmo
 maledisse
 maledito
-maledivano
 malfamato
 malgrado
 maligno
@@ -5356,7 +5304,6 @@ mansueto
 mantello
 mantenere
 mantenga
-mantenne
 mantenuto
 mantice
 manuale
@@ -5408,7 +5355,6 @@ massone
 mastello
 masticare
 masticato
-mastico
 mastro
 matassa
 matematico
@@ -5471,7 +5417,6 @@ mentito
 mento
 mentre
 menzionato
-meraviglio
 meravigliosa
 mercante
 mercato
@@ -5508,7 +5453,6 @@ metro
 metta
 metterselo
 mettetelo
-mettevano
 mettevo
 mettiamolo
 metticela
@@ -5530,7 +5474,6 @@ mietessimo
 mieteste
 mietette
 mieteva
-mietevano
 mietitura
 mieto
 mietono
@@ -5607,7 +5550,6 @@ modesto
 modico
 modificare
 modificato
-modifico
 modisteria
 modo
 modulo
@@ -5656,7 +5598,6 @@ moro
 morso
 mortale
 mortalità
-mortifico
 morto
 mosaico
 moscerino
@@ -5779,7 +5720,6 @@ nevaio
 neve
 nevicare
 nevicato
-nevico
 nevischio
 nevralgia
 nicchia
@@ -5826,7 +5766,6 @@ notevole
 notevolmente
 notificare
 notificato
-notifico
 notizia
 noto
 nottambulo
@@ -6041,7 +5980,6 @@ originare
 origine
 origliare
 origliato
-origlio
 orizzonte
 orlare
 orlato
@@ -6243,7 +6181,6 @@ partigiano
 partire
 partito
 parto
-partorano
 partorire
 partorisca
 partorito
@@ -6496,7 +6433,6 @@ piglialo
 pigliare
 pigliatela
 pigliato
-piglio
 pigmento
 pignolo
 pignorare
@@ -6668,7 +6604,6 @@ posizionato
 posizione
 posizionera
 poso
-possano
 possedere
 possedette
 possedo
@@ -6712,7 +6647,6 @@ prateria
 praticamente
 praticare
 praticato
-pratico
 prato
 precario
 precauzione
@@ -6751,7 +6685,6 @@ predeterminata
 predetto
 predicare
 predicato
-predico
 prediletto
 prediligo
 predire
@@ -6881,7 +6814,6 @@ privo
 probabile
 probabilmente
 problema
-procedano
 procedere
 procedette
 procedimento
@@ -6942,7 +6874,6 @@ programmazione
 progredire
 progredito
 progresso
-proibano
 proibire
 proibisca
 proibitivo
@@ -7027,7 +6958,6 @@ protocollo
 prototipo
 provare
 provato
-provenano
 provenire
 provenito
 provento
@@ -7105,7 +7035,6 @@ purgato
 purgo
 purificare
 purificato
-purifico
 puritana
 puro
 purtroppo
@@ -7125,7 +7054,6 @@ quadruplo
 quaglia
 qualcosa
 quale
-qualifico
 qualora
 qualsiasi
 qualunque
@@ -7223,7 +7151,6 @@ raggrumare
 raggrumato
 raggrumo
 raggruppo
-ragguaglio
 ragionare
 ragionato
 ragiono
@@ -7236,9 +7163,7 @@ ramaiolo
 rame
 ramificare
 ramificato
-ramifico
 ramingo
-rammarico
 rammendare
 rammendato
 rammollito
@@ -7294,7 +7219,6 @@ rastrello
 rata
 ratificare
 ratificato
-ratifico
 ratto
 rattristo
 raucedine
@@ -7350,7 +7274,6 @@ recuperabile
 recuperare
 recuperato
 redargu
-redarguano
 redarguire
 redarguito
 redatto
@@ -7463,7 +7386,6 @@ restaurazione
 restauro
 restio
 restitu
-restituano
 restituire
 restituito
 restituzione
@@ -7484,7 +7406,6 @@ retrogrado
 retroscena
 rettamente
 rettangolo
-rettifico
 rettile
 rettilineo
 retto
@@ -7512,7 +7433,6 @@ riattivo
 riavere
 riavette
 riavuto
-ribadano
 ribadire
 ribadisca
 ribadita
@@ -7551,7 +7471,6 @@ ricercare
 ricercato
 ricerco
 ricetta
-ricevano
 ricevere
 ricevitore
 ricevuto
@@ -7569,7 +7488,6 @@ riconferma
 riconoscere
 riconosciuta
 ricoperto
-ricoprano
 ricoprire
 ricoprito
 ricordare
@@ -7606,21 +7524,18 @@ riduzione
 rieleggere
 rieleggo
 rieletto
-riempano
 riempire
 riempito
 rientrare
 rientrato
 rientro
 riepilogo
-riescano
 rievocare
 rievocato
 riferimento
 riferire
 riferisca
 riferito
-rifinano
 rifinire
 rifinisca
 rifinito
@@ -7733,7 +7648,6 @@ rinnego
 rinnovare
 rinnovato
 rinnovo
-rinsavano
 rinsavire
 rinsavito
 rintoccare
@@ -7741,7 +7655,6 @@ rintoccato
 rintocco
 rinunce
 rinuncia
-rinvenano
 rinvenire
 rinvenito
 rinviare
@@ -7765,7 +7678,6 @@ ripasso
 ripensare
 ripensato
 ripenso
-ripetano
 ripetere
 ripetette
 ripetitivo
@@ -7886,7 +7798,6 @@ ritardato
 ritardo
 ritegno
 ritenere
-ritenne
 ritenuto
 ritirare
 ritirato
@@ -7920,7 +7831,6 @@ rivedibile
 riveduto
 rivelare
 rivelato
-rivendico
 riverente
 riverenza
 rivincita
@@ -8123,7 +8033,6 @@ sbalordito
 sbalzare
 sbalzato
 sbalzo
-sbaraglio
 sbarazzino
 sbarcare
 sbarcato
@@ -8131,7 +8040,6 @@ sbarco
 sbarrare
 sbarrato
 sbarro
-sbattano
 sbattere
 sbattette
 sbatto
@@ -8165,7 +8073,6 @@ sbrigliato
 sbrigo
 sbrogliare
 sbrogliato
-sbroglio
 sbucciare
 sbucciato
 sbuffare
@@ -8185,7 +8092,6 @@ scaffale
 scafo
 scagliare
 scagliato
-scaglio
 scalare
 scalato
 scalatore
@@ -8206,7 +8112,6 @@ scampare
 scampato
 scampo
 scampolo
-scandaglio
 scandalizo
 scandalo
 scandaloso
@@ -8331,7 +8236,6 @@ scollato
 scolo
 scolorire
 scolorito
-scolpano
 scolpire
 scolpito
 scommessa
@@ -8341,7 +8245,6 @@ scomparire
 scomparito
 scomparso
 scomparve
-scompiglio
 scomposto
 scomunica
 scondito
@@ -8355,7 +8258,6 @@ sconforto
 scongiuro
 sconnesso
 sconsacro
-sconsiglio
 sconsolato
 scontare
 scontato
@@ -8602,7 +8504,6 @@ serio
 sermone
 serpente
 serpentina
-serraglio
 serrare
 serrato
 serratura
@@ -8678,7 +8579,6 @@ sfogare
 sfogato
 sfogliare
 sfogliato
-sfoglio
 sfogo
 sfondare
 sfondato
@@ -8736,7 +8636,6 @@ sgozzo
 sgradevole
 sgranare
 sgranato
-sgrano
 sgranoccho
 sgrassare
 sgrassato
@@ -8756,7 +8655,6 @@ sguainato
 sguardo
 sguattero
 sguinzagliare
-siano
 sibilare
 sibilato
 sibilo
@@ -8765,7 +8663,6 @@ sicuramente
 sicurezza
 sicuro
 sidro
-siedano
 siepe
 siero
 siesta
@@ -8778,7 +8675,6 @@ sigillo
 sigla
 significativo
 significato
-significo
 signora
 signorina
 silente
@@ -8857,7 +8753,6 @@ smaccato
 smacco
 smagliare
 smagliato
-smaglio
 smaliziato
 smaltare
 smaltato
@@ -8880,7 +8775,6 @@ smeraldo
 smerciare
 smerciato
 smercio
-smeriglio
 smesso
 smettere
 smettetela
@@ -8951,7 +8845,6 @@ soffione
 soffitto
 soffocare
 soffocato
-soffrano
 soffrire
 soffrito
 soffritto
@@ -9001,7 +8894,6 @@ somaro
 somatico
 somigliare
 somigliato
-somiglio
 sommare
 sommariamente
 sommario
@@ -9023,10 +8915,8 @@ sonnolento
 sono
 sonoro
 sontuoso
-sopano
 sopire
 sopito
-sopperano
 sopperire
 sopperito
 soppesare
@@ -9061,7 +8951,6 @@ sorella
 sorgente
 sorgere
 sorgivo
-soriano
 sormontare
 sormontato
 sormonto
@@ -9081,7 +8970,6 @@ sorteggio
 sortilegio
 sortita
 sorto
-sorveglio
 sorvolare
 sorvolato
 sorvolo
@@ -9108,7 +8996,6 @@ sostentato
 sostento
 sostenuto
 sostitu
-sostituano
 sostituendole
 sostituire
 sostituito
@@ -9182,9 +9069,7 @@ sparito
 sparizione
 sparlare
 sparlato
-sparpaglio
 sparso
-spartano
 spartineve
 spartire
 spartito
@@ -9267,7 +9152,6 @@ spezzato
 spezzetto
 spezzo
 spia
-spiaccico
 spiacente
 spiacevole
 spiagge
@@ -9317,7 +9201,6 @@ spirito
 spiritoso
 spirituale
 splenda
-splendano
 splendente
 splendere
 splendette
@@ -9328,7 +9211,6 @@ spodestato
 spodesto
 spogliare
 spogliato
-spoglio
 spola
 spoletta
 spolverare
@@ -9402,7 +9284,6 @@ squadra
 squadrone
 squagliare
 squagliato
-squaglio
 squalifica
 squallido
 squallore
@@ -9423,7 +9304,6 @@ squillo
 squisito
 sradicare
 sradicato
-sradico
 sragionare
 sragionato
 sregolato
@@ -9452,7 +9332,6 @@ stampare
 stampato
 stampatore
 stampella
-stampiglio
 stampo
 stanare
 stanato
@@ -9462,7 +9341,6 @@ stanco
 standosene
 stangata
 stanno
-stano
 stanotte
 stantuffo
 stanza
@@ -9491,7 +9369,6 @@ statuario
 statuetta
 statura
 statuto
-stavano
 stazione
 stazzare
 stazzato
@@ -9578,7 +9455,6 @@ stonato
 stonatura
 stoppa
 storcere
-stordano
 stordire
 stordito
 storgo
@@ -9586,7 +9462,6 @@ storia
 storicamente
 storico
 storione
-stormano
 stormire
 stormito
 stornare
@@ -9633,10 +9508,8 @@ strappo
 straripare
 straripato
 straripo
-strascico
 stratega
 strategia
-stratifico
 strato
 stravizio
 straziante
@@ -9654,7 +9527,6 @@ strettezza
 stretto
 strettoio
 stricnina
-stridano
 stridere
 stridette
 strido
@@ -9662,7 +9534,6 @@ stridulo
 striduto
 strigliare
 strigliato
-striglio
 strillare
 strillato
 strillo
@@ -9704,7 +9575,6 @@ studioso
 stufato
 stufo
 stuola
-stupano
 stupefare
 stupefato
 stupefatto
@@ -9718,12 +9588,10 @@ sturare
 sturato
 stuzzicare
 stuzzicato
-stuzzico
 suadente
 subacqueo
 subaffitto
 subalterno
-subbuglio
 subdolo
 subentrare
 subentrato
@@ -9761,7 +9629,6 @@ suffragio
 suggellare
 suggellato
 suggello
-suggerano
 suggerire
 suggerito
 suggestio
@@ -9810,7 +9677,6 @@ surrogo
 suscitare
 suscitato
 susina
-susseguano
 susseguire
 susseguito
 sussidio
@@ -9831,7 +9697,6 @@ svaligiato
 svaligio
 svalutare
 svalutato
-svanano
 svanire
 svaniscono
 svanito
@@ -9882,7 +9747,6 @@ svogliato
 svolazzare
 svolazzato
 svolazzo
-svolgano
 svolgere
 svolgimento
 svolgo
@@ -9951,7 +9815,6 @@ tarlato
 tarpare
 tarpato
 tarpo
-tartaglio
 tartaruga
 tartassare
 tartassato
@@ -10095,7 +9958,6 @@ terrestre
 terribile
 terriccio
 terriere
-terrifico
 territorio
 terrore
 terrorista
@@ -10180,7 +10042,6 @@ tiretto
 tirocinio
 tiroide
 tisana
-tisico
 titolare
 titolo
 titubante
@@ -10199,7 +10060,6 @@ toga
 togliere
 toglile
 toletta
-tolgano
 tolgo
 tollerante
 tollerare
@@ -10265,7 +10125,6 @@ tosare
 tosato
 tosatura
 toso
-tossano
 tosse
 tossico
 tossire
@@ -10417,7 +10276,6 @@ trastullo
 trasudare
 trasudato
 trasudo
-trasumano
 trasvolare
 trasvolato
 trasvolo
@@ -10430,7 +10288,6 @@ trattato
 tratteggio
 trattenere
 trattenga
-trattenne
 trattenuto
 trattiene
 tratto
@@ -10440,14 +10297,12 @@ trauma
 traumatico
 travaglio
 travasammo
-travasano
 travasato
 travaso
 travatura
 trave
 traversata
 traverso
-travestano
 travestire
 travestito
 traviare
@@ -10504,9 +10359,7 @@ trippa
 tripudio
 trisavolo
 triste
-tritano
 tritata
-tritavano
 trito
 triturare
 triturato
@@ -10620,7 +10473,6 @@ uggiolo
 uguaglianza
 uguagliare
 uguagliato
-uguaglio
 uguale
 ugualia
 ugualmente
@@ -10628,7 +10480,6 @@ ulcere
 ulteriore
 ulteriormente
 ultimato
-ultimavano
 ultimo
 ululare
 ululato
@@ -10656,7 +10507,6 @@ unico
 unidirezionale
 unificare
 unificato
-unifico
 uniformare
 uniformato
 uniformita
@@ -10721,7 +10571,6 @@ vaccinato
 vacillare
 vacillato
 vacillo
-vacinano
 vagabonda
 vagare
 vagato
@@ -10742,7 +10591,6 @@ valgo
 valicare
 valicase
 valicato
-valico
 validita
 valido
 valigia
@@ -10809,7 +10657,6 @@ vegetale
 vegeto
 vegliare
 vegliato
-veglio
 veicolo
 velare
 velato
@@ -10828,7 +10675,6 @@ venale
 venalita
 venda
 vendemmia
-venderano
 vendere
 vendetta
 vendibile
@@ -10841,11 +10687,9 @@ venerarile
 venerato
 venerdi
 venga
-vengano
 vengono
 venire
 venirsene
-venne
 ventaglio
 ventato
 ventesimo
@@ -10872,7 +10716,6 @@ vergogna
 vergognoso
 verificare
 verificato
-verifico
 verita
 verme
 vermiglio
@@ -10892,22 +10735,17 @@ verso
 verte
 vertebre
 vertenza
-vertera
 verticale
 vertice
 vertigine
-vescavano
 vescica
 vescovo
 vespa
 vespro
-vessanto
 vessare
 vessato
 vessazione
-vessiade
 vestaglia
-vestiaio
 vestibolo
 vestigio
 vestira
@@ -10916,7 +10754,6 @@ vestissimo
 vestito
 vestivo
 vesto
-veterano
 veto
 vetrata
 vetreria
@@ -11038,8 +10875,6 @@ vocabolo
 vocale
 voce
 vogato
-vogavamo
-vogliano
 voglio
 vogliono
 vogo
@@ -11118,7 +10953,6 @@ zona
 zoologia
 zoologico
 zoppicato
-zoppico
 zoppisare
 zoppo
 zotico

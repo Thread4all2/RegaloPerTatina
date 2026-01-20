@@ -196,7 +196,7 @@ fs.readFile(filePath, 'utf8', async (err, data) => {
 
 	for (let i = 0; i < lines.length; i++) {
 
-		if (lines[i].match(/(ero)$/)) {
+		if (lines[i].match(/(glio)$/)) {
 
 			if (!resultsFound) {
 				process.stdout.write("\n");
