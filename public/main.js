@@ -353,7 +353,7 @@ const quotes = [
 	/* tue 20/01 */ `Per essere una coniglietta fai venire veramente tanto appetito a questo vegetariano|800;<br><br>hehe`,
 	/* wed 21/01 */ `Oggi è la giornata mondiale dell'abbraccio, che ne dici di 4h incollati sul divano sotto ad una copertina?`,
 	/* thu 22/01 */ `<a href="https://open.spotify.com/track/1DwBNyyKnoPrQgPqY8HHRR">Time stood still</a><br>when I saw you`,
-	/* fri 23/01 */ ``,
+	/* fri 23/01 */ `Come stai mio piccolo barattolino di miele?`,
 	/* sat 24/01 */ ``,
 	/* sun 25/01 */ ``,
 	/* mon 26/01 */ ``,
