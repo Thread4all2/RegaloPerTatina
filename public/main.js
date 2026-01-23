@@ -354,7 +354,7 @@ const quotes = [
 	/* wed 21/01 */ `Oggi è la giornata mondiale dell'abbraccio, che ne dici di 4h incollati sul divano sotto ad una copertina?`,
 	/* thu 22/01 */ `<a href="https://open.spotify.com/track/1DwBNyyKnoPrQgPqY8HHRR">Time stood still</a><br>when I saw you`,
 	/* fri 23/01 */ `Come stai mio piccolo barattolino di miele?`,
-	/* sat 24/01 */ ``,
+	/* sat 24/01 */ `Su di noi scommetterei ogni giorno`,
 	/* sun 25/01 */ ``,
 	/* mon 26/01 */ ``,
 	/* tue 27/01 */ ``,
