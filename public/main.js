@@ -355,7 +355,7 @@ const quotes = [
 	/* thu 22/01 */ `<a href="https://open.spotify.com/track/1DwBNyyKnoPrQgPqY8HHRR">Time stood still</a><br>when I saw you`,
 	/* fri 23/01 */ `Come stai mio piccolo barattolino di miele?`,
 	/* sat 24/01 */ `Su di noi scommetterei ogni giorno`,
-	/* sun 25/01 */ ``,
+	/* sun 25/01 */ `Voglio fare nanna con te`,
 	/* mon 26/01 */ ``,
 	/* tue 27/01 */ ``,
 	/* wed 28/01 */ ``,
