@@ -356,7 +356,7 @@ const quotes = [
 	/* fri 23/01 */ `Come stai mio piccolo barattolino di miele?`,
 	/* sat 24/01 */ `Su di noi scommetterei ogni giorno`,
 	/* sun 25/01 */ `Voglio fare nanna con te`,
-	/* mon 26/01 */ ``,
+	/* mon 26/01 */ `Non vedo l'ora di poter iniziare a farti regali senza dover pensare a come occultarli al mondo`,
 	/* tue 27/01 */ ``,
 	/* wed 28/01 */ ``,
 	/* thu 29/01 */ ``,
