@@ -6,7 +6,7 @@
 	animation: starFadeIn 5s ease-in forwards;
 }
 
-#stars-container {
+#starsContainer {
 	pointer-events: none;
 	position: absolute;
 	top: 0;
@@ -18,8 +18,15 @@
 	transition: background 16s ease-in-out;
 }
 
-#stars-container.darken {
+#starsContainer.darken {
+	/* needs to be more specific than #id selector*/
 	background: #01030edd;
+}
+
+#quote.toLightColor {
+	z-index: 10;
+	color: rgba(133, 233, 229, 0.071);
+	transition: color 16s ease-in-out;
 }
 
 @keyframes starFadeIn {

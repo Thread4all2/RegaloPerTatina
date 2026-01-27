@@ -7,7 +7,14 @@ class Typer extends EventTarget {
 		this.taskQueue = [];
 		this.isProcessing = false;
 		this.interrupt = false;
-		this.helperFuncs = { // custom helper functions, called with $funName; in the type() method, or with addTask("call", "funName")
+		/*
+			custom helper functions, called with $funName; in the type() method, or with addTask("call", "funName")
+			- any added content to the page by these functions should have the class "specialQuoteContent", so it can be removed when switching quotes
+			- if any continuously running effect is implemented, stopSpecialQuoteRendering should be set to false at the start of the function
+			- edits to any of the already existing page elements should be reverted when stopSpecialQuoteRendering is set to true
+			- any running effect should check stopSpecialQuoteRendering and stop when it becomes true
+		*/
+		this.helperFuncs = {
 			updateHeartbeatCounter: () => {
 				if (document.getElementById("heartbeats")) {
 					updaterInterval = setInterval(() => {
@@ -98,13 +105,15 @@ class Typer extends EventTarget {
 				document.head.appendChild(customStyle);
 
 				const starsContainer = document.createElement("div");
-				starsContainer.id = "stars-container";
+				starsContainer.id = "starsContainer";
 				starsContainer.className = "specialQuoteContent";
 				document.body.appendChild(starsContainer);
 
-				document.getElementById("stars-container").offsetHeight; // force reflow
+				document.getElementById("starsContainer").classList.add("darken");
+				document.getElementById("quote").classList.add("toLightColor");
 
-				document.getElementById("stars-container").classList.add("darken");
+				document.getElementById("starsContainer").offsetHeight; // force reflow
+				document.getElementById("quote").offsetHeight; // force reflow
 
 				let counter = 0;
 
@@ -143,24 +152,20 @@ class Typer extends EventTarget {
 			setKlimtBg: () => {
 
 				const overlay = document.createElement("div");
-				overlay.id = "klimtKissOverlay";
 				overlay.className = "specialQuoteContent";
-				Object.assign(overlay.style, {
-					position: "fixed",
-					inset: "0",
-					backgroundImage: 'url("img/klimtKiss.webp")',
-					backgroundPosition: "center",
-					backgroundSize: "contain",
-					backgroundRepeat: "no-repeat",
-					opacity: "0",
-					animation: "fadeIn 8000ms linear forwards",
-					zIndex: "-1",
-					pointerEvents: "none"
-				});
+				overlay.style.position = "fixed";
+				overlay.style.inset = "0";
+				overlay.style.backgroundImage = 'url("img/klimtKiss.webp")';
+				overlay.style.backgroundPosition = "center";
+				overlay.style.backgroundSize = "cover";
+				overlay.style.backgroundRepeat = "no-repeat";
+				overlay.style.opacity = "0";
+				overlay.style.animation = "fadeIn 8s linear forwards";
+				overlay.style.zIndex = "-1";
+				overlay.style.pointerEvents = "none";
 
 				document.body.appendChild(overlay);
 				overlay.offsetHeight;
-
 			}
 		};
 	}
@@ -175,11 +180,13 @@ class Typer extends EventTarget {
 		}
 	}
 
+	// interrupts the current task and clears the task queue
 	haltProcessing() {
 		this.taskQueue = [];
 		this.interrupt = true; // will propagate to the task currently executing, if any, or it will be reset by the next invocation of processTasks
 	}
 
+	// immediately clears all text from the element and internal representation
 	clearText() {
 		this.text = "";
 		this.element.innerHTML = "";
@@ -322,7 +329,6 @@ class Typer extends EventTarget {
 				let delay = speed;
 				if ([",", ";", ":"].includes(content[i])) {
 					delay = 3 * speed;
-
 				}
 				else if ([".", "!", "?"].includes(content[i])) {
 					delay = 7 * speed;
