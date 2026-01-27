@@ -139,6 +139,28 @@ class Typer extends EventTarget {
 			},
 			setAskToGoToBd: () => {
 				localStorage.setItem("askedToGoToBirthday", "1");
+			},
+			setKlimtBg: () => {
+
+				const overlay = document.createElement("div");
+				overlay.id = "klimtKissOverlay";
+				overlay.className = "specialQuoteContent";
+				Object.assign(overlay.style, {
+					position: "fixed",
+					inset: "0",
+					backgroundImage: 'url("img/klimtKiss.webp")',
+					backgroundPosition: "center",
+					backgroundSize: "contain",
+					backgroundRepeat: "no-repeat",
+					opacity: "0",
+					animation: "fadeIn 8000ms linear forwards",
+					zIndex: "-1",
+					pointerEvents: "none"
+				});
+
+				document.body.appendChild(overlay);
+				overlay.offsetHeight;
+
 			}
 		};
 	}
