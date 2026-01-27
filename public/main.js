@@ -741,21 +741,16 @@ function updateQuote(midnightMessage = 0) {
 
 	clearInterval(updaterInterval);
 
-	if (quoteTyper.isProcessing) {
-		quoteTyper.haltProcessing();
-	}
+	quoteTyper.haltProcessing();
+	quoteTyper.clearText();
 
-	stopSpecialQuoteRendering = true; // send stop signal to special quote tasks
+	cleanupSpecialQuoteElements();
 
-	// remove anything put on the page by a special quote
-	for (let i of document.querySelectorAll(".specialQuoteContent")) {
-		i.remove();
-	}
-
-	quoteTyper.addTask("erase");
-	quoteTyper.addTask("wait", 200);
+	quoteTyper.addTask("wait", 100);
 
 	if (midnightMessage) {
+		quoteTyper.addTask("erase");
+		quoteTyper.addTask("wait", 200);
 		quoteTyper.addTask("type", `Ciao bimba, sto aggiornando la frase per domani<br><3`);
 		quoteTyper.addTask("wait", 1000);
 		quoteTyper.addTask("erase");
@@ -775,6 +770,15 @@ let dayChanges = 0;
 let areBulksHidden = true;
 let stopSpecialQuoteRendering = false; // used to send a stop signal to continuously running tasks executed by special quotes
 
+
+function cleanupSpecialQuoteElements() {
+	stopSpecialQuoteRendering = true; // send stop signal to special quote tasks
+
+	// remove anything put on the page by a special quote
+	for (let i of document.querySelectorAll(".specialQuoteContent")) {
+		i.remove();
+	}
+}
 
 function updateDayChangeButtonsVisibility() {
 
@@ -819,28 +823,18 @@ function updateDayChangeButtonsVisibility() {
 prevDay_.onclick = () => {
 
 	daysOffset--;
-
-	quoteTyper.haltProcessing();
-	quoteTyper.clearText();
-
-	setTime();
-	updateQuote();
-
 	dayChanges++;
+
+	updateQuote();
 	updateDayChangeButtonsVisibility();
 };
 
 nextDay_.onclick = () => {
 
 	daysOffset++;
-
-	quoteTyper.haltProcessing();
-	quoteTyper.clearText();
-
-	setTime();
-	updateQuote();
-
 	dayChanges++;
+
+	updateQuote();
 	updateDayChangeButtonsVisibility();
 };
 
@@ -856,12 +850,7 @@ prevDayBulk_.onclick = () => {
 		daysOffset = 0;
 	}
 
-	quoteTyper.haltProcessing();
-	quoteTyper.clearText();
-
-	setTime();
 	updateQuote();
-
 	updateDayChangeButtonsVisibility();
 };
 
@@ -875,12 +864,7 @@ nextDayBulk_.onclick = () => {
 		daysOffset = 0;
 	}
 
-	quoteTyper.haltProcessing();
-	quoteTyper.clearText();
-
-	setTime();
 	updateQuote();
-
 	updateDayChangeButtonsVisibility();
 };
 
@@ -891,6 +875,11 @@ hangman_.onclick = () => {
 
 
 	if (isPlayingHangman) {
+
+		// clear the update-at-midnight timer
+		clearTimeout(quoteUpdateTimer);
+		cleanupSpecialQuoteElements();
+
 		quoteTyper.haltProcessing();
 		quoteTyper.clearText();
 		hudDate_.innerHTML = `- impiccato -`;
@@ -913,15 +902,9 @@ hangman_.onclick = () => {
 		hangman_.style.background = "#0a021d10";
 		hangman_.style.display = "block";
 
-		// clear the update-at-midnight timer
-		clearTimeout(quoteUpdateTimer);
-
 		setupHangman();
 	}
 	else {
-		quoteTyper.haltProcessing();
-		quoteTyper.clearText();
-		setTime();
 
 		document.getElementById("hangmanContainer").style.display = "none";
 		document.getElementById("openGame").src = "graphics/hangman.svg";
@@ -935,6 +918,7 @@ hangman_.onclick = () => {
 		hangman_.style.display = "block";
 
 		updateDayChangeButtonsVisibility();
+		setTime();
 		setQuote();
 	}
 };
@@ -973,11 +957,10 @@ setInterval(() => {
 
 
 
-// set the time and load the shapes
+// setup
 
 setTime();
 loadShapes();
-
 
 
 // check whether to enable features
@@ -1058,7 +1041,7 @@ switch (timesOpened) {
 		break;
 
 	default:
-		setTimeout(() => { setQuote(1); }, 150);
+		setTimeout(() => { setQuote(); }, 150);
 }
 
 
@@ -1088,7 +1071,11 @@ if (debug === "stat") {
 			infoText_.style.textAlign = "left";
 
 			// adjust the x button bevavior, as it mustn't trigger the quote update
-			document.getElementById("xButton").onclick = () => { document.getElementById('info').style.display = 'none'; };
+			document.getElementById("xButton").onclick = () => {
+				document.getElementById('info').style.display = 'none';
+				clearInterval(debugMenuUpdater);
+				debugMenuUpdater = null;
+			};
 
 			infoTitle_.textContent = "DEBUG INFO";
 
@@ -1118,10 +1105,8 @@ End        : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
 
 		} else {
 
-			if (debugMenuUpdater) {
-				clearInterval(debugMenuUpdater);
-				debugMenuUpdater = null;
-			}
+			clearInterval(debugMenuUpdater);
+			debugMenuUpdater = null;
 			info_.style.display = "none";
 		}
 	};
