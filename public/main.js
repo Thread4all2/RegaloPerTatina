@@ -359,7 +359,7 @@ const quotes = [
 	/* mon 26/01 */ `Non vedo l'ora di poter iniziare a farti regali senza dover pensare a come occultarli al mondo`,
 	/* tue 27/01 */ `@50;Ma anche tra mille anni|150;<br>sarò ancora qui|400;<br>Siamo eterni come|200;<br>$setKlimtBg;<a href="https://open.spotify.com/track/5CBR5KZD62x8IubuJlLTPW">il bacio di Klimt</a>`,
 	/* wed 28/01 */ `E potrebbe scomparire l'universo|150; tranne noi`,
-	/* thu 29/01 */ ``,
+	/* thu 29/01 */ `E io ti cerco in ogni cosa`,
 	/* fri 30/01 */ ``,
 	/* sat 31/01 */ ``,
 
