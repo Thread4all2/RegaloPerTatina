@@ -361,7 +361,7 @@ const quotes = [
 	/* wed 28/01 */ `E potrebbe scomparire l'universo|150; tranne noi`,
 	/* thu 29/01 */ `E io ti cerco in ogni cosa`,
 	/* fri 30/01 */ `Dirti "ti amo" è una cosa che non mi ridurrò mai a dare per scontata`,
-	/* sat 31/01 */ ``,
+	/* sat 31/01 */ `Promettimi che non smetteremo di immaginarci il nostro futuro insieme neanche quando lo staremo vivendo`,
 
 	/* sun 01/02 */ ``,
 	/* mon 02/02 */ ``,
@@ -369,7 +369,7 @@ const quotes = [
 	/* wed 04/02 */ ``,
 	/* thu 05/02 */ ``,
 	/* fri 06/02 */ ``,
-	/* sat 07/02 */ ``,
+	/* sat 07/02 */ `Oggi fa gli anni nostra figliaaaa<br><br>Potresti darle un bacino da parte mia (e uno anche alla grandissima gnocca di sua madre hehe)?`,
 	/* sun 08/02 */ ``,
 	/* mon 09/02 */ ``,
 	/* tue 10/02 */ ``,
