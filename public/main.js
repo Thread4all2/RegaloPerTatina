@@ -364,7 +364,7 @@ const quotes = [
 	/* sat 31/01 */ `Promettimi che non smetteremo di immaginarci il nostro futuro insieme neanche quando lo staremo vivendo`,
 
 	/* sun 01/02 */ `Immagina quanto sarebbe bello se io abitassi diciamo ad un certo piano di un certo condominio in un certo comune appena al confine di una certa grande provincia`,
-	/* mon 02/02 */ ``,
+	/* mon 02/02 */ `Sei e sarai sempre tu e solo tu`,
 	/* tue 03/02 */ ``,
 	/* wed 04/02 */ ``,
 	/* thu 05/02 */ ``,
