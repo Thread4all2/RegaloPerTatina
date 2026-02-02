@@ -365,7 +365,7 @@ const quotes = [
 
 	/* sun 01/02 */ `Immagina quanto sarebbe bello se io abitassi diciamo ad un certo piano di un certo condominio in un certo comune appena al confine di una certa grande provincia`,
 	/* mon 02/02 */ `Sei e sarai sempre tu e solo tu`,
-	/* tue 03/02 */ ``,
+	/* tue 03/02 */ `It was written in the stars<br>We can't be torn apart<br>We are <a href="https://open.spotify.com/track/7yfhESjiagb2x1WEWlgpbb">linked</a> together<br>Forged in fire forever`,
 	/* wed 04/02 */ ``,
 	/* thu 05/02 */ ``,
 	/* fri 06/02 */ ``,
