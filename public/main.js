@@ -367,7 +367,7 @@ const quotes = [
 	/* mon 02/02 */ `Sei e sarai sempre tu e solo tu`,
 	/* tue 03/02 */ `It was written in the stars<br>We can't be torn apart<br>We are <a href="https://open.spotify.com/track/7yfhESjiagb2x1WEWlgpbb">linked</a> together<br>Forged in fire forever`,
 	/* wed 04/02 */ `Credi che scoperemo più spesso come causa o come conseguenza della pace dopo una litigata?`,
-	/* thu 05/02 */ ``,
+	/* thu 05/02 */ `Solo tu mi conosci davvero`,
 	/* fri 06/02 */ ``,
 	/* sat 07/02 */ `Oggi fa gli anni nostra figliaaaa<br><br>Potresti darle un bacino da parte mia (e uno anche alla grandissima gnocca di sua madre hehe)?`,
 	/* sun 08/02 */ ``,
