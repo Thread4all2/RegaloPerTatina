@@ -370,7 +370,7 @@ const quotes = [
 	/* thu 05/02 */ `Solo tu mi conosci davvero`,
 	/* fri 06/02 */ `Voglio stare con te stesa sul mio petto sotto lo stesso asciugamano dopo un bagno`,
 	/* sat 07/02 */ `Oggi fa gli anni nostra figliaaaa<br><br>Potresti darle un bacino da parte mia (e uno anche alla grandissima gnocca di sua madre hehe)?`,
-	/* sun 08/02 */ ``,
+	/* sun 08/02 */ `Sarò per sempre al tuo fianco`,
 	/* mon 09/02 */ ``,
 	/* tue 10/02 */ ``,
 	/* wed 11/02 */ ``,
