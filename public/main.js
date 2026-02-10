@@ -373,7 +373,7 @@ const quotes = [
 	/* sun 08/02 */ `Sarò per sempre al tuo fianco`,
 	/* mon 09/02 */ `Esattamente un anno fa stavo cercando di far funzionare decentemente il codice per digitare le frasi in maniera carina. Sono piuttosto felice del risultato hihih`,
 	/* tue 10/02 */ `Quando mi sento sbagliato, ci sei sempre tu a ricordarmi che almeno per qualcuno sono giusto|1300;<br><br><span class="small">Grazie di esistere patatina</span>`,
-	/* wed 11/02 */ ``,
+	/* wed 11/02 */ `Nella mia testa in questo momento ci siete tu, tu, tu, tu e tu (ed in un angolino a fare l'offesa ci sei ancora tu)`,
 	/* thu 12/02 */ ``,
 	/* fri 13/02 */ `Specchio specchio delle mie brame, chi è la bimba più bella del reame?$mirrorEffect;`,
 	/* sat 14/02 */ ``
