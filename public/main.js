@@ -375,7 +375,7 @@ const quotes = [
 	/* tue 10/02 */ `Quando mi sento sbagliato, ci sei sempre tu a ricordarmi che almeno per qualcuno sono giusto|1300;<br><br><span class="small">Grazie di esistere patatina</span>`,
 	/* wed 11/02 */ `Nella mia testa in questo momento ci siete tu, tu, tu, tu e tu (ed in un angolino a fare l'offesa ci sei ancora tu)`,
 	/* thu 12/02 */ `Sei l'ultimo pezzo del mio puzzle`,
-	/* fri 13/02 */ `Specchio specchio delle mie brame, chi è la bimba più bella del reame?$mirrorEffect;`,
+	/* fri 13/02 */ `Specchio specchio delle mie brame, chi è la bimba più bella del reame?$mirrorEffect; |800;<br><br><div class="small">(questa frase dovrebbe implementare un efetto carino che eric non ha avuto il tempo di scrivere in questi giorni 🙃)</div>`,
 	/* sat 14/02 */ ``
 ];
 

@@ -169,41 +169,9 @@ class Typer extends EventTarget {
 			},
 			mirrorEffect: () => {
 				stopSpecialQuoteRendering = false;
-				const mirror = document.createElement("div");
-				mirror.className = "specialQuoteContent mirrorEffect";
-				document.body.appendChild(mirror);
-				// create a webcam video element
-				const video = document.createElement("video");
-				video.autoplay = true;
-				video.muted = true;
-				video.style.display = "none";
-				document.body.appendChild(video);
-				// get webcam stream
-				navigator.mediaDevices.getUserMedia({ video: true }).then((stream) => {
-					video.srcObject = stream;
-					const canvas = document.createElement("canvas");
-					const ctx = canvas.getContext("2d");
-					const draw = () => {
-						if (stopSpecialQuoteRendering) {
-							stream.getTracks().forEach(track => track.stop());
-							return;
-						}
-						canvas.width = video.videoWidth;
-						canvas.height = video.videoHeight;
-						ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-						mirror.style.backgroundImage = `url(${canvas.toDataURL()})`;
-						requestAnimationFrame(draw);
-					};
-
-					draw();
-				}).catch((err) => {
-					console.error("Error accessing webcam for mirror effect: ", err);
-				});
-
 			}
 		};
 	}
-
 
 	addTask(instruction, value = "", speed = this.speed) {
 
