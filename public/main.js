@@ -719,7 +719,7 @@ function setQuote() {
 	}
 	else if (daysSince === 365 && localStorage.getItem("endMessageShown") === null) {
 		localStorage.setItem("endMessageShown", "true");
-		quoteTyper.addTask("type", `È passato un anno, quindi la pagina ha fatto il suo corso.<br>D'ora in poi, ad ogni apertura mostrerà una frase a caso|1200;<br><div class="small">ps: il mio cuore ha battuto per te circa altri 37 milioni di volte dallo scorso San Valentino hihih <3</div>`);
+		quoteTyper.addTask("type", `È passato un anno, quindi la pagina ha fatto il suo corso.<br>D'ora in poi, ad ogni apertura mostrerà una frase a caso|1200;<br><br><div class="small">ps: il mio cuore ha battuto per te circa altri 37 milioni di volte dallo scorso San Valentino hihih <3</div>`);
 	}
 	else {
 		typeRandomQuote();
