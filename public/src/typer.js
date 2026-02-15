@@ -169,6 +169,86 @@ class Typer extends EventTarget {
 			},
 			mirrorEffect: () => {
 				stopSpecialQuoteRendering = false;
+
+				const customStyle = document.createElement("link");
+				customStyle.rel = "stylesheet";
+				customStyle.href = "src/mirror.css";
+				customStyle.className = "specialQuoteContent";
+				document.head.appendChild(customStyle);
+
+				const mirrorButton = document.createElement("button");
+				mirrorButton.className = "specialQuoteContent";
+				mirrorButton.id = "mirrorButton";
+				mirrorButton.innerText = "Chi sarà mai?";
+				document.getElementById("quoteContainer").appendChild(mirrorButton);
+
+				let videoStream = null;
+
+				async function resizeVideo() {
+					if (!videoStream) return;
+
+					try {
+						await videoStream.getVideoTracks()[0].applyConstraints({
+							width: { ideal: document.documentElement.clientWidth - 48 },
+							height: { ideal: document.documentElement.clientHeight - 168 }
+						});
+					} catch (e) {
+						console.error("Error resizing video stream: ", e);
+					}
+				}
+
+				mirrorButton.addEventListener("click", () => {
+					mirrorButton.remove();
+					quoteTyper.clearText();
+
+					const mirrorContainer = document.createElement("div");
+					mirrorContainer.className = "specialQuoteContent";
+					mirrorContainer.id = "mirrorContainer";
+
+
+					const video = document.createElement("video");
+					video.id = "videoMirror";
+					video.autoplay = true;
+					video.muted = true;
+					video.playsInline = true; // for iOS
+
+					const videoMirrorOverlay = document.createElement("div");
+					videoMirrorOverlay.id = "videoMirrorOverlay";
+
+
+					mirrorContainer.appendChild(video);
+					mirrorContainer.appendChild(videoMirrorOverlay);
+
+					document.body.appendChild(mirrorContainer);
+
+
+					navigator.mediaDevices
+						.getUserMedia({
+							video: {
+								facingMode: "user",
+								width: { ideal: document.documentElement.clientWidth - 48 },
+								height: { ideal: document.documentElement.clientHeight - 168 }
+							},
+							audio: false
+						})
+						.then((stream) => {
+							videoStream = stream;
+							video.srcObject = stream;
+							video.play();
+						})
+						.catch((err) => {
+							console.error(`An error occurred: ${err}`);
+							alert("amore mi serve vederti per poterti mostrare riflessa sullo schermo, fa' la brava bimba e dammi il permesso");
+						});
+
+				});
+
+				let resizeDebounceTimer;
+
+				window.addEventListener("resize", () => {
+					clearTimeout(resizeDebounceTimer);
+					resizeDebounceTimer = setTimeout(resizeVideo, 100);
+				});
 			}
 		};
 	}
