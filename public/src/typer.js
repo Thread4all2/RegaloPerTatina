@@ -182,20 +182,20 @@ class Typer extends EventTarget {
 				mirrorButton.innerText = "Chi sarà mai?";
 				document.getElementById("quoteContainer").appendChild(mirrorButton);
 
-				let videoStream = null;
+				// let videoStream = null;
 
-				async function resizeVideo() {
-					if (!videoStream) return;
+				// async function resizeVideo() {
+				// 	if (!videoStream) return;
 
-					try {
-						await videoStream.getVideoTracks()[0].applyConstraints({
-							width: { ideal: document.documentElement.clientWidth - 48 },
-							height: { ideal: document.documentElement.clientHeight - 168 }
-						});
-					} catch (e) {
-						console.error("Error resizing video stream: ", e);
-					}
-				}
+				// 	try {
+				// 		await videoStream.getVideoTracks()[0].applyConstraints({
+				// 			width: { ideal: document.documentElement.clientWidth - 48 },
+				// 			height: { ideal: document.documentElement.clientHeight - 168 }
+				// 		});
+				// 	} catch (e) {
+				// 		console.error("Error resizing video stream: ", e);
+				// 	}
+				// }
 
 				mirrorButton.addEventListener("click", () => {
 					mirrorButton.remove();
@@ -226,13 +226,13 @@ class Typer extends EventTarget {
 						.getUserMedia({
 							video: {
 								facingMode: "user",
-								width: { ideal: document.documentElement.clientWidth - 48 },
-								height: { ideal: document.documentElement.clientHeight - 168 }
+								// width: { ideal: document.documentElement.clientWidth - 48 },
+								// height: { ideal: document.documentElement.clientHeight - 168 }
 							},
 							audio: false
 						})
 						.then((stream) => {
-							videoStream = stream;
+							// videoStream = stream;
 							video.srcObject = stream;
 							video.play();
 						})
@@ -243,12 +243,12 @@ class Typer extends EventTarget {
 
 				});
 
-				let resizeDebounceTimer;
+				// let resizeDebounceTimer;
 
-				window.addEventListener("resize", () => {
-					clearTimeout(resizeDebounceTimer);
-					resizeDebounceTimer = setTimeout(resizeVideo, 100);
-				});
+				// window.addEventListener("resize", () => {
+				// 	clearTimeout(resizeDebounceTimer);
+				// 	resizeDebounceTimer = setTimeout(resizeVideo, 100);
+				// });
 			}
 		};
 	}
