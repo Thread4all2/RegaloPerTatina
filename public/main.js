@@ -393,7 +393,7 @@ const dbg_ = document.getElementById('dbgMenuToggle');
 
 // sweet juicy analytics --------------
 
-const timesOpened = +localStorage.getItem("timesOpened") || 0;
+let timesOpened = +localStorage.getItem("timesOpened") || 0;
 localStorage.setItem("timesOpened", timesOpened + 1);
 
 
@@ -432,6 +432,7 @@ let quoteTyper = new Typer(quote_);
 
 let clickCount = 0;
 let lastClickTime = 0;
+let heartStreamTimeout = null;
 
 function createHeart(x, y) {
 	const heart = document.createElement('div');
@@ -470,7 +471,7 @@ const heartStream = () => { // spawn hearts at random intervals
 
 	makeRisingHearts();
 
-	setTimeout(() => {
+	heartStreamTimeout = setTimeout(() => {
 		heartStream();
 	}, Math.random() * 3000 + 100);
 };
@@ -966,22 +967,17 @@ if ('scrollRestoration' in history) {
 
 
 
-// set a clock to refresh the page if it goes inactive (like in background) for more than 16 seconds (to correctly count visits)
-// TODO: check whether the Page Visibility API would be better suited for this
-// https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
+// background logic
 
-
-localStorage.setItem("tick", new Date().getTime());
-
-setInterval(() => {
-
-	if (new Date().getTime() - localStorage.getItem("tick") > 32_000) {
-		location.reload(true);
+document.addEventListener("visibilitychange", () => {
+	if (document.hidden) {
+		clearTimeout(heartStreamTimeout);
+	} else {
+		makeRisingHearts(20);
+		heartStream();
+		localStorage.setItem("timesOpened", ++timesOpened);
 	}
-
-	localStorage.setItem("tick", new Date().getTime());
-
-}, 16_000);
+});
 
 
 
