@@ -182,21 +182,6 @@ class Typer extends EventTarget {
 				mirrorButton.innerText = "Chi sarà mai?";
 				document.getElementById("quoteContainer").appendChild(mirrorButton);
 
-				// let videoStream = null;
-
-				// async function resizeVideo() {
-				// 	if (!videoStream) return;
-
-				// 	try {
-				// 		await videoStream.getVideoTracks()[0].applyConstraints({
-				// 			width: { ideal: document.documentElement.clientWidth - 48 },
-				// 			height: { ideal: document.documentElement.clientHeight - 168 }
-				// 		});
-				// 	} catch (e) {
-				// 		console.error("Error resizing video stream: ", e);
-				// 	}
-				// }
-
 				mirrorButton.addEventListener("click", () => {
 					mirrorButton.remove();
 					quoteTyper.clearText();
@@ -224,31 +209,20 @@ class Typer extends EventTarget {
 
 					navigator.mediaDevices
 						.getUserMedia({
-							video: {
-								facingMode: "user",
-								// width: { ideal: document.documentElement.clientWidth - 48 },
-								// height: { ideal: document.documentElement.clientHeight - 168 }
-							},
+							video: { facingMode: "user" },
 							audio: false
 						})
 						.then((stream) => {
-							// videoStream = stream;
 							video.srcObject = stream;
 							video.play();
 						})
 						.catch((err) => {
 							console.error(`An error occurred: ${err}`);
 							alert("amore mi serve vederti per poterti mostrare riflessa sullo schermo, fa' la brava bimba e dammi il permesso");
+							window.location.reload();
 						});
 
 				});
-
-				// let resizeDebounceTimer;
-
-				// window.addEventListener("resize", () => {
-				// 	clearTimeout(resizeDebounceTimer);
-				// 	resizeDebounceTimer = setTimeout(resizeVideo, 100);
-				// });
 			}
 		};
 	}
