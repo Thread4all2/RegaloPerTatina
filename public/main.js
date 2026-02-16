@@ -578,6 +578,38 @@ function checkLoss() {
 	}
 }
 
+function checkLetter(elem, letter) {
+
+	if (hangmanState.triedLetters.includes(letter) || hangmanState.isGameOver) { // already tried the letter or the game has ended
+		return;
+	}
+
+	hangmanState.triedLetters.push(letter);
+
+	elem.style.backgroundColor = "#0b3a3aa0";
+
+	if (hangmanState.word.split("").some(l => areSameLetter(letter, l))) {
+		elem.style.color = "#40f040";
+		displayMessage(["brava amoreee", "sii", "c'è", "così si fa", "brava", "continua così"][Math.random() * 6 | 0], "rgb(42, 246, 93, 0.6)");
+		checkWin();
+
+	} else {
+		hangmanState.lives--;
+		elem.style.color = "#808080";
+		displayMessage(["nu more", "nuu", "non c'è", "eh no", "🙃", "nope"][Math.random() * 6 | 0], "rgb(240, 80, 80, 0.6)");
+		checkLoss();
+	}
+
+
+	updateLivesCounter();
+
+	if (hangmanState.lives) {
+		revealKnownLetters();
+	} else {
+		wordContainer_.innerHTML = "<br>" + hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : `<span style="color:rgb(184, 22, 76)">${l}</span>`).join("");
+	}
+}
+
 function displayMessage(message, bg, duration = 2000, size = 1.2) {
 	hangmanMessage_.innerText = message;
 
@@ -642,43 +674,13 @@ async function setupHangman() {
 
 }
 
-function checkLetter(elem, letter) {
-
-	if (hangmanState.triedLetters.includes(letter) || hangmanState.isGameOver) { // already tried the letter or the game has ended
-		return;
-	}
-
-	hangmanState.triedLetters.push(letter);
-
-	elem.style.backgroundColor = "#0b3a3aa0";
-
-	if (hangmanState.word.split("").some(l => areSameLetter(letter, l))) {
-		elem.style.color = "#40f040";
-		displayMessage(["brava amoreee", "sii", "c'è", "così si fa", "brava", "continua così"][Math.random() * 6 | 0], "rgb(42, 246, 93, 0.6)");
-		checkWin();
-
-	} else {
-		hangmanState.lives--;
-		elem.style.color = "#808080";
-		displayMessage(["nu more", "nuu", "non c'è", "eh no", "🙃", "nope"][Math.random() * 6 | 0], "rgb(240, 80, 80, 0.6)");
-		checkLoss();
-	}
-
-
-	updateLivesCounter();
-
-	if (hangmanState.lives) {
-		revealKnownLetters();
-	} else {
-		wordContainer_.innerHTML = "<br>" + hangmanState.word.split("").map(l => (hangmanState.triedLetters.some(tried => areSameLetter(tried, l)) || l === " ") ? l : `<span style="color:rgb(184, 22, 76)">${l}</span>`).join("");
-	}
-}
 
 
 
 // main functions ---------------------
 
-function loadShapes() { // injects svgs, to avoid flashing them before page load
+// injects svgs, to avoid flashing them before page load
+function loadShapes() {
 	document.getElementById("leftArrow").src = "graphics/leftArrow.svg";
 	document.getElementById("rightArrow").src = "graphics/rightArrow.svg";
 	document.getElementById("doubleLeftArrow").src = "graphics/doubleLeftArrow.svg";
