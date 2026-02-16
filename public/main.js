@@ -949,10 +949,9 @@ hangman_.onclick = () => {
 
 		prevDay_.style.display = "none";
 		nextDay_.style.display = "none";
-		if (!areBulksHidden) {
-			prevDayBulk_.style.display = "none";
-			nextDayBulk_.style.display = "none";
-		}
+		prevDayBulk_.style.display = "none";
+		nextDayBulk_.style.display = "none";
+		randomizeDay_.style.display = "none";
 
 		document.getElementById("hangmanContainer").style.display = "flex";
 		document.getElementById("openGame").src = "graphics/leftArrow.svg";
