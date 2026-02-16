@@ -401,22 +401,17 @@ localStorage.setItem("timesOpened", timesOpened + 1);
 // timekeeping ------------------------
 
 const startDate = new Date("2025-02-14 00:00:00Z");
-let daysOffset = +(searchParams.get("t")) || 0;
-let today, day, month, timeDiff, daysSince;
 
-function setTime() {
-	today = new Date(new Date().getTime() + 86400000 * daysOffset); // today + query param t days
+// root date (the day the page thinks it actually is right now)
+const selectedDate = new Date(new Date().getTime() + 86400000 * (+(searchParams.get("t")) || 0)); // today + query param t days
 
-	day = today.getDate();
-	month = today.getMonth() + 1;
+// ms elapsed since startDate
+const timeDiff = selectedDate.getTime() - startDate.getTime();
 
-	timeDiff = today.getTime() - startDate.getTime();
-	daysSince = Math.floor(((timeDiff / 60000) - today.getTimezoneOffset()) / (60 * 24));
+// days elapsed since start date (rounded down)
+const daysSince = Math.floor(((timeDiff / 60000) - selectedDate.getTimezoneOffset()) / (60 * 24));
 
-	if (daysSince < 365) {
-		hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length === 2 ? month : "0" + month} -`;
-	}
-}
+let daysOffset = 0; // days to shift the current date by, used by the controls
 
 
 
@@ -553,7 +548,6 @@ function revealKnownLetters() {
 
 function updateLivesCounter() {
 	livesContainer_.innerText = "💔".repeat(6 - hangmanState.lives) + "❤️".repeat(hangmanState.lives);
-
 }
 
 function checkWin() {
@@ -693,11 +687,21 @@ function loadShapes() {
 	document.getElementById("dbg").src = "graphics/debug.svg";
 }
 
-function setQuote() {
+// writes startingDate + offset (in days) in the hud
+function setTimeHud(offset = 0) {
+	const date = new Date(startDate.getTime() + 86400000 * offset); // today + query param t days
 
-	if (daysSince < 0) {
+	const day = date.getDate();
+	const month = date.getMonth() + 1;
 
-		const date = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+	hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length === 2 ? month : "0" + month} -`;
+}
+
+function setQuote(offset = daysSince + daysOffset) {
+
+	if (offset < 0) {
+
+		const date = selectedDate.getFullYear() + "-" + (selectedDate.getMonth() + 1) + "-" + selectedDate.getDate();
 		switch (date) {
 			case "2006-10-11":
 				quoteTyper.addTask("type", "Oggi nasce l'amore della mia vita, ed io sono ancora troppo pargolo per realizzare quanta felicità potrà portarmi|400; hihihih");
@@ -713,14 +717,14 @@ function setQuote() {
 				}
 		}
 	}
-	else if (daysSince < 365) {
-		quoteTyper.addTask("type", quotes[daysSince]);
+	else if (offset < 365) {
+		quoteTyper.addTask("type", quotes[offset]);
 
 		// update the quote at midnight (wait at least 30s to avoid erasing while the quote is still being typed, as it would be annoying)
 		const now = new Date();
 		quoteUpdateTimer = setTimeout(() => { updateQuote(1); }, Math.max(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime(), 30_000));
 	}
-	else if (daysSince === 365 && localStorage.getItem("endMessageShown") === null) {
+	else if (offset === 365 && localStorage.getItem("endMessageShown") === null) {
 		localStorage.setItem("endMessageShown", "true");
 		quoteTyper.addTask("type", `È passato un anno, quindi la pagina ha fatto il suo corso.<br>D'ora in poi, ad ogni apertura mostrerà una frase a caso|1200;<br><br><div class="small">ps: il mio cuore ha battuto per te circa altri 37 milioni di volte dallo scorso San Valentino hihih <3</div>`);
 	}
@@ -741,6 +745,7 @@ function updateQuote(midnightMessage = 0) {
 	quoteTyper.addTask("wait", 100);
 
 	if (midnightMessage) {
+		daysOffset++; // go to next day
 		quoteTyper.addTask("erase");
 		quoteTyper.addTask("wait", 200);
 		quoteTyper.addTask("type", `Ciao bimba, sto aggiornando la frase per domani<br><3`);
@@ -749,36 +754,30 @@ function updateQuote(midnightMessage = 0) {
 		quoteTyper.addTask("wait", 200);
 	}
 
-	setTime();
+	setTimeHud(daysSince + daysOffset);
 	setQuote();
-
 }
 
 function typeRandomQuote() {
 
-	let randDay = Math.random() * quotes.length | 0;
+	let randOffset = Math.random() * quotes.length | 0;
 
-	while ([0, 3, 10, 15, 25, 57, 65, 124, 125, 137, 144, 157, 167, 168, 173, 179, 202, 239, 314, 315, 319, 321, 322, 323, 324, 341, 360].some(day => day === randDay)) {
-		randDay = Math.random() * quotes.length | 0;
+	while ([0, 3, 10, 15, 25, 57, 65, 124, 125, 137, 144, 157, 167, 168, 173, 179, 202, 239, 314, 315, 319, 321, 322, 323, 324, 341, 358, 360].some(day => day === randOffset)) {
+		randOffset = Math.random() * quotes.length | 0;
 	}
 
-	quoteTyper.addTask("type", quotes[randDay]);
+	quoteTyper.addTask("type", quotes[randOffset]);
 
-	today = new Date(startDate.getTime() + 86400000 * randDay);
-
-	day = today.getDate();
-	month = today.getMonth() + 1;
-
-	hudDate_.innerHTML = `- (${("" + day).length === 2 ? day : "0" + day}/${("" + month).length === 2 ? month : "0" + month}) -`;
+	setTimeHud(randOffset);
 }
 
 
-// event handlers ---------------------
+// day switching handlers ---------------------
 
 let dayChanges = 0;
 let areBulksHidden = true;
-let stopSpecialQuoteRendering = false; // used to send a stop signal to continuously running tasks executed by special quotes
 
+let stopSpecialQuoteRendering = false; // used to send a stop signal to continuously running tasks executed by special quotes
 
 function cleanupSpecialQuoteElements() {
 	stopSpecialQuoteRendering = true; // send stop signal to special quote tasks
@@ -791,38 +790,61 @@ function cleanupSpecialQuoteElements() {
 
 function updateDayChangeButtonsVisibility() {
 
-	if (daysSince < 1) { // if it's not the first day, we can go back
-		prevDay_.style.display = "none";
+
+	// if the date is beyond the end of the list, only enable the back button to return to the last availavle quote and allow normal navigation from there
+	if (daysSince + daysOffset > 363) {
+		prevDay_.style.transform = "";
+		prevDay_.style.display = "block";
+		nextDay_.style.display = "none";
 		prevDayBulk_.style.display = "none";
+		nextDayBulk_.style.display = "none";
+
+		randomizeDay_.style.display = "block";
+		return;
+	} else {
+		randomizeDay_.style.display = "none";
 	}
-	else {
+
+	if (daysSince + daysOffset > 0) { // if it's not the first day, we can go back
 		prevDay_.style.display = "block";
 
 		if (!areBulksHidden) {
-			prevDayBulk_.style.display = "block";
+			if (!prevDay_.style.transform) {
+				prevDay_.style.transform = "translateX(51px)";
+				setTimeout(() => { prevDayBulk_.style.display = "block"; }, 200);
+			} else {
+				prevDayBulk_.style.display = "block";
+			}
 		}
 	}
-	if (new Date().getTime() - today.getTime() < 86_400_000) { // if it's not today, we can go forward
-		nextDay_.style.display = "none";
-		nextDayBulk_.style.display = "none";
-	}
 	else {
+		prevDay_.style.display = "none";
+		prevDayBulk_.style.display = "none";
+	}
+
+	if (daysOffset < 0 && (daysSince + daysOffset) < 364) { // if it's not today, we can go forward
 		nextDay_.style.display = "block";
 
 		if (!areBulksHidden) {
 			nextDayBulk_.style.display = "block";
 		}
 	}
+	else {
+		nextDay_.style.display = "none";
+		nextDayBulk_.style.display = "none";
+	}
 
 	if (areBulksHidden && dayChanges > 3) {
 		areBulksHidden = false;
+
 		prevDay_.style.transform = "translateX(51px)";
 		nextDay_.style.transform = "translateX(-51px)";
+
 		setTimeout(() => {
-			if (daysSince > 0) {
+			if (daysSince + daysOffset > 0) {
 				prevDayBulk_.style.display = "block";
 			}
-			if (new Date().getTime() - today.getTime() > 86_400_000) {
+			if (daysOffset < 0) {
 				nextDayBulk_.style.display = "block";
 			}
 		}, 200);
@@ -831,25 +853,29 @@ function updateDayChangeButtonsVisibility() {
 
 prevDay_.onclick = () => {
 
-	if (daysSince < 365) {
-
+	if (daysSince + daysOffset < 365) { // if the current date is within the quote list, just go to the previous day
 		daysOffset--;
 		dayChanges++;
 
-		updateQuote();
-		updateDayChangeButtonsVisibility();
-
-	} else {
-		daysSince = 364;
+	} else { // if instead the date is beyond that, go back to the end of the quote list
+		randomizeDay_.style.display = "none"; // hide the randomize button, as normal navigation was enabled
+		daysOffset = 364 - daysSince;
 	}
 
+	updateQuote();
+	updateDayChangeButtonsVisibility();
 
 };
 
 nextDay_.onclick = () => {
 
-	daysOffset++;
-	dayChanges++;
+	if (daysSince + daysOffset < 365) {
+		daysOffset++;
+		dayChanges++;
+
+	} else {
+		daysOffset = 0; // go back to today if we were beyond the end of the list
+	}
 
 	updateQuote();
 	updateDayChangeButtonsVisibility();
@@ -857,9 +883,9 @@ nextDay_.onclick = () => {
 
 prevDayBulk_.onclick = () => {
 
-	const daysInPrevMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][(new Date(new Date().getTime() + 86400000 * daysOffset).getMonth() + 11) % 12]; // days in the previous month
+	const daysInPrevMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][(new Date(startDate.getTime() + 86400000 * (daysSince + daysOffset)).getMonth() + 11) % 12]; // days in the previous month
 
-	if (daysSince > daysInPrevMonth) {
+	if (daysSince + daysOffset > daysInPrevMonth) {
 		daysOffset -= daysInPrevMonth;
 	} else if (daysSince > 0) {
 		daysOffset -= daysSince;
@@ -873,12 +899,16 @@ prevDayBulk_.onclick = () => {
 
 nextDayBulk_.onclick = () => {
 
-	const daysInCurrMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][new Date(new Date().getTime() + 86400000 * daysOffset).getMonth()]; // days in the previous month
+	const daysInCurrMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][new Date(startDate.getTime() + 86400000 * (daysSince + daysOffset)).getMonth()]; // days in the previous month
 
-	if (((new Date().getTime() - startDate.getTime()) / 86_400_000 | 0) - daysSince > daysInCurrMonth) {
+	if (-daysOffset > daysInCurrMonth) {
 		daysOffset += daysInCurrMonth;
 	} else {
 		daysOffset = 0;
+	}
+
+	if (daysSince + daysOffset > 364) {
+		daysOffset = 364 - daysSince;
 	}
 
 	updateQuote();
@@ -886,6 +916,8 @@ nextDayBulk_.onclick = () => {
 };
 
 randomizeDay_.onclick = () => {
+
+	daysOffset = 0;
 
 	clearInterval(updaterInterval);
 
@@ -949,14 +981,14 @@ hangman_.onclick = () => {
 		hangman_.style.display = "block";
 
 		updateDayChangeButtonsVisibility();
-		setTime();
+		setTimeHud();
 		setQuote();
 	}
 };
 
 
 
-// code calling -----------------------
+// main logic -----------------------
 
 
 // scroll restoration (sometimes on iPhone the page gets scrolled down when reopening the browser, WebKit shenanigans I guess)
@@ -985,20 +1017,23 @@ document.addEventListener("visibilitychange", () => {
 
 // setup
 
-setTime();
 loadShapes();
-
 
 // check whether to enable features
 
-if (daysSince > 0) { // if it's not the first day, we can go back
+if (daysSince > 364) {
 	prevDay_.style.display = "block";
-}
+	randomizeDay_.style.display = "block";
+} else {
 
-if (new Date().getTime() - today.getTime() >= 86_400_000) { // if the day displayed is earlier than today, we can go forward
-	nextDay_.style.display = "block";
-}
+	setTimeHud(daysSince);
 
+	if (daysSince > 0) { // if it's not the first day, we can go back
+		prevDay_.style.display = "block";
+	}
+
+	// can't go forward with the days on page load (today should be shown)
+}
 
 if (daysSince > 2) { // enable double click to create hearts on 2025-02-17
 	document.addEventListener('click', heartOnDoubleClick);
@@ -1022,13 +1057,6 @@ if (daysSince % 11 === 0) { // make a heart fountain on every 11 days
 }
 
 
-if (daysSince > 364) {
-	prevDay_.style.display = "none";
-	prevDayBulk_.style.display = "none";
-	nextDay_.style.display = "none";
-	nextDayBulk_.style.display = "none";
-	randomizeDay_.style.display = "block";
-}
 
 
 // make the stream of up-bubbling hearts
@@ -1046,7 +1074,7 @@ switch (timesOpened) {
 			infoText_.innerHTML = `Questa pagina serve a ricordarti che ti penso sempre: ogni giorno fino al prossimo 14 febbraio, qui troverai una frase diversa dedicata a te (in alcuni giorni ci saranno cose particolari che ho passato decisamente troppo tempo a programmare hahaha)<br><br><br>spero tanto ti piaccia <3`;
 			info_.style.display = "block";
 		} else {
-			setTimeout(() => { setQuote(1); }, 150);
+			setTimeout(() => { setQuote(); }, 150);
 		}
 		break;
 
@@ -1116,11 +1144,12 @@ if (debug === "stat") {
 
 			infoText_.innerHTML = `\
 <b>MAIN:</b>
-Visit at   : ${today.toISOString().slice(0, -5).replace("T", ", ")} UTC
-Time Diff  : ${timeDiff.toLocaleString("en-US")}
-Days Since : ${daysSince} (${((today.getTime() - startDate.getTime()) / 86_400_000).toFixed(6)})
+Visit at   : ${selectedDate.toISOString().slice(0, -5).replace("T", ", ")} UTC
+Time Diff  : ${timeDiff.toLocaleString("en-US")}ms
+Days Since : ${daysSince} (${((selectedDate.getTime() - startDate.getTime()) / 86_400_000).toFixed(6)})
+Offset     : ${daysOffset} days
+Total Days : ${daysSince + daysOffset} from start
 Opened     : ${timesOpened} times
-Last tick  : <span id="dbgLastTickTime" style="font-family:monospace;">${new Date(+localStorage.getItem("tick")).toISOString().split('T')[1].slice(0, -1)}</span> UTC
 Hearts     : <span id="dbgHeartsCounter" style="font-family:monospace;">${heartOverlay_.children.length}</span>
 
 <b>FLAGS:</b>
@@ -1133,7 +1162,6 @@ End        : ${localStorage.getItem("endMessageShown") ? "seen" : "unseen"}
 `;
 
 			debugMenuUpdater = setInterval(() => {
-				document.getElementById("dbgLastTickTime").textContent = new Date(+localStorage.getItem("tick")).toISOString().split('T')[1].slice(0, -1);
 				document.getElementById("dbgHeartsCounter").textContent = heartOverlay_.children.length;
 			}, 100);
 			info_.style.display = "block";
