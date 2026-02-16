@@ -692,13 +692,17 @@ function loadShapes() {
 }
 
 // writes startingDate + offset (in days) in the hud
-function setTimeHud(offset = 0) {
+function setTimeHud(offset = 0, parentheses = false) {
 	const date = new Date(startDate.getTime() + 86400000 * offset); // today + query param t days
 
 	const day = date.getDate();
 	const month = date.getMonth() + 1;
 
-	hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length === 2 ? month : "0" + month} -`;
+	if (parentheses) {
+		hudDate_.innerHTML = `- (${("" + day).length === 2 ? day : "0" + day}/${("" + month).length === 2 ? month : "0" + month}) -`;
+	} else {
+		hudDate_.innerHTML = `- ${("" + day).length === 2 ? day : "0" + day}/${("" + month).length === 2 ? month : "0" + month} -`;
+	}
 }
 
 function setQuote(offset = daysSince + daysOffset) {
@@ -772,7 +776,7 @@ function typeRandomQuote() {
 
 	quoteTyper.addTask("type", quotes[randOffset]);
 
-	setTimeHud(randOffset);
+	setTimeHud(randOffset, true);
 }
 
 
