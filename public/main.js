@@ -547,7 +547,11 @@ function revealKnownLetters() {
 }
 
 function updateLivesCounter() {
-	livesContainer_.innerText = "💔".repeat(6 - hangmanState.lives) + "❤️".repeat(hangmanState.lives);
+	if (hangmanState.lives) {
+		livesContainer_.innerText = "❤️".repeat(hangmanState.lives);
+	} else {
+		livesContainer_.innerHTML = "💔";
+	}
 }
 
 function checkWin() {
