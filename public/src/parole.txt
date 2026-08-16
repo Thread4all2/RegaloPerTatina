@@ -1,4 +1,3 @@
-
 abate
 abbagliare
 abbagliato
@@ -467,7 +466,6 @@ alleviare
 alleviato
 allievo
 allocare
-allocata
 allocazione
 alloggiare
 alloggiato
@@ -685,7 +683,6 @@ apertura
 apice
 apocrifo
 apologia
-apostata
 apostolo
 apostrofo
 appaiare
@@ -781,7 +778,6 @@ arco
 ardore
 arduo
 area
-arenata
 argento
 argilla
 arginare
@@ -812,7 +808,6 @@ arredato
 arredo
 arrenato
 arrestare
-arrestata
 arresto
 arretrato
 arricchire
@@ -2014,7 +2009,6 @@ computative
 computato
 computazione
 computer
-computerizzata
 computo
 comunale
 comune
@@ -2029,7 +2023,6 @@ comunista
 comunita
 comunque
 concatenare
-concatenata
 concavo
 concedere
 concedo
@@ -2564,7 +2557,6 @@ decennale
 decennio
 decente
 decentrare
-decentrata
 decentro
 decesso
 deciderle
@@ -2753,7 +2745,6 @@ desto
 destra
 desumere
 desumo
-deteminata
 detenere
 detengo
 detenuto
@@ -3509,7 +3500,6 @@ espresso
 esprimere
 espugnare
 espugnato
-espugno
 essenza
 essenziale
 essenzialmente
@@ -3560,7 +3550,6 @@ eventualmente
 evidente
 evidentemente
 evidenza
-evidenziata
 evitare
 evitato
 evito
@@ -3808,7 +3797,6 @@ formare
 formatato
 formato
 formattamento
-formattata
 formattatore
 formica
 formoso
@@ -4342,7 +4330,6 @@ immigrato
 immigro
 imminente
 immissione
-immmediata
 immobile
 immondizia
 immorale
@@ -4350,7 +4337,6 @@ immoralita
 immortale
 immune
 immutabile
-immutata
 impacciato
 imparare
 imparato
@@ -4410,7 +4396,6 @@ importato
 importo
 importuno
 impossibile
-impostata
 impostazione
 imposte
 impostore
@@ -4569,14 +4554,12 @@ indegno
 indelebile
 indennita
 indentare
-indentata
 indetta
 indicante
 indicare
 indicato
 indicatore
 indicazione
-indiciata
 indietro
 indifferenza
 indipendente
@@ -5294,7 +5277,6 @@ manicure
 maniere
 manifesto
 manipolare
-manipolata
 manipolazione
 manopola
 manovale
@@ -5343,7 +5325,6 @@ marziale
 marzo
 mascalzone
 mascelle
-mascherata
 maschermento
 maschio
 massacro
@@ -5495,7 +5476,6 @@ mina
 minacce
 minacciare
 minacciato
-minata
 minatore
 minerale
 minestra
@@ -5967,7 +5947,6 @@ oreficeria
 oretta
 orfano
 organico
-organizzata
 organizzazione
 organo
 orgoglio
@@ -6066,7 +6045,6 @@ otturo
 ottuso
 ovale
 ovatta
-ovattata
 ovest
 ovile
 ovunque
@@ -6106,7 +6084,6 @@ palesare
 palesato
 paleso
 paletto
-palizzata
 palla
 pallido
 pallone
@@ -6681,7 +6658,6 @@ predare
 predato
 predecessore
 predefinito
-predeterminata
 predetto
 predicare
 predicato
@@ -6697,7 +6673,6 @@ preferenza
 preferire
 preferito
 prefetto
-prefissata
 prefisso
 pregare
 pregato
@@ -7130,7 +7105,6 @@ raduno
 radura
 raffermo
 raffica
-raffigurata
 raffinare
 raffinato
 raffineria
@@ -8618,7 +8592,6 @@ sgocciolo
 sgoggiolo
 sgomberare
 sgomberato
-sgombrata
 sgombro
 sgomentare
 sgomentato
@@ -8849,7 +8822,6 @@ soffrito
 soffritto
 soffro
 soffuso
-sofisticata
 software
 soggettivo
 soggetto
@@ -9404,7 +9376,6 @@ stette
 stia
 stigma
 stile
-stilettata
 stilista
 stilizzare
 stilizzato
@@ -9661,7 +9632,6 @@ supplicare
 supplicato
 suppone
 supporremo
-supportata
 supporto
 supposto
 suppurare
@@ -10226,7 +10196,6 @@ trapanato
 trapaniade
 trapano
 trapassare
-trapassata
 trapasso
 trapelare
 trapelato
@@ -10300,7 +10269,6 @@ travasato
 travaso
 travatura
 trave
-traversata
 traverso
 travestire
 travestito
@@ -10358,7 +10326,6 @@ trippa
 tripudio
 trisavolo
 triste
-tritata
 trito
 triturare
 triturato
@@ -10414,7 +10381,6 @@ tugurio
 tulipano
 tulle
 tumefare
-tumefata
 tumefatto
 tumefo
 tumifo
