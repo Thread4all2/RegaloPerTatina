@@ -893,11 +893,11 @@ prevDayBulk_.onclick = () => {
 
 	const daysInPrevMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][(new Date(startDate.getTime() + 86400000 * (daysSince + daysOffset)).getMonth() + 11) % 12]; // days in the previous month
 
-	if (daysSince + daysOffset > daysInPrevMonth) {
+	if (daysSince + daysOffset > daysInPrevMonth) { // if we can safely go back a month, do it
 		daysOffset -= daysInPrevMonth;
-	} else if (daysSince > 0) {
-		daysOffset -= daysSince;
-	} else {
+	} else if (daysSince + daysOffset > 0) { // if we can't go back a month, but we can still go back to the first day, do it
+		daysOffset = -daysSince;
+	} else { // if we can't go back a month, and we can't go back to the first day, just go back to today
 		daysOffset = 0;
 	}
 
